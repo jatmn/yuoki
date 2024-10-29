@@ -6,13 +6,14 @@ data:extend({
 		enabled = true,
 		ingredients = 
 		{    
-			{"stone-brick", 1},
-			{"iron-plate", 1},
-			{"copper-cable", 3},				
+			{type="item", name="stone-brick", amount=1},
+			{type="item", name="iron-plate", amount=1},
+			{type="item", name="copper-cable", amount=3},				
 		},
 		group = "yuoki",
-		subgroup = "y_lamps_deco",	
-		result = "y_old_bodenlampe",
+		subgroup = "y_lamps_deco",
+		results = {{type="item", name="y_old_bodenlampe", amount=1},},	
+		--result = "y_old_bodenlampe",
 		order = "gf1",
 	},
 	
@@ -69,13 +70,14 @@ data:extend({
 		enabled = true,
 		ingredients = 
 		{    
-			{"stone-brick", 1},
-			{"iron-plate", 1},
-			{"copper-cable", 3},				
+			{type="item", name="stone-brick", amount=1},
+			{type="item", name="iron-plate", amount=1},
+			{type="item", name="copper-cable", amount=3},				
 		},
 		group = "yuoki",
 		subgroup = "y_lamps_deco",	
-		result = "y_lampe_neotix",
+		results = {{type="item", name="y_lampe_neotix", amount=1},},
+		--result = "y_lampe_neotix",
 		order = "gf2",
 	},
 	
@@ -131,13 +133,14 @@ data:extend({
 		enabled = true,
 		ingredients = 
 		{    
-			{"stone-brick", 1},
-			{"iron-plate", 1},
-			{"copper-cable", 3},				
+			{type="item", name="stone-brick", amount=1},
+			{type="item", name="iron-plate", amount=1},
+			{type="item", name="copper-cable", amount=3},				
 		},
 		group = "yuoki",
 		subgroup = "y_lamps_deco",	
-		result = "y_lampe_yuoki",
+		results = {{type="item", name="y_lampe_yuoki", amount=1},},
+		--result = "y_lampe_yuoki",
 		order = "gf3",
 	},	
 	{
@@ -191,13 +194,14 @@ data:extend({
 		energy_required=2.0, enabled = true,
 		ingredients = 
 		{    
-			{"stone-brick", 4},
-			{"y_structure_electric", 1},				
-			{"y-raw-fuelnium",1},			
+			{type="item", name="stone-brick", amount=4},
+			{type="item", name="y_structure_electric", amount=1},				
+			{type="item", name="y-raw-fuelnium", amount=1},			
 		},
 		group = "yuoki",
-		subgroup = "y_lamps_deco",	
-		result = "y_lampe_corner",
+		subgroup = "y_lamps_deco",
+		results = {{type="item", name="y_lampe_corner", amount=1},},	
+		--result = "y_lampe_corner",
 		order = "gf5",
 	},	
 	{
@@ -254,13 +258,14 @@ data:extend({
 		energy_required=2.0, enabled = true,
 		ingredients = 
 		{    
-			{"stone-brick", 6},
-			{"y_structure_electric", 1},				
-			{"y-raw-fuelnium",1},			
+			{type="item", name="stone-brick", amount=6},
+			{type="item", name="y_structure_electric", amount=1},				
+			{type="item", name="y-raw-fuelnium", amount=1},			
 		},
 		group = "yuoki",
 		subgroup = "y_lamps_deco",	
-		result = "y_lampe_44basement_a",
+		--result = "y_lampe_44basement_a",
+		results = {{type="item", name="y_lampe_44basement_a", amount=1},},
 		order = "gf6",
 	},	
 	{
@@ -316,13 +321,14 @@ data:extend({
 		energy_required=2.0, enabled = true,
 		ingredients = 
 		{    
-			{"stone-brick", 10},
-			{"y_structure_electric", 3},				
-			{"y-powerlamp",4},			
+			{type="item", name="stone-brick", amount=10},
+			{type="item", name="y_structure_electric", amount=3},				
+			{type="item", name="y-powerlamp", amount=4},			
 		},
 		group = "yuoki",
 		subgroup = "y_lamps_deco",	
-		result = "y_lampe_44basement_b",
+		results = {{type="item", name="y_lampe_44basement_b", amount=1},},
+		--result = "y_lampe_44basement_b",
 		order = "gf7",
 	},	
 	{
@@ -378,13 +384,14 @@ data:extend({
 		energy_required=2.0, enabled = true,
 		ingredients = 
 		{    
-			{"stone-brick", 18},
-			{"y_structure_electric", 4},				
-			{"y-powerlamp",4},			
+			{type="item", name="stone-brick", amount=18},
+			{type="item", name="y_structure_electric", amount=4},				
+			{type="item", name="y-powerlamp", amount=4},			
 		},
 		group = "yuoki",
 		subgroup = "y_lamps_deco",	
-		result = "y_lampe_66basement",
+		results = {{type="item", name="y_lampe_66basement", amount=1},},
+		--result = "y_lampe_66basement",
 		order = "gf8",
 	},	
 	{

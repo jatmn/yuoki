@@ -6,7 +6,7 @@ data:extend(
 		name = "y-coaltoliquid-bergius-recipe",
 		category = "chemistry",
 		energy_required = 6,
-		enabled = "true", 
+		enabled = true, 
 		ingredients =
 		{
 			{type="item", name="coal", amount=16}
@@ -27,7 +27,7 @@ data:extend(
 		name = "y-coaltoliquid-fischer-recipe",
 		category = "chemistry",
 		energy_required = 8,
-		enabled = "true", 
+		enabled = true, 
 		ingredients =
 		{
 			{type="item", name="coal", amount=6}
@@ -48,7 +48,7 @@ data:extend(
 		name = "y-wood-gas-recipe",
 		category = "chemistry",
 		energy_required = 6,
-		enabled = "true",
+		enabled = true,
 		ingredients =
 		{			
 			{type="item", name="wood", amount=9},			
@@ -78,7 +78,7 @@ data:extend(
 		-- icon_size = 32, icon =  "__Yuoki__/graphics/gfx/carbon_dioxide.png",		
 		group = "yuoki",
 		subgroup = "y-fluid",
-		enabled = "true",
+		enabled = true,
 		order = "c-d",
 	},
 	
@@ -91,7 +91,7 @@ data:extend(
 		results={{type="fluid", name="water", amount=1200, },},		
 		group = "yuoki",
 		subgroup = "y-fluid",
-		enabled = "true",
+		enabled = true,
 		order = "c-e",
 	},
 		

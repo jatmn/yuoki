@@ -22,14 +22,14 @@ data:extend({
 			type = "recipe",
 			name = "y_turret_flame_recipe",
 			 icon_size = 32, icon =  "__Yuoki__/graphics/entity/defense/turm_flamer_icon.png",
-			enabled = "true",
+			enabled = true,
 			ingredients =
 			{
-				{"y_structure_element", 4},
-				{"y_structure_vessel", 4},				
-				{"y-basic-t1-mf", 2},      				
-				{"pipe", 4},      
-				{"y_ammo_flame", 1},
+				{type="item", name="y_structure_element", amount=4},
+				{type="item", name="y_structure_vessel", amount=4},				
+				{type="item", name="y-basic-t1-mf", amount=2},      				
+				{type="item", name="pipe", amount=4},      
+				{type="item", name="y_ammo_flame", amount=1},
 			},
 			results=
 			{
@@ -119,6 +119,32 @@ data:extend({
 			},
 			
 			folding_animation = (function() local res = util.table.deepcopy(turret_flame) res.run_mode = "backward" return res end)(),
+			
+			graphics_set =
+			{
+			  base_visualisation =
+			  {
+				animation =
+				{
+				  layers =
+				  {
+					{
+						filename = "__Yuoki__/graphics/entity/defense/turm_flame_sheet.png",
+						priority = "high",
+						width = 256,
+						height = 256,
+						direction_count = 64,
+						frame_count = 1,
+						line_length = 8,
+						axially_symmetrical = false,
+						scale = 0.5,
+						shift = { 0.0, -0.325},
+					},
+				  }
+				}
+			  }
+			},
+
 			
 			attack_parameters =
 			{

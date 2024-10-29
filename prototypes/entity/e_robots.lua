@@ -133,7 +133,7 @@ data:extend(
 		max_energy = "2.5MJ",
 		energy_per_tick = "0.025kJ",
 		speed_multiplier_when_out_of_energy = 0.2,
-		energy_per_move = "2.5KJ",
+		energy_per_move = "2.5kJ",
 		min_to_charge = 0.2,
 		max_to_charge = 0.9,
 		working_light = {intensity = 0.8, size = 3},

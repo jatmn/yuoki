@@ -5,7 +5,7 @@ data:extend({
 	  type = "recipe",
 	  name = "ypfw_trader_sign_recipe",
 	  category = "yuoki_trader_ultimate", -- Trader-Ultimates
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 30.00,
 	  ingredients = {
 	  },
@@ -21,7 +21,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_rwtechsign_recipe",
 	  category = "crafting", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 15.00,
 	  ingredients = {
 		{ type = "item", name = "y-bluegear" , amount = 5.0, },
@@ -39,7 +39,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_greensign_ulti-recipe",
 	  category = "yuoki_green_ultimate", -- Green-Ultimates
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 30.00,
 	  ingredients = {
 	  },
@@ -55,7 +55,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_exchange_b1_recipe",
 	  category = "yuoki-stargate-recipe", -- stargate-trades
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 1.00,
 	  ingredients = {
 		{ type = "item", name = "y_greensign" , amount = 200.0, },
@@ -72,7 +72,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_exchange_b4_recipe",
 	  category = "yuoki-stargate-recipe", -- stargate-trades
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 1.00,
 	  ingredients = {
 		{ type = "item", name = "ye_science_blue" , amount = 100.0, },
@@ -89,7 +89,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_exchange_b3_recipe",
 	  category = "yuoki-stargate-recipe", -- stargate-trades
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 1.00,
 	  ingredients = {
 		{ type = "item", name = "y_rwtechsign" , amount = 2000.0, },
@@ -106,7 +106,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_exchange_b2_recipe",
 	  category = "yuoki-stargate-recipe", -- stargate-trades
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 1.00,
 	  ingredients = {
 		{ type = "item", name = "ypfw_trader_sign" , amount = 1000.0, },
@@ -123,7 +123,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_exchange_a4_recipe",
 	  category = "yuoki-stargate-recipe", -- stargate-trades
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 1.00,
 	  ingredients = {
 		{ type = "item", name = "y-fame" , amount = 1.0, },
@@ -140,7 +140,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_exchange_a3_recipe",
 	  category = "yuoki-stargate-recipe", -- stargate-trades
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 1.00,
 	  ingredients = {
 		{ type = "item", name = "y-fame" , amount = 1.0, },
@@ -157,7 +157,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_exchange_a2_recipe",
 	  category = "yuoki-stargate-recipe", -- stargate-trades
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 1.00,
 	  ingredients = {
 		{ type = "item", name = "y-fame" , amount = 1.0, },
@@ -174,7 +174,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_exchange_a1_recipe",
 	  category = "yuoki-stargate-recipe", -- stargate-trades
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 1.00,
 	  ingredients = {
 		{ type = "item", name = "y-fame" , amount = 1.0, },
@@ -191,7 +191,7 @@ data:extend({
 	  type = "recipe",
 	  name = "yi_slayerfame_recipe",
 	  category = "crafting", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 5.00,
 	  ingredients = {
 		{ type = "item", name = "alien-artifact" , amount = 100.0, },
@@ -208,7 +208,7 @@ data:extend({
 	  type = "recipe",
 	  name = "yi_construction-robot_recipe",
 	  category = "crafting", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 4.00,
 	  ingredients = {
 		{ type = "item", name = "y-infused-uca2" , amount = 1.0, },
@@ -228,7 +228,7 @@ data:extend({
 	  type = "recipe",
 	  name = "yi_logistic-robot_recipe",
 	  category = "crafting", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 4.00,
 	  ingredients = {
 		{ type = "item", name = "y-infused-uca2" , amount = 1.0, },
@@ -248,7 +248,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_gauge_analog_recipe",
 	  category = "crafting", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 2.00,
 	  ingredients = {
 		{ type = "item", name = "y_structure_vessel" , amount = 1.0, },
@@ -265,7 +265,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_flowcheck_10_recipe",
 	  category = "crafting", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 2.00,
 	  ingredients = {
 		{ type = "item", name = "y_gauge" , amount = 1.0, },
@@ -283,7 +283,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_quantrinum_infusion_recipe",
 	  category = "yuoki-alien-recipe", -- infuser ?
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 60.00,
 	  ingredients = {
 		{ type = "item", name = "y-quantrinum" , amount = 1.0, },
@@ -302,7 +302,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_data_crystal_recipe",
 	  category = "yuoki-wonder-recipe", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 8.00,
 	  ingredients = {
 		{ type = "item", name = "y-crystal2" , amount = 20.0, },
@@ -320,7 +320,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_ft_recipe",
 	  category = "chemistry", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 5.00,
 	  ingredients = {
 		{ type = "fluid", name = "y_syngas_raw" , amount = 15.0, },
@@ -340,7 +340,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_rawsyngas2_recipe",
 	  category = "chemistry", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 3.00,
 	  ingredients = {
 		{ type = "item", name = "y_organic_dust" , amount = 4.0, },
@@ -357,7 +357,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_regcatft_recipe",
 	  category = "chemistry", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 3.00,
 	  ingredients = {
 		{ type = "item", name = "y-unicomp-a2" , amount = 1.0, },
@@ -376,7 +376,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_regcatbp_recipe",
 	  category = "chemistry", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 3.00,
 	  ingredients = {
 		{ type = "item", name = "y_usedcatalyst" , amount = 10.0, },
@@ -394,7 +394,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_coal2liquid",
 	  category = "chemistry", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 5.00,
 	  ingredients = {
 		{ type = "fluid", name = "y_hydrogen" , amount = 20.0, },
@@ -414,7 +414,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_refinehydrogen_recipe",
 	  category = "chemistry", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 3.00,
 	  ingredients = {
 		{ type = "fluid", name = "y_syngas_raw" , amount = 3.0, },
@@ -432,7 +432,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_rawsyngas1_recipe",
 	  category = "chemistry", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 3.00,
 	  ingredients = {
 		{ type = "item", name = "y-coal-dust" , amount = 1.0, },
@@ -449,7 +449,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_uc2catalyst",
 	  category = "yuoki-atomics-recipe", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 4.00,
 	  ingredients = {
 		{ type = "item", name = "y-unicomp-a2" , amount = 1.0, },
@@ -466,7 +466,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_catalyst_ft_recipe",
 	  category = "crafting", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 3.00,
 	  ingredients = {
 		{ type = "item", name = "y-raw-fuelnium" , amount = 1.0, },
@@ -485,7 +485,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_catalyst_bp_recipe",
 	  category = "crafting", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 3.00,
 	  ingredients = {
 		{ type = "item", name = "y-unicomp-raw" , amount = 1.0, },
@@ -504,7 +504,7 @@ data:extend({
 	  type = "recipe",
 	  name = "y_granulate_wood_recipe",
 	  category = "y-crushing-recipe", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 2.00,
 	  ingredients = {
 		{ type = "item", name = "raw-wood" , amount = 1.0, },

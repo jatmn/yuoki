@@ -6,15 +6,16 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_inserter_diagonal_recipe",
-		enabled = "true",
+		enabled = true,
 		ingredients =
 		{			
-			{"y-inserter-smart", 1},      
-			{"green-wire", 2},      
-			{"red-wire", 2},      
-			{"y_rwtechsign", 1},      			
+			{type="item", name="y-inserter-smart", amount=1},      
+			{type="item", name="green-wire", amount=2},      
+			{type="item", name="red-wire", amount=2},      
+			{type="item", name="y_rwtechsign", amount=1},      			
 		},
-		result = "y_inserter_diagonal",
+		results = {{type="item", name="y_inserter_diagonal", amount=1},},
+		--result = "y_inserter_diagonal",
 		order = "ins-7a",
 	},
 
@@ -125,14 +126,15 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_inserter_evade_shortR_recipe",
-		enabled = "true",
+		enabled = true,
 		ingredients =
 		{			
-			{"y-inserter-smart", 1},      
-			{"copper-cable", 4},     
-			{"y_rwtechsign", 1},      			
+			{type="item", name="y-inserter-smart", amount=1},      
+			{type="item", name="copper-cable", amount=4},     
+			{type="item", name="y_rwtechsign", amount=1},      			
 		},
-		result = "y_inserter_evade_shortR",
+		results = {{type="item", name="y_inserter_evade_shortR", amount=1},},
+		--result = "y_inserter_evade_shortR",
 		order = "ins-8a",
 	},
 
@@ -242,14 +244,15 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_inserter_evade_shortL_recipe",
-		enabled = "true",
+		enabled = true,
 		ingredients =
 		{			
-			{"y-inserter-smart", 1},      
-			{"copper-cable", 4},     
-			{"y_rwtechsign", 1},      			
+			{type="item", name="y-inserter-smart", amount=1},      
+			{type="item", name="copper-cable", amount=4},     
+			{type="item", name="y_rwtechsign", amount=1},      			
 		},
-		result = "y_inserter_evade_shortL",
+		results = {{type="item", name="y_inserter_evade_shortL", amount=1},},
+		--result = "y_inserter_evade_shortL",
 		order = "ins-8b",
 	},
 

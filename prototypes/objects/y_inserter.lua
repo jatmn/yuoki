@@ -4,14 +4,14 @@ data:extend(
 	-- fast yuoki-inserter
 	{
 		type = "recipe",
-		name = "y-inserter-fast-recipe",
+		name = "y-inserter-fast",
 		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/y_smart_ins_icon.png",
-		enabled = "true",
+		enabled = true,
 		ingredients =
 		{
-			{"y_structure_element", 3},
-			{"y-raw-fuelnium", 1},      
-			{"y-chip-1", 1},      
+			{type="item", name="y_structure_element", amount=3},
+			{type="item", name="y-raw-fuelnium", amount=1},      
+			{type="item", name="y-chip-1", amount=1},      
 		},
 		results=
 		{
@@ -150,13 +150,13 @@ data:extend(
 	-- long yuoki-inserter
 	{
 		type = "recipe",
-		name = "y-inserter-s4-recipe",
+		name = "y-inserter-s4",
 		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/ins_red_icon.png",
-		enabled = "true",
+		enabled = true,
 		ingredients =
 		{
-			{"y_structure_element", 3},
-			{"y-inserter-fast", 1},      			    
+			{type="item", name="y_structure_element", amount=3},
+			{type="item", name="y-inserter-fast", amount=1},      			    
 		},
 		results=
 		{
@@ -293,14 +293,16 @@ data:extend(
 	-- smart yuoki-inserter
 	{
 		type = "recipe",
-		name = "y_inserter_smart_recipe",
-		enabled = "true",
+		name = "y_inserter_smart",
+		enabled = true,
 		ingredients =
 		{
-			{"y-inserter-fast", 1},			
-			{"y-chip-2", 1},      
+			{type="item", name="y-inserter-fast", amount=1},			
+			{type="item", name="y-chip-2", amount=1},      
 		},
-		result = "y-inserter-smart",
+		results = {{type="item", name="y-inserter-smart", amount=1},},
+		main_product = "y-inserter-smart",
+		--result = "y-inserter-smart",
 		order = "ins-3",
 	},
 
@@ -434,14 +436,16 @@ data:extend(
 	-- smart long yuoki-inserter
 	{
 		type = "recipe",
-		name = "y-inserter-smart-long_recipe",
-		enabled = "true",
+		name = "y-inserter-smart-long",
+		enabled = true,
 		ingredients =
 		{
-			{"y_structure_element", 3},
-			{"y-inserter-smart", 1},      			
+			{type="item", name="y_structure_element", amount=3},
+			{type="item", name="y-inserter-smart", amount=1},      			
 		},
-		result = "y-inserter-smart-long",
+		results = {{type="item", name="y-inserter-smart-long", amount=1},},
+		main_product = "y-inserter-smart-long",
+		--result = "y-inserter-smart-long",
 		order = "ins-4",
 	},
 
@@ -574,15 +578,17 @@ data:extend(
 	-- smart yuoki-inserter R2
 	{
 		type = "recipe",
-		name = "y_inserter_smart_rightR2_recipe",
-		enabled = "true",
+		name = "y_inserter_smart_rightR2",
+		enabled = true,
 		ingredients =
 		{			
-			{"y-inserter-smart", 1},      
-			{"red-wire", 2},      
-			{"y_rwtechsign", 1},      
+			{type="item", name="y-inserter-smart", amount=1},      
+			{type="item", name="red-wire", amount=2},      
+			{type="item", name="y_rwtechsign", amount=1},      
 		},
-		result = "y_inserter_smart_rightR2",
+		results = {{type="item", name="y_inserter_smart_rightR2", amount=1},},
+		main_product = "y_inserter_smart_rightR2",
+		--result = "y_inserter_smart_rightR2",
 		order = "ins-5b",
 	},
 
@@ -716,15 +722,17 @@ data:extend(
 	-- smart yuoki-inserter L2
 	{
 		type = "recipe",
-		name = "y_inserter_smart_leftR2_recipe",
-		enabled = "true",
+		name = "y_inserter_smart_leftR2",
+		enabled = true,
 		ingredients =
 		{			
-			{"y-inserter-smart", 1},      
-			{"red-wire", 2},         
-			{"y_rwtechsign", 1},      			
+			{type="item", name="y-inserter-smart", amount=1},      
+			{type="item", name="red-wire", amount=2},         
+			{type="item", name="y_rwtechsign", amount=1},      			
 		},
-		result = "y_inserter_smart_leftR2",
+		results = {{type="item", name="y_inserter_smart_leftR2", amount=1},},
+		main_product = "y_inserter_smart_leftR2",
+		--result = "y_inserter_smart_leftR2",
 		order = "ins-5a",
 	},
 
@@ -857,15 +865,17 @@ data:extend(
 	-- smart yuoki-inserter RR
 	{
 		type = "recipe",
-		name = "y_inserter_smart_RR_recipe",
-		enabled = "true",
+		name = "y_inserter_smart_RR",
+		enabled = true,
 		ingredients =
 		{
-			{"y-inserter-smart", 1},
-			{"green-wire", 2},      
-			{"y_rwtechsign", 1},      
+			{type="item", name="y-inserter-smart", amount=1},
+			{type="item", name="green-wire", amount=2},      
+			{type="item", name="y_rwtechsign", amount=1},      
 		},
-		result = "y_inserter_smart_RR",
+		results = {{type="item", name="y_inserter_smart_RR", amount=1},},
+		main_product = "y_inserter_smart_RR",
+		--result = "y_inserter_smart_RR",
 		order = "ins-6a",
 	},
 
@@ -999,15 +1009,17 @@ data:extend(
 	-- smart yuoki-inserter LL
 	{
 		type = "recipe",
-		name = "y_inserter_smart_LL_recipe",
-		enabled = "true",
+		name = "y_inserter_smart_LL",
+		enabled = true,
 		ingredients =
 		{
-			{"y-inserter-smart", 1},
-			{"green-wire", 2},      
-			{"y_rwtechsign", 1},      
+			{type="item", name="y-inserter-smart", amount=1},
+			{type="item", name="green-wire", amount=2},      
+			{type="item", name="y_rwtechsign", amount=1},      
 		},
-		result = "y_inserter_smart_LL",
+		results = {{type="item", name="y_inserter_smart_LL", amount=1},},
+		main_product = "y_inserter_smart_LL",
+		--result = "y_inserter_smart_LL",
 		order = "ins-6b",
 	},
 

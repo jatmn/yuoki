@@ -24,7 +24,7 @@ data:extend(
 	},	
 	{
 		type = "item", name = "y-mixed-fuel",  icon_size = 32, icon =  "__Yuoki__/graphics/icons/mix-fuel.png", group = "yuoki", subgroup = "y-fuel",
-		--fuel_category = "chemical", fuel_value = "25MJ", 
+		--fuel_category = {"chemical"}, fuel_value = "25MJ", 
 		stack_size = 400, default_request_amount = 50,
 	},
 	{ 
@@ -63,7 +63,7 @@ data:extend(
 		icon_size = 32, icon =  "__Yuoki__/graphics/icons/dry_mud_icon.png",
 		group = "yuoki",
 		subgroup = "yuoki-formpress",
-		--fuel_category = "chemical", 
+		--fuel_category = {"chemical"}, 
 		--fuel_value = "10MJ",
 		stack_size = 500, default_request_amount = 100,
 	},

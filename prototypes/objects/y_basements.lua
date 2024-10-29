@@ -8,13 +8,14 @@ data:extend(
 		energy_required=3.0, enabled = true, category="yrcat_basements",		
 		ingredients = 
 		{    
-			{"stone-brick", 8},
-			{"y_structure_electric", 4},
-			{"steel-plate", 4},				
+			{type="item", name="stone-brick", amount=8},
+			{type="item", name="y_structure_electric", amount=4},
+			{type="item", name="steel-plate", amount=4},				
 		},
 		group = "yuoki",
 		subgroup = "y_basement",
-		result = "y_basement_5x5a",
+		results = {{type="item", name="y_basement_5x5a", amount=1},},
+		--result = "y_basement_5x5a",
 		order = "ma",
 	},	
 	{
@@ -50,13 +51,14 @@ data:extend(
 		energy_required=3.0, enabled = true, category="yrcat_basements",
 		ingredients = 
 		{    
-			{"stone-brick", 8},
-			{"y_structure_element", 4},					
-			{"copper-cable", 4},				
+			{type="item", name="stone-brick", amount=8},
+			{type="item", name="y_structure_element", amount=4},					
+			{type="item", name="copper-cable", amount=4},				
 		},
 		group = "yuoki",
 		subgroup = "y_basement",
-		result = "y_basement_5x5b",
+		results = {{type="item", name="y_basement_5x5b", amount=1},},
+		--result = "y_basement_5x5b",
 		order = "mb",
 	},
 	
@@ -92,13 +94,14 @@ data:extend(
 		energy_required=3.0, enabled = true, category="yrcat_basements",
 		ingredients = 
 		{    
-			{"stone-brick", 8},
-			{"y_structure_electric", 6},
-			{"y-tinylamp", 4},				
+			{type="item", name="stone-brick", amount=8},
+			{type="item", name="y_structure_electric", amount=6},
+			{type="item", name="y-tinylamp", amount=4},				
 		},
 		group = "yuoki",
 		subgroup = "y_basement",
-		result = "y_basement_5x5c",
+		results = {{type="item", name="y_basement_5x5c", amount=1},},
+		--result = "y_basement_5x5c",
 		order = "mc",
 	},
 	
@@ -136,13 +139,14 @@ data:extend(
 		energy_required=3.0, enabled = true, category="yrcat_basements",
 		ingredients = 
 		{    
-			{"stone-brick", 8},
-			{"y_structure_electric", 4},
-			{"y-basic-t1-mf", 2},				
+			{type="item", name="stone-brick", amount=8},
+			{type="item", name="y_structure_electric", amount=4},
+			{type="item", name="y-basic-t1-mf", amount=2},				
 		},
 		group = "yuoki",
 		subgroup = "y_basement",
-		result = "y_basement_5x5d",
+		results = {{type="item", name="y_basement_5x5d", amount=1},},
+		--result = "y_basement_5x5d",
 		order = "md",
 	},
 	
@@ -178,13 +182,14 @@ data:extend(
 		energy_required=3.0, enabled = true, category="yrcat_basements",
 		ingredients = 
 		{    
-			{"stone-brick", 8},
-			{"y_structure_element", 6},		
-			{"y-pipe-ec", 4},				
+			{type="item", name="stone-brick", amount=8},
+			{type="item", name="y_structure_element", amount=6},		
+			{type="item", name="y-pipe-ec", amount=4},				
 		},
 		group = "yuoki",
 		subgroup = "y_basement",
-		result = "y_basement_5x5e",
+		results = {{type="item", name="y_basement_5x5e", amount=1},},
+		--result = "y_basement_5x5e",
 		order = "me",
 	},
 	
@@ -221,12 +226,13 @@ data:extend(
 		energy_required=2.0, enabled = true, category="yrcat_basements",
 		ingredients = 
 		{    
-			{"stone-brick", 8},
-			{"y_structure_element", 4},					
+			{type="item", name="stone-brick", amount=8},
+			{type="item", name="y_structure_element", amount=4},					
 		},
 		group = "yuoki",
 		subgroup = "y_basement",
-		result = "y_basement_5x5f",
+		results = {{type="item", name="y_basement_5x5f", amount=1},},
+		--result = "y_basement_5x5f",
 		order = "mf",
 	},
 	
@@ -263,12 +269,13 @@ data:extend(
 		energy_required=3.0, enabled = true, category="yrcat_basements",
 		ingredients = 
 		{    
-			{"steel-plate", 4},
-			{"y_structure_element", 4},									
+			{type="item", name="steel-plate", amount=4},
+			{type="item", name="y_structure_element", amount=4},									
 		},
 		group = "yuoki",
 		subgroup = "y_basement",
-		result = "y_basement_5x5f2",
+		results = {{type="item", name="y_basement_5x5f2", amount=1},},
+		--result = "y_basement_5x5f2",
 		order = "mf2",
 	},
 	
@@ -305,13 +312,14 @@ data:extend(
 		energy_required=3.0, enabled = true, category="yrcat_basements",
 		ingredients = 
 		{    
-			{"y_structure_element", 4},		
-			{"iron-plate", 4},
-			{"copper-cable", 4},				
+			{type="item", name="y_structure_element", amount=4},		
+			{type="item", name="iron-plate", amount=4},
+			{type="item", name="copper-cable", amount=4},				
 		},
 		group = "yuoki",
 		subgroup = "y_basement",
-		result = "y_basement_4x4a",
+		results = {{type="item", name="y_basement_4x4a", amount=1},},
+		--result = "y_basement_4x4a",
 		order = "mg",
 	},
 	

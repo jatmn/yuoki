@@ -5,7 +5,7 @@ data:extend(
 		type = "recipe",
 		name = "y_chunks1_recipe",
 		category = "yrcat_crystalize", -- 
-		enabled = "true",
+		enabled = true,
 		energy_required = 8.00,
 		ingredients = {
 			{ type = "item", name = "y_crystal_dust", amount = 1.0, },
@@ -23,7 +23,7 @@ data:extend(
 		type = "recipe",
 		name = "y_chunks2_recipe",
 		category = "yrcat_crystalize", -- 
-		enabled = "true",
+		enabled = true,
 		energy_required = 8.00,
 		ingredients = {
 			{ type = "item", name = "y_crystal_dust", amount = 1.0, },
@@ -53,20 +53,22 @@ data:extend(
 		},					
 		crafting_categories = {"yrcat_trockner"},
 		crafting_speed = 1.0,
-		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = 3.75, },
+		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 3.75, } },
 		energy_usage = "2000kW",
 		ingredient_count = 5,
 		fluid_boxes =
 		{
-			off_when_no_fluid_recipe = true,			
 			{
+				volume = 200,
 				production_type = "input",
 				--pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ type="input", position = { 0, 2} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = { 0, 1} }}
 			},
 		},
+		fluid_boxes_off_when_no_fluid_recipe = true,			
+
 		module_specification =
 		{
 			module_slots = 1
@@ -90,27 +92,30 @@ data:extend(
 		},					
 		crafting_categories = {"yrcat_emulsion"},
 		crafting_speed = 1.0,
-		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = 3.75, },
+		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 3.75, } },
 		energy_usage = "750kW",
 		ingredient_count = 5,
 		fluid_boxes =
 		{
-			off_when_no_fluid_recipe = true,			
 			{
+				volume = 200,
 				production_type = "input",
 				--pipe_covers = pipecoverspictures(),
 				base_area = 4,
 				base_level = -1,
-				pipe_connections = {{ type="input", position = { 0, 2} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = { 0, 1} }}
 			},
 			{
+				volume = 200,
 				production_type = "output",
 				--pipe_covers = pipecoverspictures(),
 				base_area = 4,
 				base_level = 1,
-				pipe_connections = {{ type="output", position = { 0, -2} }}
+				pipe_connections = {{ flow_direction="output", direction = defines.direction.north, position = { 0, -1} }}
 			},			
 		},
+		fluid_boxes_off_when_no_fluid_recipe = true,			
+
 		module_specification =
 		{
 			module_slots = 1
@@ -134,20 +139,22 @@ data:extend(
 		},					
 		crafting_categories = {"yrcat_crystalize"},
 		crafting_speed = 1.0,
-		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = 10, },
+		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 10, } },
 		energy_usage = "2000kW",
 		ingredient_count = 5,
 		fluid_boxes =
 		{
-			off_when_no_fluid_recipe = true,			
 			{
+				volume = 200,
 				production_type = "input",
 				--pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ type="input", position = { 0, 2} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = { 0, 1} }}
 			},
 		},
+		fluid_boxes_off_when_no_fluid_recipe = true,			
+
 		module_specification =
 		{
 			module_slots = 1
@@ -186,31 +193,34 @@ data:extend(
 		},					
 		crafting_categories = {"yrcat_hppump"},
 		crafting_speed = 1.0,
-		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = 2.5, },
+		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 2.5,} },
 		energy_usage = "500kW",
 		ingredient_count = 5,
 		fluid_boxes =
 		{
-			off_when_no_fluid_recipe = true,			
 			{
+				volume = 200,
 				production_type = "input",
 				--pipe_covers = pipecoverspictures(),
 				base_area = 4,
 				base_level = -1,
-				pipe_connections = {{ type="input", position = { 0, 2} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = { 0, 1} }}
 			},
 			{
+				volume = 200,
 				production_type = "output",
 				--pipe_covers = pipecoverspictures(),
 				base_area = 4,
 				base_level = 1,
 				pipe_connections = {
-					{ type="output", position = {  2, 0} },
-					{ type="output", position = { -2, 0} }
+					{ flow_direction="output", direction = defines.direction.north, position = {  1, 0} },
+					{ flow_direction="output", direction = defines.direction.north, position = { -1, 0} }
 				}
 			},			
 			
 		},
+		fluid_boxes_off_when_no_fluid_recipe = true,			
+
 		module_specification =
 		{
 			module_slots = 1
@@ -225,10 +235,16 @@ data:extend(
 		type = "recipe",
 		name = "y_mftank_recipe",
 		energy_required = 3.0,
-		enabled = "true",
-		ingredients = {{"y-valve-direction-buffer", 4}, {"iron-plate", 12}}, 
-		result = "y_mftank",
-		result_count = 1, order="tank-c5", subgroup = "y-fluid-storage",
+		enabled = true,
+		ingredients = {
+			{type = "item", name ="y-valve-direction-buffer", amount = 4},
+			{type = "item", name ="iron-plate", amount = 12}
+		}, 
+		results = {
+			{ type = "item", name = "y_mftank", amount = 1},			
+		},	
+		---result = "y_mftank", result_count = 1,
+		order="tank-c5", subgroup = "y-fluid-storage",
 	},	
 	{
 		type = "item",
@@ -249,18 +265,18 @@ data:extend(
 
 		fluid_box =
 		{
-			base_area = 25,						
-			base_level = 0,
-			--pipe_covers = pipecoverspictures(),
+			volume = 200,
+			--base_area = 25,						
+			--base_level = 0,
+			pipe_covers = pipecoverspictures(),
 			pipe_connections =
 			{				
-				--{ type="input", position = {-2, 0},},
-				--{ type="output", position = { 2, 0} },
-				{ position = {-2, 0},},
-				{ position = { 2, 0} },										
-				{ position = {0, -2} },       
-				{ position = {0, 2} },        
+				{ direction = defines.direction.north, position = {-1, 0}},
+				{ direction = defines.direction.north, position = { 1, 0}},										
+				{ direction = defines.direction.north, position = {0, -1}},       
+				{ direction = defines.direction.north, position = {0, 1}}     
 			},			
+			hide_connection_info = true,
 		},
 		
 		two_direction_only = false,

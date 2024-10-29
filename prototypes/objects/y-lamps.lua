@@ -55,28 +55,30 @@ data:extend(
 	-- recipe
 	{
 		type = "recipe",
-		name = "y-tinylamp-recipe",
+		name = "y-tinylamp",
 		enabled = true,
 		ingredients = 
 		{    	  	
-			{"iron-plate", 1},
-			{"copper-cable", 1}		  
+			{type="item", name="iron-plate", amount=1},
+			{type="item", name="copper-cable", amount=1}		  
 		},
 		group = "yuoki",
-		subgroup = "y-lamps",		
-		result = "y-tinylamp",    
+		subgroup = "y-lamps",	
+		results = {{type="item", name="y-tinylamp", amount=1},},	
+		main_product = "y-tinylamp",
+		--result = "y-tinylamp",    
 		order = "la",
 	},
 	{
 		type = "recipe",
-		name = "y-powerlamp-recipe",
+		name = "y-powerlamp",
 		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/hl2_icon.png",
 		enabled = true,
 		ingredients = 
 		{    	  	
-			{"y-raw-fuelnium", 1},
-			{"steel-plate", 1},
-			{"copper-plate", 2}		
+			{type="item", name="y-raw-fuelnium", amount=1},
+			{type="item", name="steel-plate", amount=1},
+			{type="item", name="copper-plate", amount=2}		
 		},
 		results=
 		{
@@ -91,25 +93,32 @@ data:extend(
 
 	{
 		type = "recipe",
-		name = "y-lamp-alien-recipe",
+		name = "y-lamp-alien",
 		enabled = true,
 		ingredients = 
 		{    	  	
-			{"steel-plate", 3},
-			{"y-infused-uca2", 1},			
-			{"y_rwtechsign", 1},	
+			{type="item", name="steel-plate", amount=3},
+			{type="item", name="y-infused-uca2", amount=1},			
+			{type="item", name="y_rwtechsign", amount=1},	
 		},
 		group = "yuoki",
-		subgroup = "y-lamps",		
-		result = "y-lamp-alien",   
-		result_count = 3,
+		subgroup = "y-lamps",	
+		results = {{type="item", name="y-lamp-alien", amount=3},},	
+		main_product = "y-lamp-alien",
+		--result = "y-lamp-alien",   
+		--result_count = 3,
 		order = "lc",
 	},	
 	{
 		type = "recipe",
-		name = "yi-monument1-recipe", enabled = true,
+		name = "yi-monument1", enabled = true,
 		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/monument-1-icon.png",
-		ingredients = {{"y-crystal-cnd", 6}, {"y-unicomp-raw", 12}, {"steel-plate", 10}, {"y-orange-stuff", 15}},
+		ingredients = {
+			{type="item", name="y-crystal-cnd", amount=6},
+			{type="item", name="y-unicomp-raw", amount=12},
+			{type="item", name="steel-plate", amount=10},
+			{type="item", name="y-orange-stuff", amount=15}
+		},
 		group = "yuoki",
 		subgroup = "y-lamps",	
 		results=
@@ -124,35 +133,55 @@ data:extend(
 	-- new lamps
 	{
 		type = "recipe",
-		name = "y_lamp_red_recipe",
+		name = "y_lamp_red",
 		enabled = true,
-		ingredients = {{"y_structure_element", 1},{"y-chip-1", 1},},		
+		ingredients = {
+			{type="item", name="y_structure_element", amount=1},
+			{type="item", name="y-chip-1", amount=1},
+		},		
 		subgroup = "y-lamps", order = "2a",		
-		result = "y_lamp_red",  
+		results = {{type="item", name="y_lamp_red", amount=1},},
+		main_product = "y_lamp_red",
+		--result = "y_lamp_red",  
 	},	
 	{
 		type = "recipe",
-		name = "y_lamp_green_recipe",
+		name = "y_lamp_green",
 		enabled = true,
-		ingredients = {{"y_structure_element", 1},{"y-chip-1", 1},},		
-		subgroup = "y-lamps", order = "2b",		
-		result = "y_lamp_green",  
+		ingredients = {
+			{type="item", name="y_structure_element", amount=1},
+			{type="item", name="y-chip-1", amount=1},
+		},		
+		subgroup = "y-lamps", order = "2b",
+		results = {{type="item", name="y_lamp_green", amount=1},},
+		main_product = "y_lamp_green",
+		--result = "y_lamp_green",  
 	},
 	{
 		type = "recipe",
-		name = "y_lamp_blue_recipe",
+		name = "y_lamp_blue",
 		enabled = true,
-		ingredients = {{"y_structure_element", 1},{"y-chip-1", 1},},		
-		subgroup = "y-lamps", order = "2c",		
-		result = "y_lamp_blue",  
+		ingredients = {
+			{type="item", name="y_structure_element", amount=1},
+			{type="item", name="y-chip-1", amount=1},
+		},		
+		subgroup = "y-lamps", order = "2c",	
+		results = {{type="item", name="y_lamp_blue", amount=1},},	
+		main_product = "y_lamp_blue",
+		--result = "y_lamp_blue",  
 	},
 	{
 		type = "recipe",
-		name = "y_lamp_yellow_recipe",
+		name = "y_lamp_yellow",
 		enabled = true,
-		ingredients = {{"y_structure_element", 1},{"y-chip-1", 1},},		
-		subgroup = "y-lamps", order = "2d",		
-		result = "y_lamp_yellow",  
+		ingredients = {
+			{type="item", name="y_structure_element", amount=1},
+			{type="item", name="y-chip-1", amount=1},
+		},		
+		subgroup = "y-lamps", order = "2d",
+		results = {{type="item", name="y_lamp_yellow", amount=1},},		
+		main_product = "y_lamp_yellow",
+		--result = "y_lamp_yellow",  
 	},	
 	
 			
@@ -172,7 +201,7 @@ data:extend(
 			type = "electric",
 			usage_priority = "secondary-input"
 		},
-		energy_usage_per_tick = "4KW",
+		energy_usage_per_tick = "4kW",
 		light = {intensity = 0.8, size = 60, color = {r=1.0, g=0.95, b=0.8}},
 		picture_off =
 		{
@@ -209,7 +238,7 @@ data:extend(
 			type = "electric",
 			usage_priority = "secondary-input"
 		},
-		energy_usage_per_tick = "10KW",
+		energy_usage_per_tick = "10kW",
 		light = {intensity = 0.9, size = 80, color = {r=0.95, g=1.0, b=0.8}},
 		picture_off =
 		{
@@ -244,7 +273,7 @@ data:extend(
 			type = "electric",
 			usage_priority = "secondary-input"
 		},
-		energy_usage_per_tick = "20KW",
+		energy_usage_per_tick = "20kW",
 		light = {intensity = 0.9, size = 180, color = {r=1.0, g=0.9, b=1.0}},		
 		picture_off =
 		{
@@ -275,8 +304,10 @@ data:extend(
 		corpse = "big-remnants",
 		collision_box = {{-2.2, -2.2}, {2.2, 2.2}},
 		selection_box = {{-2.5, -2.5}, {2.5, 2.5}},		
-		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = -625, },
-		energy_usage_per_tick = "250KW",		
+		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input",
+		-- emissions_per_minute = { pollution = -625,}
+		},
+		energy_usage_per_tick = "250kW",		
 		light = {intensity = 1.0, size = 140},
 		picture_off =
 		{
@@ -308,7 +339,7 @@ data:extend(
 		collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 		energy_source = { type = "electric", usage_priority = "secondary-input"},
-		energy_usage_per_tick = "5KW",
+		energy_usage_per_tick = "5kW",
 		light = {intensity = 0.25, size = 8, },			
 		--light = {intensity = 0.25, size = 2, color = {r=0.7, g=0.0, b=0.0} },			
 		picture_off =
@@ -338,7 +369,7 @@ data:extend(
 		collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 		energy_source = { type = "electric", usage_priority = "secondary-input"},
-		energy_usage_per_tick = "5KW",
+		energy_usage_per_tick = "5kW",
 		light = {intensity = 0.25, size = 8, },			
 		--light = {intensity = 0.25, size = 2, color = {r=0.0, g=0.7, b=0.0} },
 		picture_off =
@@ -368,7 +399,7 @@ data:extend(
 		collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 		energy_source = { type = "electric", usage_priority = "secondary-input"},
-		energy_usage_per_tick = "5KW",
+		energy_usage_per_tick = "5kW",
 		light = {intensity = 0.25, size = 8, },			
 		--light = {intensity = 0.25, size = 2, color = {r=0.7, g=0.7, b=0.0} },
 		picture_off =
@@ -398,7 +429,7 @@ data:extend(
 		collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 		energy_source = { type = "electric", usage_priority = "secondary-input"},
-		energy_usage_per_tick = "5KW",
+		energy_usage_per_tick = "5kW",
 		light = {intensity = 0.25, size = 8, },			
 		--light = {intensity = 0.25, size = 8, color = {r=0.0, g=0.6, b=0.7} },
 		picture_off =

@@ -21,7 +21,7 @@ data:extend(
 		},					
 		crafting_categories = {"yuoki-stargate-recipe"},
 		crafting_speed = 1,
-		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = 5},
+		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 5 } },
 		energy_usage = "25MW",
 		ingredient_count = 4,
 		order="laika-gate",
@@ -48,7 +48,7 @@ data:extend(
 		},					
 		crafting_categories = {"yuoki-fame-recipe"},
 		crafting_speed = 1,
-		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = 10},
+		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute =  { pollution = 10 }},
 		energy_usage = "2MW",
 		ingredient_count = 1,		
 	},	
@@ -56,10 +56,18 @@ data:extend(
 	{
 		type = "recipe",
 		name = "ye_science_ultimate_recipe",
-		ingredients = {{"ye_science_blue", 30000},},
-		result = "ye_science_ultimate",
-		group = "yuoki-energy", subgroup = "y_ultimate_products",					
+		ingredients = {
+			{type="item", name="ye_science_blue", amount=30000},
+		},
+		results = {
+			{type="item", name="ye_science_ultimate", amount=1}
+		},
+		--result = "ye_science_ultimate",
+		--result_count = 1,
 		order="a0",
+		subgroup = "y_ultimate_products",
+		group = "yuoki-energy", 					
+		
 	},		
 	
 	{
@@ -109,9 +117,14 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_trade_ultimate_recipe",
-		ingredients = {{"ypfw_trader_sign", 50000},},
+		ingredients = {
+			{type="item", name="ypfw_trader_sign", amount=50000},
+		},
 		--ingredients = {{"iron-plate", 1},},
-		result = "y_trade_ultimate",
+		results = {
+			{ type = "item", name = "y_trade_ultimate", amount = 1},			
+		},
+		--result = "y_trade_ultimate",
 		group = "yuoki-energy", subgroup = "y_ultimate_products",					
 		order="a2",
 	},			
@@ -149,7 +162,7 @@ data:extend(
 		{
 			type = "electric",
 			usage_priority = "secondary-input",
-			emissions_per_minute = 125
+			emissions_per_minute = { pollution = 125 },
 		},
 		energy_usage = "50MW",
 		ingredient_count = 6,				

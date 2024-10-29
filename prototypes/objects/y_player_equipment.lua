@@ -2,12 +2,17 @@ data:extend(
 	{
 		{
 			type = "recipe",
-			name = "yi_equip_shield_a_recipe",
+			name = "yi_equip_shield_a",
 			energy_required = 3,
-			ingredients = {{"y-accumulator-b", 1}, {"y_structure_element", 4}},
-			result = "yi_equip_shield_a",
-			enabled = "true",
-			result_count = 1,
+			ingredients = {
+				{type="item", name="y-accumulator-b", amount=1},
+				{type="item", name="y_structure_element", amount=4}
+			},
+			results = {{type="item", name="yi_equip_shield_a", amount=1},},
+			main_product = "yi_equip_shield_a",
+			--result = "yi_equip_shield_a",
+			enabled = true,
+			--result_count = 1,
 			order = "a1",
 			group = "yuoki-energy",
 			subgroup = "y_personal_equip",
@@ -15,12 +20,17 @@ data:extend(
 		},
 		{
 			type = "recipe",
-			name = "yi_equip_shield_b_recipe",
+			name = "yi_equip_shield_b",
 			energy_required = 3,
-			ingredients = {{"y-accumulator-b-t2", 1}, {"y_structure_element", 8}},
-			result = "yi_equip_shield_b",
-			enabled = "true",
-			result_count = 1,
+			ingredients = {
+				{type="item", name="y-accumulator-b-t2", amount=1},
+				{type="item", name="y_structure_element", amount=8}
+			},
+			results = {{type="item", name="yi_equip_shield_b", amount=1},},
+			main_product = "yi_equip_shield_b",
+			--result = "yi_equip_shield_b",
+			enabled = true,
+			--result_count = 1,
 			order = "a2",
 			group = "yuoki-energy",
 			subgroup = "y_personal_equip",
@@ -28,12 +38,18 @@ data:extend(
 		},
 		{
 			type = "recipe",
-			name = "yi_equip_battery_a_recipe",
+			name = "yi_equip_battery_a",
 			energy_required = 3,
-			ingredients = {{"y-raw-fuelnium", 8}, {"y-chip-2", 6}, {"y_structure_vessel", 2}},
-			result = "yi_equip_battery_a",
-			enabled = "true",
-			result_count = 1,
+			ingredients = {
+				{type="item", name="y-raw-fuelnium", amount=8},
+				{type="item", name="y-chip-2", amount=6},
+				{type="item", name="y_structure_vessel", amount=2}
+			},
+			results = {{type="item", name="yi_equip_battery_a", amount=1},},
+			main_product = "yi_equip_battery_a",
+			--result = "yi_equip_battery_a",
+			enabled = true,
+			--result_count = 1,
 			order = "b1",
 			group = "yuoki-energy",
 			subgroup = "y_personal_equip",
@@ -41,12 +57,19 @@ data:extend(
 		},
 		{
 			type = "recipe",
-			name = "yi_equip_generator_a_recipe",
+			name = "yi_equip_generator_a",
 			energy_required = 3,
-			ingredients = {{"y_steam_turbine_mc", 1}, {"y-infused-uca2", 4}, {"y-basic-t2-mf", 8}, {"y_structure_vessel", 8}},
-			result = "yi_equip_generator_a",
-			enabled = "true",
-			result_count = 1,
+			ingredients = {
+				{type="item", name="y_steam_turbine_mc", amount=1},
+				{type="item", name="y-infused-uca2", amount=4},
+				{type="item", name="y-basic-t2-mf", amount=8},
+				{type="item", name="y_structure_vessel", amount=8}
+			},
+			results = {{type="item", name="yi_equip_generator_a", amount=1},},
+			main_product = "yi_equip_generator_a",
+			--result = "yi_equip_generator_a",
+			enabled = true,
+			--result_count = 1,
 			order = "c1",
 			group = "yuoki-energy",
 			subgroup = "y_personal_equip",
@@ -54,12 +77,19 @@ data:extend(
 		},
 		{
 			type = "recipe",
-			name = "yi_equip_legs_a_recipe",
+			name = "yi_equip_legs_a",
 			energy_required = 3,
-			ingredients = {{"y-basic-t2-mf", 8}, {"y_structure_element", 12}, {"y-bluegear", 8}, {"y-chip-2", 2}},
-			result = "yi_equip_legs_a",
-			enabled = "true",
-			result_count = 1,
+			ingredients = {
+				{type="item", name="y-basic-t2-mf", amount=8},
+				{type="item", name="y_structure_element", amount=12},
+				{type="item", name="y-bluegear", amount=8},
+				{type="item", name="y-chip-2", amount=2}
+			},
+			results = {{type="item", name="yi_equip_legs_a", amount=1},},
+			main_product = "yi_equip_legs_a",
+			--result = "yi_equip_legs_a",
+			enabled = true,
+			--result_count = 1,
 			order = "d1",
 			group = "yuoki-energy",
 			subgroup = "y_personal_equip",
@@ -67,12 +97,18 @@ data:extend(
 		},
 		{
 			type = "recipe",
-			name = "yi_minigun_recipe",
+			name = "yi_minigun",
 			energy_required = 3,
-			ingredients = {{"y-basic-t2-mf", 1}, {"y_structure_element", 4}, {"y-bluegear", 3}},
-			result = "yi_minigun",
-			enabled = "true",
-			result_count = 1,
+			ingredients = {
+				{type="item", name="y-basic-t2-mf", amount=1},
+				{type="item", name="y_structure_element", amount=4},
+				{type="item", name="y-bluegear", amount=3}
+			},
+			results = {{type="item", name="yi_minigun", amount=1},},
+			main_product = "yi_minigun",
+			--result = "yi_minigun",
+			enabled = true,
+			--result_count = 1,
 			order = "w1",
 			group = "yuoki-energy",
 			subgroup = "y_personal_equip",
@@ -80,12 +116,18 @@ data:extend(
 		},
 		{
 			type = "recipe",
-			name = "yi_lasergun_recipe",
+			name = "yi_lasergun",
 			energy_required = 3,
-			ingredients = {{"y-raw-fuelnium", 3}, {"y-crystal-cnd", 1}, {"y_structure_element", 3}},
-			result = "yi_lasergun",
-			enabled = "true",
-			result_count = 1,
+			ingredients = {
+				{type="item", name="y-raw-fuelnium", amount=3},
+				{type="item", name="y-crystal-cnd", amount=1},
+				{type="item", name="y_structure_element", amount=3},
+			},
+			results = {{type="item", name="yi_lasergun", amount=1},},
+			main_product = "yi_lasergun",
+			--result = "yi_lasergun",
+			enabled = true,
+			--result_count = 1,
 			order = "w2",
 			group = "yuoki-energy",
 			subgroup = "y_personal_equip",
@@ -93,12 +135,18 @@ data:extend(
 		},
 		{
 			type = "recipe",
-			name = "yi_ammo_energie_recipe",
+			name = "yi_ammo_energie",
 			energy_required = 2,
-			ingredients = {{"y-raw-fuelnium", 1}, {"y_structure_element", 2}, {"y-conductive-wire-1", 1}},
-			result = "yi_ammo_energie",
-			enabled = "true",
-			result_count = 10,
+			ingredients = {
+				{type="item", name="y-raw-fuelnium", amount=1},
+				{type="item", name="y_structure_element", amount=2},
+				{type="item", name="y-conductive-wire-1", amount=1}
+			},
+			results = {{type="item", name="yi_ammo_energie", amount=10},},
+			main_product = "yi_ammo_energie",
+			--result = "yi_ammo_energie",
+			enabled = true,
+			--result_count = 10,
 			order = "x1",
 			group = "yuoki-energy",
 			subgroup = "y_personal_equip",
@@ -106,12 +154,19 @@ data:extend(
 		},
 		{
 			type = "recipe",
-			name = "yi_equip_roboport_recipe",
+			name = "yi_equip_roboport",
 			energy_required = 3,
-			ingredients = {{"personal-roboport-equipment", 1}, {"y_rwtechsign", 500}, {"y_compensator_25", 2}, {"yi_equip_battery_a", 1}},
-			result = "yi_equip_roboport",
-			enabled = "true",
-			result_count = 1,
+			ingredients = {
+				{type="item", name="personal-roboport-equipment", amount=1},
+				{type="item", name="y_rwtechsign", amount=500},
+				{type="item", name="y_compensator_25", amount=2},
+				{type="item", name="yi_equip_battery_a", amount=1}
+			},
+			results = {{type="item", name="yi_equip_roboport", amount=1},},
+			main_product = "yi_equip_roboport",
+			--result = "yi_equip_roboport",
+			enabled = true,
+			--result_count = 1,
 			order = "e1",
 			group = "yuoki-energy",
 			subgroup = "y_personal_equip",
@@ -119,12 +174,18 @@ data:extend(
 		},
 		{
 			type = "recipe",
-			name = "yi_equip_pld_recipe",
+			name = "yi_equip_pld",
 			energy_required = 3,
-			ingredients = {{"y_turret_laser22f12", 1}, {"y_rwtechsign", 300}, {"y_structure_element", 6}},
-			result = "yi_pld_equipment",
-			enabled = "true",
-			result_count = 1,
+			ingredients = {
+				{type="item", name="y_turret_laser22f12", amount=1},
+				{type="item", name="y_rwtechsign", amount=300},
+				{type="item", name="y_structure_element", amount=6}
+			},
+			results = {{type="item", name="yi_pld_equipment", amount=1},},
+			main_product = "yi_pld_equipment",
+			--result = "yi_pld_equipment",
+			enabled = true,
+			--result_count = 1,
 			order = "f1",
 			group = "yuoki-energy",
 			subgroup = "y_personal_equip",
@@ -154,11 +215,11 @@ data:extend(
 			max_shield_value = 350,
 			energy_source = {
 				type = "electric",
-				buffer_capacity = "350KJ",
-				input_flow_limit = "700KW",
+				buffer_capacity = "350kJ",
+				input_flow_limit = "700kW",
 				usage_priority = "primary-input"
 			},
-			energy_per_shield = "30KJ",
+			energy_per_shield = "30kJ",
 			categories = {"armor"}
 		},
 		{
@@ -178,11 +239,11 @@ data:extend(
 			max_shield_value = 600,
 			energy_source = {
 				type = "electric",
-				buffer_capacity = "600KJ",
+				buffer_capacity = "600kJ",
 				input_flow_limit = "1.2MW",
 				usage_priority = "primary-input"
 			},
-			energy_per_shield = "30KJ",
+			energy_per_shield = "30kJ",
 			categories = {"armor"}
 		},
 		{
@@ -261,6 +322,7 @@ data:extend(
 			subgroup = "y_personal_equip",
 			group = "yuoki-energy",
 			order = "a[basic-clips]-b[submachine-gun]",
+			
 			attack_parameters = {
 				type = "projectile",
 				ammo_category = "bullet",
@@ -297,6 +359,7 @@ data:extend(
 			subgroup = "y_personal_equip",
 			group = "yuoki-energy",
 			order = "c[railgun]",
+			
 			attack_parameters = {
 				type = "projectile",
 				ammo_category = "plasma",
@@ -319,8 +382,9 @@ data:extend(
 			name = "yi_ammo_energie",
 			icon_size = 32,
 			icon = "__Yuoki__/graphics/armor/bst_z2.png",
+			ammo_category = "plasma",
 			ammo_type = {
-				category = "plasma",
+				--category = "plasma",
 				target_type = "direction",
 				action = {
 					type = "direct",
@@ -446,8 +510,9 @@ data:extend(
 				--source_direction_count = 64,
 				--source_offset = {0, -3.423489 / 4},
 				damage_modifier = 6,
+				ammo_category = "laser",
 				ammo_type = {
-					category = "laser",
+					--category = "laser",
 					energy_consumption = "150kJ",
 					action = {
 						type = "direct",

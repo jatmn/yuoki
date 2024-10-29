@@ -43,17 +43,18 @@ data:extend({
 	{
 		type = "recipe",
 		name = "y_turret_plasma_recipe",
-		enabled = "true",
+		enabled = true,
 		ingredients =
 		{
-			{"y_structure_element", 8},
-			{"y_structure_vessel", 2},
-			{"y-basic-t2-mf", 1}, 								
-			{"y-conductive-coil-1", 4},      
-			{"y-raw-fuelnium", 1},      
-			{"y_rwtechsign", 5},      
+			{type="item", name="y_structure_element", amount=8},
+			{type="item", name="y_structure_vessel", amount=2},
+			{type="item", name="y-basic-t2-mf", amount=1},
+			{type="item", name="y-conductive-coil-1", amount=4},      
+			{type="item", name="y-raw-fuelnium", amount=1},      
+			{type="item", name="y_rwtechsign", amount=5},      
 		},
-		result = "y_turret_plasma",
+		results = {{type="item", name="y_turret_plasma", amount=1},},
+		--result = "y_turret_plasma",
 		order = "p1",
 	},
 
@@ -121,6 +122,32 @@ data:extend({
 		return res
 		end)(),
 		
+		graphics_set =
+		{
+		  base_visualisation =
+		  {
+			animation =
+			{
+			  layers =
+			  {
+				{
+					filename = "__Yuoki__/graphics/entity/defense/turm_plasma_sheet.png",
+					priority = "high",
+					width = 256,
+					height = 256,
+					direction_count = 64,
+					frame_count = 1,
+					line_length = 8,
+					axially_symmetrical = false,
+					scale = 0.5,
+					shift = { 0.0, -0.0},
+				},
+			  }
+			}
+		  }
+		},
+
+
 		attack_parameters =
 		{
 			range = 35,

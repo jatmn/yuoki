@@ -12,11 +12,13 @@ data:extend(
       max_health = 250,
       corpse = "wall-remnants",
       repair_sound = {filename = "__base__/sound/manual-repair-simple.ogg"},
-      mined_sound = {filename = "__base__/sound/car-wood-impact.ogg"},
+      mined_sound = sound_variations("__base__/sound/car-wood-impact", 5, 0.7),
+      --mined_sound = {filename = "__base__/sound/car-wood-impact.ogg"},
       -- factorio 0.13 start
       repair_speed_modifier = 2,
       fast_replaceable_group = "wall",
-      vehicle_impact_sound = {filename = "__base__/sound/car-stone-impact.ogg", volume = 1.0},
+      vehicle_impact_sound = sound_variations("__base__/sound/car-stone-impact", 5, 0.7),
+      --vehicle_impact_sound = {filename = "__base__/sound/car-stone-impact.ogg", volume = 1.0},
       connected_wall_visualization = {
         filename = "__core__/graphics/arrows/underground-lines.png",
         priority = "high",
@@ -148,7 +150,7 @@ data:extend(
           intensity = 0.3
         }
       ),
-      circuit_wire_connection_point = circuit_connector_definitions["gate"].points,
+      circuit_wire_connection_point = circuit_connector_definitions["wall"].points,
       circuit_wire_max_distance = default_circuit_wire_max_distance,
       default_output_signal = data.is_demo and {type = "virtual", name = "signal-green"} or {type = "virtual", name = "signal-G"},
       -- factorio 0.13 - end
@@ -404,7 +406,7 @@ data:extend(
           intensity = 0.3
         }
       ),
-      circuit_wire_connection_point = circuit_connector_definitions["gate"].points,
+      circuit_wire_connection_point = circuit_connector_definitions["wall"].points,
       circuit_wire_max_distance = default_circuit_wire_max_distance,
       default_output_signal = data.is_demo and {type = "virtual", name = "signal-green"} or {type = "virtual", name = "signal-G"},
       resistances = {
@@ -638,7 +640,7 @@ data:extend(
           intensity = 0.3
         }
       ),
-      circuit_wire_connection_point = circuit_connector_definitions["gate"].points,
+      circuit_wire_connection_point = circuit_connector_definitions["wall"].points,
       circuit_wire_max_distance = default_circuit_wire_max_distance,
       default_output_signal = data.is_demo and {type = "virtual", name = "signal-green"} or {type = "virtual", name = "signal-G"},
       resistances = {
@@ -872,7 +874,7 @@ data:extend(
           intensity = 0.3
         }
       ),
-      circuit_wire_connection_point = circuit_connector_definitions["gate"].points,
+      circuit_wire_connection_point = circuit_connector_definitions["wall"].points,
       circuit_wire_max_distance = default_circuit_wire_max_distance,
       default_output_signal = data.is_demo and {type = "virtual", name = "signal-green"} or {type = "virtual", name = "signal-G"},
       resistances = {
@@ -1106,7 +1108,7 @@ data:extend(
           intensity = 0.3
         }
       ),
-      circuit_wire_connection_point = circuit_connector_definitions["gate"].points,
+      circuit_wire_connection_point = circuit_connector_definitions["wall"].points,
       circuit_wire_max_distance = default_circuit_wire_max_distance,
       default_output_signal = data.is_demo and {type = "virtual", name = "signal-green"} or {type = "virtual", name = "signal-G"},
       attack_reaction = {
@@ -1455,7 +1457,7 @@ data:extend(
           intensity = 0.3
         }
       ),
-      circuit_wire_connection_point = circuit_connector_definitions["gate"].points,
+      circuit_wire_connection_point = circuit_connector_definitions["wall"].points,
       circuit_wire_max_distance = default_circuit_wire_max_distance,
       default_output_signal = data.is_demo and {type = "virtual", name = "signal-green"} or {type = "virtual", name = "signal-G"},
       resistances = {

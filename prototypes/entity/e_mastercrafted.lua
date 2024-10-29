@@ -5,7 +5,10 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_obninsk_mc_recipe",
-		ingredients = {{"y-obninsk-reactor", 1}, {"y_rwtechsign", 10000},},		
+		ingredients = {
+			{type="item", name="y-obninsk-reactor", amount=1},
+			{type="item", name="y_rwtechsign", amount=10000},
+		},		
 		results=
 		{
 			{type="item", name="y_obninsk_mc", amount=1, },      	  						
@@ -33,29 +36,31 @@ data:extend(
 		icon_size = 32,
 		icon = "__Yuoki__/graphics/entity/obninsk_mc_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
-		minable = {hardness = 0.3, mining_time = 0.5, result = "y_obninsk_mc"},
+		minable = {mining_time = 0.5, result = "y_obninsk_mc"},
 		max_health = 1500,
 		corpse = "big-remnants",
 		resistances = {{type = "fire", percent = 80}},
 		fluid_boxes = {
 			{
+				volume = 200,
 				production_type = "input",
 				base_area = 50,
 				height = 2,
 				base_level = -1,
 				pipe_connections = {
-					{type = "input", position = {-1, 3}},
-					{type = "input", position = { 1, 3}}
+					{flow_direction = "input", direction = defines.direction.north, position = {-0, 2}},
+					--{flow_direction = "input", direction = defines.direction.north, position = { 0, 2}}
 				},
 				filter = "water"
 			},
 			{
+				volume = 200,
 				production_type = "output",
 				base_area = 5,
 				height = 2,
 				pipe_connections = {
-					{type = "output", position = {-1, -3}},
-					{type = "output", position = { 1, -3}}
+					{flow_direction = "output", direction = defines.direction.north, position = {-0, -2}},
+					--{flow_direction = "output", direction = defines.direction.north, position = { 0, -2}}
 				},			
 			},
 		},
@@ -84,10 +89,10 @@ data:extend(
 		crafting_speed = 1,
 		energy_source = {
 			type = "burner",
-			fuel_category = "yfusion",
+			fuel_categories = {"yfusion"},
 			effectivity = 0.7,
 			fuel_inventory_size = 1,
-			emissions_per_minute = 700,
+			emissions_per_minute = { pollution = 700},
 			smoke = {{	name = "smoke",deviation = {0.1, 0.1},frequency = 0.1,}}
 		},		
 		allowed_effects = {"pollution"},
@@ -148,7 +153,7 @@ data:extend(
 		energy_source =
 		{
 			type = "burner",
-			fuel_category = "yfusion",
+			fuel_categories = {"yfusion"},
 			effectivity = 1.15,
 			fuel_inventory_size = 2,			
 			emissions = 0.001,
@@ -186,9 +191,12 @@ data:extend(
 		type = "recipe",
 		name = "y_steam_turbine_mc_recipe",
 		icon_size = 32, icon =  "__Yuoki__/graphics/entity/steam_turbine_n3mc_icon.png",
-		ingredients = {{"y-steam-turbine",1},{"y_rwtechsign",1000},},		
+		ingredients = {
+			{type="item", name="y-steam-turbine", amount=1},
+			{type="item", name="y_rwtechsign", amount=1000},
+		},		
 		results = { {type="item", name="y_steam_turbine_mc", amount=1,}, },		
-		enabled = "true",				
+		enabled = true,				
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		order="g-b2",	
@@ -209,7 +217,7 @@ data:extend(
 		name = "y_steam_turbine_mc",
 		icon_size = 32, icon =  "__Yuoki__/graphics/entity/steam_turbine_n3mc_icon.png",
 		flags = {"placeable-neutral","player-creation"},
-		minable = {mining_time = 1, result = "y_steam_turbine_mc"},
+		minable = {mining_time = 0.5, result = "y_steam_turbine_mc"},
 		max_health = 400,
 		corpse = "big-remnants",
 		effectivity = 1.145,
@@ -226,13 +234,14 @@ data:extend(
 
 		fluid_box =
 		{
+			volume = 200,
 			base_area = 3,
 			height = 2,
 			base_level = -1,			
 			pipe_connections =
 			{
-				{ type = "input-output", position = {0, 2.5} },
-				{ type = "input-output", position = {0,-2.5} },
+				{ flow_direction = "input-output", direction = defines.direction.north, position = {0, 1.5} },
+				{ flow_direction = "input-output", direction = defines.direction.north, position = {0,-1.5} },
 			},
 			production_type = "input-output",
 			filter = "steam",
@@ -285,9 +294,12 @@ data:extend(
 		type = "recipe",
 		name = "y_steam_turbine_gr_recipe",
 		icon_size = 64, icon =  "__Yuoki__/graphics/entity/steam_turbine-n3mc-green_icon.png",
-		ingredients = {{"y-steam-turbine",1},{"y_greensign",1000},},		
+		ingredients = {
+			{type="item", name="y-steam-turbine", amount=1},
+			{type="item", name="y_greensign", amount=1000},
+		},		
 		results = { {type="item", name="y_steam_turbine_gr", amount=1,}, },		
-		enabled = "true",				
+		enabled = true,				
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		order="g-b3",	
@@ -308,11 +320,11 @@ data:extend(
 		name = "y_steam_turbine_gr",
 		icon_size = 64, icon =  "__Yuoki__/graphics/entity/steam_turbine-n3mc-green_icon.png",
 		flags = {"placeable-neutral","player-creation"},
-		minable = {mining_time = 1, result = "y_steam_turbine_gr"},
+		minable = {mining_time = 0.5, result = "y_steam_turbine_gr"},
 		max_health = 400,
 		corpse = "big-remnants",
-		effectivity = 1.525,
-		fluid_usage_per_tick = 1.0,
+		effectivity = 1.2,
+		fluid_usage_per_tick = 1.25,
 		resistances =
 		{
 			{
@@ -325,13 +337,14 @@ data:extend(
 
 		fluid_box =
 		{
+			volume = 200,
 			base_area = 3,
 			height = 2,
 			base_level = -1,			
 			pipe_connections =
 			{
-				{ type = "input-output", position = {0, 2.5} },
-				{ type = "input-output", position = {0,-2.5} },
+				{ flow_direction = "input-output", direction = defines.direction.north, position = {0, 1.5} },
+				{ flow_direction = "input-output", direction = defines.direction.north, position = {0,-1.5} },
 			},
 			production_type = "input-output",
 			filter = "steam",
@@ -340,9 +353,9 @@ data:extend(
 		{
 			name = "steam", amount = 0.0, minimum_temperature = 100.0 ,		
 		},			
-		maximum_temperature = 250,
+		maximum_temperature = 265,
         fast_replaceable_group = "steam-engine",
--- must have same bounding box		next_upgrade = "y-obninsk-turbine",
+		-- must have same bounding box		next_upgrade = "y-obninsk-turbine",
 		energy_source =
 		{
 			type = "electric",
@@ -387,14 +400,17 @@ data:extend(
 		type = "recipe",
 		name = "y_mc_underground_drill_recipe",
 		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_digger_icon.png",
-		ingredients = {{"y-underground-drill",1},{"y_rwtechsign", 4000},},				
+		ingredients = {
+			{type="item", name="y-underground-drill", amount=1},
+			{type="item", name="y_rwtechsign", amount=4000},
+		},				
 		results=
 		{
 			{type="item", name="y_mc_underground_drill", amount=1, },      	  						
 			{type="item", name="y-fame", amount=1, },      	  						
 		},				
 		main_product="y_mc_underground_drill",
-		enabled = "true",				
+		enabled = true,				
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		order="g-b2",	
@@ -412,7 +428,7 @@ data:extend(
 	
 	{
 		type = "assembling-machine",
-		name = "y_mc_underground_drill", minable = {hardness = 0.2,mining_time = 0.5,result = "y_mc_underground_drill"},
+		name = "y_mc_underground_drill", minable = {mining_time = 0.5,result = "y_mc_underground_drill"},
 		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_digger_icon.png",
 		flags = {"placeable-neutral","player-creation"},		
 		max_health = 600,
@@ -432,7 +448,7 @@ data:extend(
 		},					
 		crafting_categories = {"yuoki-raw-material-recipe"},
 		crafting_speed = 2,
-		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = 2},
+		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 2}},
 		energy_usage = "400kW",
 		ingredient_count = 1,
 		module_specification =
@@ -446,11 +462,15 @@ data:extend(
 	-- Mastercrafted Washer
 	{
 		type = "recipe",
-		name = "y_mc_dirtwasher_recipe",
+		name = "y_mc_dirtwasher",
 		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_washer_icon.png",
-		ingredients = {{"y-dirtwasher",1},{"y_rwtechsign",2500},},		
-		results = { {type="item", name="y_mc_dirtwasher", amount=1,}, },		
-		enabled = "true",				
+		ingredients = {
+			{type="item", name="y-dirtwasher", amount=1},
+			{type="item", name="y_rwtechsign", amount=2500},
+		},		
+		results = { {type="item", name="y_mc_dirtwasher", amount=1,}, },	
+		main_product = "y_mc_dirtwasher",
+		enabled = true,				
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		order="g-b2",	
@@ -471,7 +491,7 @@ data:extend(
 		name = "y_mc_dirtwasher",
 		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_washer_icon.png",
 		flags = {"placeable-neutral","player-creation"},
-		minable = {hardness = 0.2,mining_time = 0.5,result = "y_mc_dirtwasher"},
+		minable = {mining_time = 0.5,result = "y_mc_dirtwasher"},
 		max_health = 300,
 		--resistances = {{type = "fire",percent = 70}},
 		collision_box = {{-1.3,-1.3},{1.3,1.3}},
@@ -500,39 +520,46 @@ data:extend(
 		},					
 		crafting_categories = {"yuoki-archaeology-wash"},
 		crafting_speed = 2,
-		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = 2.5},
+		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 2.5 }},
 		energy_usage = "500kW",
 		ingredient_count = 3,
 		fluid_boxes =
 		{
 			{
+				volume = 200,
 				production_type = "input",
 				pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ type="input", position = {-1, -2} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = {-0, -1} }}
 			},
+			--[[
 			{
+				volume = 200,
 				production_type = "input",
 				pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ type="input", position = {1, -2.0} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = {0, -1.0} }}
 			},
 			{
+				volume = 200,
 				production_type = "output",
 				pipe_covers = pipecoverspictures(),
 				base_level = 1,
-				pipe_connections = {{ position = {1, 2} }}
+				pipe_connections = {{ direction = defines.direction.north, position = {0, 1} }}
 			},
+			]]
 			{
+				volume = 200,
 				production_type = "output",
 				pipe_covers = pipecoverspictures(),
 				base_level = 1,
-				pipe_connections = {{ position = {-1, 2} }}
+				pipe_connections = {{ direction = defines.direction.north, position = {-0, 1} }}
 			},
-			off_when_no_fluid_recipe = true,
-		},	  
+		},	
+		fluid_boxes_off_when_no_fluid_recipe = true,
+  
 		module_specification =
 		{
 			module_slots = 2
@@ -545,7 +572,10 @@ data:extend(
 		type = "recipe",
 		name = "y_mc_e2_mining_drill_recipe",
 		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_miner_icon.png",
-		ingredients = {{"y-mining-drill-e2",1},{"y_rwtechsign",3500},},		
+		ingredients = {
+			{type="item", name="y-mining-drill-e2", amount=1},
+			{type="item", name="y_rwtechsign", amount=3500},
+		},		
 		results = { {type="item", name="y_mc_e2_mining_drill", amount=1,}, },		
 		results=
 		{
@@ -553,7 +583,7 @@ data:extend(
 			{type="item", name="y-fame", amount=1, },      	  						
 		},				
 		main_product="y_mc_e2_mining_drill",				
-		enabled = "true",				
+		enabled = true,				
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		order="g-b2",	
@@ -573,7 +603,7 @@ data:extend(
 		name = "y_mc_e2_mining_drill",
 		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_miner_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
-		minable = {mining_time = 1, result = "y_mc_e2_mining_drill"},
+		minable = {mining_time = 0.5, result = "y_mc_e2_mining_drill"},
 		max_health = 900,
 		resource_categories = {"basic-solid"},
 		corpse = "big-remnants",
@@ -583,15 +613,16 @@ data:extend(
 		
 		input_fluid_box =
 		{
+			volume = 200,
 			production_type = "input-output",
 			pipe_picture = assembler2pipepictures(),
 			pipe_covers = pipecoverspictures(),
 			base_area = 1,
 			pipe_connections =
 			{
-				{ position = {-3, 0} },
-				{ position = {3, 0} },
-				{ position = {0, 3} },
+				{ direction = defines.direction.north, position = {-2, 0} },
+				{ direction = defines.direction.north, position = {2, 0} },
+				{ direction = defines.direction.north, position = {0, 2} },
 			}
 		},				
 		
@@ -612,7 +643,7 @@ data:extend(
 		{
 			type = "electric",
 			usage_priority = "secondary-input",
-			emissions_per_minute = 8, 		
+			emissions_per_minute = { pollution = 8 }, 		
 		},
 		energy_usage = "400kW",
 		mining_power = 6,
@@ -639,9 +670,12 @@ data:extend(
 		type = "recipe",
 		name = "y_boiler4_mc_recipe",
 		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_big_boiler_ig_icon.png",
-		ingredients = {{"y-boiler-iv",1},{"y_greensign",700},},		
+		ingredients = {
+			{type="item", name="y-boiler-iv", amount=1},
+			{type="item", name="y_greensign", amount=700},
+		},		
 		results = { {type="item", name="y_boiler4_mc", amount=1,}, },		
-		enabled = "true",				
+		enabled = true,				
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		order="h-1",	
@@ -663,7 +697,7 @@ data:extend(
 		name = "y_boiler4_mc",
 		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_big_boiler_ig_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
-		minable = {hardness = 0.2, mining_time = 0.5, result = "y_boiler4_mc"},
+		minable = {mining_time = 0.5, result = "y_boiler4_mc"},
 		max_health = 400,
 		corpse = "small-remnants",
 		resistances = { { type = "fire", percent = 80 } },
@@ -671,42 +705,44 @@ data:extend(
 		collision_box = {{-1.25, -1.25}, {1.25, 1.25}},
 		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 		mode = "output-to-separate-pipe",
-		target_temperature=250,
+		target_temperature=265,
 		fluid_box =
 		{
+			volume = 200,
 			base_area = 7.5,
 			height = 2,
 			base_level = -2,
 			pipe_connections =
 			{
-				{ type = "input-output", position = { 2,  0} },
-				{ type = "input", position = { 0,  2} },
-				{ type = "input-output", position = {-2,  0} }
+				{ flow_direction = "input-output", direction = defines.direction.north, position = { 1,  0} },
+				{ flow_direction = "input", direction = defines.direction.north, position = { 0,  1} },
+				{ flow_direction = "input-output", direction = defines.direction.north, position = {-1,  0} }
 			},
 			production_type = "input-output",
 			filter = "water",
 		},
 		output_fluid_box =
 		{
+			volume = 200,
 			base_area = 3,
 			height = 2,
 			pipe_connections =
 			{
-				{ type = "output", position = {0, -2}}
+				{ flow_direction = "output", direction = defines.direction.north, position = {0, -1}}
 			},
 			production_type = "output",
 			filter = "steam",
 		},
 
-		energy_consumption = "7.1MW",
+		energy_consumption = "7.6MW",
 		energy_source =
 		{
 			type = "burner",
-			fuel_category = "chemical",
-			effectivity = 0.94,
+			fuel_categories = {"chemical"},
+			effectivity = 0.95,
 			fuel_inventory_size = 2,
 			fuel_inventory_count = 50,
-			emissions_per_minute = 21.3,
+			emissions_per_minute = { pollution = 21.3 },
 			smoke =
 			{
 				{
@@ -729,7 +765,7 @@ data:extend(
 		burning_cooldown = 30,
 		fast_replaceable_group = "y-boiler",
 		-- these are the pipe pictures - boiler is a pipe as well
-		pictures = pipepictures()		
+		--pictures = pipepictures()		
 	},
 	
 	-- Mastercrafted Boiler	- tech
@@ -737,9 +773,12 @@ data:extend(
 		type = "recipe",
 		name = "y_boiler4_tech_recipe",
 		icon_size = 64, icon =  "__Yuoki__/graphics/entity/mc_big_boiler_t_icon.png",
-		ingredients = {{"y-boiler-iv",1},{"y_rwtechsign",900},},		
+		ingredients = {
+			{type="item", name="y-boiler-iv", amount=1},
+			{type="item", name="y_rwtechsign", amount=900},
+		},		
 		results = { {type="item", name="y_boiler4_tech", amount=1,}, },		
-		enabled = "true",				
+		enabled = true,				
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		order="h-1",	
@@ -761,7 +800,7 @@ data:extend(
 		name = "y_boiler4_tech",
 		icon_size = 64, icon =  "__Yuoki__/graphics/entity/mc_big_boiler_t_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
-		minable = {hardness = 0.2, mining_time = 0.5, result = "y_boiler4_tech"},
+		minable = {mining_time = 0.5, result = "y_boiler4_tech"},
 		max_health = 400,
 		corpse = "small-remnants",
 		resistances = { { type = "fire", percent = 80 } },
@@ -772,39 +811,41 @@ data:extend(
 		target_temperature=500,
 		fluid_box =
 		{
+			volume = 200,
 			base_area = 7.5,
 			height = 2,
 			base_level = -2,
 			pipe_connections =
 			{
-				{ type = "input-output", position = { 2,  0} },
-				{ type = "input", position = { 0,  2} },
-				{ type = "input-output", position = {-2,  0} }
+				{ flow_direction = "input-output", direction = defines.direction.north, position = { 1,  0} },
+				{ flow_direction = "input", direction = defines.direction.north, position = { 0,  1} },
+				{ flow_direction = "input-output", direction = defines.direction.north, position = {-1,  0} }
 			},
 			production_type = "input-output",
 			filter = "water",
 		},
 		output_fluid_box =
 		{
+			volume = 200,
 			base_area = 3,
 			height = 2,
 			pipe_connections =
 			{
-				{ type = "output", position = {0, -2}}
+				{ flow_direction = "output", direction = defines.direction.north, position = {0, -1}}
 			},
 			production_type = "output",
 			filter = "steam",
 		},
 
-		energy_consumption = "11.8MW",
+		energy_consumption = "8.82MW",
 		energy_source =
 		{
 			type = "burner",
-			fuel_category = "chemical",
-			effectivity = 0.67,
+			fuel_categories = {"chemical"},
+			effectivity = 0.84,
 			fuel_inventory_size = 1,
 			fuel_inventory_count = 50,
-			emissions_per_minute = 35.4,
+			emissions_per_minute =  { pollution = 35.4 },
 			smoke =
 			{
 				{
@@ -828,7 +869,7 @@ data:extend(
 		fast_replaceable_group = "y-boiler",
 			next_upgrade = "y_boiler4_mc",
 		-- these are the pipe pictures - boiler is a pipe as well
-		pictures = pipepictures()
+		--pictures = pipepictures()
 	},
 	
 })

@@ -13,36 +13,38 @@ data:extend(
 			mode = "output-to-separate-pipe",
 			collision_box = {{-1.25, -1.25}, {1.25, 1.25}},
 			selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
-			target_temperature = 250,
+			target_temperature = 265,
 			fluid_box = {
+				volume = 200,
 				base_area = 3,
 				height = 2,
 				base_level = -1,
 				pipe_connections = {
 					--{ type = "input-output", position = { 0, -2.0} },
-					{type = "input-output", position = {2, 0}},
-					{type = "input", position = {0, 2}},
-					{type = "input-output", position = {-2, 0}}
+					{flow_direction = "input-output", direction = defines.direction.north, position = {1, 0}},
+					{flow_direction = "input", direction = defines.direction.north, position = {0, 1}},
+					{flow_direction = "input-output", direction = defines.direction.north, position = {-1, 0}}
 				},
 				production_type = "input-output",
 				filter = "water"
 			},
 			output_fluid_box = {
+				volume = 200,
 				base_area = 3,
 				height = 2,
 				pipe_connections = {
-					{type = "output", position = {0, -2}}
+					{flow_direction = "output", direction = defines.direction.north, position = {0, -1}}
 				},
 				production_type = "output",
 				filter = "steam"
 			},
-			energy_consumption = "5.4MW",
+			energy_consumption = "5.1MW",
 			energy_source = {
 				type = "burner",
-				fuel_category = "chemical",
+				fuel_categories = {"chemical"},
 				effectivity = 0.75,
 				fuel_inventory_size = 2,
-				emissions_per_minute = 53,
+				emissions_per_minute = { pollution = 53},
 				smoke = {
 					{
 						name = "smoke",
@@ -102,9 +104,9 @@ data:extend(
 			minable = {mining_time = 1, result = "y-steam-turbine"},
 			max_health = 300,
 			corpse = "big-remnants",
-			effectivity = 1.075,
+			effectivity = 0.987,
 			fluid_usage_per_tick = 1.25,
-			maximum_temperature = 250,
+			maximum_temperature = 265,
 			resistances = {
 				{
 					type = "fire",
@@ -116,12 +118,13 @@ data:extend(
 			collision_box = {{-1.3, -1.7}, {1.3, 1.7}},
 			selection_box = {{-1.5, -2.0}, {1.5, 2.0}},
 			fluid_box = {
+				volume = 200,
 				base_area = 3,
 				height = 2,
 				base_level = -1,
 				pipe_connections = {
-					{type = "input-output", position = {0, 2.5}},
-					{type = "input-output", position = {0, -2.5}}
+					{flow_direction = "input-output", direction = defines.direction.north, position = {0, 1.5}},
+					{flow_direction = "input-output", direction = defines.direction.north, position = {0, -1.5}}
 				},
 				production_type = "input-output",
 				filter = "steam"
@@ -190,24 +193,25 @@ data:extend(
 			minable = {mining_time = 1, result = "y-obninsk-turbine"},
 			max_health = 500,
 			corpse = "big-remnants",
-			effectivity = 1.34,
-			fluid_usage_per_tick = 1.66667,
+			effectivity = 1,
+			fluid_usage_per_tick = 2,
 			maximum_temperature = 500,
 			fast_replaceable_group = "steam-engine",
 			collision_box = {{-1.3, -1.3}, {1.3, 1.3}},
 			selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 			fluid_box = {
+				volume = 200,
 				base_area = 4,
 				height = 2,
 				base_level = -1,
 				pipe_connections = {
-					{type = "input-output", position = {0, 2}},
-					{type = "input-output", position = {0, -2}}
+					{flow_direction = "input-output", direction = defines.direction.north, position = {0,  1}},
+					{flow_direction = "input-output", direction = defines.direction.north, position = {0, -1}}
 				},
 				production_type = "input-output",
 				filter = "steam"
 			},
-			fluid_input = {name = "steam", amount = 0.0, minimum_temperature = 100.0},
+			fluid_input = {name = "steam", amount = 0.0, minimum_temperature = 150.0},
 			energy_source = {
 				type = "electric",
 				--usage_priority = "secondary-output"
@@ -252,8 +256,8 @@ data:extend(
 			minable = {mining_time = 1, result = "y-notfall-generator-s2"},
 			max_health = 300,
 			corpse = "small-remnants",
-			effectivity = 1.04,
-			fluid_usage_per_tick = 0.41667,
+			effectivity = 1.0,
+			fluid_usage_per_tick = 0.4,
 			resistances = {
 				{
 					type = "fire",
@@ -262,14 +266,15 @@ data:extend(
 			},
 			collision_box = {{-1.3, -0.9}, {1.3, 0.9}},
 			selection_box = {{-1.5, -1.0}, {1.5, 1.0}},
-			maximum_temperature = 250,
+			maximum_temperature = 265,
 			fluid_box = {
+				volume = 200,
 				base_area = 1,
 				height = 2,
 				base_level = -1,
 				pipe_connections = {
-					{type = "input-output", position = {0, 1.5}},
-					{type = "input-output", position = {0, -1.5}}
+					{flow_direction = "input-output", direction = defines.direction.north, position = {0,  0.5}},
+					{flow_direction = "input-output", direction = defines.direction.north, position = {0, -0.5}}
 				},
 				production_type = "input-output",
 				filter = "steam"
@@ -316,12 +321,13 @@ data:extend(
 			selection_box = {{-1.5, -1.0}, {1.5, 1.0}},
 			maximum_temperature = 150,
 			fluid_box = {
+				volume = 200,
 				base_area = 1,
 				height = 2,
 				base_level = -1,
 				pipe_connections = {
-					{type = "input-output", position = {0, 1.5}},
-					{type = "input-output", position = {0, -1.5}}
+					{flow_direction = "input-output", direction = defines.direction.north, position = {0, 0.5}},
+					{flow_direction = "input-output", direction = defines.direction.north, position = {0, -0.5}}
 				},
 				production_type = "input-output",
 				filter = "y-mechanical-force"
@@ -365,12 +371,13 @@ data:extend(
 			selection_box = {{-1.5, -1.0}, {1.5, 1.0}},
 			maximum_temperature = 150,
 			fluid_box = {
+				volume = 200,
 				base_area = 1,
 				height = 2,
 				base_level = -1,
 				pipe_connections = {
-					{type = "input-output", position = {0, 1.5}},
-					{type = "input-output", position = {0, -1.5}}
+					{flow_direction = "input-output", direction = defines.direction.north, position = {0, 0.5}},
+					{flow_direction = "input-output", direction = defines.direction.north, position = {0, -0.5}}
 				},
 				production_type = "input-output",
 				filter = "y-mechanical-force"
@@ -417,12 +424,13 @@ data:extend(
 			selection_box = {{-2.5, -1.5 }, {2.5, 1.50}},
 			maximum_temperature = 150,
 			fluid_box = {
+				volume = 200,
 				base_area = 1,
 				height = 2,
 				base_level = -1,
 				pipe_connections = {
-					{type = "input-output", position = {0, 2}},
-					{type = "input-output", position = {0,-2}}
+					{flow_direction = "input-output", direction = defines.direction.north, position = {0, 1}},
+					{flow_direction = "input-output", direction = defines.direction.north, position = {0,-1}}
 				},
 				production_type = "input-output",
 				filter = "y-mechanical-force"
@@ -466,12 +474,13 @@ data:extend(
 			selection_box = {{-2.5, -1.5}, {2.5, 1.5}},
 			maximum_temperature = 150,
 			fluid_box = {
+				volume = 200,
 				base_area = 1,
 				height = 2,
 				base_level = -1,
 				pipe_connections = {
-					{type = "input-output", position = {0, 2}},
-					{type = "input-output", position = {0, -2}}
+					{flow_direction = "input-output", direction = defines.direction.north, position = {0, 1}},
+					{flow_direction = "input-output", direction = defines.direction.north, position = {0, -1}}
 				},
 				production_type = "input-output",
 				filter = "y-mechanical-force"
@@ -512,12 +521,13 @@ data:extend(
 			selection_box = {{-3.5, -1.5}, {3.5, 1.5}},
 			maximum_temperature = 150,
 			fluid_box = {
+				volume = 200,
 				base_area = 1,
 				height = 2,
 				base_level = -1,
 				pipe_connections = {
-					{type = "input-output", position = {0, 2}},
-					{type = "input-output", position = {0, -2}}
+					{flow_direction = "input-output", direction = defines.direction.north, position = {0, 1}},
+					{flow_direction = "input-output", direction = defines.direction.north, position = {0, -1}}
 				},
 				production_type = "input-output",
 				filter = "y-mechanical-force"

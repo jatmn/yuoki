@@ -5,7 +5,7 @@ data:extend(
 	  type = "recipe",
 	  name = "y_military_science_recipe",
 	  category = "yuoki-atomics-recipe", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 3.00,
 	  ingredients = {
 	  	{ type = "item", name = "y_wall22_hardic", amount = 1.0, },
@@ -23,7 +23,7 @@ data:extend(
 	  type = "recipe",
 	  name = "y_chemical_science_recipe",
 	  category = "yuoki-atomics-recipe", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 3.00,
 	  ingredients = {
 	  	{ type = "item", name = "y-fuel-reactor", amount = 2.0, },
@@ -43,7 +43,7 @@ data:extend(
 	  type = "recipe",
 	  name = "y_production_science_recipe",
 	  category = "yuoki-atomics-recipe", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 4.00,
 	  ingredients = {
 	  	{ type = "item", name = "y_toolhead", amount = 1.0, },
@@ -64,7 +64,7 @@ data:extend(
 	  type = "recipe",
 	  name = "y_high-tech_science_recipe",
 	  category = "yuoki-atomics-recipe", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 6.00,
 	  ingredients = {
 	  	{ type = "item", name = "y-battery-single-use3", amount = 3.0, },
@@ -84,7 +84,7 @@ data:extend(
 	  type = "recipe",
 	  name = "y_space_science_recipe",
 	  category = "yuoki-atomics-recipe", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 10.00,
 	  ingredients = {
 	  	{ type = "item", name = "ypfw_trader_sign", amount = 6000.0, },	  

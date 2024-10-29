@@ -82,6 +82,31 @@ data:extend(
 				res.run_mode = "backward"
 				return res
 			end)(),
+
+			graphics_set =
+			{
+			  base_visualisation =
+			  {
+				animation =
+				{
+				  layers =
+				  {
+					{
+						filename = "__Yuoki__/graphics/entity/defense/laser22b_sheet.png",
+						priority = "high",
+						width = 128,
+						height = 128,
+						shift = {0.5, -0.72},
+						direction_count = 64,
+						frame_count = 1,
+						line_length = 16,
+						axially_symmetrical = false
+					},
+				  }
+				}
+			  }
+			},
+
 			attack_parameters = {
 				type = "beam",
 				cooldown = 12,
@@ -89,8 +114,9 @@ data:extend(
 				source_direction_count = 64,
 				source_offset = {0, -3.423489 / 4},
 				damage_modifier = 5,
+				ammo_category = "laser",
 				ammo_type = {
-					category = "laser",
+					--category = "laser",
 					energy_consumption = "800kJ",
 					action = {
 						type = "direct",
@@ -187,6 +213,31 @@ data:extend(
 				res.run_mode = "backward"
 				return res
 			end)(),
+
+			graphics_set =
+			{
+			  base_visualisation =
+			  {
+				animation =
+				{
+				  layers =
+				  {
+					{
+					  filename = "__Yuoki__/graphics/entity/defense/gun_1_sheet.png",
+					  priority = "high",
+					  width = 128,
+					  height = 128,
+					  direction_count = 64,
+					  frame_count = 1,
+					  line_length = 8,
+					  axially_symmetrical = false,
+					  shift = {0.0, -0.94}
+					},
+				  }
+				}
+			  }
+			},
+
 			attack_parameters = {
 				type = "projectile",
 				ammo_category = "bullet",
@@ -259,6 +310,31 @@ data:extend(
 				res.run_mode = "backward"
 				return res
 			end)(),
+
+			graphics_set =
+			{
+			  base_visualisation =
+			  {
+				animation =
+				{
+				  layers =
+				  {
+					{
+					  filename = "__Yuoki__/graphics/entity/defense/gun2_sheet.png",
+					  priority = "high",
+					  width = 128,
+					  height = 128,
+					  direction_count = 64,
+					  frame_count = 1,
+					  line_length = 8,
+					  axially_symmetrical = false,
+					  shift = {0.25, -0.94}
+					},
+				  }
+				}
+			  }
+			},
+
 			attack_parameters = {
 				type = "projectile",
 				ammo_category = "bullet",

@@ -8,10 +8,12 @@ data:extend(
 		type = "recipe",
 		name = "y-sgtrade-ic1-recipe", order="w1",
 		energy_required = 2.0,
-		enabled = "true",
-		ingredients = {{"y-fame", 1},}, 
-		result = "y-fuel-cell-c",
-		result_count = 1,		
+		enabled = true,
+		ingredients = {{type="item", name="y-fame", amount=1},},
+		results = {{type="item", name="y-fuel-cell-c", amount=1},}, 
+		main_product = "y-fuel-cell-c",
+		--result = "y-fuel-cell-c",
+		--result_count = 1,		
 		group = "yuoki-energy", subgroup = "y-fuel", 
 		category = "yuoki-stargate-recipe",
 		icon_size = 32, icon =  "__Yuoki__/graphics/icons/fuel_cell_c.png",
@@ -20,8 +22,31 @@ data:extend(
 	-- fuel-cell-c	
 	{ type = "item", name = "y-fuel-cell-c",  icon_size = 32, icon =  "__Yuoki__/graphics/icons/fuel_cell_c.png",  subgroup = "y-fuel", fuel_category = "chemical", fuel_value = "10GJ", stack_size = 500, default_request_amount = 10,},	
 	-- fame recipe
-	{ type = "recipe", name = "y-fame-recipe", order="x1", energy_required = 1800.0, enabled = "true", ingredients = {},  result = "y-fame", result_count = 1, subgroup = "y-stargate-4", category = "yuoki-fame-recipe",},							
-	{ type = "recipe", name = "y_fame_tech_recipe", order="x2", energy_required = 900.0, enabled = "true", ingredients = {{"y_rwtechsign", 25}},  result = "y-fame", result_count = 1, subgroup = "y-stargate-4", category = "yuoki-fame-recipe",},	
+	{
+		type = "recipe",
+		name = "y-fame-recipe",
+		order="x1",
+		energy_required = 1800.0,
+		enabled = true,
+		ingredients = {},
+		results = {{type="item", name="y-fame", amount=1},},
+		main_product = "y-fame",
+		--result = "y-fame", result_count = 1,
+		subgroup = "y-stargate-4", category = "yuoki-fame-recipe",
+	},							
+	{ 
+		type = "recipe",
+		name = "y_fame_tech_recipe",
+		order="x2",
+		energy_required = 900.0,
+		enabled = true,
+		ingredients = {
+			{type="item", name="y_rwtechsign", amount=25}
+		},
+		results = {{type="item", name="y-fame", amount=1},},
+		main_product = "y-fame",
+		--result = "y-fame", result_count = 1,
+		subgroup = "y-stargate-4", category = "yuoki-fame-recipe",},	
 	-- fame	
 	{ type = "item", name = "y-fame",  icon_size = 32, icon =  "__Yuoki__/graphics/icons/fame-icon.png", subgroup = "y-stargate-f", stack_size = 10000, default_request_amount = 10,},
 
@@ -29,12 +54,20 @@ data:extend(
 	-- stargate recipe
 	{
 		type = "recipe",
-		name = "y-stargate-recipe", order="a",
+		name = "y-stargate", order="a",
 		energy_required = 5.0,
-		enabled = "true",
-		ingredients = {{"y-accumulator-crystal-m", 1},{"y-alien-infuser", 1},{"y-crystal2", 150}, {"y-chip-2", 8}, {"y-fame", 10}}, 
-		result = "y-stargate",
-		result_count = 1,					
+		enabled = true,
+		ingredients = {
+			{type="item", name="y-accumulator-crystal-m", amount=1},
+			{type="item", name="y-alien-infuser", amount=1},
+			{type="item", name="y-crystal2", amount=150},
+			{type="item", name="y-chip-2", amount=8},
+			{type="item", name="y-fame", amount=10}
+		}, 
+		results = {{type="item", name="y-stargate", amount=1},},
+		main_product = "y-stargate",
+		--result = "y-stargate",
+		--result_count = 1,					
 		group = "yuoki-energy", subgroup = "y_ultimate_products", order = "2",	
 	},				
 	-- stargate itself
@@ -42,7 +75,17 @@ data:extend(
 
 	
 	-- 40-Users recipe
-	{ type = "recipe", name = "y-fame-gen-recipe", order="a", energy_required = 5.0, enabled = "true", ingredients = {{"y-alien-infuser", 1},{"y-ups-flywheel-b", 1},{"y-unicomp-a2",100}},  
+	{ 
+		type = "recipe",
+		name = "y-fame-gen-recipe",
+		order="a",
+		energy_required = 5.0,
+		enabled = true,
+		ingredients = {
+			{type="item", name="y-alien-infuser", amount=1},
+			{type="item", name="y-ups-flywheel-b", amount=1},
+			{type="item", name="y-unicomp-a2", amount=100}
+		},  
 		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/thanks-icon.png",
 		results=
 		{

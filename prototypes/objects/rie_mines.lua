@@ -5,9 +5,13 @@ data:extend(
 	{
 		type = "recipe",
 		name = "yi_mine_plasma_recipe",
-		enabled = "true",
+		enabled = true,
 		energy_required = 20,
-		ingredients ={{"y_ammo_plasma", 4},{"copper-cable", 8},{"y_chip_plate", 4}},
+		ingredients ={
+			{type="item", name="y_ammo_plasma", amount=4},
+			{type="item", name="copper-cable", amount=8},
+			{type="item", name="y_chip_plate", amount=4}
+		},
 		results=
 		{
 			{type="item", name="yi_mine_plasma", amount=4, },      	  						
@@ -75,7 +79,7 @@ data:extend(
 							type = "area",
 							radius = 8,
 							perimeter = 8,
-							collision_mask = { "player-layer" },
+							--collision_mask = { "player-layer" },
 							action_delivery =
 							{
 								type = "instant",
@@ -97,9 +101,13 @@ data:extend(
 	{
 		type = "recipe",
 		name = "yi_mine_impact_recipe",
-		enabled = "true",
+		enabled = true,
 		energy_required = 20,
-		ingredients ={{"y_ammo_flame", 4},{"copper-cable", 8},{"y_chip_plate", 4}},
+		ingredients ={
+			{type="item", name="y_ammo_flame", amount=4},
+			{type="item", name="copper-cable", amount=8},
+			{type="item", name="y_chip_plate", amount=4}
+		},
 		results=
 		{
 			{type="item", name="yi_mine_impact", amount=4, },      	  						
@@ -168,7 +176,7 @@ data:extend(
 							type = "area",
 							radius = 8,
 							perimeter = 8,
-							collision_mask = { "player-layer" },
+							--collision_mask = { "player-layer" },
 							action_delivery =
 							{
 								type = "instant",

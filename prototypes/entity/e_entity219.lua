@@ -6,7 +6,7 @@ data:extend(
 		type = "recipe",
 		name = "y_reactor_mf1-recipe",
 		category = "yuoki_mf", -- mechanical force -obninsk
-		enabled = "true",
+		enabled = true,
 		energy_required = 1.00,
 		ingredients = {			
 			{type = "fluid", name = "water", amount = 500}
@@ -25,7 +25,7 @@ data:extend(
 		type = "recipe",
 		name = "y_reactor_mox1-recipe",
 		category = "yuoki_mf", -- mechanical force -obninsk
-		enabled = "true",
+		enabled = true,
 		energy_required = 15.00,
 		ingredients = {
 			{type = "item", name = "y_mox1mixed", amount = 3},
@@ -47,7 +47,7 @@ data:extend(
 		type = "recipe",
 		name = "y_reactor_mox2-recipe",
 		category = "yuoki_mf", -- mechanical force -obninsk
-		enabled = "true",
+		enabled = true,
 		energy_required = 20.00,
 		ingredients = {
 			{type = "item", name = "y_mox2mixed", amount = 2},
@@ -77,21 +77,23 @@ data:extend(
 		resistances = {{type = "fire", percent = 80}},
 		fluid_boxes = {
 			{
+				volume = 200,
 				production_type = "input",
 				base_area = 50,
 				height = 2,
 				base_level = -1,
 				pipe_connections = {
-					{type = "input", position = {0, 3}}
+					{flow_direction = "input", direction = defines.direction.north, position = {0, 2}}
 				},
 				filter = "water"
 			},
 			{
+				volume = 200,
 				production_type = "output",
 				base_area = 5,
 				height = 2,
 				pipe_connections = {
-					{type = "output", position = {0, -3}}
+					{flow_direction = "output", direction = defines.direction.north, position = {0, -2}}
 				},			
 			},
 		},
@@ -124,10 +126,10 @@ data:extend(
 		crafting_speed = 1,
 		energy_source = {
 			type = "burner",
-			fuel_category = "yfusion",
+			fuel_categories = {"yfusion"},
 			effectivity = 0.5,
 			fuel_inventory_size = 1,
-			emissions_per_minute = 600,
+			emissions_per_minute = { pollution = 600},
 			smoke = {{	name = "smoke",deviation = {0.1, 0.1},frequency = 0.1,}}
 		},		
 		allowed_effects = {"pollution"},
@@ -154,7 +156,7 @@ data:extend(
 		},					
 		crafting_categories = {"yuoki_mox"},
 		crafting_speed = 1,
-		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = 18.75, },
+		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 18.75, } },
 		energy_usage = "1250kW",
 		ingredient_count = 4,
 		module_specification =

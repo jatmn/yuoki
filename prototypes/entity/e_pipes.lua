@@ -409,6 +409,192 @@ return {
 }
 end
 
+pipepictures_green = function()
+return {
+	straight_vertical_single =
+	{
+		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_ns_c.png",
+		--filename = "__yi_engines__/graphics/entity/pipe-hc/pipe-straight-vertical-window.png",
+		priority = "extra-high",
+		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
+	},
+	straight_vertical =
+	{
+		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_ns.png",
+		priority = "extra-high",
+		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
+	},
+	straight_vertical_window =
+	{
+		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_ns_c.png",
+		--filename = "__yi_engines__/graphics/entity/pipe-hc/pipe-straight-vertical-single.png",
+		priority = "extra-high",
+		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
+	},
+	straight_horizontal_single =
+	{		
+		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_we_c.png",
+		priority = "extra-high",
+		width = 80,	height = 80 , scale = 0.5, shift = { -0.1, -0.075 }
+	},	
+	straight_horizontal_window =
+	{		
+		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_we.png",
+		priority = "extra-high",
+		width = 80,	height = 80 , scale = 0.5, shift = { -0.1, -0.075 }
+	},
+	straight_horizontal =
+	{	
+		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_we_c.png",
+		priority = "extra-high",
+		width = 80,	height = 80 , scale = 0.5, shift = { -0.1, -0.075 }
+	},	
+	corner_up_right =
+	{
+		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_bor.png",
+		priority = "extra-high",
+		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
+	},
+	corner_up_left =
+	{
+		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_blo.png",
+		priority = "extra-high",
+		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
+	},
+	corner_down_right =
+	{
+		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_bru.png",
+		priority = "extra-high",
+		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
+	},
+	corner_down_left =
+	{
+		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_blu.png",
+		priority = "extra-high",
+		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
+	},
+	t_up =
+	{
+		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_tu.png",
+		priority = "extra-high",
+		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
+	},
+	t_down =
+	{
+		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_td.png",
+		priority = "extra-high",
+		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
+	},
+	t_right =
+	{
+		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_tr.png",
+		priority = "extra-high",
+		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
+	},
+	t_left =
+	{
+		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_tl.png",
+		priority = "extra-high",
+		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
+	},
+	cross =
+	{
+		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_cross.png",
+		priority = "extra-high",
+		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
+	},
+	ending_up =
+	{
+		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_ed.png",
+		priority = "extra-high",
+		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
+	},
+	ending_down =
+	{
+		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_eu.png",
+		priority = "extra-high",
+		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
+	},
+	ending_right =
+	{
+		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_el.png",
+		priority = "extra-high",
+		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
+	},
+	ending_left =
+	{
+		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_er.png",
+		priority = "extra-high",
+		width = 80,	height = 80 , scale = 0.5, shift = { -0.05, -0.075 }
+	},
+	horizontal_window_background =
+	{
+		filename = "__Yuoki__/graphics/entity/pipe-hc/clear.png",
+		priority = "extra-high",
+		width = 32,
+		height = 32
+	},
+	vertical_window_background =
+	{
+		filename = "__Yuoki__/graphics/entity/pipe-hc/clear.png",
+		priority = "extra-high",
+		width = 32,
+		height = 32
+	},
+	fluid_background =
+	{
+		filename = "__Yuoki__/graphics/entity/pipe-hc/clear.png",
+		priority = "extra-high",
+		width = 32,
+		height = 20
+	},
+	low_temperature_flow =
+	{
+		filename = "__base__/graphics/entity/pipe/fluid-flow-low-temperature.png",
+		priority = "extra-high",
+		width = 160,
+		height = 20
+	},
+	middle_temperature_flow =
+	{
+		filename = "__base__/graphics/entity/pipe/fluid-flow-medium-temperature.png",
+		priority = "extra-high",
+		width = 160,
+		height = 20
+	},
+	high_temperature_flow =
+	{
+		filename = "__base__/graphics/entity/pipe/fluid-flow-high-temperature.png",
+		priority = "extra-high",
+		width = 160,
+		height = 20
+	},
+	gas_flow =
+	{
+		filename = "__base__/graphics/entity/pipe/steam.png",
+		priority = "extra-high",
+		line_length = 10,
+		width = 24,
+		height = 15,
+		frame_count = 60,
+		axially_symmetrical = false,
+		direction_count = 1,
+		hr_version =
+		{
+			filename = "__base__/graphics/entity/pipe/hr-steam.png",
+			priority = "extra-high",
+			line_length = 10,
+			width = 48,
+			height = 30,
+			frame_count = 60,
+			axially_symmetrical = false,
+			direction_count = 1
+		}
+	}	
+}
+end
+
+
 
 data:extend(
 {
@@ -417,7 +603,7 @@ data:extend(
 		name = "y-pipe-h",
 		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-h.png",
 		flags = {"placeable-neutral", "player-creation"},
-		minable = {hardness = 0.2, mining_time = 0.1, result = "pipe"},
+		minable = {mining_time = 0.1, result = "pipe"},
 		max_health = 50,
 		corpse = "small-remnants",
 		resistances =
@@ -432,13 +618,14 @@ data:extend(
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 		fluid_box =
 		{
+			volume = 200,
 			base_area = 1,
 			pipe_connections =
 			{
 				--{ position = {0, -1} },
-				{ position = {1, 0} },
+				{ direction = defines.direction.north, position = {0, -0.297} },
 				--{ position = {0, 1} },
-				{ position = {-1, 0} }
+				{ direction = defines.direction.north, position = {0, 0.297} }
 			},
 		},
 		pictures = pipepictures_hv(),
@@ -451,7 +638,7 @@ data:extend(
 		name = "y-pipe-v",
 		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-v.png",
 		flags = {"placeable-neutral", "player-creation"},
-		minable = {hardness = 0.2, mining_time = 0.1, result = "pipe"},
+		minable = {mining_time = 0.1, result = "pipe"},
 		max_health = 50,
 		corpse = "small-remnants",
 		resistances =
@@ -466,12 +653,13 @@ data:extend(
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 		fluid_box =
 		{
+			volume = 200,
 			base_area = 1,
 			pipe_connections =
 			{
-				{ position = {0, -1} },
+				{ direction = defines.direction.north, position = {0.297, 0} },
 				--{ position = {1, 0} },
-				{ position = {0, 1} },
+				{ direction = defines.direction.north, position = {-0.297, 0} },
 				--{ position = {-1, 0} }
 			},
 		},
@@ -486,21 +674,24 @@ data:extend(
 		name = "y-valve-direction-buffer",
 		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/pressure_pipe_icon.png",
 		flags = {"placeable-player", "player-creation"},
-		minable = {hardness = 0.2, mining_time = 0.1, result = "y-valve-direction-buffer"},
+		minable = {mining_time = 0.1, result = "y-valve-direction-buffer"},
 		max_health = 150,
 		corpse = "small-remnants",
 		collision_box = {{-0.3, -0.3}, {0.3, 0.3}},
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 		fluid_box =
 		{
+			volume = 200,
 			base_area = 5,						
 			base_level = 0,
 			--pipe_covers = pipecoverspictures(),
 			pipe_connections =
 			{
 				
-				{ type="input", position = {-1, 0},},
-				{ type="output", position = { 1, 0} },
+				--{ flow_direction="input", direction = defines.direction.north, position = {0, 0},},
+				--{ flow_direction="output", direction = defines.direction.north, position = { 0, 0} },
+				{  direction = defines.direction.north, position = {0, 0},},
+				--{  direction = defines.direction.north, position = { 0, 0} },
 				--{ position = {1, 2} },
 				--{ position = {-2, -1} },
 			},			
@@ -629,7 +820,7 @@ data:extend(
 		name = "y-pipe-hc",
 		icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-hc.png",
 		flags = {"placeable-neutral", "player-creation"},
-		minable = {hardness = 0.2, mining_time = 0.1, result = "y-pipe-hc"},
+		minable = {mining_time = 0.1, result = "y-pipe-hc"},
 		max_health = 80, corpse = "small-remnants",
 		resistances ={{type = "fire",percent = 50,}},
 		fast_replaceable_group = "pipe",
@@ -637,14 +828,15 @@ data:extend(
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 		fluid_box =
 		{
+			volume = 200,
 			base_area = 0.8,
 			base_level = 0,
 			pipe_connections =
 			{
-				{ position = {0, -1} },
-				{ position = {1, 0} },
-				{ position = {0, 1} },
-				{ position = {-1, 0} }
+				{ direction = defines.direction.north, position = {0, 0} },
+				--{ direction = defines.direction.north, position = {0, 0} },
+				--{ direction = defines.direction.north, position = {0, 0} },
+				--{ direction = defines.direction.north, position = {0, 0} }
 			},
 		},
 		pictures = pipepictures_hv(),
@@ -668,7 +860,7 @@ data:extend(
 		name = "y-pipe-to-ground-hc",
 		icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-tg-hc.png",
 		flags = {"placeable-neutral", "player-creation"},
-		minable = {hardness = 0.2, mining_time = 0.1, result = "y-pipe-to-ground-hc"},
+		minable = {mining_time = 0.1, result = "y-pipe-to-ground-hc"},
 		max_health = 80,
 		corpse = "small-remnants",
 		resistances =
@@ -683,13 +875,16 @@ data:extend(
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 		fluid_box =
 		{
+			volume = 200,
 			base_area = 0.8,
 			--pipe_covers = pipecoverspictures(),
 			pipe_connections =
 			{
-				{ position = {0, -1} },
+				{ direction = defines.direction.north, position = {0, 0} },
 				{
-					position = {0, 1},
+					connection_type = "underground",
+					direction = defines.direction.north,
+					position = {0, 0},
 					max_underground_distance = 20,
 				}
 			},
@@ -704,28 +899,28 @@ data:extend(
 		},
 		pictures =
 		{
-			up =
+			north =
 			{
 				filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_gu_b.png",
 				priority = "high",
 				width = 40,
 				height = 40 --, shift = {0.10, -0.04}
 			},
-			down =
+			south =
 			{
 				filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_gd_b.png",
 				priority = "high",
 				width = 40,
 				height = 40 --, shift = {0.05, 0}
 			},
-			left =
+			west =
 			{
 				filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_gl_b.png",
 				priority = "high",
 				width = 40,
 				height = 40, shift = { 0.1, 0.075}
 			},
-			right =
+			east =
 			{
 				filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_gr_b.png",
 				priority = "high",
@@ -734,12 +929,13 @@ data:extend(
 			},
 		}
 	},
+
 	{
 		type = "pipe",
 		name = "y-pipe-ec",
 		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-ec.png",
 		flags = {"placeable-neutral", "player-creation"},
-		minable = {hardness = 0.2, mining_time = 0.1, result = "y-pipe-ec"},
+		minable = {mining_time = 0.1, result = "y-pipe-ec"},
 		max_health = 100, corpse = "small-remnants",
 		resistances ={{type = "fire",percent = 50,}},
 		fast_replaceable_group = "pipe",
@@ -747,13 +943,14 @@ data:extend(
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 		fluid_box =
 		{
+			volume = 200,
 			base_area = 1.3,
 			pipe_connections =
 			{
-				{ position = {0, -1} },
-				{ position = {1, 0} },
-				{ position = {0, 1} },
-				{ position = {-1, 0} }
+				{ direction = defines.direction.north, position = {0, 0} },
+				--{ direction = defines.direction.north, position = {0, 0} },
+				--{ direction = defines.direction.north, position = {0, 0} },
+				--{ direction = defines.direction.north, position = {0, 0} }
 			},
 		},
 		pictures = pipepictures_ec(),
@@ -777,7 +974,7 @@ data:extend(
 		name = "y-pipe-to-ground-ec",
 		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-tg-ec.png",
 		flags = {"placeable-neutral", "player-creation"},
-		minable = {hardness = 0.2, mining_time = 0.1, result = "y-pipe-to-ground-ec"},
+		minable = {mining_time = 0.1, result = "y-pipe-to-ground-ec"},
 		max_health = 100,
 		corpse = "small-remnants",
 		collision_box = {{-0.29, -0.29}, {0.29, 0.2}},
@@ -785,14 +982,17 @@ data:extend(
 		fast_replaceable_group = "pipe",
 		fluid_box =
 		{
+			volume = 200,
 			base_area = 1.3,
 			base_level = 0,
 			--pipe_covers = pipecoverspictures(),
 			pipe_connections =
 			{
-				{ position = {0, -1} },
+				{ direction = defines.direction.north, position = {0, 0} },
 				{
-					position = {0, 1},
+					connection_type = "underground",
+					direction = defines.direction.north,
+					position = {0, 0},
 					max_underground_distance = 30,
 				}
 			},
@@ -807,28 +1007,28 @@ data:extend(
 		},
 		pictures =
 		{
-			up =
+			north =
 			{
 				filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_gu.png",
 				priority = "high",
 				width = 40,
 				height = 40 --, shift = {0.10, -0.04}
 			},
-			down =
+			south =
 			{
 				filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_gd.png",
 				priority = "high",
 				width = 40,
 				height = 40 --, shift = {0.05, 0}
 			},
-			left =
+			west =
 			{
 				filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_gl.png",
 				priority = "high",
 				width = 40,
 				height = 40, shift = { 0.1, 0.075}
 			},
-			right =
+			east =
 			{
 				filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_gr.png",
 				priority = "high",
@@ -845,20 +1045,21 @@ data:extend(
 		name = "y-tank-1000",
 		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/tank-1000-icon.png",
 		flags = {"placeable-player", "player-creation"},
-		minable = {hardness = 0.2, mining_time = 0.5, result = "y-tank-1000"},
+		minable = {mining_time = 0.5, result = "y-tank-1000"},
 		max_health = 150,
 		corpse = "small-remnants",
 		collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
 		selection_box = {{-1.0, -1.0}, {1.0, 1.0}},
 		fluid_box =
 		{
+			volume = 200,
 			base_area = 150,
 			base_level = 0,
 			--pipe_covers = pipecoverspictures(),
 			pipe_connections =
 			{
-				{ position = {  -0.5,  1.5} },
-				{ position = {   0.5, -1.5} },
+				{ direction = defines.direction.north, position = {  -0.5,  0.5} },
+				{ direction = defines.direction.north, position = {   0.5, -0.5} },
 			},			
 		},
 		window_bounding_box = {{-0.05, -0.5}, {0.05, 0.0}},
@@ -992,16 +1193,22 @@ data:extend(
 		name = "y-tank-4500",
 		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/tank-4500-icon.png",
 		flags = {"placeable-player", "player-creation"},
-		minable = {hardness = 0.2, mining_time = 0.5, result = "y-tank-4500"},
+		minable = {mining_time = 0.5, result = "y-tank-4500"},
 		max_health = 250,
 		corpse = "small-remnants",
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
 		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 		fluid_box =
 		{
+			volume = 200,
 			base_area = 450, base_level = -1,
 			--pipe_covers = pipecoverspictures(),
-			pipe_connections = {{ position = {  0,  2} },{ position = {  0, -2} },{ position = {  2,  0} },{ position = { -2,  0} },},			
+			pipe_connections = {
+				{ direction = defines.direction.north, position = {  0,  0} },
+				{ direction = defines.direction.north, position = {  0, -1} },
+				{ direction = defines.direction.north, position = {  1,  0} },
+				{ direction = defines.direction.north, position = { -1,  0} },
+			},			
 		},
 		window_bounding_box = {{-0.05, -0.5}, {0.05, 0.0}},
 		pictures={
@@ -1156,13 +1363,14 @@ data:extend(
 		name = "y-tank-8000",
 		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/tank-8000-icon.png",
 		flags = {"placeable-player", "player-creation"},
-		minable = {hardness = 0.2, mining_time = 0.5, result = "y-tank-8000"},
+		minable = {mining_time = 0.5, result = "y-tank-8000"},
 		max_health = 300,
 		corpse = "small-remnants",
 		collision_box = {{-1.7, -1.7}, {1.7, 1.7}},
 		selection_box = {{-2.0, -2.0}, {2.0, 2.0}},
 		fluid_box =
 		{
+			volume = 200,
 			base_area = 800, base_level = 0,
 			
 			--[[
@@ -1174,7 +1382,12 @@ data:extend(
 				{ position = {0, 2} },        
 			},			
 			]]
-			pipe_connections = {{ position = {  2.5, -1.5} },{ position = {  1.5, -2.5} },{ position = { -1.5,  2.5} },{ position = { -2.5,  1.5} },},			
+			pipe_connections = {
+				{ direction = defines.direction.north, position = {  1.5, -0.5} },
+				{ direction = defines.direction.north, position = {  0.5, -1.5} },
+				{ direction = defines.direction.north, position = { -0.5,  1.5} },
+				{ direction = defines.direction.north, position = { -1.5,  0.5} },
+			},			
 		},
 		window_bounding_box = {{-0.05, -0.5}, {0.05, 0.0}},
 		pictures={
@@ -1303,15 +1516,21 @@ data:extend(
 		type = "storage-tank",
 		name = "y-tank-24k",
 		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/tank-48k-icon.png",
-		flags = {"placeable-player", "player-creation"}, minable = {hardness = 0.2, mining_time = 0.5, result = "y-tank-24k"}, corpse = "medium-remnants",
+		flags = {"placeable-player", "player-creation"}, minable = { mining_time = 0.5, result = "y-tank-24k"}, corpse = "medium-remnants",
 		max_health = 350,		
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
 		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 		fluid_box =
 		{
+			volume = 200,
 			base_area = 1500, base_level = -1,
 			--pipe_covers = pipecoverspictures(),			
-			pipe_connections = {{ position = {  0,  2} },{ position = {  0, -2} },{ position = {  2,  0} },{ position = { -2,  0} },},			
+			pipe_connections = {
+				{ direction = defines.direction.north, position = {  0,  1} },
+				{ direction = defines.direction.north, position = {  0, -1} },
+				{ direction = defines.direction.north, position = {  1,  0} },
+				{ direction = defines.direction.north, position = { -1,  0} },
+			},			
 		},
 		window_bounding_box = {{-0.05, -0.5}, {0.05, 0.0}},
 		pictures={
@@ -1433,21 +1652,22 @@ data:extend(
 		name = "y_flowcheck_10",
 		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/flow_indicator_icon.png",
 		flags = {"placeable-player", "player-creation"},
-		minable = {hardness = 0.2, mining_time = 0.5, result = "y_flowcheck_10"},
+		minable = {mining_time = 0.5, result = "y_flowcheck_10"},
 		max_health = 50,
 		corpse = "small-remnants",
 		collision_box = {{-0.4, -0.4}, {0.4, 0.4}},
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 		fluid_box =
 		{
+			volume = 200,
 			base_area = 1,
 			base_level = 0,			
 			pipe_connections =
 			{
-				{ position = {  -1,  0} },
-				{ position = {   1,  0} },
-				{ position = {   0, -1} },
-				{ position = {   0,  1} },
+				{ direction = defines.direction.north, position = {  0, 0} },
+				--{ direction = defines.direction.north, position = {  0, 0} },
+				--{ direction = defines.direction.north, position = {  0, 0} },
+				--{ direction = defines.direction.north, position = {  0, 0} },
 			},			
 		},
 		two_direction_only = false,
@@ -1584,7 +1804,7 @@ data:extend(
 		name = "y_buffer_station",
 		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/special_tank3_icon.png",
 		flags = {"placeable-player", "player-creation"},
-		minable = {hardness = 0.2, mining_time = 0.5, result = "y_buffer_station"},
+		minable = {mining_time = 0.5, result = "y_buffer_station"},
 		max_health = 500,
 		corpse = "small-remnants",
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
@@ -1592,15 +1812,18 @@ data:extend(
 
 		fluid_box =
 		{
+			volume = 200,
 			base_area = 70,						
 			base_level = 0,
 			--pipe_covers = pipecoverspictures(),
 			pipe_connections =
 			{				
-				{ type="input", position = {-2, 0},},
-				{ type="output", position = { 2, 0} },						
-				{ position = {0, -2} },       
-				{ position = {0, 2} },        
+				--{ flow_direction="input", direction = defines.direction.north, position = {-1, 0},},
+				--{ flow_direction="output", direction = defines.direction.north, position = { 1, 0} },		
+				{ direction = defines.direction.north, position = {-1, 0},},
+				{ direction = defines.direction.north, position = { 1, 0} },					
+				{ direction = defines.direction.north, position = {0, -1} },       
+				{ direction = defines.direction.north, position = {0, 1} },        
 			},			
 		},
 		
@@ -1721,6 +1944,120 @@ data:extend(
 	    circuit_wire_connection_points = circuit_connector_definitions["storage-tank"].points,
 		circuit_connector_sprites = circuit_connector_definitions["storage-tank"].sprites,
 	},
+
+
+	-- grüne Rohre komplett
+	{
+		type = "pipe",
+		name = "yi_pipe_green",
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/g_pipe_icon.png",
+		flags = {"placeable-neutral", "player-creation"},
+		minable = {mining_time = 0.1, result = "yi_pipe_green"},
+		max_health = 100, corpse = "small-remnants",
+		resistances ={{type = "fire",percent = 50,}},
+		fast_replaceable_group = "pipe",
+		collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
+		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+		fluid_box =
+		{
+			volume = 200,
+			base_area = 1,
+			base_level = 0,
+			pipe_connections =
+			{
+				{ direction = defines.direction.north, position = {0, 0} },
+				--{ direction = defines.direction.north, position = {0, 0} },
+				--{ direction = defines.direction.north, position = {0, 0} },
+				--{ direction = defines.direction.north, position = {0, 0} }
+			},
+		},
+		pictures = pipepictures_green(),
+		working_sound =
+		{
+			sound = {
+				{
+					filename = "__base__/sound/pipe.ogg",
+					volume = 0.65
+				},
+			},
+			match_volume_to_activity = true,
+			max_sounds_per_type = 3
+		},
+		horizontal_window_bounding_box = {{-0.25, -0.25}, {0.25, 0.15625}},
+		vertical_window_bounding_box = {{-0.28125, -0.40625}, {0.03125, 0.125}}
+	},
+
+	{
+		type = "pipe-to-ground",
+		name = "yi_pipe_underground_green",
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/g_pipe_u_icon.png",
+		flags = {"placeable-neutral", "player-creation"},
+		minable = {mining_time = 0.1, result = "yi_pipe_underground_green"},
+		max_health = 100,
+		corpse = "small-remnants",
+		resistances =
+		{
+			{
+				type = "fire",
+				percent = 80
+			}
+		},
+		fast_replaceable_group = "pipe",
+		collision_box = {{-0.29, -0.29}, {0.29, 0.2}},
+		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+		fluid_box =
+		{
+			volume = 200,
+			base_area = 1,
+			--pipe_covers = pipecoverspictures(),
+			pipe_connections =
+			{
+				{ direction = defines.direction.north, position = {0, 0} },
+				{
+					connection_type = "underground",
+					direction = defines.direction.north,
+					position = {0, 0},
+					max_underground_distance = 25,
+				}
+			},
+		},
+		underground_sprite =
+		{
+			filename = "__core__/graphics/arrows/underground-lines.png",
+			priority = "high",
+			width = 64,
+			height = 64,
+			scale = 0.5,
+		},
+		pictures =
+		{
+			north =
+			{
+				filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_uo.png",
+				priority = "high",
+				width = 80,	height = 80 , scale = 0.5 --, shift = {0.10, -0.04}
+			},
+			south =
+			{
+				filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_uu.png",
+				priority = "high",
+				width = 80,	height = 80 , scale = 0.5 --, shift = {0.05, 0}
+			},
+			west =
+			{
+				filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_ul.png",
+				priority = "high",
+				width = 80,	height = 80 , scale = 0.5, shift = {  0.1, -0.075}
+			},
+			east =
+			{
+				filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_ur.png",
+				priority = "high",
+				width = 80,	height = 80 , scale = 0.5, shift = { -0.1, -0.075},
+			},
+		}
+	},
+
 
 
 	

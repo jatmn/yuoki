@@ -100,12 +100,18 @@ data:extend({
 		vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
 		energy_usage = "720kW",
 		distribution_effectivity = 0.65,
-		module_specification =
-		{
-			module_slots = 2,
-			module_info_icon_shift = {0, 0.5},
-			module_info_multi_row_initial_height_modifier = -0.3
-		}
+		module_slots = 2,
+		icons_positioning =
+			{
+			  {inventory_index = defines.inventory.lab_modules, shift = {0, 0.5}},
+				{inventory_index = defines.inventory.lab_input, shift = {0, 0.0}, max_icons_per_row = 6, separation_multiplier = 0.9}
+			},
+		--module_specification =
+		--{
+		--	module_slots = 2,
+		--	module_info_icon_shift = {0, 0.5},
+		--	module_info_multi_row_initial_height_modifier = -0.3
+		--}
 	},
 
 	{

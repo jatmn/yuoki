@@ -18,26 +18,29 @@ data:extend(
 		},					
 		crafting_categories = {"yuoki_charger_recipe"},
 		crafting_speed = 1.0,
-		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = 52.5, },
+		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 52.5, } },
 		energy_usage = "3500kW",
 		ingredient_count = 4,
 		fluid_boxes =
 		{
-			off_when_no_fluid_recipe = true,			
 			{
+				volume = 200,
 				production_type = "input",
 				--pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ type="input", position = { 0, 2} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = { 0, 1} }}
 			},
 			{
+				volume = 200,
 				production_type = "output",
 				--pipe_covers = pipecoverspictures(),				
 				base_level = 1,
-				pipe_connections = {{position = { 0, -2} }}
+				pipe_connections = {{ direction = defines.direction.north, position = { 0, -1} }}
 			},
 		},
+		fluid_boxes_off_when_no_fluid_recipe = true,			
+
 		module_specification =
 		{
 			module_slots = 2
@@ -63,26 +66,29 @@ data:extend(
 		},					
 		crafting_categories = {"yuoki_smelter_recipe"},
 		crafting_speed = 1.0,
-		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = 7.5, },
+		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 7.5, } },
 		energy_usage = "500kW",
 		ingredient_count = 4,
 		fluid_boxes =
 		{
-			off_when_no_fluid_recipe = true,			
 			{
+				volume = 200,
 				production_type = "input",
 				--pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ type="input", position = { 0, 2} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = { 0, 1} }}
 			},
 			{
+				volume = 200,
 				production_type = "output",
 				--pipe_covers = pipecoverspictures(),				
 				base_level = 1,
-				pipe_connections = {{position = { 0, -2} }}
+				pipe_connections = {{ direction = defines.direction.north, position = { 0, -1} }}
 			},
 		},
+		fluid_boxes_off_when_no_fluid_recipe = true,			
+
 		module_specification =
 		{
 			module_slots = 2

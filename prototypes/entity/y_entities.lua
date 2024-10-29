@@ -52,7 +52,7 @@ data:extend(
 		},					
 		crafting_categories = {"yuoki-raw-material-recipe"},
 		crafting_speed = 1,
-		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = 2},
+		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 2 }},
 		energy_usage = "400kW",
 		ingredient_count = 1,
 		module_specification =
@@ -97,39 +97,34 @@ data:extend(
 		},					
 		crafting_categories = {"yuoki-archaeology-wash"},
 		crafting_speed = 1,
-		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = 3},
+		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 3 }},
 		energy_usage = "350kW",
 		ingredient_count = 2,
 		fluid_boxes =
 		{
 			{
+				volume = 200,
 				production_type = "input",
 				pipe_covers = pipecoverspictures(),
-				base_area = 10,
-				base_level = -1,
-				pipe_connections = {{ type="input", position = {-1, -2} }}
+				pipe_connections = {
+					{ flow_direction="input", direction = defines.direction.north, position = {0, -1}},
+					--{ flow_direction="input", direction = defines.direction.north, position = {0, -1.0}},			
+				},
+				secondary_draw_orders = { north = -1 }
 			},
 			{
-				production_type = "input",
-				pipe_covers = pipecoverspictures(),
-				base_area = 10,
-				base_level = -1,
-				pipe_connections = {{ type="input", position = {1, -2.0} }}
-			},
-			{
+				volume = 200,
 				production_type = "output",
 				pipe_covers = pipecoverspictures(),
-				base_level = 1,
-				pipe_connections = {{ position = {1, 2} }}
+				pipe_connections = {
+					{ flow_direction="output", direction = defines.direction.north, position = {0, 1}},
+					--{ flow_direction="output", direction = defines.direction.north, position = {0, 1}},
+				},
+				secondary_draw_orders = { north = -1 }
 			},
-			{
-				production_type = "output",
-				pipe_covers = pipecoverspictures(),
-				base_level = 1,
-				pipe_connections = {{ position = {-1, 2} }}
-			},
-			off_when_no_fluid_recipe = true,
-		},	  
+		},
+		fluid_boxes_off_when_no_fluid_recipe = true,
+			  
 		module_specification =
 		{
 			module_slots = 2
@@ -153,19 +148,26 @@ data:extend(
 
 		input_fluid_box =
 		{
+			volume = 200,
 			production_type = "input-output",
 			pipe_picture = assembler2pipepictures(),
 			pipe_covers = pipecoverspictures(),
 			base_area = 1,
 			pipe_connections =
 			{
-				{ position = {-3, 0} },
-				{ position = {3, 0} },
-				{ position = {0, 3} },
+				{ direction = defines.direction.north, position = {-2, 0} },
+				{ direction = defines.direction.north, position = {2, 0} },
+				{ direction = defines.direction.north, position = {0, 2} },
 			}
 		},		
 		
-		working_sound = { sound = { filename = "__base__/sound/burner-mining-drill.ogg", volume = 0.8 },},
+		--working_sound = { sound = { filename = "__base__/sound/burner-mining-drill.ogg", volume = 0.8 },},
+		working_sound =
+		{
+			sound = sound_variations("__base__/sound/burner-mining-drill", 2, 0.6, volume_multiplier("tips-and-tricks", 0.8)),
+			fade_in_ticks = 4,
+			fade_out_ticks = 20
+		},
 		animations =
 		{
 			priority = "extra-high",
@@ -180,7 +182,7 @@ data:extend(
 		},		
 		mining_speed = 1.75,
 		energy_source =	{
-			type = "burner", fuel_category = "chemical", effectivity = 0.9, fuel_inventory_size = 2, emissions_per_minute = 17.5,
+			type = "burner", fuel_categories = {"chemical"}, effectivity = 0.9, fuel_inventory_size = 2, emissions_per_minute = { pollution = 17.5 },
 			smoke = {{name = "smoke",deviation = {0.1, 0.1},frequency = 3}}
 		},
 		energy_usage = "350kW",
@@ -214,15 +216,16 @@ data:extend(
 		
 		input_fluid_box =
 		{
+			volume = 200,
 			production_type = "input-output",
 			pipe_picture = assembler2pipepictures(),
 			pipe_covers = pipecoverspictures(),
 			base_area = 1,
 			pipe_connections =
 			{
-				{ position = {-3, 0} },
-				{ position = {3, 0} },
-				{ position = {0, 3} },
+				{ direction = defines.direction.north, position = {-2, 0} },
+				{ direction = defines.direction.north, position = {2, 0} },
+				{ direction = defines.direction.north, position = {0, 2} },
 			}
 		},		
 		animations =
@@ -241,7 +244,7 @@ data:extend(
 		{
 			type = "electric",
 			usage_priority = "secondary-input",
-			emissions_per_minute = 9, 		
+			emissions_per_minute = { pollution = 9 }, 		
 		},
 		energy_usage = "300kW",
 		mining_power = 4,
@@ -272,23 +275,29 @@ data:extend(
 		fluid_boxes =
 		{
 			{
+				volume = 200,
 				production_type = "input",
-				pipe_picture = assembler3pipepictures(),
+				--pipe_picture = assembler3pipepictures(),
 				pipe_covers = pipecoverspictures(),
-				base_area = 10,
-				base_level = -1,
-				pipe_connections = {{ type="input", position = {0, -2} }}
+				pipe_connections = {
+					{ flow_direction="input", direction = defines.direction.north, position = {0, -1} },
+				},
+				secondary_draw_orders = { north = -1 }
 			},
 			{
+				volume = 200,
 				production_type = "output",
-				pipe_picture = assembler3pipepictures(),
+				--pipe_picture = assembler3pipepictures(),
 				pipe_covers = pipecoverspictures(),
-				base_area = 10,
-				base_level = 1,
-				pipe_connections = {{ type="output", position = {0, 2} }}
+				pipe_connections = {
+					{ flow_direction="output", direction = defines.direction.north, position = {0, 1} },
+				},
+				secondary_draw_orders = { north = -1 }
 			},
-			off_when_no_fluid_recipe = true
+			
 		},
+		fluid_boxes_off_when_no_fluid_recipe = true,
+
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
 		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 		fast_replaceable_group = "assembling-machine",
@@ -311,7 +320,7 @@ data:extend(
 		{
 			type = "electric",
 			usage_priority = "secondary-input",
-			emissions_per_minute = 8, 
+			emissions_per_minute = { pollution = 8 }, 
 		},
 		energy_usage = "4000kW",
 		ingredient_count = 6,
@@ -335,26 +344,33 @@ data:extend(
 		fluid_boxes =
 		{
 			{
+				volume = 200,
 				production_type = "input",
-				--pipe_picture = assembler3pipepictures(),
-				--pipe_covers = pipecoverspictures(),
+				pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ type="input", position = {0, -2} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = {0, -1} }},
+				secondary_draw_orders = { north = -1 }
 			},
 			{
+				volume = 200,
 				production_type = "output",
-				--pipe_picture = assembler3pipepictures(),
-				--pipe_covers = pipecoverspictures(),
+				pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = 1,
-				pipe_connections = {{ type="output", position = {0, 2} }}
+				pipe_connections = {{ flow_direction="output", direction = defines.direction.south, position = {0, 1} }},
+				secondary_draw_orders = { north = -1 }
 			},
-			off_when_no_fluid_recipe = true
+
 		},
+		fluid_boxes_off_when_no_fluid_recipe = true, 
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
 		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 		fast_replaceable_group = "assembling-machine",
+
+		--[[
 		animation =
 		{
 			filename = "__Yuoki__/graphics/entity/cimota_sheet.png",
@@ -367,6 +383,29 @@ data:extend(
 			animation_speed=0.25,
 			scale = 0.5,
 		},
+		]]
+
+		graphics_set =
+		{
+		  animation =
+		  {
+			layers =
+			{
+			  {
+			filename = "__Yuoki__/graphics/entity/cimota_sheet.png",
+			priority = "high",
+			width = 256,
+			height = 256,
+			frame_count = 16,
+			line_length = 4,
+			shift = {0.5, -0.0625},
+			animation_speed=0.25,
+			scale = 0.5,
+			  },
+			}
+		  }
+		},
+
 		--crafting_categories = {"crafting", "advanced-crafting", "crafting-width-fluid","yuoki-import-bobores-wonder-recipe"},
 		crafting_categories = {"yuoki-atomics-recipe"},
 		crafting_speed = 2.0,
@@ -374,7 +413,7 @@ data:extend(
 		{
 			type = "electric",
 			usage_priority = "secondary-input",
-			emissions_per_minute = 5, 
+			emissions_per_minute = { pollution = 5 }, 
 		},
 		energy_usage = "1200kW",
 		ingredient_count = 5,
@@ -398,23 +437,26 @@ data:extend(
 		fluid_boxes =
 		{
 			{
+				volume = 200,
 				production_type = "input",
 				pipe_picture = assembler3pipepictures(),
 				pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ type="input", position = {0, -2} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = {0, -1} }}
 			},
 			{
+				volume = 200,
 				production_type = "output",
 				pipe_picture = assembler3pipepictures(),
 				pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = 1,
-				pipe_connections = {{ type="output", position = {0, 2} }}
+				pipe_connections = {{ flow_direction="output", direction = defines.direction.north, position = {0, 1} }}
 			},
-			off_when_no_fluid_recipe = true
+			
 		},
+		fluid_boxes_off_when_no_fluid_recipe = true,
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
 		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 		fast_replaceable_group = "assembling-machine",
@@ -443,7 +485,7 @@ data:extend(
 		crafting_categories = {"yuoki-alien-recipe"},
 		crafting_speed = 1,
 		
-		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = 25 },
+		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 25 } },
 		energy_usage = "100MW",
 		ingredient_count = 3,
 		module_specification =
@@ -467,14 +509,16 @@ data:extend(
 		fluid_boxes =
 		{
 			{
+				volume = 200,
 				production_type = "output",
 				base_area = 80,
 				base_level = 5,
 				pipe_connections = {
-					{type="output", position = {0, 2}}, {type="output", position = {0, -2}},					
+					{flow_direction="output", direction = defines.direction.north, position = {0, 1}},
+					{flow_direction="output", direction = defines.direction.north, position = {0, -1}},					
 				}
 			},
-			--off_when_no_fluid_recipe = true
+			--fluid_boxes_off_when_no_fluid_recipe = true
 		},
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
 		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
@@ -494,10 +538,10 @@ data:extend(
 		energy_source =
 		{		
 			type = "burner",
-			fuel_category = "chemical",
+			fuel_categories = {"chemical"},
 			effectivity = 0.8,
 			fuel_inventory_size = 3,
-			emissions_per_minute = 5,
+			emissions_per_minute = { pollution = 5 },
 			smoke = {{name = "smoke",deviation = {0.65, -0.2},frequency = 1}}
 		},
 		energy_usage = "125kW",						
@@ -523,15 +567,18 @@ data:extend(
 		fluid_boxes =
 		{
 			{
+				volume = 200,
 				production_type = "output",
 				base_area = 100,
 				base_level = 5,
 				pipe_connections = {
-					{type="output", position = {0, 2}}, {type="output", position = { 0, -2}},					
-					{type="output", position = {2, 0}}, {type="output", position = {-2,  0}},					
+					{flow_direction="output", direction = defines.direction.north, position = {0, 1}},
+					{flow_direction="output", direction = defines.direction.north, position = { 0, -1}},					
+					{flow_direction="output", direction = defines.direction.north, position = {1, 0}},
+					{flow_direction="output", direction = defines.direction.north, position = {-1,  0}},					
 				}
 			},
-			--off_when_no_fluid_recipe = true
+			--fluid_boxes_off_when_no_fluid_recipe = true
 		},
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
 		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
@@ -552,7 +599,7 @@ data:extend(
 		energy_source ={	
 			type = "electric",
 			usage_priority = "secondary-input",
-			emissions_per_minute = 0.75 },
+			emissions_per_minute = { pollution = 0.75  } },
 		energy_usage = "150kW",						
 		ingredient_count = 2,
 		module_specification =
@@ -576,24 +623,28 @@ data:extend(
 		fluid_boxes =
 		{
 			{
+				volume = 200,
 				production_type = "output",
 				base_area = 60,
 				base_level = 1,
 				pipe_connections = {
 					--{type="input", position = {0, 2}}, {type="input", position = { 0, -2}},					
-					{type="output", position = {2, 0}}, {type="output", position = {-2,  0}},					
+					{flow_direction="output", direction = defines.direction.north, position = {1, 0}},
+					{flow_direction="output", direction = defines.direction.north, position = {-1,  0}},					
 				}
 			},
 			{
+				volume = 200,
 				production_type = "input",
 				base_area = 60,
 				base_level = -1,
 				pipe_connections = {
-					{type="input", position = {0, 2}}, {type="input", position = { 0, -2}},					
+					{flow_direction="input", direction = defines.direction.north, position = {0, 1}},
+					{flow_direction="input", direction = defines.direction.north, position = { 0, -1}},					
 					--{type="output", position = {2, 0}}, {type="output", position = {-2,  0}},					
 				}
 			},			
-			--off_when_no_fluid_recipe = true			
+			--fluid_boxes_off_when_no_fluid_recipe = true			
 		},
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
 		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
@@ -616,10 +667,10 @@ data:extend(
 		energy_source =
 		{
 			type = "burner",
-			fuel_category = "chemical",
+			fuel_categories = {"chemical"},
 			effectivity = 0.75,
 			fuel_inventory_size = 3,			
-			emissions_per_minute = 61.54,
+			emissions_per_minute = { pollution = 61.54 },
 			smoke = {{ name = "smoke", deviation = {0.1, 0.1}, frequency = 1.5, }}},
 		--[[		
 		energy_source ={	
@@ -654,41 +705,46 @@ data:extend(
 		},					
 		crafting_categories = {"yuoki-formpress-recipe"},
 		crafting_speed = 1.25,
-		energy_source = { type = "burner", fuel_category = "chemical", effectivity = 1, fuel_inventory_size = 2, emissions_per_minute = 15, smoke = {{name = "smoke",deviation = {0.1, 0.1},frequency = 1}}},
+		energy_source = { type = "burner", fuel_categories = {"chemical"}, effectivity = 1, fuel_inventory_size = 2, emissions_per_minute = { pollution = 15 }, smoke = {{name = "smoke",deviation = {0.1, 0.1},frequency = 1}}},
 		energy_usage = "300kW",	
 		--energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions = 0.05, },
 		--energy_usage = "475kW",
 		ingredient_count = 4,
 		fluid_boxes =
 		{
-			off_when_no_fluid_recipe = true,			
 			{
+				volume = 200,
 				production_type = "input",
 				--pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ type="input", position = { -0.5, 1.5} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = { -0.5, 0.5} }}
 			},
 			{
+				volume = 200,
 				production_type = "input",
 				--pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ type="input", position = {  0.5, 1.5} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = {  0.5, 0.5} }}
 			},			
 			{
+				volume = 200,
 				production_type = "output",
 				--pipe_covers = pipecoverspictures(),				
 				base_level = 1,
-				pipe_connections = {{position = { 1.5, -0.5} }}
+				pipe_connections = {{ direction = defines.direction.north, position = { 0.5, -0.5} }}
 			},
 			{
+				volume = 200,
 				production_type = "output",
 				--pipe_covers = pipecoverspictures(),				
 				base_level = 1,
-				pipe_connections = {{position = { -1.5, -0.5} }}
+				pipe_connections = {{ direction = defines.direction.north, position = { -0.5, -0.5} }}
 			},			
 		},
+		fluid_boxes_off_when_no_fluid_recipe = true,			
+
 		module_specification =
 		{
 			module_slots = 2
@@ -709,23 +765,26 @@ data:extend(
 		fluid_boxes =
 		{
 			{
+				volume = 200,
 				production_type = "input",
 				--pipe_picture = assembler3pipepictures(),
 				--pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ type="input", position = {-0.5, -1.5} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = {-0.5, -0.5} }}
 			},
 			{
+				volume = 200,
 				production_type = "output",
 				--pipe_picture = assembler3pipepictures(),
 				--pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = 1,
-				pipe_connections = {{ type="output", position = {0.5, 1.5} }}
+				pipe_connections = {{ flow_direction="output", direction = defines.direction.north, position = {0.5, 0.5} }}
 			},
-			off_when_no_fluid_recipe = true
+			
 		},
+		fluid_boxes_off_when_no_fluid_recipe = true,
 		collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
 		selection_box = {{-1.0, -1.0}, {1.0, 1.0}},
 		fast_replaceable_group = "assembling-machine",
@@ -742,7 +801,7 @@ data:extend(
 		--crafting_categories = {"crafting", "advanced-crafting", "crafting-width-fluid","yuoki-import-bobores-wonder-recipe"},
 		crafting_categories = {"y-crushing-recipe"},
 		crafting_speed = 1.5,
-		energy_source = { type = "burner", fuel_category = "chemical", effectivity = 1, fuel_inventory_size = 2, emissions_per_minute = 5, smoke = {{name = "smoke",deviation = {0.1, 0.1},frequency = 1}}},
+		energy_source = { type = "burner", fuel_categories = {"chemical"}, effectivity = 1, fuel_inventory_size = 2, emissions_per_minute = { pollution = 5 }, smoke = {{name = "smoke",deviation = {0.1, 0.1},frequency = 1}}},
 		energy_usage = "100kW",			
 		--energy_source = { type = "electric",usage_priority = "secondary-input",emissions = 0.02,},
 		--energy_usage = "125kW",

@@ -5,7 +5,7 @@ data:extend({
 	  type = "recipe",
 	  name = "yi_roboport_recipe",
 	  category = "yuoki-wonder-recipe", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 5.00,
 	  ingredients = {
 		{ type = "item", name = "y_structure_element" , amount = 14, },
@@ -28,7 +28,7 @@ data:extend({
 	  type = "recipe",
 	  name = "yi_radar_recipe",
 	  category = "yuoki-wonder-recipe", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 3.00,
 	  ingredients = {
 		{ type = "item", name = "y_structure_element" , amount = 8, },
@@ -51,7 +51,7 @@ data:extend({
 	  type = "recipe",
 	  name = "yi_beacon_recipe",
 	  category = "yuoki-wonder-recipe", -- 
-	  enabled = "true",
+	  enabled = true,
 	  energy_required = 3.00,
 	  ingredients = {
 		{ type = "item", name = "y_structure_element" , amount = 12, },

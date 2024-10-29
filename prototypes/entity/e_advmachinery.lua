@@ -4,15 +4,21 @@ data:extend(
 	--
 	{
 		type = "recipe",
-		name = "y_crusher2_recipe",
+		name = "y_crusher2",
 		icon_size = 32, icon =  "__Yuoki__/graphics/entity/crusher33_icon.png",
-		enabled = "true",
-		ingredients = {{"y-crusher", 1},{"y_structure_element", 3},{"y-basic-t1-mf", 2},{"y-chip-1", 2},},
+		enabled = true,
+		ingredients = {
+			{type="item", name="y-crusher", amount=1},
+			{type="item", name="y_structure_element", amount=3},
+			{type="item", name="y-basic-t1-mf", amount=2},
+			{type="item", name="y-chip-1", amount=2},
+		},
 		results=
 		{
 			{type="item", name="y_crusher2", amount=1, },      	  						
 			{type="item", name="y_rwtechsign", amount=1, },      	  						
 		},		
+		main_product = "y_crusher2",						
 		subgroup = "y_line1",	
 	},
 
@@ -37,32 +43,56 @@ data:extend(
 		resistances = {{type = "physical",percent = 50}},
 		collision_box = {{-1.2,-1.2},{1.2,1.2}},
 		selection_box = {{-1.5,-1.5},{1.5,1.5}},
+		--[[
 		animation = {
 			filename = "__Yuoki__/graphics/entity/crusher33_sheet.png",
 			priority = "medium", width = 128, height = 128, frame_count = 12, shift = {0.5, 0}, animation_speed=0.5,		
-		},					
+		},
+		]]
+		graphics_set =
+		{
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				filename = "__Yuoki__/graphics/entity/crusher33_sheet.png",
+				priority = "medium", width = 128, height = 128, frame_count = 12, shift = {0.5, 0}, animation_speed=0.5,
+			  },
+			}
+		  }
+		},
 		crafting_categories = {"y-crushing-recipe"},
 		crafting_speed = 3.5,
-		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = 3.75, },
+		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution  = 3.75, }},
 		energy_usage = "250kW",
 		ingredient_count = 4,
 		fluid_boxes =
 		{
-			off_when_no_fluid_recipe = true,			
 			{
+				volume = 200,
 				production_type = "input",
-				--pipe_covers = pipecoverspictures(),
+				pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ type="input", position = { 0, 2} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = {0, -1} }},
+				secondary_draw_orders = { north = -1 }
 			},
 			{
+				volume = 200,
 				production_type = "output",
-				--pipe_covers = pipecoverspictures(),				
+				pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
+				base_area = 10,
 				base_level = 1,
-				pipe_connections = {{position = { 0, -2} }}
+				pipe_connections = {{ flow_direction="output", direction = defines.direction.south, position = {0, 1} }},
+				secondary_draw_orders = { north = -1 }
 			},
+
 		},
+		fluid_boxes_off_when_no_fluid_recipe = true,			
+
 		module_specification =
 		{
 			module_slots = 2
@@ -72,21 +102,22 @@ data:extend(
 
 	{
 		type = "recipe",
-		name = "y_formpress2_recipe",
+		name = "y_formpress2",
 		icon_size = 32, icon =  "__Yuoki__/graphics/entity/fpress2_icon.png",
-		enabled = "true",
+		enabled = true,
 		ingredients =
 		{
-			{"y-heat-form-press", 1},
-			{"y_structure_element", 3},
-			{"y-basic-t1-mf", 2},      
-			{"y-chip-1", 2},      
+			{type="item", name="y-heat-form-press", amount=1},
+			{type="item", name="y_structure_element", amount=3},
+			{type="item", name="y-basic-t1-mf", amount=2},      
+			{type="item", name="y-chip-1", amount=2},      
 		},
 		results=
 		{
 			{type="item", name="y_formpress2", amount=1, },      	  						
 			{type="item", name="y_rwtechsign", amount=1, },      	  						
-		},					
+		},				
+		main_product = "y_formpress2",
 		subgroup = "y_line1",	
 	},
 
@@ -111,32 +142,56 @@ data:extend(
 		resistances = {{type = "physical",percent = 50}},
 		collision_box = {{-1.2,-1.2},{1.2,1.2}},
 		selection_box = {{-1.5,-1.5},{1.5,1.5}},
+		--[[
 		animation = {
 			filename = "__Yuoki__/graphics/entity/npress_sheet.png",
 			priority = "medium", width = 256, height = 256, frame_count = 36, line_length=6,  shift = {0.5, -0.125}, animation_speed=0.25, scale=0.5,		
-		},					
+		},	
+		]]
+		graphics_set =
+		{
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				filename = "__Yuoki__/graphics/entity/npress_sheet.png",
+				priority = "medium", width = 256, height = 256, frame_count = 36, line_length=6,  shift = {0.5, -0.125}, animation_speed=0.25, scale=0.5,
+			  },
+			}
+		  }
+		},				
 		crafting_categories = {"yuoki-formpress-recipe"},
 		crafting_speed = 3,
-		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = 4.8, },
+		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 4.8, } },
 		energy_usage = "600kW",
 		ingredient_count = 4,
 		fluid_boxes =
 		{
-			off_when_no_fluid_recipe = true,			
 			{
+				volume = 200,
 				production_type = "input",
+				pipe_picture = assembler2pipepictures(),
 				pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ type="input", position = { 0, 2} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = {0, -1} }},
+				secondary_draw_orders = { north = -1 }
 			},
 			{
+				volume = 200,
 				production_type = "output",
-				pipe_covers = pipecoverspictures(),				
+				pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
+				base_area = 10,
 				base_level = 1,
-				pipe_connections = {{position = { 0, -2} }}
+				pipe_connections = {{ flow_direction="output", direction = defines.direction.south, position = {0, 1} }},
+				secondary_draw_orders = { north = -1 }
 			},
+
 		},
+		fluid_boxes_off_when_no_fluid_recipe = true,			
+
 		module_specification =
 		{
 			module_slots = 2
@@ -149,8 +204,13 @@ data:extend(
 		type = "recipe",
 		name = "y_maintance_workshop_recipe",
 		icon_size = 32, icon =  "__Yuoki__/graphics/icons/maintance_workshop_icon.png",
-		enabled = "true",
-		ingredients = {{"y_formpress2", 1},{"y-basic-t2-mf", 2},{"y-repair-krakon", 4},{"y-inserter-fast", 2} },
+		enabled = true,
+		ingredients = {
+			{type="item", name="y_formpress2", amount=1},
+			{type="item", name="y-basic-t2-mf", amount=2},
+			{type="item", name="y-repair-krakon", amount=4},
+			{type="item", name="y-inserter-fast", amount=2}
+		},
 		results=
 		{
 			{type="item", name="y_maintance_workshop", amount=1, },      	  						
@@ -186,26 +246,29 @@ data:extend(
 		},					
 		crafting_categories = {"yuoki-repair-recipe"},
 		crafting_speed = 3,
-		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = 5, },
+		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 5, } },
 		energy_usage = "500kW",
 		ingredient_count = 4,
 		fluid_boxes =
 		{
-			off_when_no_fluid_recipe = true,			
 			{
+				volume = 200,
 				production_type = "input",
 				pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ type="input", position = { 0, 2} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = { 0, 1} }}
 			},
 			{
+				volume = 200,
 				production_type = "output",
 				pipe_covers = pipecoverspictures(),				
 				base_level = 1,
-				pipe_connections = {{position = { 0, -2} }}
+				pipe_connections = {{ direction = defines.direction.north, position = { 0, -1} }}
 			},
 		},
+		fluid_boxes_off_when_no_fluid_recipe = true,			
+
 		module_specification =
 		{
 			module_slots = 2

@@ -4,17 +4,27 @@ data:extend(
 	-- Drillhead
 	{
 		type = "recipe",
-		name = "y_drillhead_recipe",		
-		enabled = "true", energy_required = 8, ingredients = {{"y_structure_element", 5},{"y_structure_vessel", 3},}, result = "y_drillhead", result_count = 1, subgroup = "y-parts", 	
+		name = "y_drillhead",		
+		enabled = true,
+		energy_required = 8,
+		ingredients = {
+			{type="item", name="y_structure_element", amount=5},
+			{type="item", name="y_structure_vessel", amount=3},
+		},
+		results = {{type="item", name="y_drillhead", amount=1},},
+		main_product = "y_drillhead",
+		--result = "y_drillhead",
+		--result_count = 1,
+		subgroup = "y-parts", 	
 	},	
 	{
 		type = "recipe",
-		name = "y_drillhead_repair_recipe",		
-		enabled = "true", energy_required = 2, 
+		name = "y_drillhead_repair",		
+		enabled = true, energy_required = 2, 
 		ingredients = {
-			{"y_drillhead_broken", 4},
-			{"y-repair-durotal", 1},
-			{"y-refined-yres1", 1},
+			{type="item", name="y_drillhead_broken", amount=4},
+			{type="item", name="y-repair-durotal", amount=1},
+			{type="item", name="y-refined-yres1", amount=1},
 		}, 
 		results = {
 			{type="item",name="y_drillhead",amount=4},
@@ -43,17 +53,26 @@ data:extend(
 	-- Toolhead	
 	{
 		type = "recipe",
-		name = "y_toolhead_recipe",		
-		enabled = "true", energy_required = 8, ingredients = {{"y_structure_element", 5},{"y_structure_vessel", 3},}, result = "y_toolhead", result_count = 1, subgroup = "y-parts", 	
+		name = "y_toolhead",		
+		enabled = true,
+		energy_required = 8,
+		ingredients = {
+			{type="item", name="y_structure_element", amount=5},
+			{type="item", name="y_structure_vessel", amount=3},
+		},
+		results = {{type="item", name="y_toolhead", amount=1},},
+		main_product = "y_toolhead",
+		--result = "y_toolhead", result_count = 1,
+		subgroup = "y-parts", 	
 	},	
 	{
 		type = "recipe",
-		name = "y_toolhead_repair_recipe",		
-		enabled = "true", energy_required = 2, 
+		name = "y_toolhead_repair",		
+		enabled = true, energy_required = 2, 
 		ingredients = {
-			{"y_toolhead_broken", 4},
-			{"y-repair-durotal", 1},
-			{"stone-brick", 1},
+			{type="item", name="y_toolhead_broken", amount=4},
+			{type="item", name="y-repair-durotal", amount=1},
+			{type="item", name="stone-brick", amount=1},
 		}, 
 		results = {
 			{type="item",name="y_toolhead",amount=4},
@@ -82,13 +101,16 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-digfdirt-recipe",		
-		enabled = "true", energy_required = 4, ingredients = {}, result = "y-dirt", result_count = 1, subgroup = "y_line2", category="yuoki-raw-material-recipe", order="dfd1",		
+		enabled = true, energy_required = 4, ingredients = {},
+		results = {{type="item", name="y-dirt", amount=1},},
+		--result = "y-dirt", result_count = 1,
+		subgroup = "y_line2", category="yuoki-raw-material-recipe", order="dfd1",		
 	},	
 
 	{
 		type = "recipe",
 		name = "y-digfdirt2-recipe",		
-		enabled = "true", energy_required = 4, ingredients = {{"y_drillhead", 1},}, results = {{type="item",name="y-dirt",amount=8},{type="item",name="y_drillhead_broken",amount=1}}, subgroup = "y_line2", category="yuoki-raw-material-recipe",		
+		enabled = true, energy_required = 4, ingredients = {{type="item", name="y_drillhead", amount=1},}, results = {{type="item",name="y-dirt",amount=8},{type="item",name="y_drillhead_broken",amount=1}}, subgroup = "y_line2", category="yuoki-raw-material-recipe",		
 		icon_size = 32, icon =  "__Yuoki__/graphics/icons/dirt_whead.png", order="dfd2",
 	},	
 	
@@ -100,7 +122,7 @@ data:extend(
 		category = "yuoki-archaeology-wash",
 		energy_required = 6,
 		ingredients = {
-			{"y-dirt", 7},			
+			{type="item", name="y-dirt", amount=7},			
 			{type="fluid", name="water", amount=700},
 		},
 		results=
@@ -109,7 +131,7 @@ data:extend(
 			{type="item", name="y-crystal2", amount=1, },      	
 			{type="fluid", name="y-con_water", amount=600, }
 		},
-		enabled = "true",		
+		enabled = true,		
 		icon_size = 32, icon =  "__Yuoki__/graphics/icons/alien-crystal.png",
 		order = "m-refined-rare3",
 		subgroup = "y_line2",
@@ -118,8 +140,8 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-wash-special-recipe",
-		category = "yuoki-archaeology-wash", enabled = "true", energy_required = 6.0, 
-		ingredients = {{"y-dirt", 8},{type="fluid", name="water", amount=1200},}, 		
+		category = "yuoki-archaeology-wash", enabled = true, energy_required = 6.0, 
+		ingredients = {{type="item", name="y-dirt", amount=8},{type="fluid", name="water", amount=1200},}, 		
 		results={ {type="item", name="y-c_mud", amount=10, },},
 		icon_size = 32, icon =  "__Yuoki__/graphics/icons/c_mud_icon.png",
 		subgroup = "y_line2", order="m-refined-",

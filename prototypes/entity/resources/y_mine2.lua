@@ -1,3 +1,4 @@
+
 data:extend(
 {
 	{
@@ -9,6 +10,7 @@ data:extend(
 		stack_size = 250,
 	},	
 
+	--[[
 	{
 		type = "autoplace-control",
 		name = "y-res2",
@@ -65,6 +67,6 @@ data:extend(
 		},
 		map_color = {r=0.85, g=0.85, b=0.2}
 	}
-
+]]
 	
 })

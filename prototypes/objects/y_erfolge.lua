@@ -20,9 +20,9 @@ data:extend(
 		enabled = true,
 		ingredients = 
 		{    	  	
-			{"y-raw-fuelnium", 1},
-			{"y_structure_element", 3},
-			{"y-orange-stuff", 4},
+			{type="item", name="y-raw-fuelnium", amount=1},
+			{type="item", name="y_structure_element", amount=3},
+			{type="item", name="y-orange-stuff", amount=4},
 		},
 		results=
 		{
@@ -44,9 +44,11 @@ data:extend(
 		corpse = "small-remnants",
 		collision_box = {{-0.8, -0.8}, {0.8, 0.8}},
 		selection_box = {{-1.0, -1.0}, {1.0, 1.0}},
-		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = -25, },
+		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input",
+		 --emissions_per_minute = { pollution = -25,} 
+		},
 		
-		energy_usage_per_tick = "25KW",
+		energy_usage_per_tick = "25kW",
 		light = {intensity = 0.8, size = 100,},
 		--light = {intensity = 0.9, size = 70},
 		picture_off =
@@ -90,9 +92,9 @@ data:extend(
 		enabled = true,
 		ingredients = 
 		{    	  	
-			{"y-raw-fuelnium", 1},
-			{"y_structure_element", 3},
-			{"y-orange-stuff", 4},
+			{type="item", name="y-raw-fuelnium", amount=1},
+			{type="item", name="y_structure_element", amount=3},
+			{type="item", name="y-orange-stuff", amount=4},
 		},
 		results=
 		{
@@ -115,9 +117,11 @@ data:extend(
 		corpse = "small-remnants",
 		collision_box = {{-0.8, -0.8}, {0.8, 0.8}},
 		selection_box = {{-1.0, -1.0}, {1.0, 1.0}},
-		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = -12.5, },
+		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input",
+		-- emissions_per_minute = { pollution = -12.5,}
+		 },
 		
-		energy_usage_per_tick = "25KW",
+		energy_usage_per_tick = "25kW",
 		light = {intensity = 0.35, size = 15, color = {r=0.8, g=0.0, b=0.0}},
 		--light = {intensity = 0.9, size = 70},
 		picture_off =
@@ -160,9 +164,9 @@ data:extend(
 		enabled = true,
 		ingredients = 
 		{    	  	
-			{"y-raw-fuelnium", 1},
-			{"y_structure_element", 3},
-			{"y-orange-stuff", 4},
+			{type="item", name="y-raw-fuelnium", amount=1},
+			{type="item", name="y_structure_element", amount=3},
+			{type="item", name="y-orange-stuff", amount=4},
 		},
 		results=
 		{
@@ -185,7 +189,7 @@ data:extend(
 		collision_box = {{-0.4, -0.4}, {0.4, 0.4}},
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 		energy_usage = "30kW",
-		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = -15, },				
+		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = -15,} },				
 		energy_per_sector = "10MJ",
 		max_distance_of_sector_revealed = 3,
 		max_distance_of_nearby_sector_revealed = 1,
@@ -230,9 +234,9 @@ data:extend(
 		enabled = true,
 		ingredients = 
 		{    	  	
-			{"iron-plate", 12},
-			{"y_structure_element", 3},
-			{"y-orange-stuff", 4},
+			{type="item", name="iron-plate", amount=12},
+			{type="item", name="y_structure_element", amount=3},
+			{type="item", name="y-orange-stuff", amount=4},
 		},
 		results=
 		{
@@ -255,7 +259,7 @@ data:extend(
 		collision_box = {{-0.4, -0.4}, {0.4, 0.4}},
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 		energy_usage = "50kW",
-		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = -25, },				
+		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = -25, } },				
 		crafting_categories = {"yuoki-fame-recipe"},
 		crafting_speed = 1,
 		ingredient_count = 1,				
