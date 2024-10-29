@@ -4,7 +4,7 @@ data:extend(
 	-- Standard-Mode
 	{
 		type = "recipe",
-		name = "y_reactor_mf1-recipe",
+		name = "y_reactor_mf1",
 		category = "yuoki_mf", -- mechanical force -obninsk
 		enabled = true,
 		energy_required = 1.00,
@@ -14,6 +14,7 @@ data:extend(
 		results = {
 			{type = "fluid", name = "y-mechanical-force", amount = 50, temperature = 150}
 		},
+		main_product = "y-mechanical-force",
 		icon_size = 32,
 		icon = "__Yuoki__/graphics/icons/mfmode.png",
 		order = "1",
@@ -23,7 +24,7 @@ data:extend(
 	-- Mox-1-Mode
 	{
 		type = "recipe",
-		name = "y_reactor_mox1-recipe",
+		name = "y_reactor_mox1",
 		category = "yuoki_mf", -- mechanical force -obninsk
 		enabled = true,
 		energy_required = 15.00,
@@ -45,7 +46,7 @@ data:extend(
 	-- Mox-2-Mode
 	{
 		type = "recipe",
-		name = "y_reactor_mox2-recipe",
+		name = "y_reactor_mox2",
 		category = "yuoki_mf", -- mechanical force -obninsk
 		enabled = true,
 		energy_required = 20.00,
@@ -79,37 +80,47 @@ data:extend(
 			{
 				volume = 200,
 				production_type = "input",
-				base_area = 50,
-				height = 2,
+				pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
+				base_area = 10,
 				base_level = -1,
-				pipe_connections = {
-					{flow_direction = "input", direction = defines.direction.north, position = {0, 2}}
-				},
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.south, position = {0, 2.0} }},
+				secondary_draw_orders = { north = -1 },
 				filter = "water"
 			},
 			{
 				volume = 200,
 				production_type = "output",
-				base_area = 5,
-				height = 2,
-				pipe_connections = {
-					{flow_direction = "output", direction = defines.direction.north, position = {0, -2}}
-				},			
+				pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
+				base_area = 10,
+				base_level = 1,
+				pipe_connections = {{ flow_direction="output", direction = defines.direction.north, position = {0, -2.0} }},
+				secondary_draw_orders = { north = -1 }
 			},
 		},
 		collision_box = {{-2.25, -2.25}, {2.25, 2.25}},
 		selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
 
-		animation = {
-			filename = "__Yuoki__/graphics/entity/obninsk-reactor_ns.png",
-			priority = "extra-high",
-			width = 210,
-			height = 180,
-			shift = {0.6, 0.2},
-			frame_count = 1,
-			line_length = 1
-		},
-		working_visualisations = {
+		graphics_set =
+		{
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				filename = "__Yuoki__/graphics/entity/obninsk-reactor_ns.png",
+				priority = "extra-high",
+				width = 210,
+				height = 180,
+				shift = {0.6, 0.2},
+				frame_count = 1,
+				line_length = 1
+			  },
+			}
+		  },
+		  working_visualisations = 
+		  {
 			animation = {
 				filename = "__Yuoki__/graphics/entity/obninsk-reactor_wns.png",
 				priority = "extra-high",
@@ -120,7 +131,10 @@ data:extend(
 				line_length = 1
 			},
 			light = {intensity = 0.7, size = 9.9, shift = {0.0, 0.0}, color = {r = 0.7, g = 0.0, b = 0.7}},
-		},		
+		},	
+		},
+
+	
 		
 		crafting_categories = {"yuoki_mf"},			
 		crafting_speed = 1,
@@ -150,10 +164,20 @@ data:extend(
 		resistances = {{type = "physical",percent = 50}},
 		collision_box = {{-1.25,-1.25},{1.25,1.25}},
 		selection_box = {{-1.5,-1.5},{1.5,1.5}},
-		animation = {
-			filename = "__Yuoki__/graphics/entity/fuel_mixer_sheet.png",
-			priority = "medium", width = 256, height = 256, frame_count = 16, line_length = 4, shift = {0.5, -0.325}, animation_speed=0.5, scale = 0.5,		
-		},					
+		graphics_set =
+		{
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				filename = "__Yuoki__/graphics/entity/fuel_mixer_sheet.png",
+				priority = "medium", width = 256, height = 256, frame_count = 16, line_length = 4, shift = {0.5, -0.325}, animation_speed=0.5, scale = 0.5,	
+			  },
+			}
+		  }
+		},
+
 		crafting_categories = {"yuoki_mox"},
 		crafting_speed = 1,
 		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 18.75, } },

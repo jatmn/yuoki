@@ -3,7 +3,7 @@ data:extend(
 
 	{
 		type = "recipe",
-		name = "y_chunks1_recipe",
+		name = "y_chunks1",
 		category = "yrcat_crystalize", -- 
 		enabled = true,
 		energy_required = 8.00,
@@ -14,6 +14,7 @@ data:extend(
 		results = {			
 			{ type = "item", name = "y-res1" , amount = 2.0, },
 		},		
+		main_product = "y-res1",
 		icon = "__Yuoki__/graphics/icons/uni-com-pur.png",
 		icon_size = 32,  
 		order = "r", group = "yuoki", subgroup = "y_line2",
@@ -21,7 +22,7 @@ data:extend(
 
 	{
 		type = "recipe",
-		name = "y_chunks2_recipe",
+		name = "y_chunks2",
 		category = "yrcat_crystalize", -- 
 		enabled = true,
 		energy_required = 8.00,
@@ -32,6 +33,7 @@ data:extend(
 		results = {
 			{ type = "item", name = "y-res2" , amount = 2.0, },			
 		},		
+		main_product = "y-res2",
 		icon = "__Yuoki__/graphics/icons/yi-res-2-pur.png",
 		icon_size = 32,  
 		order = "s", group = "yuoki", subgroup = "y_line2",
@@ -46,11 +48,20 @@ data:extend(
 		max_health = 400,
 		resistances = {{type = "physical",percent = 50}},
 		collision_box = {{-1.2,-1.2},{1.2,1.2}},
-		selection_box = {{-1.5,-1.5},{1.5,1.5}},
-		animation = {
-			filename = "__Yuoki__/graphics/entity/base_factory_sheet.png",
-			priority = "medium", width = 256, height = 256, frame_count = 6, shift = {0, 0}, scale=0.5, animation_speed=0.5,		
-		},					
+		selection_box = {{-1.5,-1.5},{1.5,1.5}},		
+		graphics_set =
+		{
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				filename = "__Yuoki__/graphics/entity/base_factory_sheet.png",
+				priority = "medium", width = 256, height = 256, frame_count = 6, shift = {0, 0}, scale=0.5, animation_speed=0.5,		
+			  },
+			}
+		  }
+		},
 		crafting_categories = {"yrcat_trockner"},
 		crafting_speed = 1.0,
 		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 3.75, } },
@@ -61,10 +72,12 @@ data:extend(
 			{
 				volume = 200,
 				production_type = "input",
-				--pipe_covers = pipecoverspictures(),
+				pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = { 0, 1} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = {0, -1} }},
+				secondary_draw_orders = { north = -1 }
 			},
 		},
 		fluid_boxes_off_when_no_fluid_recipe = true,			
@@ -86,10 +99,19 @@ data:extend(
 		resistances = {{type = "physical",percent = 50}},
 		collision_box = {{-1.2,-1.2},{1.2,1.2}},
 		selection_box = {{-1.5,-1.5},{1.5,1.5}},
-		animation = {
-			filename = "__Yuoki__/graphics/entity/water_mixer_sheet.png",
-			priority = "medium", width = 256, height = 256, frame_count = 16, line_length = 4, shift = {0.5, -0.5}, scale=0.5, animation_speed=0.5,		
-		},					
+		graphics_set =
+		{
+		  animation =
+		  {
+			layers =
+			{
+				{
+					filename = "__Yuoki__/graphics/entity/water_mixer_sheet.png",
+					priority = "medium", width = 256, height = 256, frame_count = 16, line_length = 4, shift = {0.5, -0.5}, scale=0.5, animation_speed=0.5,		
+				},
+			}
+		  }
+		},
 		crafting_categories = {"yrcat_emulsion"},
 		crafting_speed = 1.0,
 		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 3.75, } },
@@ -100,19 +122,23 @@ data:extend(
 			{
 				volume = 200,
 				production_type = "input",
-				--pipe_covers = pipecoverspictures(),
-				base_area = 4,
+				--pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
+				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = { 0, 1} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = {0, -1} }},
+				secondary_draw_orders = { north = -1 }
 			},
 			{
 				volume = 200,
 				production_type = "output",
-				--pipe_covers = pipecoverspictures(),
-				base_area = 4,
+				--pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
+				base_area = 10,
 				base_level = 1,
-				pipe_connections = {{ flow_direction="output", direction = defines.direction.north, position = { 0, -1} }}
-			},			
+				pipe_connections = {{ flow_direction="output", direction = defines.direction.south, position = {0, 1} }},
+				secondary_draw_orders = { north = -1 }
+			},
 		},
 		fluid_boxes_off_when_no_fluid_recipe = true,			
 
@@ -132,11 +158,21 @@ data:extend(
 		max_health = 400,
 		resistances = {{type = "physical",percent = 50}},
 		collision_box = {{-1.2,-1.2},{1.2,1.2}},
-		selection_box = {{-1.5,-1.5},{1.5,1.5}},
-		animation = {
-			filename = "__Yuoki__/graphics/entity/crys.png",
-			priority = "medium", width = 256, height = 256, frame_count = 1, shift = {0.5, -0.25}, scale=0.5, animation_speed=0.5,		
-		},					
+		selection_box = {{-1.5,-1.5},{1.5,1.5}},		
+		graphics_set =
+		{
+		  animation =
+		  {
+			layers =
+			{
+				{
+					filename = "__Yuoki__/graphics/entity/crys.png",
+					priority = "medium", width = 256, height = 256, frame_count = 1, shift = {0.5, -0.25}, scale=0.5, animation_speed=0.5,		
+				},	
+			}
+		  }
+		},
+		
 		crafting_categories = {"yrcat_crystalize"},
 		crafting_speed = 1.0,
 		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 10, } },
@@ -147,10 +183,12 @@ data:extend(
 			{
 				volume = 200,
 				production_type = "input",
-				--pipe_covers = pipecoverspictures(),
+				pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = { 0, 1} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = {0, -1} }},
+				secondary_draw_orders = { north = -1 }
 			},
 		},
 		fluid_boxes_off_when_no_fluid_recipe = true,			
@@ -172,52 +210,86 @@ data:extend(
 		resistances = {{type = "physical",percent = 50}},
 		collision_box = {{-1.2,-1.2},{1.2,1.2}},
 		selection_box = {{-1.5,-1.5},{1.5,1.5}},
-		animation = {
-			north = {
-				filename = "__Yuoki__/graphics/entity/hppump_n.png",
-				priority = "medium", width = 320, height = 320, frame_count = 1, shift = {0, 0}, scale=0.5, animation_speed=0.5,		
+		graphics_set =
+		{
+		  animation =
+		  {
+			north =
+			{
+				layers =
+				{
+			  		{
+						filename = "__Yuoki__/graphics/entity/hppump_n.png",
+						priority = "medium", width = 320, height = 320, frame_count = 1, shift = {0, 0}, scale=0.5, animation_speed=0.5,	
+			 		},
+				}
 			},
-			east = {
-				filename = "__Yuoki__/graphics/entity/hppump_e.png",
-				priority = "medium", width = 320, height = 320, frame_count = 1, shift = {0, 0}, scale=0.5, animation_speed=0.5,		
+			east =
+			{
+				layers =
+				{
+			  		{
+						filename = "__Yuoki__/graphics/entity/hppump_e.png",
+						priority = "medium", width = 320, height = 320, frame_count = 1, shift = {0, 0}, scale=0.5, animation_speed=0.5,	
+			 		},
+				}
 			},
-			south = {
-				filename = "__Yuoki__/graphics/entity/hppump_s.png",
-				priority = "medium", width = 320, height = 320, frame_count = 1, shift = {0, 0}, scale=0.5, animation_speed=0.5,		
+			south =
+			{
+				layers =
+				{
+			  		{
+						filename = "__Yuoki__/graphics/entity/hppump_s.png",
+						priority = "medium", width = 320, height = 320, frame_count = 1, shift = {0, 0}, scale=0.5, animation_speed=0.5,	
+			 		},
+				}
 			},
-			west = {
-				filename = "__Yuoki__/graphics/entity/hppump_w.png",
-				priority = "medium", width = 320, height = 320, frame_count = 1, shift = {0, 0}, scale=0.5, animation_speed=0.5,		
+			west =
+			{
+				layers =
+				{
+			  		{
+						filename = "__Yuoki__/graphics/entity/hppump_w.png",
+						priority = "medium", width = 320, height = 320, frame_count = 1, shift = {0, 0}, scale=0.5, animation_speed=0.5,	
+			 		},
+				}
 			},
-			
-		},					
+		  }
+		},
 		crafting_categories = {"yrcat_hppump"},
 		crafting_speed = 1.0,
 		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 2.5,} },
 		energy_usage = "500kW",
 		ingredient_count = 5,
+
 		fluid_boxes =
 		{
 			{
 				volume = 200,
 				production_type = "input",
-				--pipe_covers = pipecoverspictures(),
-				base_area = 4,
+				--pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
+				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = { 0, 1} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.south, position = {0, 1} }},
+				secondary_draw_orders = { north = -1 }
 			},
 			{
 				volume = 200,
 				production_type = "output",
-				--pipe_covers = pipecoverspictures(),
-				base_area = 4,
+				--pipe_picture = assembler3pipepictures(),
+				pipe_covers = pipecoverspictures(),
+				base_area = 10,
 				base_level = 1,
-				pipe_connections = {
-					{ flow_direction="output", direction = defines.direction.north, position = {  1, 0} },
-					{ flow_direction="output", direction = defines.direction.north, position = { -1, 0} }
-				}
-			},			
-			
+				pipe_connections = 
+				{
+					{ flow_direction="output", direction = defines.direction.west, position = {-1, 0} },
+					{ flow_direction="output", direction = defines.direction.east, position = {1, 0} }
+				},
+
+				secondary_draw_orders = { north = -1 }
+			},
+
 		},
 		fluid_boxes_off_when_no_fluid_recipe = true,			
 
@@ -233,7 +305,7 @@ data:extend(
 	-- MF-Tank
 	{
 		type = "recipe",
-		name = "y_mftank_recipe",
+		name = "y_mftank",
 		energy_required = 3.0,
 		enabled = true,
 		ingredients = {
@@ -244,6 +316,7 @@ data:extend(
 			{ type = "item", name = "y_mftank", amount = 1},			
 		},	
 		---result = "y_mftank", result_count = 1,
+		main_product = "y_mftank",
 		order="tank-c5", subgroup = "y-fluid-storage",
 	},	
 	{
@@ -268,13 +341,13 @@ data:extend(
 			volume = 200,
 			--base_area = 25,						
 			--base_level = 0,
-			pipe_covers = pipecoverspictures(),
+			--pipe_covers = pipecoverspictures(),
 			pipe_connections =
 			{				
-				{ direction = defines.direction.north, position = {-1, 0}},
-				{ direction = defines.direction.north, position = { 1, 0}},										
-				{ direction = defines.direction.north, position = {0, -1}},       
-				{ direction = defines.direction.north, position = {0, 1}}     
+				{ direction = defines.direction.north, position = {0, -1}},
+				{ direction = defines.direction.east, position = {1, 0}},										
+				{ direction = defines.direction.south, position = {0, 1}},       
+				{ direction = defines.direction.west, position = {-1, 0}}     
 			},			
 			hide_connection_info = true,
 		},

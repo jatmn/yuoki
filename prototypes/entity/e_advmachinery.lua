@@ -43,12 +43,6 @@ data:extend(
 		resistances = {{type = "physical",percent = 50}},
 		collision_box = {{-1.2,-1.2},{1.2,1.2}},
 		selection_box = {{-1.5,-1.5},{1.5,1.5}},
-		--[[
-		animation = {
-			filename = "__Yuoki__/graphics/entity/crusher33_sheet.png",
-			priority = "medium", width = 128, height = 128, frame_count = 12, shift = {0.5, 0}, animation_speed=0.5,		
-		},
-		]]
 		graphics_set =
 		{
 		  animation =
@@ -142,12 +136,6 @@ data:extend(
 		resistances = {{type = "physical",percent = 50}},
 		collision_box = {{-1.2,-1.2},{1.2,1.2}},
 		selection_box = {{-1.5,-1.5},{1.5,1.5}},
-		--[[
-		animation = {
-			filename = "__Yuoki__/graphics/entity/npress_sheet.png",
-			priority = "medium", width = 256, height = 256, frame_count = 36, line_length=6,  shift = {0.5, -0.125}, animation_speed=0.25, scale=0.5,		
-		},	
-		]]
 		graphics_set =
 		{
 		  animation =
@@ -239,11 +227,20 @@ data:extend(
 		max_health = 200,
 		resistances = {{type = "physical",percent = 50}},
 		collision_box = {{-1.2,-1.2},{1.2,1.2}},
-		selection_box = {{-1.5,-1.5},{1.5,1.5}},
-		animation = {
-			filename = "__Yuoki__/graphics/entity/maintance_sheet.png",
-			priority = "medium", width = 128, height = 128, frame_count = 16, line_length=4, shift = {0.5, 0}, animation_speed=0.5,		
-		},					
+		selection_box = {{-1.5,-1.5},{1.5,1.5}},		
+		graphics_set =
+		{
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				filename = "__Yuoki__/graphics/entity/maintance_sheet.png",
+				priority = "medium", width = 128, height = 128, frame_count = 16, line_length=4, shift = {0.5, 0}, animation_speed=0.5,
+			  },
+			}
+		  }
+		},
 		crafting_categories = {"yuoki-repair-recipe"},
 		crafting_speed = 3,
 		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 5, } },
@@ -254,18 +251,24 @@ data:extend(
 			{
 				volume = 200,
 				production_type = "input",
+				pipe_picture = assembler2pipepictures(),
 				pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = { 0, 1} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = {0, -1} }},
+				secondary_draw_orders = { north = -1 }
 			},
 			{
 				volume = 200,
 				production_type = "output",
-				pipe_covers = pipecoverspictures(),				
+				pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
+				base_area = 10,
 				base_level = 1,
-				pipe_connections = {{ direction = defines.direction.north, position = { 0, -1} }}
+				pipe_connections = {{ flow_direction="output", direction = defines.direction.south, position = {0, 1} }},
+				secondary_draw_orders = { north = -1 }
 			},
+
 		},
 		fluid_boxes_off_when_no_fluid_recipe = true,			
 
