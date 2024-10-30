@@ -2,7 +2,7 @@
 {
 	"name": "Yuoki",
 	"version": "1.2.0",
-	"date": "2024-10-28",
+	"date": "2024-10-30",
 	"author": "Yuoki Tani",
 	"factorio_version": "2.0",
 	"dependencies": ["base >= 0.18.35","? DeadlockStacking","! YuokiTweaks"],  	

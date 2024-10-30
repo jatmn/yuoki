@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.0
-Date: 28. 10. 2024
+Date: 30. 10. 2024
   Updates:
     - Factorio 2.0
     - Removed negitive pollution from lamps, this is nolonger supported by the game.
@@ -8,7 +8,7 @@ Date: 28. 10. 2024
   Known Issues:
     - Disabled ground tiles, currently there is issues with the graphics for these with 2.0 update.
     - pipe_connections = is a mess all machines with pipe connections need to be double checked.
-    - Pipe Valve, Fluid Buffer Station - nolonger works as a one-way valve 
+    - Pipe Valve, Flow Trigger 10, Fluid Buffer Station - nolonger works as a one-way valve 
     - Resource patch spawning might need revisited (Force patched it to what JATMN's Fixs Mod Used in 1.0 didnt work)
     - Turrets probably need revisited
     - Some machines and items are invisible

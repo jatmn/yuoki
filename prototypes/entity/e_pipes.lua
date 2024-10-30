@@ -1,3 +1,29 @@
+--- @param i integer
+local function make_visualization(i)
+	return
+	{
+	  filename = "__base__/graphics/entity/pipe/visualization.png",
+	  priority = "extra-high",
+	  x = i * 64,
+	  size = 64,
+	  scale = 0.5,
+	  flags = {"icon"},
+	}
+  end
+
+  --- @param i integer
+local function make_disabled_visualization(i)
+	return
+	{
+	  filename = "__base__/graphics/entity/pipe/disabled-visualization.png",
+	  priority = "extra-high",
+	  x = i * 64,
+	  size = 64,
+	  scale = 0.5,
+	  flags = {"icon"},
+	}
+  end
+
 pipepictures_hv = function()
 return {
 	straight_vertical_single =
@@ -198,7 +224,43 @@ return {
 			axially_symmetrical = false,
 			direction_count = 1
 		}
-	}	
+	},
+	straight_vertical_single_visualization = make_visualization(0),
+    straight_vertical_visualization = make_visualization(5),
+    straight_vertical_window_visualization = make_visualization(5),
+    straight_horizontal_window_visualization = make_visualization(10),
+    straight_horizontal_visualization = make_visualization(10),
+    corner_up_right_visualization = make_visualization(3),
+    corner_up_left_visualization = make_visualization(9),
+    corner_down_right_visualization = make_visualization(6),
+    corner_down_left_visualization = make_visualization(12),
+    t_up_visualization = make_visualization(11),
+    t_down_visualization = make_visualization(14),
+    t_right_visualization = make_visualization(7),
+    t_left_visualization = make_visualization(13),
+    cross_visualization = make_visualization(15),
+    ending_up_visualization = make_visualization(1),
+    ending_down_visualization = make_visualization(4),
+    ending_right_visualization = make_visualization(2),
+    ending_left_visualization = make_visualization(8),
+    straight_vertical_single_disabled_visualization = make_disabled_visualization(0),
+    straight_vertical_disabled_visualization = make_disabled_visualization(5),
+    straight_vertical_window_disabled_visualization = make_disabled_visualization(5),
+    straight_horizontal_window_disabled_visualization = make_disabled_visualization(10),
+    straight_horizontal_disabled_visualization = make_disabled_visualization(10),
+    corner_up_right_disabled_visualization = make_disabled_visualization(3),
+    corner_up_left_disabled_visualization = make_disabled_visualization(9),
+    corner_down_right_disabled_visualization = make_disabled_visualization(6),
+    corner_down_left_disabled_visualization = make_disabled_visualization(12),
+    t_up_disabled_visualization = make_disabled_visualization(11),
+    t_down_disabled_visualization = make_disabled_visualization(14),
+    t_right_disabled_visualization = make_disabled_visualization(7),
+    t_left_disabled_visualization = make_disabled_visualization(13),
+    cross_disabled_visualization = make_disabled_visualization(15),
+    ending_up_disabled_visualization = make_disabled_visualization(1),
+    ending_down_disabled_visualization = make_disabled_visualization(4),
+    ending_right_disabled_visualization = make_disabled_visualization(2),
+    ending_left_disabled_visualization = make_disabled_visualization(8),
 }
 end
 
@@ -405,7 +467,45 @@ return {
 			axially_symmetrical = false,
 			direction_count = 1
 		}
-	}	
+
+	},
+	straight_vertical_single_visualization = make_visualization(0),
+    straight_vertical_visualization = make_visualization(5),
+    straight_vertical_window_visualization = make_visualization(5),
+    straight_horizontal_window_visualization = make_visualization(10),
+    straight_horizontal_visualization = make_visualization(10),
+    corner_up_right_visualization = make_visualization(3),
+    corner_up_left_visualization = make_visualization(9),
+    corner_down_right_visualization = make_visualization(6),
+    corner_down_left_visualization = make_visualization(12),
+    t_up_visualization = make_visualization(11),
+    t_down_visualization = make_visualization(14),
+    t_right_visualization = make_visualization(7),
+    t_left_visualization = make_visualization(13),
+    cross_visualization = make_visualization(15),
+    ending_up_visualization = make_visualization(1),
+    ending_down_visualization = make_visualization(4),
+    ending_right_visualization = make_visualization(2),
+    ending_left_visualization = make_visualization(8),
+    straight_vertical_single_disabled_visualization = make_disabled_visualization(0),
+    straight_vertical_disabled_visualization = make_disabled_visualization(5),
+    straight_vertical_window_disabled_visualization = make_disabled_visualization(5),
+    straight_horizontal_window_disabled_visualization = make_disabled_visualization(10),
+    straight_horizontal_disabled_visualization = make_disabled_visualization(10),
+    corner_up_right_disabled_visualization = make_disabled_visualization(3),
+    corner_up_left_disabled_visualization = make_disabled_visualization(9),
+    corner_down_right_disabled_visualization = make_disabled_visualization(6),
+    corner_down_left_disabled_visualization = make_disabled_visualization(12),
+    t_up_disabled_visualization = make_disabled_visualization(11),
+    t_down_disabled_visualization = make_disabled_visualization(14),
+    t_right_disabled_visualization = make_disabled_visualization(7),
+    t_left_disabled_visualization = make_disabled_visualization(13),
+    cross_disabled_visualization = make_disabled_visualization(15),
+    ending_up_disabled_visualization = make_disabled_visualization(1),
+    ending_down_disabled_visualization = make_disabled_visualization(4),
+    ending_right_disabled_visualization = make_disabled_visualization(2),
+    ending_left_disabled_visualization = make_disabled_visualization(8),
+		
 }
 end
 
@@ -590,7 +690,43 @@ return {
 			axially_symmetrical = false,
 			direction_count = 1
 		}
-	}	
+	},	
+	straight_vertical_single_visualization = make_visualization(0),
+    straight_vertical_visualization = make_visualization(5),
+    straight_vertical_window_visualization = make_visualization(5),
+    straight_horizontal_window_visualization = make_visualization(10),
+    straight_horizontal_visualization = make_visualization(10),
+    corner_up_right_visualization = make_visualization(3),
+    corner_up_left_visualization = make_visualization(9),
+    corner_down_right_visualization = make_visualization(6),
+    corner_down_left_visualization = make_visualization(12),
+    t_up_visualization = make_visualization(11),
+    t_down_visualization = make_visualization(14),
+    t_right_visualization = make_visualization(7),
+    t_left_visualization = make_visualization(13),
+    cross_visualization = make_visualization(15),
+    ending_up_visualization = make_visualization(1),
+    ending_down_visualization = make_visualization(4),
+    ending_right_visualization = make_visualization(2),
+    ending_left_visualization = make_visualization(8),
+    straight_vertical_single_disabled_visualization = make_disabled_visualization(0),
+    straight_vertical_disabled_visualization = make_disabled_visualization(5),
+    straight_vertical_window_disabled_visualization = make_disabled_visualization(5),
+    straight_horizontal_window_disabled_visualization = make_disabled_visualization(10),
+    straight_horizontal_disabled_visualization = make_disabled_visualization(10),
+    corner_up_right_disabled_visualization = make_disabled_visualization(3),
+    corner_up_left_disabled_visualization = make_disabled_visualization(9),
+    corner_down_right_disabled_visualization = make_disabled_visualization(6),
+    corner_down_left_disabled_visualization = make_disabled_visualization(12),
+    t_up_disabled_visualization = make_disabled_visualization(11),
+    t_down_disabled_visualization = make_disabled_visualization(14),
+    t_right_disabled_visualization = make_disabled_visualization(7),
+    t_left_disabled_visualization = make_disabled_visualization(13),
+    cross_disabled_visualization = make_disabled_visualization(15),
+    ending_up_disabled_visualization = make_disabled_visualization(1),
+    ending_down_disabled_visualization = make_disabled_visualization(4),
+    ending_right_disabled_visualization = make_disabled_visualization(2),
+    ending_left_disabled_visualization = make_disabled_visualization(8),
 }
 end
 
@@ -598,75 +734,103 @@ end
 
 data:extend(
 {
+
 	{
 		type = "pipe",
 		name = "y-pipe-h",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-h.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-h.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.1, result = "pipe"},
 		max_health = 50,
-		corpse = "small-remnants",
+		corpse = "pipe-remnants",
+		dying_explosion = "pipe-explosion",
+		--icon_draw_specification = {scale = 0.5},
 		resistances =
 		{
-			{
-				type = "fire",
-				percent = 90
-			}
+		  {
+			type = "fire",
+			percent = 80
+		  },
+		  {
+			type = "impact",
+			percent = 30
+		  }
 		},
 		fast_replaceable_group = "pipe",
-		collision_box = {{-0.3, -0.3}, {0.3, 0.3}},
+		collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+		--damaged_trigger_effect = hit_effects.entity(),
 		fluid_box =
 		{
-			volume = 200,
-			base_area = 1,
-			pipe_connections =
-			{
-				--{ position = {0, -1} },
-				{ direction = defines.direction.north, position = {0, -0.297} },
-				--{ position = {0, 1} },
-				{ direction = defines.direction.north, position = {0, 0.297} }
-			},
+		  volume = 200,
+		  pipe_covers = pipecoverspictures(), -- in case a real pipe is connected to a ghost
+		  pipe_connections =
+		  {
+			--{ direction = defines.direction.north, position = {0, 0} },
+			{ direction = defines.direction.east, position = {0, 0} },
+			--{ direction = defines.direction.sout, position = {0, 0} },
+			{ direction = defines.direction.west, position = {0, 0} }
+		  },
+		  hide_connection_info = true
 		},
+		--impact_category = "metal",
 		pictures = pipepictures_hv(),
-		horizontal_window_bounding_box = {{-0.25, -0.25}, {0.25, 0.15625}},
-		vertical_window_bounding_box = {{-0.28125, -0.40625}, {0.03125, 0.125}}
-	},
+		--working_sound = sounds.pipe,
+		--open_sound = sounds.metal_small_open,
+		--close_sound = sounds.metal_small_close,
 	
+		horizontal_window_bounding_box = {{-0.25, -0.28125}, {0.25, 0.15625}},
+		vertical_window_bounding_box = {{-0.28125, -0.5}, {0.03125, 0.125}}
+	},
+
+
 	{
 		type = "pipe",
 		name = "y-pipe-v",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-v.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-v.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.1, result = "pipe"},
 		max_health = 50,
-		corpse = "small-remnants",
+		corpse = "pipe-remnants",
+		dying_explosion = "pipe-explosion",
+		--icon_draw_specification = {scale = 0.5},
 		resistances =
 		{
-			{
-				type = "fire",
-				percent = 90
-			}
+		  {
+			type = "fire",
+			percent = 80
+		  },
+		  {
+			type = "impact",
+			percent = 30
+		  }
 		},
 		fast_replaceable_group = "pipe",
-		collision_box = {{-0.3, -0.3}, {0.3, 0.3}},
+		collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+		--damaged_trigger_effect = hit_effects.entity(),
 		fluid_box =
 		{
-			volume = 200,
-			base_area = 1,
-			pipe_connections =
-			{
-				{ direction = defines.direction.north, position = {0.297, 0} },
-				--{ position = {1, 0} },
-				{ direction = defines.direction.north, position = {-0.297, 0} },
-				--{ position = {-1, 0} }
-			},
+		  volume = 200,
+		  pipe_covers = pipecoverspictures(), -- in case a real pipe is connected to a ghost
+		  pipe_connections =
+		  {
+			{ direction = defines.direction.north, position = {0, 0} },
+			--{ direction = defines.direction.east, position = {0, 0} },
+			{ direction = defines.direction.south, position = {0, 0} },
+			--{ direction = defines.direction.west, position = {0, 0} }
+		  },
+		  hide_connection_info = true
 		},
+		--impact_category = "metal",
 		pictures = pipepictures_hv(),
-		horizontal_window_bounding_box = {{-0.25, -0.25}, {0.25, 0.15625}},
-		vertical_window_bounding_box = {{-0.28125, -0.40625}, {0.03125, 0.125}}
-	},
+		--working_sound = sounds.pipe,
+		--open_sound = sounds.metal_small_open,
+		--close_sound = sounds.metal_small_close,
+	
+		horizontal_window_bounding_box = {{-0.25, -0.28125}, {0.25, 0.15625}},
+		vertical_window_bounding_box = {{-0.28125, -0.5}, {0.03125, 0.125}}
+	  },
 
 	-- PipeBuffer also flow restriction test
 	{
@@ -682,21 +846,14 @@ data:extend(
 		fluid_box =
 		{
 			volume = 200,
-			base_area = 5,						
-			base_level = 0,
-			--pipe_covers = pipecoverspictures(),
+			pipe_covers = pipecoverspictures(),
 			pipe_connections =
 			{
-				
-				--{ flow_direction="input", direction = defines.direction.north, position = {0, 0},},
-				--{ flow_direction="output", direction = defines.direction.north, position = { 0, 0} },
-				{  direction = defines.direction.north, position = {0, 0},},
-				--{  direction = defines.direction.north, position = { 0, 0} },
-				--{ position = {1, 2} },
-				--{ position = {-2, -1} },
+				{ flow_direction="input-output", direction = defines.direction.east, position = {0, 0},},
+				{ flow_direction="input-output", direction = defines.direction.west, position = { 0, 0} },
 			},			
 		},
-		two_direction_only = false,
+		two_direction_only = true,
 		window_bounding_box = {{-0.05, -0.5}, {0.05, 0.0}},
 		pictures={
 			picture =
@@ -820,83 +977,96 @@ data:extend(
 		name = "y-pipe-hc",
 		icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-hc.png",
 		flags = {"placeable-neutral", "player-creation"},
-		minable = {mining_time = 0.1, result = "y-pipe-hc"},
-		max_health = 80, corpse = "small-remnants",
-		resistances ={{type = "fire",percent = 50,}},
+		minable = {mining_time = 0.1, result = "pipe"},
+		max_health = 80,
+		corpse = "pipe-remnants",
+		dying_explosion = "pipe-explosion",
+		icon_draw_specification = {scale = 0.5},
+		resistances =
+		{
+		  {
+			type = "fire",
+			percent = 80
+		  },
+		  {
+			type = "impact",
+			percent = 30
+		  }
+		},
 		fast_replaceable_group = "pipe",
 		collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+		--damaged_trigger_effect = hit_effects.entity(),
 		fluid_box =
 		{
-			volume = 200,
-			base_area = 0.8,
-			base_level = 0,
-			pipe_connections =
-			{
-				{ direction = defines.direction.north, position = {0, 0} },
-				--{ direction = defines.direction.north, position = {0, 0} },
-				--{ direction = defines.direction.north, position = {0, 0} },
-				--{ direction = defines.direction.north, position = {0, 0} }
-			},
+		  volume = 200,
+		  pipe_covers = pipecoverspictures(), -- in case a real pipe is connected to a ghost
+		  pipe_connections =
+		  {
+			{ direction = defines.direction.north, position = {0, 0} },
+			{ direction = defines.direction.east, position = {0, 0} },
+			{ direction = defines.direction.south, position = {0, 0} },
+			{ direction = defines.direction.west, position = {0, 0} }
+		  },
+		  hide_connection_info = true
 		},
+		--impact_category = "metal",
 		pictures = pipepictures_hv(),
-		working_sound =
-		{
-			sound = {
-				{
-					filename = "__base__/sound/pipe.ogg",
-					volume = 0.65
-				},
-			},
-			match_volume_to_activity = true,
-			max_sounds_per_type = 3
-		},
-		horizontal_window_bounding_box = {{-0.25, -0.25}, {0.25, 0.15625}},
-		vertical_window_bounding_box = {{-0.28125, -0.40625}, {0.03125, 0.125}}
-	},
+		--working_sound = sounds.pipe,
+		--open_sound = sounds.metal_small_open,
+		--close_sound = sounds.metal_small_close,
+	
+		horizontal_window_bounding_box = {{-0.25, -0.28125}, {0.25, 0.15625}},
+		vertical_window_bounding_box = {{-0.28125, -0.5}, {0.03125, 0.125}}
+	  },
 
 	{
 		type = "pipe-to-ground",
 		name = "y-pipe-to-ground-hc",
 		icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-tg-hc.png",
 		flags = {"placeable-neutral", "player-creation"},
-		minable = {mining_time = 0.1, result = "y-pipe-to-ground-hc"},
+		minable = {mining_time = 0.1, result = "pipe-to-ground"},
 		max_health = 80,
-		corpse = "small-remnants",
+		corpse = "pipe-to-ground-remnants",
+		dying_explosion = "pipe-to-ground-explosion",
+		--factoriopedia_simulation = simulations.factoriopedia_pipe_to_ground,
+		icon_draw_specification = {scale = 0.5},
 		resistances =
 		{
-			{
-				type = "fire",
-				percent = 80
-			}
+		  {
+			type = "fire",
+			percent = 80
+		  },
+		  {
+			type = "impact",
+			percent = 40
+		  }
+	
 		},
 		fast_replaceable_group = "pipe",
 		collision_box = {{-0.29, -0.29}, {0.29, 0.2}},
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+		--damaged_trigger_effect = hit_effects.entity(),
 		fluid_box =
 		{
-			volume = 200,
-			base_area = 0.8,
-			--pipe_covers = pipecoverspictures(),
-			pipe_connections =
+		  volume =200,
+		  --pipe_covers = pipecoverspictures(),
+		  pipe_connections =
+		  {
+			{ direction = defines.direction.north, position = {0, 0} },
 			{
-				{ direction = defines.direction.north, position = {0, 0} },
-				{
-					connection_type = "underground",
-					direction = defines.direction.north,
-					position = {0, 0},
-					max_underground_distance = 20,
-				}
-			},
+			  connection_type = "underground",
+			  direction = defines.direction.south,
+			  position = {0, 0},
+			  max_underground_distance = 20
+			}
+		  },
+		  hide_connection_info = true
 		},
-		underground_sprite =
-		{
-			filename = "__core__/graphics/arrows/underground-lines.png",
-			priority = "high",
-			width = 64,
-			height = 64,
-			scale = 0.5,
-		},
+		impact_category = "metal",
+		--working_sound = sounds.pipe,
+		--open_sound = sounds.metal_small_open,
+		--close_sound = sounds.metal_small_close,
 		pictures =
 		{
 			north =
@@ -927,84 +1097,183 @@ data:extend(
 				width = 40,
 				height = 40, shift = {0.1, 0.075},
 			},
-		}
-	},
+		},
+		visualization =
+		{
+		  north =
+		  {
+			filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+			priority = "extra-high",
+			x = 64,
+			size = 64,
+			scale = 0.5,
+			flags = {"icon"}
+		  },
+		  south =
+		  {
+			filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+			priority = "extra-high",
+			x = 192,
+			size = 64,
+			scale = 0.5,
+			flags = {"icon"}
+		  },
+		  west =
+		  {
+			filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+			priority = "extra-high",
+			x = 256,
+			size = 64,
+			scale = 0.5,
+			flags = {"icon"}
+		  },
+		  east =
+		  {
+			filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+			priority = "extra-high",
+			x = 128,
+			size = 64,
+			scale = 0.5,
+			flags = {"icon"}
+		  },
+		},
+		disabled_visualization =
+		{
+		  north =
+		  {
+			filename = "__base__/graphics/entity/pipe-to-ground/disabled-visualization.png",
+			priority = "extra-high",
+			x = 64,
+			size = 64,
+			scale = 0.5,
+			flags = {"icon"}
+		  },
+		  south =
+		  {
+			filename = "__base__/graphics/entity/pipe-to-ground/disabled-visualization.png",
+			priority = "extra-high",
+			x = 192,
+			size = 64,
+			scale = 0.5,
+			flags = {"icon"}
+		  },
+		  west =
+		  {
+			filename = "__base__/graphics/entity/pipe-to-ground/disabled-visualization.png",
+			priority = "extra-high",
+			x = 256,
+			size = 64,
+			scale = 0.5,
+			flags = {"icon"}
+		  },
+		  east =
+		  {
+			filename = "__base__/graphics/entity/pipe-to-ground/disabled-visualization.png",
+			priority = "extra-high",
+			x = 128,
+			size = 64,
+			scale = 0.5,
+			flags = {"icon"}
+		  },
+		},
+	  },
 
+
+{
+	type = "pipe",
+	name = "y-pipe-ec",
+	icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-ec.png",
+	flags = {"placeable-neutral", "player-creation"},
+	minable = {mining_time = 0.1, result = "pipe"},
+	max_health = 100,
+	corpse = "pipe-remnants",
+	dying_explosion = "pipe-explosion",
+	icon_draw_specification = {scale = 0.5},
+	resistances =
 	{
-		type = "pipe",
-		name = "y-pipe-ec",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-ec.png",
-		flags = {"placeable-neutral", "player-creation"},
-		minable = {mining_time = 0.1, result = "y-pipe-ec"},
-		max_health = 100, corpse = "small-remnants",
-		resistances ={{type = "fire",percent = 50,}},
-		fast_replaceable_group = "pipe",
-		collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
-		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
-		fluid_box =
-		{
-			volume = 200,
-			base_area = 1.3,
-			pipe_connections =
-			{
-				{ direction = defines.direction.north, position = {0, 0} },
-				--{ direction = defines.direction.north, position = {0, 0} },
-				--{ direction = defines.direction.north, position = {0, 0} },
-				--{ direction = defines.direction.north, position = {0, 0} }
-			},
-		},
-		pictures = pipepictures_ec(),
-		working_sound =
-		{
-			sound = {
-				{
-					filename = "__base__/sound/pipe.ogg",
-					volume = 0.65
-				},
-			},
-			match_volume_to_activity = true,
-			max_sounds_per_type = 3
-		},
-		horizontal_window_bounding_box = {{-0.25, -0.25}, {0.25, 0.15625}},
-		vertical_window_bounding_box = {{-0.28125, -0.40625}, {0.03125, 0.125}}
+	  {
+		type = "fire",
+		percent = 80
+	  },
+	  {
+		type = "impact",
+		percent = 30
+	  }
 	},
+	fast_replaceable_group = "pipe",
+	collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
+	selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+	--damaged_trigger_effect = hit_effects.entity(),
+	fluid_box =
+	{
+	  volume = 200,
+	  pipe_covers = pipecoverspictures(), -- in case a real pipe is connected to a ghost
+	  pipe_connections =
+	  {
+		{ direction = defines.direction.north, position = {0, 0} },
+		{ direction = defines.direction.east, position = {0, 0} },
+		{ direction = defines.direction.south, position = {0, 0} },
+		{ direction = defines.direction.west, position = {0, 0} }
+	  },
+	  hide_connection_info = true
+	},
+	--impact_category = "metal",
+	pictures = pipepictures_ec(),
+	--working_sound = sounds.pipe,
+	--open_sound = sounds.metal_small_open,
+	--close_sound = sounds.metal_small_close,
+
+	horizontal_window_bounding_box = {{-0.25, -0.28125}, {0.25, 0.15625}},
+	vertical_window_bounding_box = {{-0.28125, -0.5}, {0.03125, 0.125}}
+  },
 
 	{
 		type = "pipe-to-ground",
 		name = "y-pipe-to-ground-ec",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-tg-ec.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-tg-ec.png",
 		flags = {"placeable-neutral", "player-creation"},
-		minable = {mining_time = 0.1, result = "y-pipe-to-ground-ec"},
+		minable = {mining_time = 0.1, result = "pipe-to-ground"},
 		max_health = 100,
-		corpse = "small-remnants",
+		corpse = "pipe-to-ground-remnants",
+		dying_explosion = "pipe-to-ground-explosion",
+		--factoriopedia_simulation = simulations.factoriopedia_pipe_to_ground,
+		icon_draw_specification = {scale = 0.5},
+		resistances =
+		{
+		  {
+			type = "fire",
+			percent = 80
+		  },
+		  {
+			type = "impact",
+			percent = 40
+		  }
+	
+		},
+		fast_replaceable_group = "pipe",
 		collision_box = {{-0.29, -0.29}, {0.29, 0.2}},
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
-		fast_replaceable_group = "pipe",
+		--damaged_trigger_effect = hit_effects.entity(),
 		fluid_box =
 		{
-			volume = 200,
-			base_area = 1.3,
-			base_level = 0,
-			--pipe_covers = pipecoverspictures(),
-			pipe_connections =
+		  volume =200,
+		  --pipe_covers = pipecoverspictures(),
+		  pipe_connections =
+		  {
+			{ direction = defines.direction.north, position = {0, 0} },
 			{
-				{ direction = defines.direction.north, position = {0, 0} },
-				{
-					connection_type = "underground",
-					direction = defines.direction.north,
-					position = {0, 0},
-					max_underground_distance = 30,
-				}
-			},
+			  connection_type = "underground",
+			  direction = defines.direction.south,
+			  position = {0, 0},
+			  max_underground_distance = 30
+			}
+		  },
+		  hide_connection_info = true
 		},
-		underground_sprite =
-		{
-			filename = "__core__/graphics/arrows/underground-lines.png",
-			priority = "high",
-			width = 64,
-			height = 64,
-			scale = 0.5,
-		},
+		impact_category = "metal",
+		--working_sound = sounds.pipe,
+		--open_sound = sounds.metal_small_open,
+		--close_sound = sounds.metal_small_close,
 		pictures =
 		{
 			north =
@@ -1035,9 +1304,88 @@ data:extend(
 				width = 40,
 				height = 40, shift = { 0.1, 0.075}
 			},
-		}
-	},
-	
+		},
+		visualization =
+		{
+		  north =
+		  {
+			filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+			priority = "extra-high",
+			x = 64,
+			size = 64,
+			scale = 0.5,
+			flags = {"icon"}
+		  },
+		  south =
+		  {
+			filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+			priority = "extra-high",
+			x = 192,
+			size = 64,
+			scale = 0.5,
+			flags = {"icon"}
+		  },
+		  west =
+		  {
+			filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+			priority = "extra-high",
+			x = 256,
+			size = 64,
+			scale = 0.5,
+			flags = {"icon"}
+		  },
+		  east =
+		  {
+			filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+			priority = "extra-high",
+			x = 128,
+			size = 64,
+			scale = 0.5,
+			flags = {"icon"}
+		  },
+		},
+		disabled_visualization =
+		{
+		  north =
+		  {
+			filename = "__base__/graphics/entity/pipe-to-ground/disabled-visualization.png",
+			priority = "extra-high",
+			x = 64,
+			size = 64,
+			scale = 0.5,
+			flags = {"icon"}
+		  },
+		  south =
+		  {
+			filename = "__base__/graphics/entity/pipe-to-ground/disabled-visualization.png",
+			priority = "extra-high",
+			x = 192,
+			size = 64,
+			scale = 0.5,
+			flags = {"icon"}
+		  },
+		  west =
+		  {
+			filename = "__base__/graphics/entity/pipe-to-ground/disabled-visualization.png",
+			priority = "extra-high",
+			x = 256,
+			size = 64,
+			scale = 0.5,
+			flags = {"icon"}
+		  },
+		  east =
+		  {
+			filename = "__base__/graphics/entity/pipe-to-ground/disabled-visualization.png",
+			priority = "extra-high",
+			x = 128,
+			size = 64,
+			scale = 0.5,
+			flags = {"icon"}
+		  },
+		},
+	  },
+
+
 	
 	
 	{
@@ -1058,8 +1406,8 @@ data:extend(
 			--pipe_covers = pipecoverspictures(),
 			pipe_connections =
 			{
-				{ direction = defines.direction.north, position = {  -0.5,  0.5} },
-				{ direction = defines.direction.north, position = {   0.5, -0.5} },
+				{ direction = defines.direction.north, position = {  0.5, -0.5} },
+				{ direction = defines.direction.south, position = {   -0.5, 0.5} },
 			},			
 		},
 		window_bounding_box = {{-0.05, -0.5}, {0.05, 0.0}},
@@ -1204,10 +1552,10 @@ data:extend(
 			base_area = 450, base_level = -1,
 			--pipe_covers = pipecoverspictures(),
 			pipe_connections = {
-				{ direction = defines.direction.north, position = {  0,  0} },
-				{ direction = defines.direction.north, position = {  0, -1} },
-				{ direction = defines.direction.north, position = {  1,  0} },
-				{ direction = defines.direction.north, position = { -1,  0} },
+				{ direction = defines.direction.north, position = {  0,  -1} },
+				{ direction = defines.direction.east, position = {  1, 0} },
+				{ direction = defines.direction.south, position = {  0,  1} },
+				{ direction = defines.direction.west, position = { -1,  0} },
 			},			
 		},
 		window_bounding_box = {{-0.05, -0.5}, {0.05, 0.0}},
@@ -1383,10 +1731,10 @@ data:extend(
 			},			
 			]]
 			pipe_connections = {
-				{ direction = defines.direction.north, position = {  1.5, -0.5} },
-				{ direction = defines.direction.north, position = {  0.5, -1.5} },
-				{ direction = defines.direction.north, position = { -0.5,  1.5} },
-				{ direction = defines.direction.north, position = { -1.5,  0.5} },
+				{ direction = defines.direction.north, position = {  1.5, -1.6} },
+				{ direction = defines.direction.east, position = {  1.5, -1.5} },
+				{ direction = defines.direction.south, position = { -1.5,  1.6} },
+				{ direction = defines.direction.west, position = { -1.5, 1.5} },
 			},			
 		},
 		window_bounding_box = {{-0.05, -0.5}, {0.05, 0.0}},
@@ -1526,10 +1874,10 @@ data:extend(
 			base_area = 1500, base_level = -1,
 			--pipe_covers = pipecoverspictures(),			
 			pipe_connections = {
-				{ direction = defines.direction.north, position = {  0,  1} },
-				{ direction = defines.direction.north, position = {  0, -1} },
-				{ direction = defines.direction.north, position = {  1,  0} },
-				{ direction = defines.direction.north, position = { -1,  0} },
+				{ direction = defines.direction.north, position = {  0,  -1} },
+				{ direction = defines.direction.east, position = {  1, 0} },
+				{ direction = defines.direction.south, position = {  0,  1} },
+				{ direction = defines.direction.west, position = { -1,  0} },
 			},			
 		},
 		window_bounding_box = {{-0.05, -0.5}, {0.05, 0.0}},
@@ -1665,12 +2013,11 @@ data:extend(
 			pipe_connections =
 			{
 				{ direction = defines.direction.north, position = {  0, 0} },
-				--{ direction = defines.direction.north, position = {  0, 0} },
-				--{ direction = defines.direction.north, position = {  0, 0} },
-				--{ direction = defines.direction.north, position = {  0, 0} },
+				{ direction = defines.direction.south, position = {  0, 0} },
+
 			},			
 		},
-		two_direction_only = false,
+		two_direction_only = true,
 		window_bounding_box = {{-0.05, -0.5}, {0.05, 0.0}},
 		pictures={
 			picture =
@@ -1818,12 +2165,10 @@ data:extend(
 			--pipe_covers = pipecoverspictures(),
 			pipe_connections =
 			{				
-				--{ flow_direction="input", direction = defines.direction.north, position = {-1, 0},},
-				--{ flow_direction="output", direction = defines.direction.north, position = { 1, 0} },		
-				{ direction = defines.direction.north, position = {-1, 0},},
-				{ direction = defines.direction.north, position = { 1, 0} },					
-				{ direction = defines.direction.north, position = {0, -1} },       
-				{ direction = defines.direction.north, position = {0, 1} },        
+				{ direction = defines.direction.north, position = {0, -1},},
+				{ direction = defines.direction.east, position = { 1, 0} },					
+				{ direction = defines.direction.south, position = {0, 1} },       
+				{ direction = defines.direction.west, position = {-1, 0} },        
 			},			
 		},
 		
@@ -1947,118 +2292,207 @@ data:extend(
 
 
 	-- grüne Rohre komplett
-	{
-		type = "pipe",
-		name = "yi_pipe_green",
-		icon_size = 64, icon =  "__Yuoki__/graphics/icons/g_pipe_icon.png",
-		flags = {"placeable-neutral", "player-creation"},
-		minable = {mining_time = 0.1, result = "yi_pipe_green"},
-		max_health = 100, corpse = "small-remnants",
-		resistances ={{type = "fire",percent = 50,}},
-		fast_replaceable_group = "pipe",
-		collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
-		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
-		fluid_box =
-		{
-			volume = 200,
-			base_area = 1,
-			base_level = 0,
-			pipe_connections =
-			{
-				{ direction = defines.direction.north, position = {0, 0} },
-				--{ direction = defines.direction.north, position = {0, 0} },
-				--{ direction = defines.direction.north, position = {0, 0} },
-				--{ direction = defines.direction.north, position = {0, 0} }
-			},
-		},
-		pictures = pipepictures_green(),
-		working_sound =
-		{
-			sound = {
-				{
-					filename = "__base__/sound/pipe.ogg",
-					volume = 0.65
-				},
-			},
-			match_volume_to_activity = true,
-			max_sounds_per_type = 3
-		},
-		horizontal_window_bounding_box = {{-0.25, -0.25}, {0.25, 0.15625}},
-		vertical_window_bounding_box = {{-0.28125, -0.40625}, {0.03125, 0.125}}
-	},
 
+{
+	type = "pipe",
+	name = "yi_pipe_green",
+	icon_size = 64, icon =  "__Yuoki__/graphics/icons/g_pipe_icon.png",
+	flags = {"placeable-neutral", "player-creation"},
+	minable = {mining_time = 0.1, result = "pipe"},
+	max_health = 100,
+	corpse = "pipe-remnants",
+	dying_explosion = "pipe-explosion",
+	icon_draw_specification = {scale = 0.5},
+	resistances =
 	{
-		type = "pipe-to-ground",
-		name = "yi_pipe_underground_green",
-		icon_size = 64, icon =  "__Yuoki__/graphics/icons/g_pipe_u_icon.png",
-		flags = {"placeable-neutral", "player-creation"},
-		minable = {mining_time = 0.1, result = "yi_pipe_underground_green"},
-		max_health = 100,
-		corpse = "small-remnants",
-		resistances =
+	  {
+		type = "fire",
+		percent = 80
+	  },
+	  {
+		type = "impact",
+		percent = 30
+	  }
+	},
+	fast_replaceable_group = "pipe",
+	collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
+	selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+	--damaged_trigger_effect = hit_effects.entity(),
+	fluid_box =
+	{
+	  volume = 200,
+	  pipe_covers = pipecoverspictures(), -- in case a real pipe is connected to a ghost
+	  pipe_connections =
+	  {
+		{ direction = defines.direction.north, position = {0, 0} },
+		{ direction = defines.direction.east, position = {0, 0} },
+		{ direction = defines.direction.south, position = {0, 0} },
+		{ direction = defines.direction.west, position = {0, 0} }
+	  },
+	  hide_connection_info = true
+	},
+	--impact_category = "metal",
+	pictures = pipepictures_green(),
+	--working_sound = sounds.pipe,
+	--open_sound = sounds.metal_small_open,
+	--close_sound = sounds.metal_small_close,
+
+	horizontal_window_bounding_box = {{-0.25, -0.28125}, {0.25, 0.15625}},
+	vertical_window_bounding_box = {{-0.28125, -0.5}, {0.03125, 0.125}}
+  },
+
+{
+	type = "pipe-to-ground",
+	name = "yi_pipe_underground_green",
+	icon_size = 64, icon =  "__Yuoki__/graphics/icons/g_pipe_u_icon.png",
+	flags = {"placeable-neutral", "player-creation"},
+	minable = {mining_time = 0.1, result = "pipe-to-ground"},
+	max_health = 100,
+	corpse = "pipe-to-ground-remnants",
+	dying_explosion = "pipe-to-ground-explosion",
+	--factoriopedia_simulation = simulations.factoriopedia_pipe_to_ground,
+	icon_draw_specification = {scale = 0.5},
+	resistances =
+	{
+	  {
+		type = "fire",
+		percent = 80
+	  },
+	  {
+		type = "impact",
+		percent = 40
+	  }
+
+	},
+	fast_replaceable_group = "pipe",
+	collision_box = {{-0.29, -0.29}, {0.29, 0.2}},
+	selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+	--damaged_trigger_effect = hit_effects.entity(),
+	fluid_box =
+	{
+	  volume =200,
+	  --pipe_covers = pipecoverspictures(),
+	  pipe_connections =
+	  {
+		{ direction = defines.direction.north, position = {0, 0} },
 		{
-			{
-				type = "fire",
-				percent = 80
-			}
-		},
-		fast_replaceable_group = "pipe",
-		collision_box = {{-0.29, -0.29}, {0.29, 0.2}},
-		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
-		fluid_box =
-		{
-			volume = 200,
-			base_area = 1,
-			--pipe_covers = pipecoverspictures(),
-			pipe_connections =
-			{
-				{ direction = defines.direction.north, position = {0, 0} },
-				{
-					connection_type = "underground",
-					direction = defines.direction.north,
-					position = {0, 0},
-					max_underground_distance = 25,
-				}
-			},
-		},
-		underground_sprite =
-		{
-			filename = "__core__/graphics/arrows/underground-lines.png",
-			priority = "high",
-			width = 64,
-			height = 64,
-			scale = 0.5,
-		},
-		pictures =
-		{
-			north =
-			{
-				filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_uo.png",
-				priority = "high",
-				width = 80,	height = 80 , scale = 0.5 --, shift = {0.10, -0.04}
-			},
-			south =
-			{
-				filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_uu.png",
-				priority = "high",
-				width = 80,	height = 80 , scale = 0.5 --, shift = {0.05, 0}
-			},
-			west =
-			{
-				filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_ul.png",
-				priority = "high",
-				width = 80,	height = 80 , scale = 0.5, shift = {  0.1, -0.075}
-			},
-			east =
-			{
-				filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_ur.png",
-				priority = "high",
-				width = 80,	height = 80 , scale = 0.5, shift = { -0.1, -0.075},
-			},
+		  connection_type = "underground",
+		  direction = defines.direction.south,
+		  position = {0, 0},
+		  max_underground_distance = 25
 		}
+	  },
+	  hide_connection_info = true
 	},
-
-
-
+	impact_category = "metal",
+	--working_sound = sounds.pipe,
+	--open_sound = sounds.metal_small_open,
+	--close_sound = sounds.metal_small_close,
+	pictures =
+	{
+		north =
+		{
+			filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_uo.png",
+			priority = "high",
+			width = 80,	height = 80 , scale = 0.5 --, shift = {0.10, -0.04}
+		},
+		south =
+		{
+			filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_uu.png",
+			priority = "high",
+			width = 80,	height = 80 , scale = 0.5 --, shift = {0.05, 0}
+		},
+		west =
+		{
+			filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_ul.png",
+			priority = "high",
+			width = 80,	height = 80 , scale = 0.5, shift = {  0.1, -0.075}
+		},
+		east =
+		{
+			filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_ur.png",
+			priority = "high",
+			width = 80,	height = 80 , scale = 0.5, shift = { -0.1, -0.075},
+		},
+	},
+	visualization =
+	{
+	  north =
+	  {
+		filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+		priority = "extra-high",
+		x = 64,
+		size = 64,
+		scale = 0.5,
+		flags = {"icon"}
+	  },
+	  south =
+	  {
+		filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+		priority = "extra-high",
+		x = 192,
+		size = 64,
+		scale = 0.5,
+		flags = {"icon"}
+	  },
+	  west =
+	  {
+		filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+		priority = "extra-high",
+		x = 256,
+		size = 64,
+		scale = 0.5,
+		flags = {"icon"}
+	  },
+	  east =
+	  {
+		filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+		priority = "extra-high",
+		x = 128,
+		size = 64,
+		scale = 0.5,
+		flags = {"icon"}
+	  },
+	},
+	disabled_visualization =
+	{
+	  north =
+	  {
+		filename = "__base__/graphics/entity/pipe-to-ground/disabled-visualization.png",
+		priority = "extra-high",
+		x = 64,
+		size = 64,
+		scale = 0.5,
+		flags = {"icon"}
+	  },
+	  south =
+	  {
+		filename = "__base__/graphics/entity/pipe-to-ground/disabled-visualization.png",
+		priority = "extra-high",
+		x = 192,
+		size = 64,
+		scale = 0.5,
+		flags = {"icon"}
+	  },
+	  west =
+	  {
+		filename = "__base__/graphics/entity/pipe-to-ground/disabled-visualization.png",
+		priority = "extra-high",
+		x = 256,
+		size = 64,
+		scale = 0.5,
+		flags = {"icon"}
+	  },
+	  east =
+	  {
+		filename = "__base__/graphics/entity/pipe-to-ground/disabled-visualization.png",
+		priority = "extra-high",
+		x = 128,
+		size = 64,
+		scale = 0.5,
+		flags = {"icon"}
+	  },
+	},
+  },
 	
 })	
