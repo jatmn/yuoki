@@ -11,14 +11,23 @@ data:extend(
 		resistances = {{type = "fire",percent = 70}},
 		collision_box = {{-1.7, -1.7}, {1.7, 1.7}},
 		selection_box = {{-2.0, -2.0}, {2.0, 2.0}},
-		animation = {
-			filename = "__Yuoki__/graphics/entity/laika.png",
-			priority = "medium",
-			width = 160,
-			height = 160,
-			frame_count = 1,						
-			shift = {0.5, -0.5}
-		},					
+		graphics_set =
+		{
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				filename = "__Yuoki__/graphics/entity/laika.png",
+				priority = "medium",
+				width = 160,
+				height = 160,
+				frame_count = 1,						
+				shift = {0.5, -0.5}	
+			  },
+			}
+		  }
+		},
 		crafting_categories = {"yuoki-stargate-recipe"},
 		crafting_speed = 1,
 		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 5 } },
@@ -36,16 +45,25 @@ data:extend(
 		resistances = {{type = "fire",percent = 70}},
 		collision_box = {{-2.6, -2.6}, {2.6, 2.6}},
 		selection_box = {{-3.0, -3.0}, {3.0, 3.0}},
-		animation = {
-			filename = "__Yuoki__/graphics/entity/thanks-sheet.png",
-			priority = "medium",
-			width = 192,
-			height = 192,
-			frame_count = 12,		
-			line_length =6,
-			shift = {0.0, -0.0},
-			animation_speed=0.1,
-		},					
+		graphics_set =
+		{
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				filename = "__Yuoki__/graphics/entity/thanks-sheet.png",
+				priority = "medium",
+				width = 192,
+				height = 192,
+				frame_count = 12,		
+				line_length =6,
+				shift = {0.0, -0.0},
+				animation_speed=0.1,
+			  },
+			}
+		  }
+		},
 		crafting_categories = {"yuoki-fame-recipe"},
 		crafting_speed = 1,
 		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute =  { pollution = 10 }},
@@ -55,7 +73,7 @@ data:extend(
 
 	{
 		type = "recipe",
-		name = "ye_science_ultimate_recipe",
+		name = "ye_science_ultimate",
 		ingredients = {
 			{type="item", name="ye_science_blue", amount=30000},
 		},
@@ -64,6 +82,7 @@ data:extend(
 		},
 		--result = "ye_science_ultimate",
 		--result_count = 1,
+		
 		order="a0",
 		subgroup = "y_ultimate_products",
 		group = "yuoki-energy", 					
@@ -116,7 +135,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "y_trade_ultimate_recipe",
+		name = "y_trade_ultimate",
 		ingredients = {
 			{type="item", name="ypfw_trader_sign", amount=50000},
 		},
@@ -144,18 +163,26 @@ data:extend(
 		resistances = {{type = "physical",percent = 60},},
 		collision_box = {{-5.2, -6.2}, {5.2, 5.2}},
 		selection_box = {{-5.5, -6.5}, {5.5, 5.5}},
-		--fast_replaceable_group = "assembling-machine",		
-		animation =
-		{			
-			filename = "__Yuoki__/graphics/entity/trade_ultimate.png",			
-			width = 416,
-			height = 416,
-			shift = {1, -1},
-			frame_count = 1,
-			line_length = 1,			
-			--animation_speed = 0.25,
-			--scale = 0.5,
-		},		
+		--fast_replaceable_group = "assembling-machine",			
+		graphics_set =
+		{
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				filename = "__Yuoki__/graphics/entity/trade_ultimate.png",			
+				width = 416,
+				height = 416,
+				shift = {1, -1},
+				frame_count = 1,
+				line_length = 1,			
+				--animation_speed = 0.25,
+				--scale = 0.5,
+			  },
+			}
+		  }
+		},
 		crafting_categories = {"yuoki_trader_ultimate",},
 		crafting_speed = 1.0,
 		energy_source =

@@ -12,10 +12,19 @@ data:extend(
 		resistances = {{type = "physical",percent = 50}},
 		collision_box = {{-1.2,-1.2},{1.2,1.2}},
 		selection_box = {{-1.5,-1.5},{1.5,1.5}},
-		animation = {
-			filename = "__Yuoki__/graphics/entity/charger_sheet.png",
-			priority = "medium", width = 256, height = 256, frame_count = 16, line_length = 4, shift = {0.5, -0.5}, scale=0.5, animation_speed=0.5,		
-		},					
+		graphics_set =
+		{
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				filename = "__Yuoki__/graphics/entity/charger_sheet.png",
+				priority = "medium", width = 256, height = 256, frame_count = 16, line_length = 4, shift = {0.5, -0.5}, scale=0.5, animation_speed=0.5,		
+			  },
+			}
+		  }
+		},	
 		crafting_categories = {"yuoki_charger_recipe"},
 		crafting_speed = 1.0,
 		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 52.5, } },
@@ -60,10 +69,19 @@ data:extend(
 		resistances = {{type = "physical",percent = 50}},
 		collision_box = {{-1.2,-1.2},{1.2,1.2}},
 		selection_box = {{-1.5,-1.5},{1.5,1.5}},
-		animation = {
-			filename = "__Yuoki__/graphics/entity/smelter_sheet.png",
-			priority = "medium", width = 256, height = 256, frame_count = 36, line_length = 6, shift = {0.5, -0.5}, scale=0.5, animation_speed=0.33,		
-		},					
+		graphics_set =
+		{
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				filename = "__Yuoki__/graphics/entity/smelter_sheet.png",
+				priority = "medium", width = 256, height = 256, frame_count = 36, line_length = 6, shift = {0.5, -0.5}, scale=0.5, animation_speed=0.33,	
+			  },
+			}
+		  }
+		},	
 		crafting_categories = {"yuoki_smelter_recipe"},
 		crafting_speed = 1.0,
 		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 7.5, } },
@@ -74,18 +92,13 @@ data:extend(
 			{
 				volume = 200,
 				production_type = "input",
-				--pipe_covers = pipecoverspictures(),
+				pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = { 0, 1} }}
+				pipe_connections = {{ flow_direction="output", direction = defines.direction.south, position = { 0, 1} }}
 			},
-			{
-				volume = 200,
-				production_type = "output",
-				--pipe_covers = pipecoverspictures(),				
-				base_level = 1,
-				pipe_connections = {{ direction = defines.direction.north, position = { 0, -1} }}
-			},
+
 		},
 		fluid_boxes_off_when_no_fluid_recipe = true,			
 
