@@ -53,7 +53,7 @@ data:extend({
 	{ type="item-subgroup", group="yuoki-energy", order="y", name="y_erfolge", }, --Statuen
 	{ type="item-subgroup", group="yuoki-energy", order="2B", name="y_lamps_deco", },
 	{ type="item-subgroup", group="yuoki-energy", order="xx", name="y_mastercrafted", }, --mastercrafted
-	{ type="item-subgroup", group="yuoki-energy", order="xa", name="y_personal", }, --Ausrüstung
+	{ type="item-subgroup", group="yuoki-energy", order="xa", name="y_personal", }, --Ausrï¿½stung
 	{ type="item-subgroup", group="yuoki-energy", order="xb", name="y_personal_equip", }, --Power Armor Equipment
 	{ type="item-subgroup", group="yuoki-energy", order="a6", name="y_ultimate_products", },
 	{ type="item-subgroup", group="yuoki-atomics", order="1c", name="y-atomics", },
@@ -74,7 +74,7 @@ data:extend({
 	{ type="item-subgroup", group="yuoki_liquids", order="3-d", name="y_refine_parts", }, --Mechanical Parts
 	{ type="item-subgroup", group="yuoki_liquids", order="5-c", name="y_refine_raws", }, --base materials
 
-	{ type="recipe-category", name="y-crushing-recipe" }, --
+	{ type="recipe-category", name="y-crushing" }, --
 	{ type="recipe-category", name="yrcat_crystalize" }, --
 	{ type="recipe-category", name="yrcat_emulsion" }, --
 	{ type="recipe-category", name="yrcat_hppump" }, --
@@ -84,20 +84,20 @@ data:extend({
 	{ type="recipe-category", name="yrcat_refine_c" }, --sulfur extractor
 	{ type="recipe-category", name="yrcat_refine_d" }, --vergaser
 	{ type="recipe-category", name="yrcat_trockner" }, --
-	{ type="recipe-category", name="yuoki-alien-recipe" }, --infuser ?
+	{ type="recipe-category", name="yuoki-alien" }, --infuser ?
 	{ type="recipe-category", name="yuoki-archaeology" }, --
 	{ type="recipe-category", name="yuoki-archaeology-wash" }, --
-	{ type="recipe-category", name="yuoki-atomics-recipe" }, --
-	{ type="recipe-category", name="yuoki-defense-recipe" }, --
+	{ type="recipe-category", name="yuoki-atomics" }, --
+	{ type="recipe-category", name="yuoki-defense" }, --
 	{ type="recipe-category", name="yuoki-energy" }, --
-	{ type="recipe-category", name="yuoki-fame-recipe" }, --
-	{ type="recipe-category", name="yuoki-formpress-recipe" }, --
-	{ type="recipe-category", name="yuoki-pipe-recipe" }, --
-	{ type="recipe-category", name="yuoki-raw-material-recipe" }, --
-	{ type="recipe-category", name="yuoki-repair-recipe" }, --repair stuff
-	{ type="recipe-category", name="yuoki-stargate-recipe" }, --stargate-trades
-	{ type="recipe-category", name="yuoki-watergen-recipe" }, --
-	{ type="recipe-category", name="yuoki-wonder-recipe" }, --
+	{ type="recipe-category", name="yuoki-fame" }, --
+	{ type="recipe-category", name="yuoki-formpress" }, --
+	{ type="recipe-category", name="yuoki-pipe" }, --
+	{ type="recipe-category", name="yuoki-raw-material" }, --
+	{ type="recipe-category", name="yuoki-repair" }, --repair stuff
+	{ type="recipe-category", name="yuoki-stargate" }, --stargate-trades
+	{ type="recipe-category", name="yuoki-watergen" }, --
+	{ type="recipe-category", name="yuoki-wonder" }, --
 	{ type="recipe-category", name="yuoki_charger_recipe" }, --
 	{ type="recipe-category", name="yuoki_green_ultimate" }, --Green-Ultimates
 	{ type="recipe-category", name="yuoki_mf" }, --reactor-recipes 2019

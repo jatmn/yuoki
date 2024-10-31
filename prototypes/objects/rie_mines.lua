@@ -4,7 +4,7 @@ data:extend(
 
 	{
 		type = "recipe",
-		name = "yi_mine_plasma_recipe",
+		name = "yi_mine_plasma",
 		enabled = true,
 		energy_required = 20,
 		ingredients ={
@@ -100,7 +100,7 @@ data:extend(
 
 	{
 		type = "recipe",
-		name = "yi_mine_impact_recipe",
+		name = "yi_mine_impact",
 		enabled = true,
 		energy_required = 20,
 		ingredients ={

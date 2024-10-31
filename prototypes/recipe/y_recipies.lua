@@ -3,10 +3,10 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "y-coal-brikett-recipe",
+		name = "y-coal-brikett",
 		enabled = true,	
 		energy_required = 4,
-		category = "yuoki-formpress-recipe",
+		category = "yuoki-formpress",
 		ingredients =
 		{
 			{type="item", name="y-coal-dust", amount=3},
@@ -22,10 +22,10 @@ data:extend(
 
 	{
 		type = "recipe",
-		name = "y-coal-stack-recipe",
+		name = "y-coal-stack",
 		enabled = true,	
 		energy_required = 4,
-		category = "yuoki-formpress-recipe",
+		category = "yuoki-formpress",
 		ingredients =
 		{
 			{type="item", name="y-coal-brikett", amount=3},
@@ -42,8 +42,8 @@ data:extend(
 	-- new-coal-things 215-0103
 	{
 		type = "recipe",
-		name = "y-coaldust-recipe",
-		enabled = true,	energy_required = 2, category = "y-crushing-recipe", group = "yuoki", subgroup = "y-fuel", order = "coal-s",  icon_size = 32, icon =  "__Yuoki__/graphics/icons/coal-dust.png",    		
+		name = "y-coaldust",
+		enabled = true,	energy_required = 2, category = "y-crushing", group = "yuoki", subgroup = "y-fuel", order = "coal-s",  icon_size = 32, icon =  "__Yuoki__/graphics/icons/coal-dust.png",    		
 		ingredients ={
 			{type="item", name="coal", amount=4},
 		},
@@ -52,8 +52,8 @@ data:extend(
 	},
 	{
 		type = "recipe",
-		name = "y-coaldust-mixing-recipe",
-		enabled = true,	energy_required = 2, category = "yuoki-formpress-recipe", group = "yuoki", subgroup = "y-fuel", order = "coal-s",  icon_size = 32, icon =  "__Yuoki__/graphics/icons/mix-fuel.png",    		
+		name = "y-coaldust-mixing",
+		enabled = true,	energy_required = 2, category = "yuoki-formpress", group = "yuoki", subgroup = "y-fuel", order = "coal-s",  icon_size = 32, icon =  "__Yuoki__/graphics/icons/mix-fuel.png",    		
 		ingredients ={
 			{type="item", name="y-coal-dust", amount=2},
 			{type="item", name="y-crush-yres2", amount=2},
@@ -63,8 +63,8 @@ data:extend(
 	},
 	{
 		type = "recipe",
-		name = "y-mixfuel-load-recipe",
-		enabled = true,	energy_required = 2, category = "yuoki-formpress-recipe", group = "yuoki", subgroup = "y-fuel", order = "coal-s",  icon_size = 32, icon =  "__Yuoki__/graphics/icons/mix-fuel-loaded.png",    		
+		name = "y-mixfuel-load",
+		enabled = true,	energy_required = 2, category = "yuoki-formpress", group = "yuoki", subgroup = "y-fuel", order = "coal-s",  icon_size = 32, icon =  "__Yuoki__/graphics/icons/mix-fuel-loaded.png",    		
 		ingredients ={
 			{type="item", name="y-mixed-fuel", amount=1},
 			{type="item", name="y-refined-yres2", amount=1},
@@ -74,7 +74,7 @@ data:extend(
 
 	{
 		type = "recipe",
-		name = "y-wooden-brikett-recipe",
+		name = "y-wooden-brikett",
 		enabled = true,	
 		energy_required = 9,
 		ingredients ={{type="item", name="wood", amount=8},},		
@@ -87,7 +87,7 @@ data:extend(
 
 	{
 		type = "recipe",
-		name = "y-wooden-brikett-packed-recipe",
+		name = "y-wooden-brikett-packed",
 		enabled = true,	
 		energy_required = 4,
 		ingredients =
@@ -105,7 +105,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-release-cwater",
-		category = "yuoki-formpress-recipe",				
+		category = "yuoki-formpress",				
 		energy_required = 1,
 		ingredients = {
 			{type="fluid", name="y-con_water", amount=480 } 			
@@ -123,7 +123,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "y-pressed_dry_mud-recipe",
+		name = "y-pressed_dry_mud",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{type="item", name="y-c_mud", amount=4},}, 
@@ -131,14 +131,14 @@ data:extend(
 		--result = "y-dry_mud",
 		--result_count = 1,
 		icon_size = 32, icon =  "__Yuoki__/graphics/icons/dry_mud_icon.png",
-		category = "yuoki-formpress-recipe",		
+		category = "yuoki-formpress",		
 		group = "yuoki",
 		subgroup = "y_line4", order="a2",
 	},
 
 	{
 		type = "recipe",
-		name = "y_mud2solidfuel_recipe",
+		name = "y_mud2solidfuel",
 		energy_required = 3.0,
 		enabled = true,
 		ingredients = {{type="item", name="y-dry_mud", amount=7},}, 
@@ -146,14 +146,14 @@ data:extend(
 		--result = "y-mixed-fuel",
 		--result_count = 1,
 		icon_size = 32, icon = "__Yuoki__/graphics/icons/mix-fuel.png",
-		category = "yuoki-formpress-recipe",		
+		category = "yuoki-formpress",		
 		group = "yuoki-energy",
 		subgroup = "y-fuel", order="a8",
 	},
 
 	{
 		type = "recipe",
-		name = "y_mixedfuel2rocketfuel_recipe",
+		name = "y_mixedfuel2rocketfuel",
 		energy_required = 3.0,
 		enabled = true,
 		ingredients = {{type="item", name="y-mixed-fuel", amount=10},}, 
@@ -168,7 +168,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "y-filtering-dust-recipe",
+		name = "y-filtering-dust",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{type="item", name="y-c_mud", amount=40},}, 
@@ -178,7 +178,7 @@ data:extend(
 			{type="item", name="y-crush-yres2", amount=1, },			
 		},		
 		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/bg-dusts.png",
-		category = "yuoki-formpress-recipe",		
+		category = "yuoki-formpress",		
 		group = "yuoki",
 		subgroup = "y_line4", order="a0",
 	},

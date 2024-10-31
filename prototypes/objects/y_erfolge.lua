@@ -15,7 +15,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "yi_obelisk_A3_5X_recipe",
+		name = "yi_obelisk_A3_5X",
 		icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/yi_obelisk_3.5icon.png",
 		enabled = true,
 		ingredients = 
@@ -87,7 +87,7 @@ data:extend(
 	-- recipe
 	{
 		type = "recipe",
-		name = "yi_bug1_recipe",
+		name = "yi_bug1",
 		icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/statue_bug1_icon.png",
 		enabled = true,
 		ingredients = 
@@ -159,7 +159,7 @@ data:extend(
 	-- recipe
 	{
 		type = "recipe",
-		name = "yi_hny1_recipe",
+		name = "yi_hny1",
 		icon_size = 32, icon =  "__Yuoki__/graphics/gfx/hny1_icon.png",
 		enabled = true,
 		ingredients = 
@@ -229,7 +229,7 @@ data:extend(
 	-- recipe
 	{
 		type = "recipe",
-		name = "yi_hny2_recipe",
+		name = "yi_hny2",
 		icon_size = 32, icon =  "__Yuoki__/graphics/gfx/hny2_icon.png",
 		enabled = true,
 		ingredients = 
@@ -260,7 +260,7 @@ data:extend(
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 		energy_usage = "50kW",
 		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = -25, } },				
-		crafting_categories = {"yuoki-fame-recipe"},
+		crafting_categories = {"yuoki-fame"},
 		crafting_speed = 1,
 		ingredient_count = 1,				
 		animation = {

@@ -42,7 +42,7 @@ data:extend({
 
 	{
 		type = "recipe",
-		name = "y_turret_plasma_recipe",
+		name = "y_turret_plasma",
 		enabled = true,
 		ingredients =
 		{

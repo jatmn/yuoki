@@ -7,8 +7,8 @@ data:extend(
 		-- recipes
 		{
 			type = "recipe",
-			name = "y-bullet-case-recipe",
-			category = "yuoki-formpress-recipe",
+			name = "y-bullet-case",
+			category = "yuoki-formpress",
 			enabled = true,
 			energy_required = 2,
 			ingredients = {
@@ -23,7 +23,7 @@ data:extend(
 		},
 		{
 			type = "recipe",
-			name = "y-ammo-acid-medium-recipe",
+			name = "y-ammo-acid-medium",
 			category = "crafting-with-fluid",
 			enabled = true,
 			energy_required = 17.5,
@@ -41,7 +41,7 @@ data:extend(
 		},
 		{
 			type = "recipe",
-			name = "y-ammo-hohlspitz-recipe",
+			name = "y-ammo-hohlspitz",
 			enabled = true,
 			energy_required = 15,
 			ingredients = {
@@ -56,7 +56,7 @@ data:extend(
 		},
 		{
 			type = "recipe",
-			name = "y-ammo-explosiv-recipe",
+			name = "y-ammo-explosiv",
 			enabled = true,
 			energy_required = 20,
 			ingredients = {
@@ -74,7 +74,7 @@ data:extend(
 		},
 		{
 			type = "recipe",
-			name = "y-ammo-poison-recipe",
+			name = "y-ammo-poison",
 			enabled = true,
 			energy_required = 20,
 			ingredients = {
@@ -92,7 +92,7 @@ data:extend(
 		},
 		{
 			type = "recipe",
-			name = "y-ammo-biggun-recipe",
+			name = "y-ammo-biggun",
 			enabled = true,
 			energy_required = 20,
 			ingredients = {
@@ -110,7 +110,7 @@ data:extend(
 		},
 		{
 			type = "recipe",
-			name = "y-ammo-krakon-recipe",
+			name = "y-ammo-krakon",
 			enabled = true,
 			energy_required = 20,
 			ingredients = {
@@ -129,7 +129,7 @@ data:extend(
 		{
 			type = "recipe",
 			name = "y_ammo_case_recipe",
-			category = "yuoki-formpress-recipe",
+			category = "yuoki-formpress",
 			enabled = true,
 			energy_required = 2,
 			ingredients = {

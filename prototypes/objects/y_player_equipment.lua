@@ -16,7 +16,7 @@ data:extend(
 			order = "a1",
 			group = "yuoki-energy",
 			subgroup = "y_personal_equip",
-			category = "yuoki-wonder-recipe"
+			category = "yuoki-wonder"
 		},
 		{
 			type = "recipe",
@@ -34,7 +34,7 @@ data:extend(
 			order = "a2",
 			group = "yuoki-energy",
 			subgroup = "y_personal_equip",
-			category = "yuoki-wonder-recipe"
+			category = "yuoki-wonder"
 		},
 		{
 			type = "recipe",
@@ -53,7 +53,7 @@ data:extend(
 			order = "b1",
 			group = "yuoki-energy",
 			subgroup = "y_personal_equip",
-			category = "yuoki-wonder-recipe"
+			category = "yuoki-wonder"
 		},
 		{
 			type = "recipe",
@@ -73,7 +73,7 @@ data:extend(
 			order = "c1",
 			group = "yuoki-energy",
 			subgroup = "y_personal_equip",
-			category = "yuoki-wonder-recipe"
+			category = "yuoki-wonder"
 		},
 		{
 			type = "recipe",
@@ -93,7 +93,7 @@ data:extend(
 			order = "d1",
 			group = "yuoki-energy",
 			subgroup = "y_personal_equip",
-			category = "yuoki-wonder-recipe"
+			category = "yuoki-wonder"
 		},
 		{
 			type = "recipe",
@@ -112,7 +112,7 @@ data:extend(
 			order = "w1",
 			group = "yuoki-energy",
 			subgroup = "y_personal_equip",
-			category = "yuoki-wonder-recipe"
+			category = "yuoki-wonder"
 		},
 		{
 			type = "recipe",
@@ -131,7 +131,7 @@ data:extend(
 			order = "w2",
 			group = "yuoki-energy",
 			subgroup = "y_personal_equip",
-			category = "yuoki-wonder-recipe"
+			category = "yuoki-wonder"
 		},
 		{
 			type = "recipe",
@@ -170,7 +170,7 @@ data:extend(
 			order = "e1",
 			group = "yuoki-energy",
 			subgroup = "y_personal_equip",
-			category = "yuoki-wonder-recipe"
+			category = "yuoki-wonder"
 		},
 		{
 			type = "recipe",
@@ -189,7 +189,7 @@ data:extend(
 			order = "f1",
 			group = "yuoki-energy",
 			subgroup = "y_personal_equip",
-			category = "yuoki-wonder-recipe"
+			category = "yuoki-wonder"
 		},
 		{type = "item", name = "yi_equip_shield_a", icon_size = 32, icon = "__Yuoki__/graphics/armor/panz4_32.png", order = "a1", stack_size = 15, placed_as_equipment_result = "yi_equip_shield_a", group = "yuoki-energy", subgroup = "y_personal_equip"},
 		{type = "item", name = "yi_equip_shield_b", icon_size = 32, icon = "__Yuoki__/graphics/armor/panz5_32.png", order = "a2", stack_size = 15, placed_as_equipment_result = "yi_equip_shield_b", group = "yuoki-energy", subgroup = "y_personal_equip"},

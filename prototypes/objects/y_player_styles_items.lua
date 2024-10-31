@@ -2,7 +2,7 @@
 data:extend(
 {  
 
-	{ type = "recipe", name = "yi_armor_gray_recipe", energy_required = 5, 
+	{ type = "recipe", name = "yi_armor_gray", energy_required = 5, 
 		ingredients = {
 			{type="item", name="y-fame", amount=1},
 			{type="item", name="y_quantrinum_infused", amount=2},
@@ -16,7 +16,7 @@ data:extend(
 		--result_count = 1,
 		order="sm-1", subgroup = "y_personal", group = "yuoki-energy",
 	},		
-	{ type = "recipe", name = "yi_armor_red_recipe", energy_required = 5, 
+	{ type = "recipe", name = "yi_armor_red", energy_required = 5, 
 		ingredients = {
 			{type="item", name="y-fame", amount=1},
 			{type="item", name="y_quantrinum_infused", amount=2},
@@ -30,7 +30,7 @@ data:extend(
 		--result_count = 1,
 		order="sm-2", subgroup = "y_personal", group = "yuoki-energy",
 	},			
-	{ type = "recipe", name = "yi_armor_gold_recipe", energy_required = 5, 
+	{ type = "recipe", name = "yi_armor_gold", energy_required = 5, 
 		ingredients = {
 			{type="item", name="y-fame", amount=6},
 			{type="item", name="y_quantrinum_infused", amount=2},
@@ -44,7 +44,7 @@ data:extend(
 		--result_count = 1,
 		order="sm-3", subgroup = "y_personal", group = "yuoki-energy", 
 	},				
-	{ type = "recipe", name = "yi_walker_a_recipe", energy_required = 10, 
+	{ type = "recipe", name = "yi_walker_a", energy_required = 10, 
 		ingredients = {
 			{type="item", name="y-fame", amount=8},
 			{type="item", name="y_quantrinum_infused", amount=2},
@@ -58,7 +58,7 @@ data:extend(
 		--result_count = 1,
 		order="sm-4", subgroup = "y_personal", group = "yuoki-energy", 
 	},		
-	{ type = "recipe", name = "yi_walker_c_recipe", energy_required = 10, 
+	{ type = "recipe", name = "yi_walker_c", energy_required = 10, 
 		ingredients = {
 			{type="item", name="y-fame", amount=20},
 			{type="item", name="y_quantrinum_infused", amount=10},

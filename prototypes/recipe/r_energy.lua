@@ -28,7 +28,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "y-solar-dish-recipe",
+		name = "y-solar-dish",
 		ingredients = {
 			{type="item", name="y-chip-1", amount=3},
 			{type="item", name="y-heat-pipe", amount=2},
@@ -53,7 +53,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "y_alien_solar_recipe",
+		name = "y_alien_solar",
 		ingredients = {
 			{type="item", name="y_structure_element", amount=122},
 			{type="item", name="y-orange-stuff", amount=100},
@@ -80,7 +80,7 @@ data:extend(
 
 	{
 		type = "recipe",
-		name = "y_alien_solar2_recipe",
+		name = "y_alien_solar2",
 		ingredients = {
 			{type="item", name="y_structure_element", amount=92},
 			{type="item", name="y-orange-stuff", amount=100},
@@ -109,7 +109,7 @@ data:extend(
 	-- small electric generator
 	{
 		type = "recipe",
-		name = "y-seg-recipe",
+		name = "y-seg",
 		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/energy-t2/seg_icon.png",
 		ingredients = {
 			{type="item", name="y-basic-t2-mf", amount=1},
@@ -126,7 +126,7 @@ data:extend(
 	-- medium-s electric generator
 	{
 		type = "recipe",
-		name = "y-meg-s-recipe",
+		name = "y-meg-s",
 		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/energy-t2/meg-s-icon.png",
 		ingredients = {
 			{type="item", name="y-basic-t2-mf", amount=2},
@@ -144,7 +144,7 @@ data:extend(
 	-- big electric generator
 	{
 		type = "recipe",
-		name = "y-beg-recipe",
+		name = "y-beg",
 		ingredients = {
 			{type="item", name="y-basic-t2-mf", amount=4},
 			{type="item", name="y-unicomp-raw", amount=12},
@@ -162,7 +162,7 @@ data:extend(
 	-- huge electric generator
 	{
 		type = "recipe",
-		name = "y-heg-recipe",
+		name = "y-heg",
 		ingredients = {
 			{type="item", name="y-basic-t2-mf", amount=4},
 			{type="item", name="y-unicomp-raw", amount=10},
@@ -180,7 +180,7 @@ data:extend(
 	},		
 	{
 		type = "recipe",
-		name = "y-boiler-iv-recipe",
+		name = "y-boiler-iv",
 		icon_size = 32, icon =  "__Yuoki__/graphics/icons/boiler3mw_icon2.png",
 		ingredients = {
 			{type="item", name="steel-plate", amount=3},
@@ -197,7 +197,7 @@ data:extend(
 	--y-obninsk-reactor
 	{
 		type = "recipe",
-		name = "y-obninsk-reactor-recipe",
+		name = "y-obninsk-reactor",
 		ingredients = {
 			{type="item", name="y-rare-wall-adv", amount=20},
 			{type="item", name="y_structure_element", amount=20},
@@ -216,7 +216,7 @@ data:extend(
 	--y-obninsk-turbine (rensuir)
 	{
 		type = "recipe",
-		name = "y-obninsk-turbine-recipe",
+		name = "y-obninsk-turbine",
 		ingredients = {
 			{type="item", name="y_structure_vessel", amount=14},
 			{type="item", name="y-unicomp-raw", amount=15},
@@ -232,7 +232,7 @@ data:extend(
 	},	
 	{
 		type = "recipe",
-		name = "y-notfall-generator-s2-recipe",
+		name = "y-notfall-generator-s2",
 		ingredients = {
 			{type="item", name="iron-plate", amount=4},
 			{type="item", name="iron-gear-wheel", amount=2},
@@ -247,7 +247,7 @@ data:extend(
 	-- big (ab Jan/2015 standard-steam-turbine)
 	{
 		type = "recipe",
-		name = "y-steam-turbine-recipe",
+		name = "y-steam-turbine",
 		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/steam_turbine_n3_icon.png",
 		ingredients = {
 			{type="item", name="engine-unit", amount=2},

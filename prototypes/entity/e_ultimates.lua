@@ -28,7 +28,7 @@ data:extend(
 			}
 		  }
 		},
-		crafting_categories = {"yuoki-stargate-recipe"},
+		crafting_categories = {"yuoki-stargate"},
 		crafting_speed = 1,
 		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 5 } },
 		energy_usage = "25MW",
@@ -64,7 +64,7 @@ data:extend(
 			}
 		  }
 		},
-		crafting_categories = {"yuoki-fame-recipe"},
+		crafting_categories = {"yuoki-fame"},
 		crafting_speed = 1,
 		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute =  { pollution = 10 }},
 		energy_usage = "2MW",

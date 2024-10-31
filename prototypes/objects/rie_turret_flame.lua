@@ -20,7 +20,7 @@ data:extend({
 
 		{
 			type = "recipe",
-			name = "y_turret_flame_recipe",
+			name = "y_turret_flame",
 			 icon_size = 32, icon =  "__Yuoki__/graphics/entity/defense/turm_flamer_icon.png",
 			enabled = true,
 			ingredients =

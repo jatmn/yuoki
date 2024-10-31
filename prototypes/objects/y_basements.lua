@@ -4,7 +4,7 @@ data:extend(
 
 	{
 		type = "recipe",
-		name = "y_basement_5x5a_recipe",
+		name = "y_basement_5x5a",
 		energy_required=3.0, enabled = true, category="yrcat_basements",		
 		ingredients = 
 		{    
@@ -47,7 +47,7 @@ data:extend(
 		
 	{
 		type = "recipe",
-		name = "y_basement_5x5b_recipe",
+		name = "y_basement_5x5b",
 		energy_required=3.0, enabled = true, category="yrcat_basements",
 		ingredients = 
 		{    
@@ -90,7 +90,7 @@ data:extend(
 
 	{
 		type = "recipe",
-		name = "y_basement_5x5c_recipe",
+		name = "y_basement_5x5c",
 		energy_required=3.0, enabled = true, category="yrcat_basements",
 		ingredients = 
 		{    
@@ -135,7 +135,7 @@ data:extend(
 	-- cooled
 	{
 		type = "recipe",
-		name = "y_basement_5x5d_recipe",
+		name = "y_basement_5x5d",
 		energy_required=3.0, enabled = true, category="yrcat_basements",
 		ingredients = 
 		{    
@@ -178,7 +178,7 @@ data:extend(
 	},	
 	{
 		type = "recipe",
-		name = "y_basement_5x5e_recipe",
+		name = "y_basement_5x5e",
 		energy_required=3.0, enabled = true, category="yrcat_basements",
 		ingredients = 
 		{    
@@ -222,7 +222,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "y_basement_5x5f_recipe",
+		name = "y_basement_5x5f",
 		energy_required=2.0, enabled = true, category="yrcat_basements",
 		ingredients = 
 		{    
@@ -265,7 +265,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "y_basement_5x5f2_recipe",
+		name = "y_basement_5x5f2",
 		energy_required=3.0, enabled = true, category="yrcat_basements",
 		ingredients = 
 		{    
@@ -308,7 +308,7 @@ data:extend(
 
 	{
 		type = "recipe",
-		name = "y_basement_4x4a_recipe",
+		name = "y_basement_4x4a",
 		energy_required=3.0, enabled = true, category="yrcat_basements",
 		ingredients = 
 		{    

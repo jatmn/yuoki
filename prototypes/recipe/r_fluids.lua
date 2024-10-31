@@ -66,7 +66,7 @@ data:extend(
 	]]		
 	{
 		type = "recipe",
-		name = "y-sulfuric-acid-recipe",
+		name = "y-sulfuric-acid",
 		category = "yuoki-archaeology-wash",
 		--category = "chemistry",
 		energy_required = 4,
@@ -84,8 +84,8 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "y-water-gen-fluid-recipe",
-		category = "yuoki-watergen-recipe",		
+		name = "y-water-gen-fluid",
+		category = "yuoki-watergen",		
 		energy_required = 2,
 		ingredients = {},
 		results={{type="fluid", name="water", amount=1200, },},		

@@ -40,17 +40,26 @@ data:extend(
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
 		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 		working_sound = { sound = { filename = "__base__/sound/electric-mining-drill.ogg", volume = 0.75 }, apparent_volume = 1.5,},
-		animation = {
-			filename = "__Yuoki__/graphics/entity/std_digger_sheet.png",
-			priority = "medium",
-			width = 256,
-			height = 256,
-			frame_count = 16,		
-			line_length =4,
-			scale = 0.5, 	
-			shift = {0.5, -0.4}
-		},					
-		crafting_categories = {"yuoki-raw-material-recipe"},
+		graphics_set =
+		{
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				filename = "__Yuoki__/graphics/entity/std_digger_sheet.png",
+				priority = "medium",
+				width = 256,
+				height = 256,
+				frame_count = 16,		
+				line_length =4,
+				scale = 0.5, 	
+				shift = {0.5, -0.4}
+			  },
+			}
+		  }
+		},
+		crafting_categories = {"yuoki-raw-material"},
 		crafting_speed = 1,
 		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 2 }},
 		energy_usage = "400kW",
@@ -73,7 +82,11 @@ data:extend(
 		resistances = {{type = "fire",percent = 70}},
 		collision_box = {{-1.3,-1.3},{1.3,1.3}},
 		selection_box = {{-1.5,-1.5},{1.5,1.5}},
-		animation = {
+
+		graphics_set =
+		{
+		  animation =
+		  {
 			north =
 			{
 				filename = "__Yuoki__/graphics/entity/washer-ns.png",
@@ -93,8 +106,9 @@ data:extend(
 			{
 				filename = "__Yuoki__/graphics/entity/washer-ew.png",
 				priority = "medium", width = 128, height = 128, frame_count = 16, shift = {0.47, 0}, animation_speed=0.7,
-			},			
-		},					
+			},		
+		  }
+		},
 		crafting_categories = {"yuoki-archaeology-wash"},
 		crafting_speed = 1,
 		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 3 }},
@@ -107,8 +121,8 @@ data:extend(
 				production_type = "input",
 				pipe_covers = pipecoverspictures(),
 				pipe_connections = {
-					{ flow_direction="input", direction = defines.direction.north, position = {0, -1}},
-					--{ flow_direction="input", direction = defines.direction.north, position = {0, -1.0}},			
+					{ flow_direction="input", direction = defines.direction.north, position = {1, -0.9}},
+					{ flow_direction="input", direction = defines.direction.north, position = {-1, -0.9}},			
 				},
 				secondary_draw_orders = { north = -1 }
 			},
@@ -117,8 +131,8 @@ data:extend(
 				production_type = "output",
 				pipe_covers = pipecoverspictures(),
 				pipe_connections = {
-					{ flow_direction="output", direction = defines.direction.north, position = {0, 1}},
-					--{ flow_direction="output", direction = defines.direction.north, position = {0, 1}},
+					{ flow_direction="output", direction = defines.direction.south, position = {1, 0.9}},
+					{ flow_direction="output", direction = defines.direction.south, position = {-1, 0.9}},
 				},
 				secondary_draw_orders = { north = -1 }
 			},
@@ -168,18 +182,26 @@ data:extend(
 			fade_in_ticks = 4,
 			fade_out_ticks = 20
 		},
-		animations =
+		graphics_set =
 		{
-			priority = "extra-high",
-			width = 256,
-			height = 256,
-			line_length = 6,
-			shift = {1.0, -0.75},
-			scale = 0.9,
-			filename = "__Yuoki__/graphics/entity/miners/miner_b_sheet.png",
-			frame_count = 36,
-			animation_speed = 0.5,
-		},		
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				priority = "extra-high",
+				width = 256,
+				height = 256,
+				line_length = 6,
+				shift = {1.0, -0.75},
+				scale = 0.9,
+				filename = "__Yuoki__/graphics/entity/miners/miner_b_sheet.png",
+				frame_count = 36,
+				animation_speed = 0.5,
+			  },
+			}
+		  }
+		},	
 		mining_speed = 1.75,
 		energy_source =	{
 			type = "burner", fuel_categories = {"chemical"}, effectivity = 0.9, fuel_inventory_size = 2, emissions_per_minute = { pollution = 17.5 },
@@ -228,17 +250,25 @@ data:extend(
 				{ direction = defines.direction.north, position = {0, 2} },
 			}
 		},		
-		animations =
+		graphics_set =
 		{
-			priority = "extra-high",
-			width = 224,
-			height = 224,
-			line_length = 4,
-			shift = {0, -0.25},
-			filename = "__Yuoki__/graphics/entity/miners/e2miner_sheet.png",
-			frame_count = 16,
-			animation_speed = 0.5,
-		},		
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				priority = "extra-high",
+				width = 224,
+				height = 224,
+				line_length = 4,
+				shift = {0, -0.25},
+				filename = "__Yuoki__/graphics/entity/miners/e2miner_sheet.png",
+				frame_count = 16,
+				animation_speed = 0.5,
+			  },
+			}
+		  }
+		},
 		mining_speed = 2.0,
 		energy_source =
 		{
@@ -301,20 +331,28 @@ data:extend(
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
 		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 		fast_replaceable_group = "assembling-machine",
-		animation =
+		graphics_set =
 		{
-			filename = "__Yuoki__/graphics/entity/composer_sheet.png",
-			priority = "high",
-			width = 320,
-			height = 320,
-			frame_count = 25,
-			line_length = 5,
-			animation_speed = 0.25,
-			shift = {0.46875, -0.375},
-			scale = 0.5,
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				filename = "__Yuoki__/graphics/entity/composer_sheet.png",
+				priority = "high",
+				width = 320,
+				height = 320,
+				frame_count = 25,
+				line_length = 5,
+				animation_speed = 0.25,
+				shift = {0.46875, -0.375},
+				scale = 0.5,
+			  },
+			}
+		  }
 		},
 		--crafting_categories = {"crafting", "advanced-crafting", "crafting-width-fluid","yuoki-import-bobores-wonder-recipe"},
-		crafting_categories = {"yuoki-wonder-recipe"},
+		crafting_categories = {"yuoki-wonder"},
 		crafting_speed = 3.0,
 		energy_source =
 		{
@@ -370,21 +408,6 @@ data:extend(
 		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 		fast_replaceable_group = "assembling-machine",
 
-		--[[
-		animation =
-		{
-			filename = "__Yuoki__/graphics/entity/cimota_sheet.png",
-			priority = "high",
-			width = 256,
-			height = 256,
-			frame_count = 16,
-			line_length = 4,
-			shift = {0.5, -0.0625},
-			animation_speed=0.25,
-			scale = 0.5,
-		},
-		]]
-
 		graphics_set =
 		{
 		  animation =
@@ -407,7 +430,7 @@ data:extend(
 		},
 
 		--crafting_categories = {"crafting", "advanced-crafting", "crafting-width-fluid","yuoki-import-bobores-wonder-recipe"},
-		crafting_categories = {"yuoki-atomics-recipe"},
+		crafting_categories = {"yuoki-atomics"},
 		crafting_speed = 2.0,
 		energy_source =
 		{
@@ -469,20 +492,29 @@ data:extend(
 			shift = {0.5, -0.5}
 		},
 		]]
-		animation =
+
+		graphics_set =
 		{
-			filename = "__Yuoki__/graphics/entity/infuser_sheet_v2.png",
-			priority = "high",
-			width = 256,
-			height = 256,
-			frame_count = 16,
-			line_length = 4,
-			shift = {0.5, -0.5},
-			animation_speed = 0.5,
-			scale = 0.5,
+		  animation =
+		  {
+			layers =
+			{
+				{
+					filename = "__Yuoki__/graphics/entity/infuser_sheet_v2.png",
+					priority = "high",
+					width = 256,
+					height = 256,
+					frame_count = 16,
+					line_length = 4,
+					shift = {0.5, -0.5},
+					animation_speed = 0.5,
+					scale = 0.5,
+				},
+			}
+		  }
 		},
 		--crafting_categories = {"crafting", "advanced-crafting", "crafting-width-fluid","yuoki-import-bobores-wonder-recipe"},
-		crafting_categories = {"yuoki-alien-recipe"},
+		crafting_categories = {"yuoki-alien"},
 		crafting_speed = 1,
 		
 		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 25 } },
@@ -533,7 +565,7 @@ data:extend(
 			shift = {0.375, -0.25},
 			scale = 0.5,
 		},
-		crafting_categories = {"yuoki-watergen-recipe"},
+		crafting_categories = {"yuoki-watergen"},
 		crafting_speed = 1,
 		energy_source =
 		{		
@@ -594,7 +626,7 @@ data:extend(
 			shift = {0.375, -0.25},
 			scale = 0.5,
 		},		
-		crafting_categories = {"yuoki-watergen-recipe"},
+		crafting_categories = {"yuoki-watergen"},
 		crafting_speed = 1,
 		energy_source ={	
 			type = "electric",
@@ -660,7 +692,7 @@ data:extend(
 			scale = 0.5,
 			shift = {0.475, -0.275}
 		},		
-		crafting_categories = {"yuoki-watergen-recipe"},
+		crafting_categories = {"yuoki-watergen"},
 		crafting_speed = 1,
 		
 		energy_usage = "4MW",						
@@ -703,7 +735,7 @@ data:extend(
 			shift = {0.0, -0.25},
 			animation_speed=0.5,
 		},					
-		crafting_categories = {"yuoki-formpress-recipe"},
+		crafting_categories = {"yuoki-formpress"},
 		crafting_speed = 1.25,
 		energy_source = { type = "burner", fuel_categories = {"chemical"}, effectivity = 1, fuel_inventory_size = 2, emissions_per_minute = { pollution = 15 }, smoke = {{name = "smoke",deviation = {0.1, 0.1},frequency = 1}}},
 		energy_usage = "300kW",	
@@ -799,7 +831,7 @@ data:extend(
 			shift = {0.0, -0.0}
 		},
 		--crafting_categories = {"crafting", "advanced-crafting", "crafting-width-fluid","yuoki-import-bobores-wonder-recipe"},
-		crafting_categories = {"y-crushing-recipe"},
+		crafting_categories = {"y-crushing"},
 		crafting_speed = 1.5,
 		energy_source = { type = "burner", fuel_categories = {"chemical"}, effectivity = 1, fuel_inventory_size = 2, emissions_per_minute = { pollution = 5 }, smoke = {{name = "smoke",deviation = {0.1, 0.1},frequency = 1}}},
 		energy_usage = "100kW",			

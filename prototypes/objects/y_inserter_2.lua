@@ -5,7 +5,7 @@ data:extend(
 	-- smart yuoki-inserter L2
 	{
 		type = "recipe",
-		name = "y_inserter_diagonal_recipe",
+		name = "y_inserter_diagonal",
 		enabled = true,
 		ingredients =
 		{			
@@ -125,7 +125,7 @@ data:extend(
 	-- smart yuoki-inserter evade inserter 
 	{
 		type = "recipe",
-		name = "y_inserter_evade_shortR_recipe",
+		name = "y_inserter_evade_shortR",
 		enabled = true,
 		ingredients =
 		{			
@@ -243,7 +243,7 @@ data:extend(
 	-- smart yuoki-inserter evade inserter 
 	{
 		type = "recipe",
-		name = "y_inserter_evade_shortL_recipe",
+		name = "y_inserter_evade_shortL",
 		enabled = true,
 		ingredients =
 		{			

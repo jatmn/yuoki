@@ -56,7 +56,7 @@ data:extend(
 			}
 		  }
 		},
-		crafting_categories = {"y-crushing-recipe"},
+		crafting_categories = {"y-crushing"},
 		crafting_speed = 3.5,
 		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution  = 3.75, }},
 		energy_usage = "250kW",
@@ -149,7 +149,7 @@ data:extend(
 			}
 		  }
 		},				
-		crafting_categories = {"yuoki-formpress-recipe"},
+		crafting_categories = {"yuoki-formpress"},
 		crafting_speed = 3,
 		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 4.8, } },
 		energy_usage = "600kW",
@@ -241,7 +241,7 @@ data:extend(
 			}
 		  }
 		},
-		crafting_categories = {"yuoki-repair-recipe"},
+		crafting_categories = {"yuoki-repair"},
 		crafting_speed = 3,
 		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 5, } },
 		energy_usage = "500kW",

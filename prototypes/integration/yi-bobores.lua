@@ -3,7 +3,7 @@ data:extend(
 	-- pure atomic constructs
 	{
 		type = "recipe",
-		name = "y-ac-uc2b1-recipe", order="a",
+		name = "y-ac-uc2b1", order="a",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{type="item", name="y-unicomp-a2", amount=1},}, 
@@ -13,7 +13,7 @@ data:extend(
 		--result = "bauxite-ore",
 		--result_count = 20,
 		subgroup = "y-atomics", 
-		category = "yuoki-atomics-recipe",
+		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},	
 	--[[
@@ -44,7 +44,7 @@ data:extend(
 	]]
 	{
 		type = "recipe",
-		name = "y-ac-uc2b4-recipe", order="a",
+		name = "y-ac-uc2b4", order="a",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{type="item", name="y-unicomp-a2", amount=1},}, 
@@ -52,12 +52,12 @@ data:extend(
 		--result = "gold-ore",
 		--result_count = 20,
 		subgroup = "y-atomics", 
-		category = "yuoki-atomics-recipe",
+		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},	
 	{
 		type = "recipe",
-		name = "y-ac-uc2b5-recipe", order="a",
+		name = "y-ac-uc2b5", order="a",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{type="item", name="y-unicomp-a2", amount=1},}, 
@@ -65,12 +65,12 @@ data:extend(
 		--result = "lead-ore",
 		--result_count = 20,
 		subgroup = "y-atomics", 
-		category = "yuoki-atomics-recipe",
+		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},	
 	{
 		type = "recipe",
-		name = "y-ac-uc2b6-recipe", order="a",
+		name = "y-ac-uc2b6", order="a",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{type="item", name="y-unicomp-a2", amount=1},}, 
@@ -78,7 +78,7 @@ data:extend(
 		--result = "nickel-ore",
 		--result_count = 20,
 		subgroup = "y-atomics", 
-		category = "yuoki-atomics-recipe",
+		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},
 	--[[
@@ -97,7 +97,7 @@ data:extend(
 	]]
 	{
 		type = "recipe",
-		name = "y-ac-uc2b8-recipe", order="a",
+		name = "y-ac-uc2b8", order="a",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{type="item", name="y-unicomp-a2", amount=1},}, 
@@ -105,12 +105,12 @@ data:extend(
 		--result = "rutile-ore",
 		--result_count = 20,
 		subgroup = "y-atomics", 
-		category = "yuoki-atomics-recipe",
+		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},	
 	{
 		type = "recipe",
-		name = "y-ac-uc2b9-recipe", order="a",
+		name = "y-ac-uc2b9", order="a",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{type="item", name="y-unicomp-a2", amount=1},}, 
@@ -118,7 +118,7 @@ data:extend(
 		--result = "silver-ore",
 		--result_count = 20,
 		subgroup = "y-atomics", 
-		category = "yuoki-atomics-recipe",
+		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},
 	--[[
@@ -137,7 +137,7 @@ data:extend(
 	]]
 	{
 		type = "recipe",
-		name = "y-ac-uc2b11-recipe", order="a",
+		name = "y-ac-uc2b11", order="a",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{type="item", name="y-unicomp-a2", amount=1},}, 
@@ -145,12 +145,12 @@ data:extend(
 		--result = "tin-ore",
 		--result_count = 20,
 		subgroup = "y-atomics", 
-		category = "yuoki-atomics-recipe",
+		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},	
 	{
 		type = "recipe",
-		name = "y-ac-uc2b12-recipe", order="a",
+		name = "y-ac-uc2b12", order="a",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{type="item", name="y-unicomp-a2", amount=1},}, 
@@ -158,12 +158,12 @@ data:extend(
 		--result = "tungsten-ore",
 		--result_count = 20,
 		subgroup = "y-atomics", 
-		category = "yuoki-atomics-recipe",
+		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},	
 	{
 		type = "recipe",
-		name = "y-ac-uc2b13-recipe", order="a",
+		name = "y-ac-uc2b13", order="a",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{type="item", name="y-unicomp-a2", amount=1},}, 
@@ -171,14 +171,14 @@ data:extend(
 		--result = "zinc-ore",
 		--result_count = 20,
 		subgroup = "y-atomics", 
-		category = "yuoki-atomics-recipe",
+		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},	
 
 	-- reverts
 	{
 		type = "recipe",
-		name = "y-ac-uc2r1-recipe", order="a",
+		name = "y-ac-uc2r1", order="a",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{type="item", name="bauxite-ore", amount=20},}, 
@@ -186,7 +186,7 @@ data:extend(
 		--result = "y-unicomp-a2",
 		--result_count = 1,
 		subgroup = "y-atomics", 
-		category = "yuoki-atomics-recipe",
+		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	--[[
@@ -218,7 +218,7 @@ data:extend(
 	]]
 	{
 		type = "recipe",
-		name = "y-ac-ucrb4-recipe", order="a",
+		name = "y-ac-ucrb4", order="a",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{type="item", name="gold-ore", amount=20},}, 
@@ -226,12 +226,12 @@ data:extend(
 		--result = "y-unicomp-a2",
 		--result_count = 1,
 		subgroup = "y-atomics", 
-		category = "yuoki-atomics-recipe",
+		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	{
 		type = "recipe",
-		name = "y-ac-uc2r5-recipe", order="a",
+		name = "y-ac-uc2r5", order="a",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{type="item", name="lead-ore", amount=20},}, 
@@ -239,12 +239,12 @@ data:extend(
 		--result = "y-unicomp-a2",
 		--result_count = 1,
 		subgroup = "y-atomics", 
-		category = "yuoki-atomics-recipe",
+		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	{
 		type = "recipe",
-		name = "y-ac-uc2r6-recipe", order="a",
+		name = "y-ac-uc2r6", order="a",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{"nickel-ore", 20},}, 
@@ -252,7 +252,7 @@ data:extend(
 		--result = "y-unicomp-a2",
 		--result_count = 1,
 		subgroup = "y-atomics", 
-		category = "yuoki-atomics-recipe",
+		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	--[[
@@ -271,7 +271,7 @@ data:extend(
 	]]
 	{
 		type = "recipe",
-		name = "y-ac-uc2r8-recipe", order="a",
+		name = "y-ac-uc2r8", order="a",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{type="item", name="rutile-ore", amount=20},},
@@ -279,12 +279,12 @@ data:extend(
 		--result = "y-unicomp-a2",
 		--result_count = 1,
 		subgroup = "y-atomics", 
-		category = "yuoki-atomics-recipe",
+		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	{
 		type = "recipe",
-		name = "y-ac-uc2r9-recipe", order="a",
+		name = "y-ac-uc2r9", order="a",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{type="item", name="silver-ore", amount=20},}, 
@@ -292,7 +292,7 @@ data:extend(
 		--result = "y-unicomp-a2",
 		--result_count = 1,
 		subgroup = "y-atomics", 
-		category = "yuoki-atomics-recipe",
+		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	--[[
@@ -311,7 +311,7 @@ data:extend(
 	]]
 	{
 		type = "recipe",
-		name = "y-ac-uc2r11-recipe", order="a",
+		name = "y-ac-uc2r11", order="a",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{type="item", name="tungsten-ore", amount=20},},
@@ -319,12 +319,12 @@ data:extend(
 		--result = "y-unicomp-a2",
 		--result_count = 1,
 		subgroup = "y-atomics", 
-		category = "yuoki-atomics-recipe",
+		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	{
 		type = "recipe",
-		name = "y-ac-uc2r12-recipe", order="a",
+		name = "y-ac-uc2r12", order="a",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{type="item", name="tungsten-ore", amount=20},},
@@ -332,12 +332,12 @@ data:extend(
 		--result = "y-unicomp-a2",
 		--result_count = 1,
 		subgroup = "y-atomics", 
-		category = "yuoki-atomics-recipe",
+		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	{
 		type = "recipe",
-		name = "y-ac-uc2r13-recipe", order="a",
+		name = "y-ac-uc2r13", order="a",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{type="item", name="zinc-ore", amount=20},},
@@ -345,7 +345,7 @@ data:extend(
 		--result = "y-unicomp-a2",
 		--result_count = 1,
 		subgroup = "y-atomics", 
-		category = "yuoki-atomics-recipe",
+		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	

@@ -2,7 +2,7 @@ data:extend({
 
 	{
 		type = "recipe",
-		name = "y_old_bodenlampe_recipe",
+		name = "y_old_bodenlampe",
 		enabled = true,
 		ingredients = 
 		{    
@@ -66,7 +66,7 @@ data:extend({
 
 	{
 		type = "recipe",
-		name = "y_lampe_neotix_recipe",
+		name = "y_lampe_neotix",
 		enabled = true,
 		ingredients = 
 		{    
@@ -129,7 +129,7 @@ data:extend({
 
 	{
 		type = "recipe",
-		name = "y_lampe_yuoki_recipe",
+		name = "y_lampe_yuoki",
 		enabled = true,
 		ingredients = 
 		{    
@@ -190,7 +190,7 @@ data:extend({
 
 	{
 		type = "recipe",
-		name = "y_lampe_corner_recipe",
+		name = "y_lampe_corner",
 		energy_required=2.0, enabled = true,
 		ingredients = 
 		{    
@@ -254,7 +254,7 @@ data:extend({
 	
 	{
 		type = "recipe",
-		name = "y_lampe_44basement_a_recipe",
+		name = "y_lampe_44basement_a",
 		energy_required=2.0, enabled = true,
 		ingredients = 
 		{    
@@ -317,7 +317,7 @@ data:extend({
 	
 	{
 		type = "recipe",
-		name = "y_lampe_44basement_b_recipe",
+		name = "y_lampe_44basement_b",
 		energy_required=2.0, enabled = true,
 		ingredients = 
 		{    
@@ -380,7 +380,7 @@ data:extend({
 
 	{
 		type = "recipe",
-		name = "y_lampe_66basement_recipe",
+		name = "y_lampe_66basement",
 		energy_required=2.0, enabled = true,
 		ingredients = 
 		{    

@@ -4,7 +4,7 @@ data:extend(
 	-- walls
 	{
 		type = "recipe",
-		name = "y-mud-wall-recipe",
+		name = "y-mud-wall",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {
@@ -21,7 +21,7 @@ data:extend(
 	},	
 	{
 		type = "recipe",
-		name = "y-rare-wall-basic-recipe",
+		name = "y-rare-wall-basic",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {
@@ -37,7 +37,7 @@ data:extend(
 	},	
 	{
 		type = "recipe",
-		name = "y-rare-wall-adv-recipe",
+		name = "y-rare-wall-adv",
 		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/rare2-wall-icon2.png",
 		energy_required = 2.0,
 		enabled = true,
@@ -53,7 +53,7 @@ data:extend(
 	},		
 	{
 		type = "recipe",
-		name = "y-wall-forcefield-recipe",
+		name = "y-wall-forcefield",
 		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/wall-forcefield-icon.png",
 		energy_required = 3.0,
 		enabled = true,
@@ -69,7 +69,7 @@ data:extend(
 	},		
 	{
 		type = "recipe",
-		name = "y_wall22_hardic_recipe",
+		name = "y_wall22_hardic",
 		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/walls/wall_hardic_icon.png",
 		energy_required = 2.0,
 		enabled = true,
@@ -86,7 +86,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "y_laser_onhwall_recipe",
+		name = "y_laser_onhwall",
 		enabled = true,
 		energy_required = 4,
 		ingredients =
@@ -104,7 +104,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "y_laser_mk1_recipe",
+		name = "y_laser_mk1",
 		enabled = true,
 		energy_required = 4,
 		ingredients =
@@ -122,7 +122,7 @@ data:extend(
 		
 	{
 		type = "recipe",
-		name = "y-gun-turret-mk2-recipe",
+		name = "y-gun-turret-mk2",
 		enabled = true,
 		energy_required = 4,
 		ingredients =
@@ -139,7 +139,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "y-gun-turret-mk3-recipe",
+		name = "y-gun-turret-mk3",
 		enabled = true,
 		energy_required = 4,
 		ingredients =
@@ -155,7 +155,7 @@ data:extend(
 	},	
 	{
 		type = "recipe",
-		name = "y-weapon-ztt-recipe",		
+		name = "y-weapon-ztt",		
 		energy_required = 3.0,
 		enabled = true,
 		ingredients = {

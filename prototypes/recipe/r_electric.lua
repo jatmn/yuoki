@@ -15,7 +15,7 @@ data:extend(
 	]]
 	{
 		type = "recipe",
-		name = "y-conductive-coil-1-recipe",
+		name = "y-conductive-coil-1",
 		energy_required = 3.0,
 		enabled = true,
 		ingredients = {
@@ -31,7 +31,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "y_dotzetron_recipe",
+		name = "y_dotzetron",
 		--category = "yuoki-formpress-recipe",		
 		--category = "crafting-with-fluid",		
 		energy_required = 4.0,
@@ -49,7 +49,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "y_chip_plate_recipe",
+		name = "y_chip_plate",
 		--category = "yuoki-formpress-recipe",		
 		energy_required = 4.0,
 		enabled = true,
@@ -66,7 +66,7 @@ data:extend(
 	
 	{
 		type = "recipe",
-		name = "y-chip1-recipe",
+		name = "y-chip1",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {
@@ -81,7 +81,7 @@ data:extend(
 	},	
 	{
 		type = "recipe",
-		name = "y-chip2-recipe",
+		name = "y-chip2",
 		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki__/graphics/gfx/chip2-icon.png",
 		energy_required = 3,
 		enabled = true,
@@ -98,7 +98,7 @@ data:extend(
 
 	{
 		type = "recipe",
-		name = "yi_magnetron_recipe",
+		name = "yi_magnetron",
 		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki__/graphics/icons/magnetron.png",
 		energy_required = 1.5,
 		enabled = true,
@@ -121,7 +121,7 @@ data:extend(
 	-- basic cell empty
 	{
 		type = "recipe",
-		name = "y-battery-singleuse1-recipe",		
+		name = "y-battery-singleuse1",		
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {
@@ -137,7 +137,7 @@ data:extend(
 	-- loaded cell
 	{
 		type = "recipe",
-		name = "y-battery-singleuse2-recipe",		
+		name = "y-battery-singleuse2",		
 		energy_required = 4.0,
 		enabled = true,		
 		ingredients = {{type="item", name="y-battery-single-use1", amount=1},},
@@ -149,7 +149,7 @@ data:extend(
 	-- block loaded cells
 	{
 		type = "recipe",
-		name = "y-battery-single-use3-recipe",
+		name = "y-battery-single-use3",
 		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki__/graphics/gfx/battery_3.png",
 		energy_required = 4.0,
 		enabled = true,
@@ -167,7 +167,7 @@ data:extend(
 	--single-use-mod-batterys to standard-batterys
 	{
 		type = "recipe",
-		name = "y-battery-rip1-recipe",				
+		name = "y-battery-rip1",				
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {
@@ -182,7 +182,7 @@ data:extend(
 	-- blocked capaciter
 	{
 		type = "recipe",
-		name = "y_blocked_capa_recipe",
+		name = "y_blocked_capa",
 		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki__/graphics/gfx/scd-icon.png",
 		energy_required = 3.0,
 		enabled = true,
@@ -197,7 +197,7 @@ data:extend(
 	},				
 	{
 		type = "recipe",
-		name = "y-substation-m-recipe",
+		name = "y-substation-m",
 		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki__/graphics/icons/substation-icon.png",
 		energy_required = 3.0,
 		enabled = true,
@@ -215,7 +215,7 @@ data:extend(
 
 	{
 		type = "recipe",
-		name = "y-substation-h-recipe",
+		name = "y-substation-h",
 		energy_required = 3.0,
 		enabled = true,
 		ingredients = {
@@ -236,7 +236,7 @@ data:extend(
 	-- Tier 1 - Accumulators
 	{
 		type = "recipe",
-		name = "y-accumulator-m-recipe",
+		name = "y-accumulator-m",
 		energy_required = 6.0, enabled = true,
 		ingredients = {
 			{type="item", name="y_blocked_capa", amount=3},
@@ -250,7 +250,7 @@ data:extend(
 	-- Big Advanced Accum
 	{
 		type = "recipe",
-		name = "y-accumulator-b-recipe",
+		name = "y-accumulator-b",
 		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki__/graphics/gfx/accu_b_icon.png",
 		energy_required = 8.0, enabled = true,
 		ingredients = {
@@ -271,7 +271,7 @@ data:extend(
 	-- Medium T2
 	{
 		type = "recipe",
-		name = "y-accumulator-mt2-recipe",
+		name = "y-accumulator-mt2",
 		energy_required = 6.0, enabled = true,
 		ingredients = {
 			{type="item", name="y-accumulator-m", amount=1},
@@ -286,7 +286,7 @@ data:extend(
 	},		
 	{
 		type = "recipe",
-		name = "y-accumulator-bt2-recipe",
+		name = "y-accumulator-bt2",
 		energy_required = 8.0, enabled = true,
 		ingredients = {
 			{type="item", name="y-accumulator-b", amount=1},
@@ -303,8 +303,8 @@ data:extend(
 	-- Tier 3 - Accumulators - AQE
 	{
 		type = "recipe",
-		name = "y-accumulator-btx-recipe",
-		category="yuoki-wonder-recipe";
+		name = "y-accumulator-btx",
+		category="yuoki-wonder";
 		energy_required = 12.0, enabled = true,
 		ingredients = {
 			{type="item", name="y_structure_element", amount=8},
@@ -322,8 +322,8 @@ data:extend(
 	-- Tier 4 - Accumulators - Crystal	
 	{
 		type = "recipe",
-		name = "y-accumulator-crystal-m-recipe",
-		category="yuoki-wonder-recipe";
+		name = "y-accumulator-crystal-m",
+		category="yuoki-wonder";
 		energy_required = 20.0, enabled = true,
 		ingredients = {
 			{type="item", name="y_structure_element", amount=12},
@@ -341,7 +341,7 @@ data:extend(
 	-- Tier 1.5 - Accumulators
 	{
 		type = "recipe",
-		name = "y-ups-flywheel-b-recipe",
+		name = "y-ups-flywheel-b",
 		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki__/graphics/gfx/accflywheel_b_icon.png",
 		energy_required = 12.0, enabled = true,
 		ingredients = {
@@ -359,7 +359,7 @@ data:extend(
 	-- Compensator 2.5 MW
 	{
 		type = "recipe",
-		name = "y_compensator_25_recipe",
+		name = "y_compensator_25",
 		--category="yuoki-wonder-recipe";
 		energy_required = 5.0, enabled = true,
 		ingredients = {

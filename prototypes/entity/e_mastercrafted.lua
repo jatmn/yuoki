@@ -4,7 +4,7 @@ data:extend(
 	--y-obninsk-reactor
 	{
 		type = "recipe",
-		name = "y_obninsk_mc_recipe",
+		name = "y_obninsk_mc",
 		ingredients = {
 			{type="item", name="y-obninsk-reactor", amount=1},
 			{type="item", name="y_rwtechsign", amount=10000},
@@ -189,7 +189,7 @@ data:extend(
 	-- big master-steam-turbine
 	{
 		type = "recipe",
-		name = "y_steam_turbine_mc_recipe",
+		name = "y_steam_turbine_mc",
 		icon_size = 32, icon =  "__Yuoki__/graphics/entity/steam_turbine_n3mc_icon.png",
 		ingredients = {
 			{type="item", name="y-steam-turbine", amount=1},
@@ -292,7 +292,7 @@ data:extend(
 	-- green master-steam-turbine
 	{
 		type = "recipe",
-		name = "y_steam_turbine_gr_recipe",
+		name = "y_steam_turbine_gr",
 		icon_size = 64, icon =  "__Yuoki__/graphics/entity/steam_turbine-n3mc-green_icon.png",
 		ingredients = {
 			{type="item", name="y-steam-turbine", amount=1},
@@ -398,7 +398,7 @@ data:extend(
 	-- Mastercrafted-Special Drill
 	{
 		type = "recipe",
-		name = "y_mc_underground_drill_recipe",
+		name = "y_mc_underground_drill",
 		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_digger_icon.png",
 		ingredients = {
 			{type="item", name="y-underground-drill", amount=1},
@@ -446,7 +446,7 @@ data:extend(
 			scale = 0.5, 	
 			shift = {0.5, -0.4}
 		},					
-		crafting_categories = {"yuoki-raw-material-recipe"},
+		crafting_categories = {"yuoki-raw-material"},
 		crafting_speed = 2,
 		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 2}},
 		energy_usage = "400kW",
@@ -570,7 +570,7 @@ data:extend(
 	-- Mastercrafted Mining Drill
 	{
 		type = "recipe",
-		name = "y_mc_e2_mining_drill_recipe",
+		name = "y_mc_e2_mining_drill",
 		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_miner_icon.png",
 		ingredients = {
 			{type="item", name="y-mining-drill-e2", amount=1},
@@ -668,7 +668,7 @@ data:extend(
 	-- Mastercrafted Boiler	- green
 	{
 		type = "recipe",
-		name = "y_boiler4_mc_recipe",
+		name = "y_boiler4_mc",
 		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_big_boiler_ig_icon.png",
 		ingredients = {
 			{type="item", name="y-boiler-iv", amount=1},
@@ -771,7 +771,7 @@ data:extend(
 	-- Mastercrafted Boiler	- tech
 	{
 		type = "recipe",
-		name = "y_boiler4_tech_recipe",
+		name = "y_boiler4_tech",
 		icon_size = 64, icon =  "__Yuoki__/graphics/entity/mc_big_boiler_t_icon.png",
 		ingredients = {
 			{type="item", name="y-boiler-iv", amount=1},

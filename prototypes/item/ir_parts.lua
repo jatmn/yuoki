@@ -43,7 +43,7 @@ data:extend(
 	-- basic stage-1 maschine frame
 	{
 		type = "recipe",
-		name = "y-basic-st1-mf-recipe",
+		name = "y-basic-st1-mf",
 		ingredients = {
 			{type="item", name="y-conductive-wire-1", amount=3},
 			{type="item", name="y-bluegear", amount=3},
@@ -61,7 +61,7 @@ data:extend(
 	-- basic stage-2 maschine frame
 	{
 		type = "recipe",
-		name = "y-basic-st2-mf-recipe",
+		name = "y-basic-st2-mf",
 		icon_size = 32, icon =  "__Yuoki__/graphics/icons/maschine-frame-t2.png",
 		ingredients = {
 			{type="item", name="y-conductive-coil-1", amount=2},
@@ -79,7 +79,7 @@ data:extend(
 	-- Heat-Cool-Rib-Block
 	{
 		type = "recipe",
-		name = "y-heat-pipe-recipe",
+		name = "y-heat-pipe",
 		ingredients = {
 			{type="item", name="copper-plate", amount=5},
 			{type="item", name="iron-plate", amount=2},

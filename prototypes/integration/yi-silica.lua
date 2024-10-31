@@ -3,7 +3,7 @@ data:extend(
 	-- pure atomic constructs
 	{
 		type = "recipe",
-		name = "y-ac-uc2silica-recipe", order="a",
+		name = "y-ac-uc2silica", order="a",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {{type="item", name="y-unicomp-a2", amount=1},}, 
@@ -11,7 +11,7 @@ data:extend(
 		--result = "raw-silica",
 		--result_count = 20,
 		subgroup = "y-atomics", 
-		category = "yuoki-atomics-recipe",
+		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_blue.png",
 	},	
 	
