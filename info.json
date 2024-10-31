@@ -3,9 +3,9 @@
 	"name": "Yuoki",
 	"version": "1.2.0",
 	"date": "2024-10-30",
-	"author": "Yuoki Tani",
+	"author": "JATMN",
 	"factorio_version": "2.0",
-	"dependencies": ["base >= 0.18.35","? DeadlockStacking","! YuokiTweaks"],  	
-	"title": "Yuoki Industries",  
-	"description": "adds more content like generators, ressource-transformations, machinery, turrets ..."
+	"dependencies": ["base >= 2.0.0","? DeadlockStacking","! YuokiTweaks"],  	
+	"title": "Yuoki Industries (Factorio 2.0)",  
+	"description": "For Factorio 2.0 - adds more content like generators, ressource-transformations, machinery, turrets ..."
 }

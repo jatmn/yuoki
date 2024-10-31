@@ -253,7 +253,7 @@ data:extend(
 			base_level = -1,			
 			pipe_connections =
 			{
-				{ flow_direction = "input-output", direction = defines.direction.north, position = {0, 1.5} },
+				{ flow_direction = "input-output", direction = defines.direction.south, position = {0, 1.5} },
 				{ flow_direction = "input-output", direction = defines.direction.north, position = {0,-1.5} },
 			},
 			production_type = "input-output",
@@ -356,7 +356,7 @@ data:extend(
 			base_level = -1,			
 			pipe_connections =
 			{
-				{ flow_direction = "input-output", direction = defines.direction.north, position = {0, 1.5} },
+				{ flow_direction = "input-output", direction = defines.direction.south, position = {0, 1.5} },
 				{ flow_direction = "input-output", direction = defines.direction.north, position = {0,-1.5} },
 			},
 			production_type = "input-output",
@@ -657,8 +657,8 @@ data:extend(
 				animation_speed = 0.5,
 				scale = 0.5,
 			  },
-			}
-		  }
+			},
+		  },
 		},
 		mining_speed = 3.0,
 		energy_source =
@@ -734,11 +734,10 @@ data:extend(
 			base_area = 7.5,
 			height = 2,
 			base_level = -2,
-			pipe_connections =
-			{
-				{ flow_direction = "input-output", direction = defines.direction.north, position = { 1,  0} },
-				{ flow_direction = "input", direction = defines.direction.north, position = { 0,  1} },
-				{ flow_direction = "input-output", direction = defines.direction.north, position = {-1,  0} }
+			pipe_connections = {
+				{flow_direction = "input-output", direction = defines.direction.east, position = {1, 0}},
+				{flow_direction = "input", direction = defines.direction.south, position = {0, 1}},
+				{flow_direction = "input-output", direction = defines.direction.west, position = {-1, 0}}
 			},
 			production_type = "input-output",
 			filter = "water",
@@ -775,12 +774,25 @@ data:extend(
 				}
 			}
 		},
-		structure =
-		{
-			north ={ filename = "__Yuoki__/graphics/entity/mc_big_boiler.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 		shift = {0.375, -0.25} },
-			east ={ filename = "__Yuoki__/graphics/entity/mc_big_boiler.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 		shift = {0.375, -0.25} },
-			south ={ filename = "__Yuoki__/graphics/entity/mc_big_boiler.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 	shift = {0.375, -0.25} },
-			west ={ filename = "__Yuoki__/graphics/entity/mc_big_boiler.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 	shift = {0.375, -0.25} },
+
+		pictures = {
+			north = {
+				structure =
+				{ filename = "__Yuoki__/graphics/entity/mc_big_boiler.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 		shift = {0.375, -0.25} },
+			},
+		
+			east = {
+				structure =
+				{ filename = "__Yuoki__/graphics/entity/mc_big_boiler.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 		shift = {0.375, -0.25} }
+			},
+			south = {
+				structure =
+				{ filename = "__Yuoki__/graphics/entity/mc_big_boiler.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 	shift = {0.375, -0.25} }
+			},
+			west = {
+				structure =
+				{ filename = "__Yuoki__/graphics/entity/mc_big_boiler.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 	shift = {0.375, -0.25} }
+			}
 		},
 		fire = {},
 		fire_glow = {},
@@ -837,11 +849,10 @@ data:extend(
 			base_area = 7.5,
 			height = 2,
 			base_level = -2,
-			pipe_connections =
-			{
-				{ flow_direction = "input-output", direction = defines.direction.north, position = { 1,  0} },
-				{ flow_direction = "input", direction = defines.direction.north, position = { 0,  1} },
-				{ flow_direction = "input-output", direction = defines.direction.north, position = {-1,  0} }
+			pipe_connections = {
+				{flow_direction = "input-output", direction = defines.direction.east, position = {1, 0}},
+				{flow_direction = "input", direction = defines.direction.south, position = {0, 1}},
+				{flow_direction = "input-output", direction = defines.direction.west, position = {-1, 0}}
 			},
 			production_type = "input-output",
 			filter = "water",
@@ -878,12 +889,25 @@ data:extend(
 				}
 			}
 		},
-		structure =
-		{
-			north ={ filename = "__Yuoki__/graphics/entity/mc_big_boiler_t.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 		shift = {0.375, -0.25} },
-			east ={ filename = "__Yuoki__/graphics/entity/mc_big_boiler_t.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 		shift = {0.375, -0.25} },
-			south ={ filename = "__Yuoki__/graphics/entity/mc_big_boiler_t.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 	shift = {0.375, -0.25} },
-			west ={ filename = "__Yuoki__/graphics/entity/mc_big_boiler_t.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 	shift = {0.375, -0.25} },
+
+		pictures = {
+			north = {
+				structure =
+				{ filename = "__Yuoki__/graphics/entity/mc_big_boiler_t.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 		shift = {0.375, -0.25} },
+			},
+		
+			east = {
+				structure =
+				{ filename = "__Yuoki__/graphics/entity/mc_big_boiler_t.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 		shift = {0.375, -0.25} } 
+			},
+			south = {
+				structure =
+				{ filename = "__Yuoki__/graphics/entity/mc_big_boiler_t.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 	shift = {0.375, -0.25} }
+			},
+			west = {
+				structure =
+				{ filename = "__Yuoki__/graphics/entity/mc_big_boiler_t.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 	shift = {0.375, -0.25} }
+			}
 		},
 		fire = {},
 		fire_glow = {},

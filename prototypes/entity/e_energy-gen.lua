@@ -21,9 +21,9 @@ data:extend(
 				base_level = -1,
 				pipe_connections = {
 					--{ type = "input-output", position = { 0, -2.0} },
-					{flow_direction = "input-output", direction = defines.direction.north, position = {1, 0}},
-					{flow_direction = "input", direction = defines.direction.north, position = {0, 1}},
-					{flow_direction = "input-output", direction = defines.direction.north, position = {-1, 0}}
+					{flow_direction = "input-output", direction = defines.direction.east, position = {1, 0}},
+					{flow_direction = "input", direction = defines.direction.south, position = {0, 1}},
+					{flow_direction = "input-output", direction = defines.direction.west, position = {-1, 0}}
 				},
 				production_type = "input-output",
 				filter = "water"
@@ -53,39 +53,53 @@ data:extend(
 					}
 				}
 			},
-			structure = {
-				north = {
-					filename = "__Yuoki__/graphics/entity/big_boiler_r18.png",
-					priority = "extra-high",
-					width = 256,
-					height = 256,
-					shift = {0.375, -0.25},
-					scale = 0.5
-				},
-				east = {
-					filename = "__Yuoki__/graphics/entity/big_boiler_r18.png",
-					priority = "extra-high",
-					width = 256,
-					height = 256,
-					shift = {0.375, -0.25},
-					scale = 0.5
-				},
+
+			pictures = {
+					north = {
+						structure =
+						{
+							filename = "__Yuoki__/graphics/entity/big_boiler_r18.png",
+							priority = "extra-high",
+							width = 256,
+							height = 256,
+							shift = {0.375, -0.25},
+							scale = 0.5
+						},
+					},
+				
+					east = {
+						structure =
+						{
+							filename = "__Yuoki__/graphics/entity/big_boiler_r18.png",
+							priority = "extra-high",
+							width = 256,
+							height = 256,
+							shift = {0.375, -0.25},
+							scale = 0.5
+						},
+					},
 				south = {
-					filename = "__Yuoki__/graphics/entity/big_boiler_r18.png",
-					priority = "extra-high",
-					width = 256,
-					height = 256,
-					shift = {0.375, -0.25},
-					scale = 0.5
+					structure =
+					{
+						filename = "__Yuoki__/graphics/entity/big_boiler_r18.png",
+						priority = "extra-high",
+						width = 256,
+						height = 256,
+						shift = {0.375, -0.25},
+						scale = 0.5
+					},
 				},
 				west = {
-					filename = "__Yuoki__/graphics/entity/big_boiler_r18.png",
-					priority = "extra-high",
-					width = 256,
-					height = 256,
-					shift = {0.375, -0.25},
-					scale = 0.5
+					structure =
+					{
+						filename = "__Yuoki__/graphics/entity/big_boiler_r18.png",
+						priority = "extra-high",
+						width = 256,
+						height = 256,
+						shift = {0.375, -0.25},
+						scale = 0.5
 				}
+			}
 			},
 			fire = {},
 			fire_glow = {},
@@ -123,7 +137,7 @@ data:extend(
 				height = 2,
 				base_level = -1,
 				pipe_connections = {
-					{flow_direction = "input-output", direction = defines.direction.north, position = {0, 1.5}},
+					{flow_direction = "input-output", direction = defines.direction.south, position = {0, 1.5}},
 					{flow_direction = "input-output", direction = defines.direction.north, position = {0, -1.5}}
 				},
 				production_type = "input-output",
@@ -205,7 +219,7 @@ data:extend(
 				height = 2,
 				base_level = -1,
 				pipe_connections = {
-					{flow_direction = "input-output", direction = defines.direction.north, position = {0,  1}},
+					{flow_direction = "input-output", direction = defines.direction.south, position = {0,  1}},
 					{flow_direction = "input-output", direction = defines.direction.north, position = {0, -1}}
 				},
 				production_type = "input-output",
@@ -273,7 +287,7 @@ data:extend(
 				height = 2,
 				base_level = -1,
 				pipe_connections = {
-					{flow_direction = "input-output", direction = defines.direction.north, position = {0,  0.5}},
+					{flow_direction = "input-output", direction = defines.direction.south, position = {0,  0.5}},
 					{flow_direction = "input-output", direction = defines.direction.north, position = {0, -0.5}}
 				},
 				production_type = "input-output",
@@ -326,7 +340,7 @@ data:extend(
 				height = 2,
 				base_level = -1,
 				pipe_connections = {
-					{flow_direction = "input-output", direction = defines.direction.north, position = {0, 0.5}},
+					{flow_direction = "input-output", direction = defines.direction.south, position = {0, 0.5}},
 					{flow_direction = "input-output", direction = defines.direction.north, position = {0, -0.5}}
 				},
 				production_type = "input-output",
@@ -376,7 +390,7 @@ data:extend(
 				height = 2,
 				base_level = -1,
 				pipe_connections = {
-					{flow_direction = "input-output", direction = defines.direction.north, position = {0, 0.5}},
+					{flow_direction = "input-output", direction = defines.direction.south, position = {0, 0.5}},
 					{flow_direction = "input-output", direction = defines.direction.north, position = {0, -0.5}}
 				},
 				production_type = "input-output",
@@ -429,7 +443,7 @@ data:extend(
 				height = 2,
 				base_level = -1,
 				pipe_connections = {
-					{flow_direction = "input-output", direction = defines.direction.north, position = {0, 1}},
+					{flow_direction = "input-output", direction = defines.direction.south, position = {0, 1}},
 					{flow_direction = "input-output", direction = defines.direction.north, position = {0,-1}}
 				},
 				production_type = "input-output",
@@ -479,7 +493,7 @@ data:extend(
 				height = 2,
 				base_level = -1,
 				pipe_connections = {
-					{flow_direction = "input-output", direction = defines.direction.north, position = {0, 1}},
+					{flow_direction = "input-output", direction = defines.direction.south, position = {0, 1}},
 					{flow_direction = "input-output", direction = defines.direction.north, position = {0, -1}}
 				},
 				production_type = "input-output",
@@ -526,7 +540,7 @@ data:extend(
 				height = 2,
 				base_level = -1,
 				pipe_connections = {
-					{flow_direction = "input-output", direction = defines.direction.north, position = {0, 1}},
+					{flow_direction = "input-output", direction = defines.direction.south, position = {0, 1}},
 					{flow_direction = "input-output", direction = defines.direction.north, position = {0, -1}}
 				},
 				production_type = "input-output",
