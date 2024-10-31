@@ -1,10 +1,10 @@
 y_weapon_ztt = {
-	filename = "__Yuoki__/graphics/entity/defense/zzt-place.png",
+	filename = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/zzt-place.png",
 	priority = "medium",
 	width = 160,
 	height = 160,
 	shift = {0.31, -0.75},
-	--filename = "__Yuoki__/graphics/entity/y_weapon-ztt-c.png",
+	--filename = "__Yuoki (Factorio 2.0)__/graphics/entity/y_weapon-ztt-c.png",
 	--priority = "medium", width = 112, height = 112, shift = {0.35, 0.2},
 	direction_count = 8,
 	frame_count = 1,
@@ -12,7 +12,7 @@ y_weapon_ztt = {
 	axially_symmetrical = false
 }
 y_laser2x2 = {
-	filename = "__Yuoki__/graphics/entity/defense/laser22f12-h-place.png",
+	filename = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/laser22f12-h-place.png",
 	priority = "medium",
 	width = 128,
 	height = 128,
@@ -28,7 +28,7 @@ data:extend(
 			type = "electric-turret",
 			name = "y-weapon-ztt",
 			icon_size = 32,
-			icon = "__Yuoki__/graphics/entity/defense/zzt-icon.png",
+			icon = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/zzt-icon.png",
 			flags = {"placeable-player", "placeable-enemy", "player-creation"},
 			minable = {mining_time = 0.5, result = "y-weapon-ztt"},
 			max_health = 6000,
@@ -62,7 +62,7 @@ data:extend(
 			--[[
 			preparing_animation =
 			{
-				filename = "__Yuoki__/graphics/entity/wall-forcefield-ae.png",
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/wall-forcefield-ae.png",
 				priority = "medium", width = 48, height = 48, shift = {0.075, 0},
 				direction_count = 1,
 				frame_count = 1,
@@ -72,7 +72,7 @@ data:extend(
 			},
 			]]
 			prepared_animation = {
-				filename = "__Yuoki__/graphics/entity/defense/zzt-sheet.png",
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/zzt-sheet.png",
 				priority = "medium",
 				width = 160,
 				height = 160,
@@ -97,7 +97,7 @@ data:extend(
 				  layers =
 				  {
 					{
-						filename = "__Yuoki__/graphics/entity/defense/zzt-sheet.png",
+						filename = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/zzt-sheet.png",
 						priority = "high",
 						width = 160,
 						height = 160,
@@ -115,7 +115,7 @@ data:extend(
 			--[[
 			base_picture =
 			{
-				filename = "__Yuoki__/graphics/entity/wall-forcefield-ae.png",
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/wall-forcefield-ae.png",
 				priority = "high", width = 48, height = 48, shift = {0.075, 0}			
 			},
 			]]
@@ -154,7 +154,7 @@ data:extend(
 			type = "electric-turret",
 			name = "y-laser-def-s4",
 			icon_size = 32,
-			icon = "__Yuoki__/graphics/entity/defense/laser2x2_r16n-icon.png",
+			icon = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/laser2x2_r16n-icon.png",
 			flags = {"placeable-player", "placeable-enemy", "player-creation"},
 			minable = {mining_time = 0.5, result = "y-laser-def-s4"},
 			max_health = 2800,
@@ -185,7 +185,7 @@ data:extend(
 			end)(),
 			preparing_animation = y_laser2x2,
 			prepared_animation = {
-				filename = "__Yuoki__/graphics/entity/defense/laser22f12-h-sheet.png",
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/laser22f12-h-sheet.png",
 				priority = "medium",
 				width = 128,
 				height = 128,
@@ -210,7 +210,7 @@ data:extend(
 				  layers =
 				  {
 					{
-						filename = "__Yuoki__/graphics/entity/defense/laser22f12-h-sheet.png",
+						filename = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/laser22f12-h-sheet.png",
 						priority = "high",
 						width = 128,
 						height = 128,

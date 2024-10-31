@@ -5,7 +5,7 @@ data:extend(
 	{
 		type = "logistic-robot",
 		name = "yi_logistic-robot",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/rob_log_icon.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/rob_log_icon.png",
 		flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
 		minable = {hardness = 0.1, mining_time = 0.1, result = "yi_logistic-robot"},
 		max_health = 800, resistances = {{type = "physical", decrease = 5, percent = 50 },{type = "impact", decrease = 5, percent = 50 },{type = "acid", decrease = 5, percent = 50 },},		
@@ -22,7 +22,7 @@ data:extend(
 		max_to_charge = 0.9,
 		idle =
 		{
-			filename = "__Yuoki__/graphics/entity/rob_log_sheet.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/rob_log_sheet.png",
 			priority = "high",
 			line_length = 16,
 			width = 40,
@@ -33,7 +33,7 @@ data:extend(
 		},
 		idle_with_cargo =
 		{
-			filename = "__Yuoki__/graphics/entity/rob_log_sheet.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/rob_log_sheet.png",
 			priority = "high",
 			line_length = 16,
 			width = 40,
@@ -44,7 +44,7 @@ data:extend(
 		},
 		in_motion =
 		{
-			filename = "__Yuoki__/graphics/entity/rob_log_sheet.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/rob_log_sheet.png",
 			priority = "high",
 			line_length = 16,
 			width = 40,
@@ -55,7 +55,7 @@ data:extend(
 		},
 		in_motion_with_cargo =
 		{
-			filename = "__Yuoki__/graphics/entity/rob_log_sheet.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/rob_log_sheet.png",
 			priority = "high",
 			line_length = 16,
 			width = 40,
@@ -121,7 +121,7 @@ data:extend(
 	{
 		type = "construction-robot",
 		name = "yi_construction-robot",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/rob_con_icon.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/rob_con_icon.png",
 		flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
 		minable = {hardness = 0.1, mining_time = 0.1, result = "yi_construction-robot"},
 		max_health = 800, resistances = {{type = "physical", decrease = 5, percent = 50 },{type = "impact", decrease = 5, percent = 50 },{type = "acid", decrease = 5, percent = 50 },},		
@@ -139,7 +139,7 @@ data:extend(
 		working_light = {intensity = 0.8, size = 3},
 		idle =
 		{
-			filename = "__Yuoki__/graphics/entity/rob_con_sheet.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/rob_con_sheet.png",
 			priority = "high",
 			line_length = 16,
 			width = 40,
@@ -150,7 +150,7 @@ data:extend(
 		},
 		in_motion =
 		{
-			filename = "__Yuoki__/graphics/entity/rob_con_sheet.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/rob_con_sheet.png",
 			priority = "high",
 			line_length = 16,
 			width = 40,

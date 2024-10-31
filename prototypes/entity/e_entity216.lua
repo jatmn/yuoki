@@ -3,7 +3,7 @@ data:extend({
 	{
 		type = "radar",
 		name = "yi_radar",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/radar_icon.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/radar_icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 0.5, result = "yi_radar"},
 		max_health = 250,
@@ -22,7 +22,7 @@ data:extend({
 		energy_usage = "500kW",
 		pictures =
 		{
-			filename = "__Yuoki__/graphics/entity/radar_sheet.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/radar_sheet.png",
 			priority = "low",
 			width = 160,
 			height = 160,
@@ -46,7 +46,7 @@ data:extend({
 	{
 		type = "beacon",
 		name = "yi_beacon",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/beacon_icon.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/beacon_icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 1, result = "yi_beacon"},
 		max_health = 300,
@@ -58,7 +58,7 @@ data:extend({
 		
 		base_picture =
 		{
-			filename = "__Yuoki__/graphics/entity/beacon_anim0001.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/beacon_anim0001.png",
 			width = 160,
 			height = 160,
 			shift = { 0.6875, -0.75}
@@ -66,7 +66,7 @@ data:extend({
 		
 		animation =
 		{
-			filename = "__Yuoki__/graphics/entity/beacon_sheet.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/beacon_sheet.png",
 			width = 160,
 			height = 160,
 			line_length = 5,
@@ -77,7 +77,7 @@ data:extend({
 		
 		animation_shadow =
 		{		
-			filename = "__Yuoki__/graphics/entity/empty32.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/empty32.png",
 			width = 5,
 			height = 5,
 			line_length = 5,
@@ -117,7 +117,7 @@ data:extend({
 	{
 		type = "roboport",
 		name = "yi_roboport",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/yi_roboport_icon.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/yi_roboport_icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 0.5, result = "yi_roboport"},
 		max_health = 750,
@@ -151,7 +151,7 @@ data:extend({
 		},
 		base =
 		{
-			filename = "__Yuoki__/graphics/entity/roboport_frame.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/roboport_frame.png",
 			width = 320,
 			height = 320,
 			scale = 0.5,
@@ -159,7 +159,7 @@ data:extend({
 		},
 		base_patch =
 		{
-			filename = "__Yuoki__/graphics/entity/empty32.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/empty32.png",
 			priority = "medium",
 			width = 32,
 			height = 32,
@@ -168,7 +168,7 @@ data:extend({
 		},
 		base_animation =
 		{
-			filename = "__Yuoki__/graphics/entity/roboport_sheet.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/roboport_sheet.png",
 			priority = "medium",
 			width = 320,
 			height = 320,
@@ -180,7 +180,7 @@ data:extend({
 		
 		door_animation_up =
 		{
-			filename = "__Yuoki__/graphics/entity/empty25x25.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/empty25x25.png",
 			priority = "medium",
 			width = 5,
 			height = 25,
@@ -190,7 +190,7 @@ data:extend({
 		
 		door_animation_down =
 		{
-			filename = "__Yuoki__/graphics/entity/empty25x25.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/empty25x25.png",
 			priority = "medium",
 			width = 5,
 			height = 25,

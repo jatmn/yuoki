@@ -12,7 +12,7 @@ data:extend(
 		--result_count = 20,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
-		icon = "__Yuoki__/graphics/icons/crystal_blue.png",
+		icon = "__Yuoki (Factorio 2.0)__/graphics/icons/crystal_blue.png",
 	},	
 	
 })	

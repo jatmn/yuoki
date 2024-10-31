@@ -3,7 +3,7 @@
 		layers =
 		{
 			{	
-				filename = "__Yuoki__/graphics/entity/defense/turm_flamer_place.png",
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/turm_flamer_place.png",
 				priority = "medium",
 				width = 256,
 				height = 256,
@@ -21,7 +21,7 @@ data:extend({
 		{
 			type = "recipe",
 			name = "y_turret_flame",
-			 icon_size = 32, icon =  "__Yuoki__/graphics/entity/defense/turm_flamer_icon.png",
+			 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/defense/turm_flamer_icon.png",
 			enabled = true,
 			ingredients =
 			{
@@ -44,7 +44,7 @@ data:extend({
 		{
 			type = "item",
 			name = "y_turret_flame",
-			icon_size = 32, icon =  "__Yuoki__/graphics/entity/defense/turm_flamer_icon.png",			
+			icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/defense/turm_flamer_icon.png",			
 			group = "yuoki",			
 			subgroup = "y-defense",		
 			order = "f1",
@@ -55,7 +55,7 @@ data:extend({
 		{
 			type = "ammo-turret",
 			name = "y_turret_flame",
-			icon_size = 32, icon =  "__Yuoki__/graphics/entity/defense/turm_flamer_icon.png",
+			icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/defense/turm_flamer_icon.png",
 			flags = {"placeable-player", "player-creation"},
 			minable = {mining_time = 0.5, result = "y_turret_flame"},
 			max_health = 5000,
@@ -90,7 +90,7 @@ data:extend({
 				{
 					{
 						
-						filename = "__Yuoki__/graphics/entity/defense/turm_flame_sheet.png",
+						filename = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/turm_flame_sheet.png",
 						priority = "medium",
 						width = 256,
 						height = 256,
@@ -104,7 +104,7 @@ data:extend({
 					},
 					--[[
 					{
-						filename = "__Yuoki__/graphics/entity/defense/turm_flamer_layer.png",
+						filename = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/turm_flamer_layer.png",
 						line_length = 1,
 						width = 96,
 						height = 96,
@@ -129,7 +129,7 @@ data:extend({
 				  layers =
 				  {
 					{
-						filename = "__Yuoki__/graphics/entity/defense/turm_flame_sheet.png",
+						filename = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/turm_flame_sheet.png",
 						priority = "high",
 						width = 256,
 						height = 256,

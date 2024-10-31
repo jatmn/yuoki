@@ -5,7 +5,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_charger",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/charger_icon.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/charger_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {hardness = 0.5, mining_time = 1, result = "y_charger"},
 		max_health = 400,
@@ -19,7 +19,7 @@ data:extend(
 			layers =
 			{
 			  {
-				filename = "__Yuoki__/graphics/entity/charger_sheet.png",
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/charger_sheet.png",
 				priority = "medium", width = 256, height = 256, frame_count = 16, line_length = 4, shift = {0.5, -0.5}, scale=0.5, animation_speed=0.5,		
 			  },
 			}
@@ -62,7 +62,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_smelter",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/smelter_icon.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/smelter_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {hardness = 0.5, mining_time = 1, result = "y_smelter"},
 		max_health = 400,
@@ -76,7 +76,7 @@ data:extend(
 			layers =
 			{
 			  {
-				filename = "__Yuoki__/graphics/entity/smelter_sheet.png",
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/smelter_sheet.png",
 				priority = "medium", width = 256, height = 256, frame_count = 36, line_length = 6, shift = {0.5, -0.5}, scale=0.5, animation_speed=0.33,	
 			  },
 			}

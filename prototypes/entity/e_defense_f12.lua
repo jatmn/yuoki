@@ -1,5 +1,5 @@
 turret_gun1f12 = {
-	filename = "__Yuoki__/graphics/entity/defense/gun_1_place.png",
+	filename = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/gun_1_place.png",
 	priority = "medium",
 	width = 128,
 	height = 128,
@@ -9,7 +9,7 @@ turret_gun1f12 = {
 	shift = {0.0, -0.94}
 }
 turret_gun2f12 = {
-	filename = "__Yuoki__/graphics/entity/defense/gun2_place.png",
+	filename = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/gun2_place.png",
 	priority = "medium",
 	width = 128,
 	height = 128,
@@ -20,7 +20,7 @@ turret_gun2f12 = {
 }
 
 turret_laser22f12 = {
-	filename = "__Yuoki__/graphics/entity/defense/laser22b_place.png",
+	filename = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/laser22b_place.png",
 	priority = "medium",
 	width = 128,
 	height = 128,
@@ -36,7 +36,7 @@ data:extend(
 			type = "electric-turret",
 			name = "y_turret_laser22f12",
 			icon_size = 32,
-			icon = "__Yuoki__/graphics/entity/defense/laser22b_icon.png",
+			icon = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/laser22b_icon.png",
 			flags = {"placeable-player", "placeable-enemy", "player-creation"},
 			minable = {mining_time = 0.5, result = "y_turret_laser22f12"},
 			max_health = 1400,
@@ -67,7 +67,7 @@ data:extend(
 			end)(),
 			preparing_animation = turret_laser22f12,
 			prepared_animation = {
-				filename = "__Yuoki__/graphics/entity/defense/laser22b_sheet.png",
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/laser22b_sheet.png",
 				priority = "medium",
 				width = 128,
 				height = 128,
@@ -92,7 +92,7 @@ data:extend(
 				  layers =
 				  {
 					{
-						filename = "__Yuoki__/graphics/entity/defense/laser22b_sheet.png",
+						filename = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/laser22b_sheet.png",
 						priority = "high",
 						width = 128,
 						height = 128,
@@ -171,7 +171,7 @@ data:extend(
 			type = "ammo-turret",
 			name = "y_turret_gun1f12",
 			icon_size = 32,
-			icon = "__Yuoki__/graphics/entity/defense/gun_1_icon.png",
+			icon = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/gun_1_icon.png",
 			flags = {"placeable-player", "player-creation"},
 			minable = {mining_time = 0.5, result = "y_turret_gun1f12"},
 			max_health = 1400,
@@ -198,7 +198,7 @@ data:extend(
 			end)(),
 			preparing_animation = turret_gun1f12,
 			prepared_animation = {
-				filename = "__Yuoki__/graphics/entity/defense/gun_1_sheet.png",
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/gun_1_sheet.png",
 				priority = "medium",
 				width = 128,
 				height = 128,
@@ -223,7 +223,7 @@ data:extend(
 				  layers =
 				  {
 					{
-					  filename = "__Yuoki__/graphics/entity/defense/gun_1_sheet.png",
+					  filename = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/gun_1_sheet.png",
 					  priority = "high",
 					  width = 128,
 					  height = 128,
@@ -258,7 +258,7 @@ data:extend(
 				range = 30,
 				sound = {
 					{
-						filename = "__Yuoki__/sounds/railgun.ogg",
+						filename = "__Yuoki (Factorio 2.0)__/sounds/railgun.ogg",
 						volume = 0.3
 					}
 				}
@@ -269,7 +269,7 @@ data:extend(
 			type = "ammo-turret",
 			name = "y_turret_gun2f12",
 			icon_size = 32,
-			icon = "__Yuoki__/graphics/entity/defense/gun2_icon.png",
+			icon = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/gun2_icon.png",
 			flags = {"placeable-player", "player-creation"},
 			minable = {mining_time = 0.5, result = "y_turret_gun2f12"},
 			max_health = 1600,
@@ -295,7 +295,7 @@ data:extend(
 			end)(),
 			preparing_animation = turret_gun2f12,
 			prepared_animation = {
-				filename = "__Yuoki__/graphics/entity/defense/gun2_sheet.png",
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/gun2_sheet.png",
 				priority = "medium",
 				width = 128,
 				height = 128,
@@ -320,7 +320,7 @@ data:extend(
 				  layers =
 				  {
 					{
-					  filename = "__Yuoki__/graphics/entity/defense/gun2_sheet.png",
+					  filename = "__Yuoki (Factorio 2.0)__/graphics/entity/defense/gun2_sheet.png",
 					  priority = "high",
 					  width = 128,
 					  height = 128,
@@ -355,7 +355,7 @@ data:extend(
 				range = 28,
 				sound = {
 					{
-						filename = "__Yuoki__/sounds/railgun.ogg",
+						filename = "__Yuoki (Factorio 2.0)__/sounds/railgun.ogg",
 						volume = 0.3
 					}
 				}

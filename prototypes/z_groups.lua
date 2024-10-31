@@ -5,13 +5,13 @@
 data:extend({
 
 	--YI-Basics, Storage, Defense
-	{ type="item-group", name="yuoki", icon_size=64, icon="__Yuoki__/graphics/icons/yuoki-ind-icon.png", inventory_order="y", order="yi-a" },
+	{ type="item-group", name="yuoki", icon_size=64, icon="__Yuoki (Factorio 2.0)__/graphics/icons/yuoki-ind-icon.png", inventory_order="y", order="yi-a" },
 	--YI-Energy, Lamps, Fuel
-	{ type="item-group", name="yuoki-energy", icon_size=64, icon="__Yuoki__/graphics/icons/yuoki-energy.png", inventory_order="y", order="yi-b" },
+	{ type="item-group", name="yuoki-energy", icon_size=64, icon="__Yuoki (Factorio 2.0)__/graphics/icons/yuoki-energy.png", inventory_order="y", order="yi-b" },
 	--YI-Transmutation & Trade
-	{ type="item-group", name="yuoki-atomics", icon_size=64, icon="__Yuoki__/graphics/icons/yuoki-atomics-icon.png", inventory_order="y", order="yi-c" },
+	{ type="item-group", name="yuoki-atomics", icon_size=64, icon="__Yuoki (Factorio 2.0)__/graphics/icons/yuoki-atomics-icon.png", inventory_order="y", order="yi-c" },
 	--YI-Refinery & Fluids 
-	{ type="item-group", name="yuoki_liquids", icon_size=64, icon="__Yuoki__/graphics/icons/yuoki-liquids.png", inventory_order="y", order="yi-d" },
+	{ type="item-group", name="yuoki_liquids", icon_size=64, icon="__Yuoki (Factorio 2.0)__/graphics/icons/yuoki-liquids.png", inventory_order="y", order="yi-d" },
 
 	{ type="item-subgroup", group="yuoki", order="7-c", name="y-ammo", },
 	{ type="item-subgroup", group="yuoki", order="4-e", name="y-crush", },

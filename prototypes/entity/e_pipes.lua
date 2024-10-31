@@ -28,7 +28,7 @@ pipepictures_hv = function()
 return {
 	straight_vertical_single =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_sv_b.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_sv_b.png",
 		--filename = "__yi_engines__/graphics/entity/pipe-hc/pipe-straight-vertical-window.png",
 		priority = "extra-high",
 		width = 40,
@@ -36,14 +36,14 @@ return {
 	},
 	straight_vertical =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_sv_b.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_sv_b.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	straight_vertical_window =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_vclean_b.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_vclean_b.png",
 		--filename = "__yi_engines__/graphics/entity/pipe-hc/pipe-straight-vertical-single.png",
 		priority = "extra-high",
 		width = 40,
@@ -51,133 +51,133 @@ return {
 	},
 	straight_horizontal_single =
 	{		
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_sh_b.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_sh_b.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},	
 	straight_horizontal_window =
 	{		
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_hclean_b.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_hclean_b.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40,		
 	},
 	straight_horizontal =
 	{	
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_sh_b.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_sh_b.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},	
 	corner_up_right =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_ur_b.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_ur_b.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	corner_up_left =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_ul_b.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_ul_b.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	corner_down_right =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_dr_b.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_dr_b.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	corner_down_left =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_dl_b.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_dl_b.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	t_up =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_tu_b.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_tu_b.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	t_down =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_td_b.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_td_b.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	t_right =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_tr_b.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_tr_b.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	t_left =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_tl_b.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_tl_b.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	cross =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_cross_b.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_cross_b.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	ending_up =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_ed_b.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_ed_b.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	ending_down =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_eu_b.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_eu_b.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	ending_right =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_el_b.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_el_b.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	ending_left =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_er_b.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_er_b.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	horizontal_window_background =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/clear.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/clear.png",
 		priority = "extra-high",
 		width = 32,
 		height = 32
 	},
 	vertical_window_background =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/clear.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/clear.png",
 		priority = "extra-high",
 		width = 32,
 		height = 32
 	},
 	fluid_background =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/clear.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/clear.png",
 		priority = "extra-high",
 		width = 32,
 		height = 20
@@ -269,7 +269,7 @@ pipepictures_ec = function()
 return {
 	straight_vertical_single =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_sv.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_sv.png",
 		--filename = "__yi_engines__/graphics/entity/pipe-hc/pipe-straight-vertical-window.png",
 		priority = "extra-high",
 		width = 40,
@@ -277,14 +277,14 @@ return {
 	},
 	straight_vertical =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_sv.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_sv.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	straight_vertical_window =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_vclean.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_vclean.png",
 		--filename = "__yi_engines__/graphics/entity/pipe-hc/pipe-straight-vertical-single.png",
 		priority = "extra-high",
 		width = 40,
@@ -292,14 +292,14 @@ return {
 	},
 	straight_horizontal_single =
 	{		
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_sh.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_sh.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},	
 	straight_horizontal_window =
 	{		
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_hclean.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_hclean.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40,
@@ -307,98 +307,98 @@ return {
 	},
 	straight_horizontal =
 	{	
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_sh.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_sh.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},	
 	corner_up_right =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_ur.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_ur.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	corner_up_left =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_ul.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_ul.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	corner_down_right =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_dr.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_dr.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	corner_down_left =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_dl.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_dl.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	t_up =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_tu.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_tu.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	t_down =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_td.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_td.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	t_right =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_tr.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_tr.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	t_left =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_tl.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_tl.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	cross =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_cross.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_cross.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	ending_up =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_ed.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_ed.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	ending_down =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_eu.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_eu.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	ending_right =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_el.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_el.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40
 	},
 	ending_left =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_er.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_er.png",
 		priority = "extra-high",
 		width = 40,
 		height = 40,
@@ -406,21 +406,21 @@ return {
 	},
 	horizontal_window_background =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/clear.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/clear.png",
 		priority = "extra-high",
 		width = 32,
 		height = 32
 	},
 	vertical_window_background =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/clear.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/clear.png",
 		priority = "extra-high",
 		width = 32,
 		height = 32
 	},
 	fluid_background =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/clear.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/clear.png",
 		priority = "extra-high",
 		width = 32,
 		height = 20
@@ -513,137 +513,137 @@ pipepictures_green = function()
 return {
 	straight_vertical_single =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_ns_c.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_ns_c.png",
 		--filename = "__yi_engines__/graphics/entity/pipe-hc/pipe-straight-vertical-window.png",
 		priority = "extra-high",
 		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
 	},
 	straight_vertical =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_ns.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_ns.png",
 		priority = "extra-high",
 		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
 	},
 	straight_vertical_window =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_ns_c.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_ns_c.png",
 		--filename = "__yi_engines__/graphics/entity/pipe-hc/pipe-straight-vertical-single.png",
 		priority = "extra-high",
 		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
 	},
 	straight_horizontal_single =
 	{		
-		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_we_c.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_we_c.png",
 		priority = "extra-high",
 		width = 80,	height = 80 , scale = 0.5, shift = { -0.1, -0.075 }
 	},	
 	straight_horizontal_window =
 	{		
-		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_we.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_we.png",
 		priority = "extra-high",
 		width = 80,	height = 80 , scale = 0.5, shift = { -0.1, -0.075 }
 	},
 	straight_horizontal =
 	{	
-		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_we_c.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_we_c.png",
 		priority = "extra-high",
 		width = 80,	height = 80 , scale = 0.5, shift = { -0.1, -0.075 }
 	},	
 	corner_up_right =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_bor.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_bor.png",
 		priority = "extra-high",
 		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
 	},
 	corner_up_left =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_blo.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_blo.png",
 		priority = "extra-high",
 		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
 	},
 	corner_down_right =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_bru.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_bru.png",
 		priority = "extra-high",
 		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
 	},
 	corner_down_left =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_blu.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_blu.png",
 		priority = "extra-high",
 		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
 	},
 	t_up =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_tu.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_tu.png",
 		priority = "extra-high",
 		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
 	},
 	t_down =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_td.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_td.png",
 		priority = "extra-high",
 		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
 	},
 	t_right =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_tr.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_tr.png",
 		priority = "extra-high",
 		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
 	},
 	t_left =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_tl.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_tl.png",
 		priority = "extra-high",
 		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
 	},
 	cross =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_cross.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_cross.png",
 		priority = "extra-high",
 		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
 	},
 	ending_up =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_ed.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_ed.png",
 		priority = "extra-high",
 		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
 	},
 	ending_down =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_eu.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_eu.png",
 		priority = "extra-high",
 		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
 	},
 	ending_right =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_el.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_el.png",
 		priority = "extra-high",
 		width = 80,	height = 80 , scale = 0.5, shift = { 0, -0.075 }
 	},
 	ending_left =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_er.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_er.png",
 		priority = "extra-high",
 		width = 80,	height = 80 , scale = 0.5, shift = { -0.05, -0.075 }
 	},
 	horizontal_window_background =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/clear.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/clear.png",
 		priority = "extra-high",
 		width = 32,
 		height = 32
 	},
 	vertical_window_background =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/clear.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/clear.png",
 		priority = "extra-high",
 		width = 32,
 		height = 32
 	},
 	fluid_background =
 	{
-		filename = "__Yuoki__/graphics/entity/pipe-hc/clear.png",
+		filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/clear.png",
 		priority = "extra-high",
 		width = 32,
 		height = 20
@@ -738,7 +738,7 @@ data:extend(
 	{
 		type = "pipe",
 		name = "y-pipe-h",
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-h.png",
+		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/pipe-h.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.1, result = "pipe"},
 		max_health = 50,
@@ -787,7 +787,7 @@ data:extend(
 	{
 		type = "pipe",
 		name = "y-pipe-v",
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-v.png",
+		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/pipe-v.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.1, result = "pipe"},
 		max_health = 50,
@@ -836,7 +836,7 @@ data:extend(
 	{
 		type = "storage-tank",
 		name = "y-valve-direction-buffer",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/pressure_pipe_icon.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/pressure_pipe_icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.1, result = "y-valve-direction-buffer"},
 		max_health = 150,
@@ -859,7 +859,7 @@ data:extend(
 			picture =
 			{
 				sheet={
-					filename = "__Yuoki__/graphics/entity/valve_sheet.png",
+					filename = "__Yuoki (Factorio 2.0)__/graphics/entity/valve_sheet.png",
 					priority = "high",
 					frames = 4,
 					width = 64,
@@ -975,7 +975,7 @@ data:extend(
 	{
 		type = "pipe",
 		name = "y-pipe-hc",
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-hc.png",
+		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/pipe-hc.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.1, result = "pipe"},
 		max_health = 80,
@@ -1023,7 +1023,7 @@ data:extend(
 	{
 		type = "pipe-to-ground",
 		name = "y-pipe-to-ground-hc",
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-tg-hc.png",
+		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/pipe-tg-hc.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.1, result = "pipe-to-ground"},
 		max_health = 80,
@@ -1071,28 +1071,28 @@ data:extend(
 		{
 			north =
 			{
-				filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_gu_b.png",
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_gu_b.png",
 				priority = "high",
 				width = 40,
 				height = 40 --, shift = {0.10, -0.04}
 			},
 			south =
 			{
-				filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_gd_b.png",
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_gd_b.png",
 				priority = "high",
 				width = 40,
 				height = 40 --, shift = {0.05, 0}
 			},
 			west =
 			{
-				filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_gl_b.png",
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_gl_b.png",
 				priority = "high",
 				width = 40,
 				height = 40, shift = { 0.1, 0.075}
 			},
 			east =
 			{
-				filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_gr_b.png",
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_gr_b.png",
 				priority = "high",
 				width = 40,
 				height = 40, shift = {0.1, 0.075},
@@ -1182,7 +1182,7 @@ data:extend(
 {
 	type = "pipe",
 	name = "y-pipe-ec",
-	icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-ec.png",
+	icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/pipe-ec.png",
 	flags = {"placeable-neutral", "player-creation"},
 	minable = {mining_time = 0.1, result = "pipe"},
 	max_health = 100,
@@ -1230,7 +1230,7 @@ data:extend(
 	{
 		type = "pipe-to-ground",
 		name = "y-pipe-to-ground-ec",
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-tg-ec.png",
+		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/pipe-tg-ec.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.1, result = "pipe-to-ground"},
 		max_health = 100,
@@ -1278,28 +1278,28 @@ data:extend(
 		{
 			north =
 			{
-				filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_gu.png",
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_gu.png",
 				priority = "high",
 				width = 40,
 				height = 40 --, shift = {0.10, -0.04}
 			},
 			south =
 			{
-				filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_gd.png",
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_gd.png",
 				priority = "high",
 				width = 40,
 				height = 40 --, shift = {0.05, 0}
 			},
 			west =
 			{
-				filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_gl.png",
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_gl.png",
 				priority = "high",
 				width = 40,
 				height = 40, shift = { 0.1, 0.075}
 			},
 			east =
 			{
-				filename = "__Yuoki__/graphics/entity/pipe-hc/u_pipe_gr.png",
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/u_pipe_gr.png",
 				priority = "high",
 				width = 40,
 				height = 40, shift = { 0.1, 0.075}
@@ -1391,7 +1391,7 @@ data:extend(
 	{
 		type = "storage-tank",
 		name = "y-tank-1000",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/tank-1000-icon.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/tank-1000-icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-tank-1000"},
 		max_health = 150,
@@ -1416,7 +1416,7 @@ data:extend(
 			picture =
 			{
 				sheet={
-					filename = "__Yuoki__/graphics/entity/tank_35n.png",
+					filename = "__Yuoki (Factorio 2.0)__/graphics/entity/tank_35n.png",
 					priority = "high",
 					frames = 2,
 					width = 96,
@@ -1539,7 +1539,7 @@ data:extend(
 	{
 		type = "storage-tank",
 		name = "y-tank-4500",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/tank-4500-icon.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/tank-4500-icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-tank-4500"},
 		max_health = 250,
@@ -1564,7 +1564,7 @@ data:extend(
 			picture =
 			{
 				sheet={
-					filename = "__Yuoki__/graphics/entity/ugt_9k.png",
+					filename = "__Yuoki (Factorio 2.0)__/graphics/entity/ugt_9k.png",
 					priority = "high",
 					frames = 1, width = 256, height = 256, scale = 0.5,
 					shift = { 0.0, 0.25 },
@@ -1709,7 +1709,7 @@ data:extend(
 	{
 		type = "storage-tank",
 		name = "y-tank-8000",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/tank-8000-icon.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/tank-8000-icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-tank-8000"},
 		max_health = 300,
@@ -1743,7 +1743,7 @@ data:extend(
 			picture =
 			{
 				sheet={
-					filename = "__Yuoki__/graphics/entity/ugt_24k.png",
+					filename = "__Yuoki (Factorio 2.0)__/graphics/entity/ugt_24k.png",
 					priority = "high",
 					frames = 2, width = 384, height = 384, scale = 0.5,					
 					shift = { 0.0, 0.0 },
@@ -1863,7 +1863,7 @@ data:extend(
 	{
 		type = "storage-tank",
 		name = "y-tank-24k",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/tank-48k-icon.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/tank-48k-icon.png",
 		flags = {"placeable-player", "player-creation"}, minable = { mining_time = 0.5, result = "y-tank-24k"}, corpse = "medium-remnants",
 		max_health = 350,		
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
@@ -1885,7 +1885,7 @@ data:extend(
 
 			picture = {
 				sheet={
-					filename = "__Yuoki__/graphics/entity/tank-48k-e.png",
+					filename = "__Yuoki (Factorio 2.0)__/graphics/entity/tank-48k-e.png",
 					priority = "high",
 					frames = 1, width = 128, height = 112,
 					shift = { 0.315, 0.15 },
@@ -1998,7 +1998,7 @@ data:extend(
 	{
 		type = "storage-tank",
 		name = "y_flowcheck_10",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/flow_indicator_icon.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/flow_indicator_icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_flowcheck_10"},
 		max_health = 50,
@@ -2023,7 +2023,7 @@ data:extend(
 			picture =
 			{
 				sheet={
-					filename = "__Yuoki__/graphics/entity/flow_indicator.png",
+					filename = "__Yuoki (Factorio 2.0)__/graphics/entity/flow_indicator.png",
 					priority = "high",
 					frames = 1,
 					width = 64,
@@ -2149,7 +2149,7 @@ data:extend(
 	{
 		type = "storage-tank",
 		name = "y_buffer_station",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/special_tank3_icon.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/special_tank3_icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_buffer_station"},
 		max_health = 500,
@@ -2178,7 +2178,7 @@ data:extend(
 			picture =
 			{
 				sheet={
-					filename = "__Yuoki__/graphics/entity/special_tank3_sheet.png",
+					filename = "__Yuoki (Factorio 2.0)__/graphics/entity/special_tank3_sheet.png",
 					priority = "high",
 					frames = 4,
 					width = 256,
@@ -2296,7 +2296,7 @@ data:extend(
 {
 	type = "pipe",
 	name = "yi_pipe_green",
-	icon_size = 64, icon =  "__Yuoki__/graphics/icons/g_pipe_icon.png",
+	icon_size = 64, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/g_pipe_icon.png",
 	flags = {"placeable-neutral", "player-creation"},
 	minable = {mining_time = 0.1, result = "pipe"},
 	max_health = 100,
@@ -2344,7 +2344,7 @@ data:extend(
 {
 	type = "pipe-to-ground",
 	name = "yi_pipe_underground_green",
-	icon_size = 64, icon =  "__Yuoki__/graphics/icons/g_pipe_u_icon.png",
+	icon_size = 64, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/g_pipe_u_icon.png",
 	flags = {"placeable-neutral", "player-creation"},
 	minable = {mining_time = 0.1, result = "pipe-to-ground"},
 	max_health = 100,
@@ -2392,25 +2392,25 @@ data:extend(
 	{
 		north =
 		{
-			filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_uo.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_uo.png",
 			priority = "high",
 			width = 80,	height = 80 , scale = 0.5 --, shift = {0.10, -0.04}
 		},
 		south =
 		{
-			filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_uu.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_uu.png",
 			priority = "high",
 			width = 80,	height = 80 , scale = 0.5 --, shift = {0.05, 0}
 		},
 		west =
 		{
-			filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_ul.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_ul.png",
 			priority = "high",
 			width = 80,	height = 80 , scale = 0.5, shift = {  0.1, -0.075}
 		},
 		east =
 		{
-			filename = "__Yuoki__/graphics/entity/pipe-hc/g_pipe_ur.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/pipe-hc/g_pipe_ur.png",
 			priority = "high",
 			width = 80,	height = 80 , scale = 0.5, shift = { -0.1, -0.075},
 		},

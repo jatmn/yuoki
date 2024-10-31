@@ -14,7 +14,7 @@ data:extend(
 		results = {{type="item", name="y-mud-wall", amount=1},},
 		--result = "y-mud-wall",
 		--result_count = 1,
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/m_wall_icon.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/m_wall_icon.png",
 		subgroup = "y_defense_walls",
 		order="w-a",
 		--category = "yuoki-formpress-recipe",		
@@ -38,7 +38,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-rare-wall-adv",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/rare2-wall-icon2.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/rare2-wall-icon2.png",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {
@@ -54,7 +54,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-wall-forcefield",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/wall-forcefield-icon.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/wall-forcefield-icon.png",
 		energy_required = 3.0,
 		enabled = true,
 		ingredients = {
@@ -70,7 +70,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_wall22_hardic",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/walls/wall_hardic_icon.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/walls/wall_hardic_icon.png",
 		energy_required = 2.0,
 		enabled = true,
 		ingredients = {

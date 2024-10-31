@@ -98,7 +98,7 @@ data:extend(
 	{
 		type = "armor",
 		name = "yi_armor_gray",
-		icon_size = 32, icon =  "__Yuoki__/graphics/armor/mcb_icon.png",		
+		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/armor/mcb_icon.png",		
 		resistances = 
 		{
 			{	type = "physical", decrease = 12, percent = 55 },
@@ -116,7 +116,7 @@ data:extend(
 	{
 		type = "armor",
 		name = "yi_armor_red",
-		icon_size = 32, icon =  "__Yuoki__/graphics/armor/cb3_icon.png",		
+		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/armor/cb3_icon.png",		
 		resistances = 
 		{
 			{	type = "physical", decrease = 10, percent = 50 },
@@ -135,7 +135,7 @@ data:extend(
 	{
 		type = "armor",
 		name = "yi_armor_gold",
-		icon_size = 32, icon =  "__Yuoki__/graphics/armor/cb5_icon.png",		
+		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/armor/cb5_icon.png",		
 		resistances = 
 		{
 			{	type = "physical", decrease = 11, percent = 60 },
@@ -154,7 +154,7 @@ data:extend(
 	{
 		type = "armor",
 		name = "yi_walker_a",
-		icon_size = 32, icon =  "__Yuoki__/graphics/armor/neron_u3_32.png",		
+		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/armor/neron_u3_32.png",		
 		resistances = 
 		{
 			{	type = "physical", decrease = 14, percent = 75 },
@@ -172,7 +172,7 @@ data:extend(
 	{
 		type = "armor",
 		name = "yi_walker_c",
-		icon_size = 32, icon =  "__Yuoki__/graphics/armor/cb4_icon.png",		
+		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/armor/cb4_icon.png",		
 		resistances = 
 		{
 			{	type = "physical", decrease = 20, percent = 75 },

@@ -1,11 +1,12 @@
-
 {
-	"name": "Yuoki",
+	"name": "Yuoki (Factorio 2.0)",
 	"version": "1.2.0",
 	"date": "2024-10-30",
 	"author": "JATMN",
+	"contact": "https://discord.gg/fM6NjWabAA",
+	"homepage": "https://github.com/jatmn/Yuoki-Factorio-2.0",
 	"factorio_version": "2.0",
 	"dependencies": ["base >= 2.0.0","? DeadlockStacking","! YuokiTweaks"],  	
 	"title": "Yuoki Industries (Factorio 2.0)",  
-	"description": "For Factorio 2.0 - adds more content like generators, ressource-transformations, machinery, turrets ..."
+	"description": "Yuoki Industris for Factorio 2.0 \n adds more content like generators, ressource-transformations, machinery, turrets ... \n \n Original Creator: YuokiTani"
 }

@@ -68,7 +68,7 @@ if deadlock_stacking then
 	for _, item in ipairs(itemTable) do
 		if data.raw.item[item[1]] then
             if item[3] then
-    			deadlock.add_stack(item[1], "___Yuoki__/graphics/stacks/"..item[1].."-stack.png", "deadlock-stacking-"..item[2],32)
+    			deadlock.add_stack(item[1], "___Yuoki (Factorio 2.0)__/graphics/stacks/"..item[1].."-stack.png", "deadlock-stacking-"..item[2],32)
             else
                 deadlock.add_stack(item[1], nil, "deadlock-stacking-"..item[2],32)
             end

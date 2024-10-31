@@ -22,7 +22,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_inserter_diagonal",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/ins_diagonal.png",		
+		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/inserters/ins_diagonal.png",		
 		group = "yuoki",		
 		subgroup = "y_line9",		
 		order = "c7a",
@@ -34,7 +34,7 @@ data:extend(
 		type = "inserter",
 		name = "y_inserter_diagonal",
 		stack = true,
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/ins_diagonal.png",
+		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/inserters/ins_diagonal.png",
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_inserter_diagonal"},
 		max_health = 150,
@@ -64,14 +64,14 @@ data:extend(
 		filter_count = 5,
 		hand_base_picture =
 		{
-			filename = "__Yuoki__/graphics/entity/inserters/special_base_3.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/inserters/special_base_3.png",
 			priority = "extra-high",
 			width = 12,
 			height = 34,
 		},
 		hand_closed_picture =
 		{
-			filename = "__Yuoki__/graphics/entity/inserters/special_ihc_3.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/inserters/special_ihc_3.png",
 			priority = "extra-high",
 			width = 18,
 			height = 41,
@@ -79,7 +79,7 @@ data:extend(
 		},
 		hand_open_picture =
 		{
-			filename = "__Yuoki__/graphics/entity/inserters/special_ihc_3.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/inserters/special_ihc_3.png",
 			priority = "extra-high",
 			width = 18,
 			height = 41,
@@ -113,7 +113,7 @@ data:extend(
 				width = 48,
 				height = 48,
 				shift = {0.225, 0.1},
-				filename = "__Yuoki__/graphics/entity/inserters/special_ins_sheet.png"
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/inserters/special_ins_sheet.png"
 			}
 		},
 		programmable = true,		
@@ -141,7 +141,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_inserter_evade_shortR",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/ins_evade_right_icon.png",		
+		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/inserters/ins_evade_right_icon.png",		
 		group = "yuoki",		
 		subgroup = "y_line9",		
 		order = "c8a",
@@ -153,7 +153,7 @@ data:extend(
 		type = "inserter",
 		name = "y_inserter_evade_shortR",
 		stack = true,
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/ins_evade_right_icon.png",
+		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/inserters/ins_evade_right_icon.png",
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_inserter_evade_shortR"},
 		max_health = 150,
@@ -183,14 +183,14 @@ data:extend(
 		filter_count = 5,
 		hand_base_picture =
 		{
-			filename = "__Yuoki__/graphics/entity/inserters/special_base_3.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/inserters/special_base_3.png",
 			priority = "extra-high",
 			width = 12,
 			height = 34,
 		},
 		hand_closed_picture =
 		{
-			filename = "__Yuoki__/graphics/entity/inserters/special_ihc_3.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/inserters/special_ihc_3.png",
 			priority = "extra-high",
 			width = 18,
 			height = 41,
@@ -198,7 +198,7 @@ data:extend(
 		},
 		hand_open_picture =
 		{
-			filename = "__Yuoki__/graphics/entity/inserters/special_ihc_3.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/inserters/special_ihc_3.png",
 			priority = "extra-high",
 			width = 18,
 			height = 41,
@@ -232,7 +232,7 @@ data:extend(
 				width = 48,
 				height = 48,
 				shift = {0.225, 0.1},
-				filename = "__Yuoki__/graphics/entity/inserters/special_ins_sheet.png"
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/inserters/special_ins_sheet.png"
 			}
 		},
 		programmable = true,		
@@ -259,7 +259,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_inserter_evade_shortL",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/ins_evade_left_icon.png",		
+		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/inserters/ins_evade_left_icon.png",		
 		group = "yuoki",		
 		subgroup = "y_line9",		
 		order = "c8b",
@@ -271,7 +271,7 @@ data:extend(
 		type = "inserter",
 		name = "y_inserter_evade_shortL",
 		stack = true,
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/ins_evade_left_icon.png",
+		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/inserters/ins_evade_left_icon.png",
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_inserter_evade_shortL"},
 		max_health = 150,
@@ -301,14 +301,14 @@ data:extend(
 		filter_count = 5,
 		hand_base_picture =
 		{
-			filename = "__Yuoki__/graphics/entity/inserters/special_base_3.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/inserters/special_base_3.png",
 			priority = "extra-high",
 			width = 12,
 			height = 34,
 		},
 		hand_closed_picture =
 		{
-			filename = "__Yuoki__/graphics/entity/inserters/special_ihc_3.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/inserters/special_ihc_3.png",
 			priority = "extra-high",
 			width = 18,
 			height = 41,
@@ -316,7 +316,7 @@ data:extend(
 		},
 		hand_open_picture =
 		{
-			filename = "__Yuoki__/graphics/entity/inserters/special_ihc_3.png",
+			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/inserters/special_ihc_3.png",
 			priority = "extra-high",
 			width = 18,
 			height = 41,
@@ -350,7 +350,7 @@ data:extend(
 				width = 48,
 				height = 48,
 				shift = {0.225, 0.1},
-				filename = "__Yuoki__/graphics/entity/inserters/special_ins_sheet.png"
+				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/inserters/special_ins_sheet.png"
 			}
 		},
 		programmable = true,				

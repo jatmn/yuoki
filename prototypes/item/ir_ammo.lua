@@ -146,7 +146,7 @@ data:extend(
 			type = "recipe",
 			name = "y_ammo_plasma_recipe",
 			icon_size = 32,
-			icon = "__Yuoki__/graphics/icons/capsule_plasma.png",
+			icon = "__Yuoki (Factorio 2.0)__/graphics/icons/capsule_plasma.png",
 			enabled = true,
 			energy_required = 4,
 			ingredients = {
@@ -225,7 +225,7 @@ data:extend(
 			type = "item",
 			name = "y-bullet-case",
 			icon_size = 32,
-			icon = "__Yuoki__/graphics/icons/shell-case.png",
+			icon = "__Yuoki (Factorio 2.0)__/graphics/icons/shell-case.png",
 			group = "yuoki",
 			subgroup = "y-ammo",
 			order = "a1",
@@ -236,7 +236,7 @@ data:extend(
 			type = "item",
 			name = "y_ammo_case",
 			icon_size = 32,
-			icon = "__Yuoki__/graphics/icons/ammo_capsel.png",
+			icon = "__Yuoki (Factorio 2.0)__/graphics/icons/ammo_capsel.png",
 			group = "yuoki",
 			subgroup = "y-ammo",
 			order = "a2",
@@ -247,7 +247,7 @@ data:extend(
 			type = "ammo",
 			name = "y-ammo-acid-2",
 			icon_size = 32,
-			icon = "__Yuoki__/graphics/icons/ammo_poison.png",
+			icon = "__Yuoki (Factorio 2.0)__/graphics/icons/ammo_poison.png",
 			ammo_category = "bullet",
 			ammo_type = {
 				--category = "bullet",
@@ -286,7 +286,7 @@ data:extend(
 			type = "ammo",
 			name = "y-ammo-hohlspitz",
 			icon_size = 32,
-			icon = "__Yuoki__/graphics/icons/ammo_fire.png",
+			icon = "__Yuoki (Factorio 2.0)__/graphics/icons/ammo_fire.png",
 			ammo_category = "bullet",
 			ammo_type = {
 				--category = "bullet",
@@ -319,7 +319,7 @@ data:extend(
 			type = "ammo",
 			name = "y-ammo-explosiv",
 			icon_size = 32,
-			icon = "__Yuoki__/graphics/icons/ammo_wot.png",
+			icon = "__Yuoki (Factorio 2.0)__/graphics/icons/ammo_wot.png",
 			ammo_category = "bullet",
 			ammo_type = {
 				--category = "bullet",
@@ -354,7 +354,7 @@ data:extend(
 			type = "ammo",
 			name = "y-ammo-poison",
 			icon_size = 32,
-			icon = "__Yuoki__/graphics/icons/ammo_silver.png",
+			icon = "__Yuoki (Factorio 2.0)__/graphics/icons/ammo_silver.png",
 			ammo_category = "bullet",
 			ammo_type = {
 				--category = "bullet",
@@ -387,7 +387,7 @@ data:extend(
 			type = "ammo",
 			name = "y-ammo-biggun",
 			icon_size = 32,
-			icon = "__Yuoki__/graphics/icons/ammo_std.png",
+			icon = "__Yuoki (Factorio 2.0)__/graphics/icons/ammo_std.png",
 			ammo_category = "bullet",
 			ammo_type = {
 				--category = "bullet",
@@ -420,7 +420,7 @@ data:extend(
 			type = "ammo",
 			name = "y-ammo-krakon",
 			icon_size = 32,
-			icon = "__Yuoki__/graphics/icons/ammo_wolfram.png",
+			icon = "__Yuoki (Factorio 2.0)__/graphics/icons/ammo_wolfram.png",
 			ammo_category = "bullet",
 			ammo_type = {
 				--category = "bullet",
@@ -453,7 +453,7 @@ data:extend(
 			type = "ammo",
 			name = "y_ammo_plasma",
 			icon_size = 32,
-			icon = "__Yuoki__/graphics/icons/capsule_plasma.png",
+			icon = "__Yuoki (Factorio 2.0)__/graphics/icons/capsule_plasma.png",
 			ammo_category = "plasma",
 			ammo_type = {
 				--category = "plasma",
@@ -499,7 +499,7 @@ data:extend(
 			type = "ammo",
 			name = "y_ammo_flame",
 			icon_size = 32,
-			icon = "__Yuoki__/graphics/icons/capsule_fire.png",
+			icon = "__Yuoki (Factorio 2.0)__/graphics/icons/capsule_fire.png",
 			ammo_category = "flamethrower",
 			ammo_type = {
 				--category = "flamethrower",
@@ -523,7 +523,7 @@ data:extend(
 		{
 			type = "ammo",
 			name = "yi_cannon_shell",
-			icon = "__Yuoki__/graphics/icons/c_shell_icon.png",
+			icon = "__Yuoki (Factorio 2.0)__/graphics/icons/c_shell_icon.png",
 			icon_size = 64,
 			ammo_category = "cannon-shell",
 			ammo_type = {
@@ -553,7 +553,7 @@ data:extend(
 		{
 			type = "ammo",
 			name = "yi_artillery_shell",
-			icon = "__Yuoki__/graphics/icons/a_shell_icon.png",
+			icon = "__Yuoki (Factorio 2.0)__/graphics/icons/a_shell_icon.png",
 			icon_size = 64,
 			ammo_category = "artillery-shell",
 			ammo_type = {

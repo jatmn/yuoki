@@ -7,7 +7,7 @@ data:extend({
     {
 	type = "fluid", 
 	name = "y-con_water", 
-	icon = "__Yuoki__/graphics/icons/h2o_c2_icon.png", 
+	icon = "__Yuoki (Factorio 2.0)__/graphics/icons/h2o_c2_icon.png", 
 	default_temperature = 20, 
 	max_temperature = 100, 
 	heat_capacity = "1kJ", 
@@ -21,7 +21,7 @@ data:extend({
     {
 	type = "fluid", 
 	name = "y-liquid-uc2", 
-	icon = "__Yuoki__/graphics/icons/liquid_a2.png", 
+	icon = "__Yuoki (Factorio 2.0)__/graphics/icons/liquid_a2.png", 
 	default_temperature = 20, 
 	max_temperature = 250, 
 	heat_capacity = "1kJ", 
@@ -35,7 +35,7 @@ data:extend({
     {
 	type = "fluid", 
 	name = "y_hydrogen", 
-	icon = "__Yuoki__/graphics/icons/obs/hydrogen_i32.png", 
+	icon = "__Yuoki (Factorio 2.0)__/graphics/icons/obs/hydrogen_i32.png", 
 	default_temperature = 20, 
 	max_temperature = 100, 
 	heat_capacity = "1kJ", 
@@ -49,7 +49,7 @@ data:extend({
     {
 	type = "fluid", 
 	name = "y_syngas_clean", 
-	icon = "__Yuoki__/graphics/icons/obs/steam-high1.png", 
+	icon = "__Yuoki (Factorio 2.0)__/graphics/icons/obs/steam-high1.png", 
 	default_temperature = 20, 
 	max_temperature = 100, 
 	heat_capacity = "1kJ", 
@@ -63,7 +63,7 @@ data:extend({
     {
 	type = "fluid", 
 	name = "y_syngas_raw", 
-	icon = "__Yuoki__/graphics/icons/obs/h2o_c_icon.png", 
+	icon = "__Yuoki (Factorio 2.0)__/graphics/icons/obs/h2o_c_icon.png", 
 	default_temperature = 20, 
 	max_temperature = 100, 
 	heat_capacity = "1kJ", 

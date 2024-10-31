@@ -12,7 +12,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics-f", 
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/iron2uc.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/iron2uc.png",
 	},		
 	{
 		type = "recipe",
@@ -25,7 +25,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/copper2uc.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/copper2uc.png",
 	},		
 	{
 		type = "recipe",
@@ -38,7 +38,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/wood2uc.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/wood2uc.png",
 	},		
 	{
 		type = "recipe",
@@ -51,7 +51,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/stone2uc.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/stone2uc.png",
 	},		
 	{
 		type = "recipe",
@@ -64,7 +64,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/coal2uc.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/coal2uc.png",
 	},		
 	{
 		type = "recipe",
@@ -77,7 +77,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/n42uc.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/n42uc.png",
 	},			
 	{
 		type = "recipe",
@@ -90,7 +90,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/fuel2uc.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/fuel2uc.png",
 	},		
 	{
 		type = "recipe",
@@ -103,7 +103,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/slag2uc.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/slag2uc.png",
 	},		
 	{
 		type = "recipe",
@@ -116,7 +116,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/crystal2uc.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/crystal2uc.png",
 	},			
 
 	{
@@ -130,7 +130,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/uranium2uc.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/uranium2uc.png",
 	},			
 
 	
@@ -200,7 +200,7 @@ data:extend(
 		subgroup = "y-ore",
 		category = "yuoki-formpress-recipe",	
 		--category = "yuoki-atomics-recipe",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/richdust.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/richdust.png",
 	},
 	]]
 
@@ -216,7 +216,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/toxic-dust_recycle.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/toxic-dust_recycle.png",
 	},		
 	-- mud-ball-recycle
 	{
@@ -230,7 +230,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/mud_recycle.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/mud_recycle.png",
 	},		
 	
 	
@@ -246,7 +246,7 @@ data:extend(
 		--result_count = 20,
 		subgroup = "y-atomics-r",
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/uc2copper.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/uc2copper.png",
 	},		
 	{
 		type = "recipe",
@@ -259,7 +259,7 @@ data:extend(
 		--result_count = 20,
 		subgroup = "y-atomics-r",
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/uc2iron.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/uc2iron.png",
 	},		
 	{
 		type = "recipe",
@@ -272,7 +272,7 @@ data:extend(
 		--result_count = 20,
 		subgroup = "y-atomics-r",
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/uc2wood.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/uc2wood.png",
 	},		
 	{
 		type = "recipe",
@@ -285,7 +285,7 @@ data:extend(
 		--result_count = 20,
 		subgroup = "y-atomics-r",
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/uc2coal.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/uc2coal.png",
 	},		
 	{
 		type = "recipe",
@@ -298,7 +298,7 @@ data:extend(
 		--result_count = 20,
 		subgroup = "y-atomics-r",
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/uc2stone.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/uc2stone.png",
 	},		
 	{
 		type = "recipe",
@@ -311,7 +311,7 @@ data:extend(
 		--result_count = 10,
 		subgroup = "y-atomics-r",
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/uc2n4.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/uc2n4.png",
 	},		
 	{
 		type = "recipe",
@@ -324,7 +324,7 @@ data:extend(
 		--result_count = 10,
 		subgroup = "y-atomics-r",
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/uc2fuel.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/uc2fuel.png",
 	},		
 
 	{
@@ -338,7 +338,7 @@ data:extend(
 		--result_count = 8,
 		subgroup = "y-atomics-r",
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/uc2plastic.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/uc2plastic.png",
 	},		
 
 	{
@@ -352,7 +352,7 @@ data:extend(
 		--result_count = 12,
 		subgroup = "y-atomics-r",
 		category = "yuoki-atomics",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/uc2uranium.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/uc2uranium.png",
 	},		
 
 
@@ -368,7 +368,7 @@ data:extend(
 		result_count = 6,
 		subgroup = "y-atomics-r",
 		category = "yuoki-atomics-recipe",
-		-- icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/uc2plastic.png",
+		-- icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/uc2plastic.png",
 	},		
 	]]
 	
@@ -385,7 +385,7 @@ data:extend(
 			{type="item", name="y-unicomp-a2", amount=1},	
 		},
 		enabled = true,		
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/lightoil2uc.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/lightoil2uc.png",
 		order = "m-refined-rare3",
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
@@ -402,7 +402,7 @@ data:extend(
 			{type="item", name="y-unicomp-a2", amount=1},	
 		},
 		enabled = true,		
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/heavy-oil2uc.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/heavy-oil2uc.png",
 		order = "m-refined-rare3",
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
@@ -419,7 +419,7 @@ data:extend(
 			{type="item", name="y-unicomp-a2", amount=1},	
 		},
 		enabled = true,		
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/lubricant2uc.png",
+		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/lubricant2uc.png",
 		order = "m-refined-rare3",
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
@@ -436,7 +436,7 @@ data:extend(
 			{type="item", name="y-unicomp-a2", amount=1},	
 		},
 		enabled = true,		
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/petro2uc.png",
+		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/petro2uc.png",
 		order = "m-refined-rare3",
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
@@ -454,7 +454,7 @@ data:extend(
 			{type="fluid", name="crude-oil", amount=80, }
 		},
 		enabled = true,		
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/atomics/uc2crudeoil.png",
+		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/atomics/uc2crudeoil.png",
 		order = "m-refined-rare3",
 		subgroup = "y-atomics-r",
 		category = "yuoki-atomics",
@@ -474,7 +474,7 @@ data:extend(
 			{type="fluid", name="y-liquid-uc2", amount=5, }
 		},
 		enabled = true,		
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/liquid_a2.png",
+		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/liquid_a2.png",
 		order = "m-refined-rare3",
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
@@ -493,7 +493,7 @@ data:extend(
 			{type="item", name="y-unicomp-a2", amount=25},						
 		},
 		enabled = true,		
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/unicomp_stack.png",
+		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/unicomp_stack.png",
 		order = "m-refined-rare3",
 		subgroup = "y-atomics-r",
 		category = "yuoki-atomics",
