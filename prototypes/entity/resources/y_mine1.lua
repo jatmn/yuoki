@@ -34,6 +34,14 @@ local simulations = require("__base__.prototypes.factoriopedia-simulations")
 resource_autoplace.initialize_patch_set("y-res1", true)
 resource_autoplace.initialize_patch_set("y-res2", true)
 
+--local planet_map_gen = require("__base__/prototypes/planet/planet-map-gen")
+
+--table.insert (data.raw.planet_map_gen.nauvis, {autoplace_controls = {["y-res1"] = {}}})  
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["y-res1"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["y-res2"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["y-res1"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["y-res2"] = {}
+
 
 local function autoplace_settings(name, order, coverage)
   return
