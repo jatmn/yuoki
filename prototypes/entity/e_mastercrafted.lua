@@ -22,7 +22,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_obninsk_mc",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/obninsk_mc_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/obninsk_mc_icon.png",
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		order = "b[steam-power]-a5",
@@ -34,7 +34,7 @@ data:extend(
 		type = "assembling-machine",
 		name = "y_obninsk_mc",
 		icon_size = 32,
-		icon = "__Yuoki (Factorio 2.0)__/graphics/entity/obninsk_mc_icon.png",
+		icon = "__Yuoki_F2__/graphics/entity/obninsk_mc_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_obninsk_mc"},
 		max_health = 1500,
@@ -78,7 +78,7 @@ data:extend(
 			layers =
 			{
 			  {
-				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/obninsk_mc.png", priority = "extra-high", width = 420, height = 360, shift = {0.6, 0.2}, scale = 0.5,
+				filename = "__Yuoki_F2__/graphics/entity/obninsk_mc.png", priority = "extra-high", width = 420, height = 360, shift = {0.6, 0.2}, scale = 0.5,
 				frame_count = 1,
 				line_length = 1
 			  },
@@ -87,7 +87,7 @@ data:extend(
 		},
 		working_visualisations = {
 			animation = {
-				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/obninsk-reactor_wns.png",
+				filename = "__Yuoki_F2__/graphics/entity/obninsk-reactor_wns.png",
 				priority = "extra-high",
 				width = 210,
 				height = 180,
@@ -117,7 +117,7 @@ data:extend(
 	{
 		type = "boiler",
 		name = "y_obninsk_mc",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/obninsk_mc_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/obninsk_mc_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.3, mining_time = 0.5, result = "y_obninsk_mc"},
 		max_health = 1500,
@@ -176,19 +176,19 @@ data:extend(
 		{
 			north = 
 			{
-				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/obninsk_mc.png", priority = "extra-high", width = 420, height = 360, shift = {0.6, 0.2}, scale = 0.5,
+				filename = "__Yuoki_F2__/graphics/entity/obninsk_mc.png", priority = "extra-high", width = 420, height = 360, shift = {0.6, 0.2}, scale = 0.5,
 			},
 			east =
 			{
-				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/obninsk_mc.png", priority = "extra-high", width = 420, height = 360, shift = {0.6, 0.2}, scale = 0.5,
+				filename = "__Yuoki_F2__/graphics/entity/obninsk_mc.png", priority = "extra-high", width = 420, height = 360, shift = {0.6, 0.2}, scale = 0.5,
 			},
 			south =
 			{
-				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/obninsk_mc.png", priority = "extra-high", width = 420, height = 360, shift = {0.6, 0.2},	scale = 0.5,
+				filename = "__Yuoki_F2__/graphics/entity/obninsk_mc.png", priority = "extra-high", width = 420, height = 360, shift = {0.6, 0.2},	scale = 0.5,
 			},
 			west =
 			{
-				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/obninsk_mc.png", priority = "extra-high", width = 420, height = 360, shift = {0.6, 0.2},	scale = 0.5,
+				filename = "__Yuoki_F2__/graphics/entity/obninsk_mc.png", priority = "extra-high", width = 420, height = 360, shift = {0.6, 0.2},	scale = 0.5,
 			},		
 		},
 		fire = {},
@@ -203,7 +203,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_steam_turbine_mc",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/steam_turbine_n3mc_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/steam_turbine_n3mc_icon.png",
 		ingredients = {
 			{type="item", name="y-steam-turbine", amount=1},
 			{type="item", name="y_rwtechsign", amount=1000},
@@ -218,7 +218,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_steam_turbine_mc",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/steam_turbine_n3mc_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/steam_turbine_n3mc_icon.png",
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		place_result = "y_steam_turbine_mc",
@@ -228,7 +228,7 @@ data:extend(
 	{
 		type = "generator",
 		name = "y_steam_turbine_mc",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/steam_turbine_n3mc_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/steam_turbine_n3mc_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {mining_time = 0.5, result = "y_steam_turbine_mc"},
 		max_health = 400,
@@ -273,7 +273,7 @@ data:extend(
 		},
 		horizontal_animation =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/steam_turb_h3mc_sheet.png",
+			filename = "__Yuoki_F2__/graphics/entity/steam_turb_h3mc_sheet.png",
 			width = 320,
 			height = 320,
 			frame_count = 10,
@@ -283,7 +283,7 @@ data:extend(
 		},
 		vertical_animation =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/steam_turb_v3mc_sheet.png",
+			filename = "__Yuoki_F2__/graphics/entity/steam_turb_v3mc_sheet.png",
 			width = 320,
 			height = 320,
 			frame_count = 10,
@@ -306,7 +306,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_steam_turbine_gr",
-		icon_size = 64, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/steam_turbine-n3mc-green_icon.png",
+		icon_size = 64, icon =  "__Yuoki_F2__/graphics/entity/steam_turbine-n3mc-green_icon.png",
 		ingredients = {
 			{type="item", name="y-steam-turbine", amount=1},
 			{type="item", name="y_greensign", amount=1000},
@@ -321,7 +321,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_steam_turbine_gr",
-		icon_size = 64, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/steam_turbine-n3mc-green_icon.png",
+		icon_size = 64, icon =  "__Yuoki_F2__/graphics/entity/steam_turbine-n3mc-green_icon.png",
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		place_result = "y_steam_turbine_gr",
@@ -331,7 +331,7 @@ data:extend(
 	{
 		type = "generator",
 		name = "y_steam_turbine_gr",
-		icon_size = 64, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/steam_turbine-n3mc-green_icon.png",
+		icon_size = 64, icon =  "__Yuoki_F2__/graphics/entity/steam_turbine-n3mc-green_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {mining_time = 0.5, result = "y_steam_turbine_gr"},
 		max_health = 400,
@@ -376,7 +376,7 @@ data:extend(
 		},
 		horizontal_animation =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/steam_turb_h3gr_sheet.png",
+			filename = "__Yuoki_F2__/graphics/entity/steam_turb_h3gr_sheet.png",
 			width = 320,
 			height = 320,
 			frame_count = 10,
@@ -387,7 +387,7 @@ data:extend(
 		},
 		vertical_animation =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/steam_turb_v3gr_sheet.png",
+			filename = "__Yuoki_F2__/graphics/entity/steam_turb_v3gr_sheet.png",
 			width = 320,
 			height = 320,
 			frame_count = 10,
@@ -412,7 +412,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_mc_underground_drill",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/mc_digger_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/mc_digger_icon.png",
 		ingredients = {
 			{type="item", name="y-underground-drill", amount=1},
 			{type="item", name="y_rwtechsign", amount=4000},
@@ -432,7 +432,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_mc_underground_drill",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/mc_digger_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/mc_digger_icon.png",
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		place_result = "y_mc_underground_drill",
@@ -442,7 +442,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_mc_underground_drill", minable = {mining_time = 0.5,result = "y_mc_underground_drill"},
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/mc_digger_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/mc_digger_icon.png",
 		flags = {"placeable-neutral","player-creation"},		
 		max_health = 600,
 		--resistances = {{type = "fire",percent = 70}},
@@ -456,7 +456,7 @@ data:extend(
 			layers =
 			{
 			  {
-				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/mc_digger_sheet.png",
+				filename = "__Yuoki_F2__/graphics/entity/mc_digger_sheet.png",
 				priority = "medium",
 				width = 256,
 				height = 256,
@@ -485,7 +485,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_mc_dirtwasher",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/mc_washer_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/mc_washer_icon.png",
 		ingredients = {
 			{type="item", name="y-dirtwasher", amount=1},
 			{type="item", name="y_rwtechsign", amount=2500},
@@ -501,7 +501,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_mc_dirtwasher",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/mc_washer_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/mc_washer_icon.png",
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		place_result = "y_mc_dirtwasher",
@@ -511,7 +511,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_mc_dirtwasher",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/mc_washer_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/mc_washer_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {mining_time = 0.5,result = "y_mc_dirtwasher"},
 		max_health = 300,
@@ -524,22 +524,22 @@ data:extend(
 		  {
 			north =
 			{
-				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/washer_mc_ns_sheet.png",
+				filename = "__Yuoki_F2__/graphics/entity/washer_mc_ns_sheet.png",
 				priority = "medium", width = 256, height = 256, frame_count = 16, line_length=4, shift = {0.5, -0.25}, animation_speed=0.7, scale=0.5,
 			},
 			east =
 			{
-				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/washer_mc_we_sheet.png",
+				filename = "__Yuoki_F2__/graphics/entity/washer_mc_we_sheet.png",
 				priority = "medium", width = 256, height = 256, frame_count = 16, line_length=4, shift = {0.47, 0}, animation_speed=0.7, scale=0.5,				
 			},
 			south =
 			{
-				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/washer_mc_ns_sheet.png",
+				filename = "__Yuoki_F2__/graphics/entity/washer_mc_ns_sheet.png",
 				priority = "medium", width = 256, height = 256, frame_count = 16, line_length=4, shift = {0.5, -0.25}, animation_speed=0.7, scale=0.5,
 			},
 			west =
 			{
-				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/washer_mc_we_sheet.png",
+				filename = "__Yuoki_F2__/graphics/entity/washer_mc_we_sheet.png",
 				priority = "medium", width = 256, height = 256, frame_count = 16, line_length=4, shift = {0.47, 0}, animation_speed=0.7, scale=0.5,
 			},		
 		  },
@@ -585,7 +585,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_mc_e2_mining_drill",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/mc_miner_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/mc_miner_icon.png",
 		ingredients = {
 			{type="item", name="y-mining-drill-e2", amount=1},
 			{type="item", name="y_rwtechsign", amount=3500},
@@ -606,7 +606,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_mc_e2_mining_drill",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/mc_miner_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/mc_miner_icon.png",
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		place_result = "y_mc_e2_mining_drill",
@@ -615,7 +615,7 @@ data:extend(
 	{
 		type = "mining-drill",
 		name = "y_mc_e2_mining_drill",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/mc_miner_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/mc_miner_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_mc_e2_mining_drill"},
 		max_health = 900,
@@ -652,7 +652,7 @@ data:extend(
 				height = 448,
 				line_length = 4,
 				shift = {0, -0.5},
-				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/miners/mc_miner_sheet.png",
+				filename = "__Yuoki_F2__/graphics/entity/miners/mc_miner_sheet.png",
 				frame_count = 16,
 				animation_speed = 0.5,
 				scale = 0.5,
@@ -691,7 +691,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_boiler4_mc",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/mc_big_boiler_ig_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/mc_big_boiler_ig_icon.png",
 		ingredients = {
 			{type="item", name="y-boiler-iv", amount=1},
 			{type="item", name="y_greensign", amount=700},
@@ -705,7 +705,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_boiler4_mc",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/mc_big_boiler_ig_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/mc_big_boiler_ig_icon.png",
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		order = "b[steam-power]-a3",
@@ -717,7 +717,7 @@ data:extend(
 	{
 		type = "boiler",
 		name = "y_boiler4_mc",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/mc_big_boiler_ig_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/mc_big_boiler_ig_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_boiler4_mc"},
 		max_health = 400,
@@ -778,20 +778,20 @@ data:extend(
 		pictures = {
 			north = {
 				structure =
-				{ filename = "__Yuoki (Factorio 2.0)__/graphics/entity/mc_big_boiler.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 		shift = {0.375, -0.25} },
+				{ filename = "__Yuoki_F2__/graphics/entity/mc_big_boiler.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 		shift = {0.375, -0.25} },
 			},
 		
 			east = {
 				structure =
-				{ filename = "__Yuoki (Factorio 2.0)__/graphics/entity/mc_big_boiler.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 		shift = {0.375, -0.25} }
+				{ filename = "__Yuoki_F2__/graphics/entity/mc_big_boiler.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 		shift = {0.375, -0.25} }
 			},
 			south = {
 				structure =
-				{ filename = "__Yuoki (Factorio 2.0)__/graphics/entity/mc_big_boiler.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 	shift = {0.375, -0.25} }
+				{ filename = "__Yuoki_F2__/graphics/entity/mc_big_boiler.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 	shift = {0.375, -0.25} }
 			},
 			west = {
 				structure =
-				{ filename = "__Yuoki (Factorio 2.0)__/graphics/entity/mc_big_boiler.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 	shift = {0.375, -0.25} }
+				{ filename = "__Yuoki_F2__/graphics/entity/mc_big_boiler.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 	shift = {0.375, -0.25} }
 			}
 		},
 		fire = {},
@@ -806,7 +806,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_boiler4_tech",
-		icon_size = 64, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/mc_big_boiler_t_icon.png",
+		icon_size = 64, icon =  "__Yuoki_F2__/graphics/entity/mc_big_boiler_t_icon.png",
 		ingredients = {
 			{type="item", name="y-boiler-iv", amount=1},
 			{type="item", name="y_rwtechsign", amount=900},
@@ -820,7 +820,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_boiler4_tech",
-		icon_size = 64, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/mc_big_boiler_t_icon.png",
+		icon_size = 64, icon =  "__Yuoki_F2__/graphics/entity/mc_big_boiler_t_icon.png",
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		order = "b[steam-power]-a4",
@@ -832,7 +832,7 @@ data:extend(
 	{
 		type = "boiler",
 		name = "y_boiler4_tech",
-		icon_size = 64, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/mc_big_boiler_t_icon.png",
+		icon_size = 64, icon =  "__Yuoki_F2__/graphics/entity/mc_big_boiler_t_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_boiler4_tech"},
 		max_health = 400,
@@ -893,20 +893,20 @@ data:extend(
 		pictures = {
 			north = {
 				structure =
-				{ filename = "__Yuoki (Factorio 2.0)__/graphics/entity/mc_big_boiler_t.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 		shift = {0.375, -0.25} },
+				{ filename = "__Yuoki_F2__/graphics/entity/mc_big_boiler_t.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 		shift = {0.375, -0.25} },
 			},
 		
 			east = {
 				structure =
-				{ filename = "__Yuoki (Factorio 2.0)__/graphics/entity/mc_big_boiler_t.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 		shift = {0.375, -0.25} } 
+				{ filename = "__Yuoki_F2__/graphics/entity/mc_big_boiler_t.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 		shift = {0.375, -0.25} } 
 			},
 			south = {
 				structure =
-				{ filename = "__Yuoki (Factorio 2.0)__/graphics/entity/mc_big_boiler_t.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 	shift = {0.375, -0.25} }
+				{ filename = "__Yuoki_F2__/graphics/entity/mc_big_boiler_t.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 	shift = {0.375, -0.25} }
 			},
 			west = {
 				structure =
-				{ filename = "__Yuoki (Factorio 2.0)__/graphics/entity/mc_big_boiler_t.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 	shift = {0.375, -0.25} }
+				{ filename = "__Yuoki_F2__/graphics/entity/mc_big_boiler_t.png", priority = "extra-high", width = 256, height = 256, scale=0.5, 	shift = {0.375, -0.25} }
 			}
 		},
 		fire = {},

@@ -19,7 +19,7 @@ data:extend({
 		{ type = "item", name = "ypfw_trader_sign", amount = 3, },
 	  },
 	  main_product="yi_roboport",
-	   icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/yi_roboport_icon.png",
+	   icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/yi_roboport_icon.png",
 	  order = "a", group = "yuoki", subgroup = "y_line1b",
 	},
 
@@ -42,7 +42,7 @@ data:extend({
 		{ type = "item", name = "ye_science_blue", amount = 1, },
 	  },
 	  main_product="yi_radar",
-	   icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/radar_icon.png",
+	   icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/radar_icon.png",
 	  order = "a", group = "yuoki", subgroup = "y_line1b",
 	},
 
@@ -65,7 +65,7 @@ data:extend({
 		{ type = "item", name = "ypfw_trader_sign", amount = 3, },
 	  },
 	  main_product="yi_beacon",
-	   icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/beacon_icon.png",
+	   icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/beacon_icon.png",
 	  order = "a", group = "yuoki", subgroup = "y_line1b",
 	},
 	

@@ -17,7 +17,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-small-stirling-engine",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/fce-icon.png",		
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/fce-icon.png",		
 		order = "1",
 		--place_result = "y-small-stirling-engine",
 		stack_size = 25,
@@ -45,7 +45,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-stirling-solar-dish",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/stir-solar-dish-icon.png",		
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/stir-solar-dish-icon.png",		
 		order = "e-za", group="yuoki-energy", subgroup = "y-energy-2",
 		place_result = "y-stirling-solar-dish",
 		stack_size = 25,
@@ -72,7 +72,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_alien_solar",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/yi_alien_solar_icon.png",		
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/yi_alien_solar_icon.png",		
 		order = "zb", group="yuoki-energy", subgroup = "y-energy-2",
 		place_result = "y_alien_solar",
 		stack_size = 25,
@@ -99,7 +99,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_alien_solar2",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/yi_alien_solar2_icon.png",		
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/yi_alien_solar2_icon.png",		
 		order = "zc", group="yuoki-energy", subgroup = "y-energy-2",
 		place_result = "y_alien_solar2",
 		stack_size = 15,
@@ -110,7 +110,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-seg",
-		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/energy-t2/seg_icon.png",
+		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/energy-t2/seg_icon.png",
 		ingredients = {
 			{type="item", name="y-basic-t2-mf", amount=1},
 			{type="item", name="y-unicomp-raw", amount=2},
@@ -127,7 +127,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-meg-s",
-		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/energy-t2/meg-s-icon.png",
+		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/energy-t2/meg-s-icon.png",
 		ingredients = {
 			{type="item", name="y-basic-t2-mf", amount=2},
 			{type="item", name="y-unicomp-raw", amount=6},
@@ -181,7 +181,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-boiler-iv",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/boiler3mw_icon2.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/boiler3mw_icon2.png",
 		ingredients = {
 			{type="item", name="steel-plate", amount=3},
 			{type="item", name="y_structure_element", amount=8},
@@ -248,7 +248,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-steam-turbine",
-		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/steam_turbine_n3_icon.png",
+		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/steam_turbine_n3_icon.png",
 		ingredients = {
 			{type="item", name="engine-unit", amount=2},
 			{type="item", name="y_structure_element", amount=10},

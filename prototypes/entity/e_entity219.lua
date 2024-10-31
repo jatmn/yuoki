@@ -16,7 +16,7 @@ data:extend(
 		},
 		main_product = "y-mechanical-force",
 		icon_size = 32,
-		icon = "__Yuoki (Factorio 2.0)__/graphics/icons/mfmode.png",
+		icon = "__Yuoki_F2__/graphics/icons/mfmode.png",
 		order = "1",
 		group = "yuoki_liquids",
 		subgroup = "y-fluid"
@@ -38,7 +38,7 @@ data:extend(
 		},
 		main_product = "y_mox1heated",
 		icon_size = 32,
-		icon = "__Yuoki (Factorio 2.0)__/graphics/icons/mox1mode.png",
+		icon = "__Yuoki_F2__/graphics/icons/mox1mode.png",
 		order = "2",
 		group = "yuoki_liquids",
 		subgroup = "y-fluid"
@@ -60,7 +60,7 @@ data:extend(
 		},
 		main_product = "y_mox2heated",
 		icon_size = 32,
-		icon = "__Yuoki (Factorio 2.0)__/graphics/icons/mox2mode.png",
+		icon = "__Yuoki_F2__/graphics/icons/mox2mode.png",
 		order = "3",
 		group = "yuoki_liquids",
 		subgroup = "y-fluid"
@@ -70,7 +70,7 @@ data:extend(
 		type = "assembling-machine",
 		name = "y-obninsk-reactor",
 		icon_size = 32,
-		icon = "__Yuoki (Factorio 2.0)__/graphics/icons/obninsk-reactor-icon.png",
+		icon = "__Yuoki_F2__/graphics/icons/obninsk-reactor-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.3, mining_time = 0.5, result = "y-obninsk-reactor"},
 		max_health = 500,
@@ -109,7 +109,7 @@ data:extend(
 			layers =
 			{
 			  {
-				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/obninsk-reactor_ns.png",
+				filename = "__Yuoki_F2__/graphics/entity/obninsk-reactor_ns.png",
 				priority = "extra-high",
 				width = 210,
 				height = 180,
@@ -122,7 +122,7 @@ data:extend(
 		  working_visualisations = 
 		  {
 			animation = {
-				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/obninsk-reactor_wns.png",
+				filename = "__Yuoki_F2__/graphics/entity/obninsk-reactor_wns.png",
 				priority = "extra-high",
 				width = 210,
 				height = 180,
@@ -157,7 +157,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_moxmixer",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/fuel_mixer_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/fuel_mixer_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {hardness = 0.5, mining_time = 1, result = "y_moxmixer"},
 		max_health = 500,
@@ -171,7 +171,7 @@ data:extend(
 			layers =
 			{
 			  {
-				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/fuel_mixer_sheet.png",
+				filename = "__Yuoki_F2__/graphics/entity/fuel_mixer_sheet.png",
 				priority = "medium", width = 256, height = 256, frame_count = 16, line_length = 4, shift = {0.5, -0.325}, animation_speed=0.5, scale = 0.5,	
 			  },
 			}

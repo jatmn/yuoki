@@ -4,7 +4,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-res2",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/yi-res-2-pur.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/yi-res-2-pur.png",
 		subgroup = "raw-resource",
 		order = "r",
 		stack_size = 250,
@@ -23,7 +23,7 @@ data:extend(
 	{
 		type = "resource",
 		name = "y-res2",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/yi-res-2-pur.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/yi-res-2-pur.png",
 		flags = {"placeable-neutral"},
 		order="a-b-d",
 		minable =
@@ -57,7 +57,7 @@ data:extend(
 		stage_counts = {4000, 2000, 1500, 900, 300, 75, 25, 10},
 		stages = { 
 			sheet = {
-				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/resources/yellow_sheet.png",
+				filename = "__Yuoki_F2__/graphics/entity/resources/yellow_sheet.png",
 				priority = "extra-high",
 				width = 38,
 				height = 38,

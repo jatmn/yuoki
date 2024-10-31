@@ -1,7 +1,7 @@
 playeranimations_y1 = {
 	idle =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/robo1_idle.png",
+		filename = "__Yuoki_F2__/graphics/armor/robo1_idle.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -13,7 +13,7 @@ playeranimations_y1 = {
 	},
 	idlewithgun =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/robo1_idle.png",
+		filename = "__Yuoki_F2__/graphics/armor/robo1_idle.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -25,7 +25,7 @@ playeranimations_y1 = {
 	},
 	miningwithhands =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/robo1_dig.png",
+		filename = "__Yuoki_F2__/graphics/armor/robo1_dig.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -37,7 +37,7 @@ playeranimations_y1 = {
 	},
 	miningwithtool =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/robo1_dig.png",
+		filename = "__Yuoki_F2__/graphics/armor/robo1_dig.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -49,7 +49,7 @@ playeranimations_y1 = {
 	},
 	runningwithgun =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/robo1_walk_gun.png",
+		filename = "__Yuoki_F2__/graphics/armor/robo1_walk_gun.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -59,7 +59,7 @@ playeranimations_y1 = {
 	},
 	running =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/robo1_walk.png",
+		filename = "__Yuoki_F2__/graphics/armor/robo1_walk.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -131,7 +131,7 @@ data.raw.character.character.animations.levelAaddon = {
 playeranimations_y2 = {
 	idle =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/armor2_idle_sheet.png",
+		filename = "__Yuoki_F2__/graphics/armor/armor2_idle_sheet.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -143,7 +143,7 @@ playeranimations_y2 = {
 	},
 	idlewithgun =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/armor2_idle_sheet.png",
+		filename = "__Yuoki_F2__/graphics/armor/armor2_idle_sheet.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -155,7 +155,7 @@ playeranimations_y2 = {
 	},
 	miningwithhands =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/armor2_dig.png",
+		filename = "__Yuoki_F2__/graphics/armor/armor2_dig.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -167,7 +167,7 @@ playeranimations_y2 = {
 	},
 	miningwithtool =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/armor2_dig.png",
+		filename = "__Yuoki_F2__/graphics/armor/armor2_dig.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -179,7 +179,7 @@ playeranimations_y2 = {
 	},
 	runningwithgun =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/armor2_walk_gun.png",
+		filename = "__Yuoki_F2__/graphics/armor/armor2_walk_gun.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -189,7 +189,7 @@ playeranimations_y2 = {
 	},
 	running =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/armor2_walk_sheet.png",
+		filename = "__Yuoki_F2__/graphics/armor/armor2_walk_sheet.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -261,7 +261,7 @@ data.raw.character.character.animations.levelBaddon = {
 playeranimations_y3 = {
 	idle =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/cb3_idle_sheet.png",
+		filename = "__Yuoki_F2__/graphics/armor/cb3_idle_sheet.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -273,7 +273,7 @@ playeranimations_y3 = {
 	},
 	idlewithgun =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/cb3_idle_sheet.png",
+		filename = "__Yuoki_F2__/graphics/armor/cb3_idle_sheet.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -285,7 +285,7 @@ playeranimations_y3 = {
 	},
 	miningwithhands =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/cb3_dig.png",
+		filename = "__Yuoki_F2__/graphics/armor/cb3_dig.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -297,7 +297,7 @@ playeranimations_y3 = {
 	},
 	miningwithtool =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/cb3_dig.png",
+		filename = "__Yuoki_F2__/graphics/armor/cb3_dig.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -309,7 +309,7 @@ playeranimations_y3 = {
 	},
 	runningwithgun =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/cb3_walk_gun.png",
+		filename = "__Yuoki_F2__/graphics/armor/cb3_walk_gun.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -319,7 +319,7 @@ playeranimations_y3 = {
 	},
 	running =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/cb3_walk_sheet.png",
+		filename = "__Yuoki_F2__/graphics/armor/cb3_walk_sheet.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -392,7 +392,7 @@ data.raw.character.character.animations.levelCaddon = {
 playeranimations_y4 = {
 	idle =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/cb4_idle_sheet.png",
+		filename = "__Yuoki_F2__/graphics/armor/cb4_idle_sheet.png",
 		--priority = "very-low,
 		width = 90,
 		height = 100,
@@ -404,7 +404,7 @@ playeranimations_y4 = {
 	},
 	idlewithgun =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/cb4_idle_sheet.png",
+		filename = "__Yuoki_F2__/graphics/armor/cb4_idle_sheet.png",
 		--priority = "very-low,
 		width = 90,
 		height = 100,
@@ -416,7 +416,7 @@ playeranimations_y4 = {
 	},
 	miningwithhands =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/cb4_dig_sheet.png",
+		filename = "__Yuoki_F2__/graphics/armor/cb4_dig_sheet.png",
 		--priority = "very-low,
 		width = 90,
 		height = 100,
@@ -428,7 +428,7 @@ playeranimations_y4 = {
 	},
 	miningwithtool =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/cb4_dig_sheet.png",
+		filename = "__Yuoki_F2__/graphics/armor/cb4_dig_sheet.png",
 		--priority = "very-low,
 		width = 90,
 		height = 100,
@@ -440,7 +440,7 @@ playeranimations_y4 = {
 	},
 	runningwithgun =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/cb4_gun_sheet.png",
+		filename = "__Yuoki_F2__/graphics/armor/cb4_gun_sheet.png",
 		--priority = "very-low,
 		width = 90,
 		height = 100,
@@ -450,7 +450,7 @@ playeranimations_y4 = {
 	},
 	running =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/cb4_walk_sheet.png",
+		filename = "__Yuoki_F2__/graphics/armor/cb4_walk_sheet.png",
 		--priority = "very-low,
 		width = 90,
 		height = 100,
@@ -487,7 +487,7 @@ data.raw.character.character.animations.levelDaddon = {
 playeranimations_y5 = {
 	idle =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/cb5_idle_sheet.png",
+		filename = "__Yuoki_F2__/graphics/armor/cb5_idle_sheet.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -499,7 +499,7 @@ playeranimations_y5 = {
 	},
 	idlewithgun =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/cb5_idle_sheet.png",
+		filename = "__Yuoki_F2__/graphics/armor/cb5_idle_sheet.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -511,7 +511,7 @@ playeranimations_y5 = {
 	},
 	miningwithhands =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/cb5_dig_sheet.png",
+		filename = "__Yuoki_F2__/graphics/armor/cb5_dig_sheet.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -523,7 +523,7 @@ playeranimations_y5 = {
 	},
 	miningwithtool =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/cb5_dig_sheet.png",
+		filename = "__Yuoki_F2__/graphics/armor/cb5_dig_sheet.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -535,7 +535,7 @@ playeranimations_y5 = {
 	},
 	runningwithgun =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/cb5_gun_sheet.png",
+		filename = "__Yuoki_F2__/graphics/armor/cb5_gun_sheet.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,
@@ -545,7 +545,7 @@ playeranimations_y5 = {
 	},
 	running =
 	{
-		filename = "__Yuoki (Factorio 2.0)__/graphics/armor/cb5_walk_sheet.png",
+		filename = "__Yuoki_F2__/graphics/armor/cb5_walk_sheet.png",
 		--priority = "very-low,
 		width = 80,
 		height = 100,

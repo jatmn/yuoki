@@ -14,7 +14,7 @@ recipe.main_product = "y_bc22"
 
 --Copy item data for Yuoki Requester Chest and customise for new entity
 local item = table.deepcopy(data.raw.item.y_rc22)
-item.icon = "__Yuoki (Factorio 2.0)__/graphics/y-bc22-icon.png"
+item.icon = "__Yuoki_F2__/graphics/y-bc22-icon.png"
 item.name = "y_bc22"
 item.place_result = "y_bc22"
 
@@ -22,7 +22,7 @@ item.place_result = "y_bc22"
 local entity = table.deepcopy(data.raw["logistic-container"].y_rc22)
 entity.name = "y_bc22"
 entity.logistic_mode = "buffer"
-entity.picture.filename = "__Yuoki (Factorio 2.0)__/graphics/y-bc22.png"
+entity.picture.filename = "__Yuoki_F2__/graphics/y-bc22.png"
 
 data:extend({recipe})
 data:extend({item})

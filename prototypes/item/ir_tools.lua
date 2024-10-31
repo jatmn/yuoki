@@ -81,7 +81,7 @@ data:extend(
 	{
 		type = "repair-tool",
 		name = "y-repair-durotal",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/repair-durotal-icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/repair-durotal-icon.png",
 		group="yuoki",
 		subgroup = "y-tools",
 		order = "b[repair]-a[repair-pack]",
@@ -92,7 +92,7 @@ data:extend(
 	{
 		type = "repair-tool",
 		name = "y-repair-krakon",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/repair-krakon-icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/repair-krakon-icon.png",
 		group="yuoki",
 		subgroup = "y-tools",
 		order = "b[repair]-a[repair-pack]",
@@ -103,7 +103,7 @@ data:extend(
 	{
 		type = "repair-tool",
 		name = "y_repair_quantrinum",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/repair_quantrinum.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/repair_quantrinum.png",
 		group="yuoki",
 		subgroup = "y-tools",
 		order = "b[repair]-a[repair-pack]",
@@ -116,7 +116,7 @@ data:extend(
 	{
 		type = "mining-tool",
 		name = "y-axe-duro",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/hammer_std.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/hammer_std.png",
 		action =
 		{
 			type="direct",
@@ -140,7 +140,7 @@ data:extend(
 	{
 		type = "mining-tool",
 		name = "y_quantrinum_hammer",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/hammer_quantrinum.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/hammer_quantrinum.png",
 		action =
 		{
 			type="direct",

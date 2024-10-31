@@ -5,7 +5,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-tinylamp",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/lamp-1-icon.png",		
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/lamp-1-icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "y-tinylamp",
@@ -16,7 +16,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-powerlamp",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/hl2_icon.png",		
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/hl2_icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "y-powerlamp",
@@ -27,7 +27,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-lamp-alien",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/alien_lampe_icon.png",		
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/alien_lampe_icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "y-lamp-alien",
@@ -39,7 +39,7 @@ data:extend(
 	{
 		type = "item",
 		name = "yi-monument1",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/monument-1-icon.png",		
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/monument-1-icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "yi-monument1",
@@ -47,10 +47,10 @@ data:extend(
 		order = "ld",
 	},
 	
-	{ type = "item", name = "y_lamp_red", place_result = "y_lamp_red",  icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/y_lamp_red_icon.png", subgroup = "y-lamps", stack_size = 50, order = "2a", default_request_amount = 10, },
-	{ type = "item", name = "y_lamp_green", place_result = "y_lamp_green",  icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/y_lamp_green_icon.png", subgroup = "y-lamps", stack_size = 50, order = "2b", default_request_amount = 10,  },
-	{ type = "item", name = "y_lamp_blue", place_result = "y_lamp_blue",  icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/y_lamp_blue_icon.png", subgroup = "y-lamps", stack_size = 50, order = "2c", default_request_amount = 10,  },
-	{ type = "item", name = "y_lamp_yellow", place_result = "y_lamp_yellow",  icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/y_lamp_yellow_icon.png", subgroup = "y-lamps", stack_size = 50, order = "2d", default_request_amount = 10,  },
+	{ type = "item", name = "y_lamp_red", place_result = "y_lamp_red",  icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/y_lamp_red_icon.png", subgroup = "y-lamps", stack_size = 50, order = "2a", default_request_amount = 10, },
+	{ type = "item", name = "y_lamp_green", place_result = "y_lamp_green",  icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/y_lamp_green_icon.png", subgroup = "y-lamps", stack_size = 50, order = "2b", default_request_amount = 10,  },
+	{ type = "item", name = "y_lamp_blue", place_result = "y_lamp_blue",  icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/y_lamp_blue_icon.png", subgroup = "y-lamps", stack_size = 50, order = "2c", default_request_amount = 10,  },
+	{ type = "item", name = "y_lamp_yellow", place_result = "y_lamp_yellow",  icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/y_lamp_yellow_icon.png", subgroup = "y-lamps", stack_size = 50, order = "2d", default_request_amount = 10,  },
 		
 	-- recipe
 	{
@@ -72,7 +72,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-powerlamp",
-		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/hl2_icon.png",
+		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/hl2_icon.png",
 		enabled = true,
 		ingredients = 
 		{    	  	
@@ -112,7 +112,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "yi-monument1", enabled = true,
-		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/monument-1-icon.png",
+		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/monument-1-icon.png",
 		ingredients = {
 			{type="item", name="y-crystal-cnd", amount=6},
 			{type="item", name="y-unicomp-raw", amount=12},
@@ -189,7 +189,7 @@ data:extend(
 	{
 		type = "lamp",
 		name = "y-tinylamp",
-		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/lamp-1-icon.png",
+		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/lamp-1-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 0.5, result = "y-tinylamp"},
 		max_health = 50,
@@ -205,7 +205,7 @@ data:extend(
 		light = {intensity = 0.8, size = 60, color = {r=1.0, g=0.95, b=0.8}},
 		picture_off =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/power_lamp_v2.png",
+			filename = "__Yuoki_F2__/graphics/entity/power_lamp_v2.png",
 			priority = "high",
 			width = 32,
 			height = 48,
@@ -213,7 +213,7 @@ data:extend(
 		},
 		picture_on =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/power_lamp_v2.png",
+			filename = "__Yuoki_F2__/graphics/entity/power_lamp_v2.png",
 			priority = "high",
 			width = 32,
 			height = 48,
@@ -226,7 +226,7 @@ data:extend(
 	{
 		type = "lamp",
 		name = "y-powerlamp",
-		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/hl2_icon.png",
+		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/hl2_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 0.5, result = "y-powerlamp"},
 		max_health = 50,
@@ -242,7 +242,7 @@ data:extend(
 		light = {intensity = 0.9, size = 80, color = {r=0.95, g=1.0, b=0.8}},
 		picture_off =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/lampe_gelb_off.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/lampe_gelb_off.png",
 			priority = "high",
 			width = 96,
 			height = 128, scale = 0.5,			
@@ -250,7 +250,7 @@ data:extend(
 		},
 		picture_on =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/lampe_gelb_on.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/lampe_gelb_on.png",
 			priority = "high",
 			width = 96,
 			height = 128, scale = 0.5,			
@@ -261,7 +261,7 @@ data:extend(
 	{
 		type = "lamp",
 		name = "y-lamp-alien",
-		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/alien_lampe_icon.png",
+		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/alien_lampe_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 0.5, result = "y-lamp-alien"},
 		max_health = 50,
@@ -277,7 +277,7 @@ data:extend(
 		light = {intensity = 0.9, size = 180, color = {r=1.0, g=0.9, b=1.0}},		
 		picture_off =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/al2_off.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/al2_off.png",
 			priority = "high",
 			width = 32,
 			height = 64,
@@ -285,7 +285,7 @@ data:extend(
 		},
 		picture_on =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/al2_on.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/al2_on.png",
 			priority = "high",
 			width = 32,
 			height = 64,			
@@ -297,7 +297,7 @@ data:extend(
 	{
 		type = "lamp",
 		name = "yi-monument1",
-		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/monument-1-icon.png",
+		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/monument-1-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.5, mining_time = 1.0, result = "yi-monument1"},
 		max_health = 500,
@@ -311,7 +311,7 @@ data:extend(
 		light = {intensity = 1.0, size = 140},
 		picture_off =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/monument-1.png",
+			filename = "__Yuoki_F2__/graphics/entity/monument-1.png",
 			priority = "high",
 			width = 256,
 			height = 256,
@@ -319,7 +319,7 @@ data:extend(
 		},
 		picture_on =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/monument-1.png",
+			filename = "__Yuoki_F2__/graphics/entity/monument-1.png",
 			priority = "high",
 			width = 256,
 			height = 256,
@@ -333,7 +333,7 @@ data:extend(
 	{
 		type = "lamp",
 		name = "y_lamp_red", minable = {hardness = 0.2, mining_time = 0.5, result = "y_lamp_red"},
-		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/y_lamp_red_icon.png",
+		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/y_lamp_red_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		max_health = 75, corpse = "small-remnants",
 		collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
@@ -344,7 +344,7 @@ data:extend(
 		--light = {intensity = 0.25, size = 2, color = {r=0.7, g=0.0, b=0.0} },			
 		picture_off =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/y_lamp_red_off.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/y_lamp_red_off.png",
 			priority = "high",
 			width = 64,
 			height = 64,
@@ -352,7 +352,7 @@ data:extend(
 		},
 		picture_on =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/y_lamp_red_on.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/y_lamp_red_on.png",
 			priority = "high",
 			width = 64,
 			height = 64,			
@@ -363,7 +363,7 @@ data:extend(
 	{
 		type = "lamp",
 		name = "y_lamp_green", minable = {hardness = 0.2, mining_time = 0.5, result = "y_lamp_green"},
-		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/y_lamp_green_icon.png",
+		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/y_lamp_green_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		max_health = 75, corpse = "small-remnants",
 		collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
@@ -374,7 +374,7 @@ data:extend(
 		--light = {intensity = 0.25, size = 2, color = {r=0.0, g=0.7, b=0.0} },
 		picture_off =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/y_lamp_green_off.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/y_lamp_green_off.png",
 			priority = "high",
 			width = 64,
 			height = 64,
@@ -382,7 +382,7 @@ data:extend(
 		},
 		picture_on =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/y_lamp_green_on.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/y_lamp_green_on.png",
 			priority = "high",
 			width = 64,
 			height = 64,			
@@ -393,7 +393,7 @@ data:extend(
 	{
 		type = "lamp",
 		name = "y_lamp_yellow", minable = {hardness = 0.2, mining_time = 0.5, result = "y_lamp_yellow"},
-		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/y_lamp_yellow_icon.png",
+		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/y_lamp_yellow_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		max_health = 75, corpse = "small-remnants",
 		collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
@@ -404,7 +404,7 @@ data:extend(
 		--light = {intensity = 0.25, size = 2, color = {r=0.7, g=0.7, b=0.0} },
 		picture_off =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/y_lamp_yellow_off.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/y_lamp_yellow_off.png",
 			priority = "high",
 			width = 64,
 			height = 64,
@@ -412,7 +412,7 @@ data:extend(
 		},
 		picture_on =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/y_lamp_yellow_on.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/y_lamp_yellow_on.png",
 			priority = "high",
 			width = 64,
 			height = 64,			
@@ -423,7 +423,7 @@ data:extend(
 	{
 		type = "lamp",
 		name = "y_lamp_blue", minable = {hardness = 0.2, mining_time = 0.5, result = "y_lamp_blue"},
-		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/y_lamp_blue_icon.png",
+		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/y_lamp_blue_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		max_health = 75, corpse = "small-remnants",
 		collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
@@ -434,7 +434,7 @@ data:extend(
 		--light = {intensity = 0.25, size = 8, color = {r=0.0, g=0.6, b=0.7} },
 		picture_off =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/y_lamp_blue_off.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/y_lamp_blue_off.png",
 			priority = "high",
 			width = 64,
 			height = 64,
@@ -442,7 +442,7 @@ data:extend(
 		},
 		picture_on =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/y_lamp_blue_on.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/y_lamp_blue_on.png",
 			priority = "high",
 			width = 64,
 			height = 64,			

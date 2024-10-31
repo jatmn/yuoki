@@ -5,7 +5,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_crusher2",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/crusher33_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/crusher33_icon.png",
 		enabled = true,
 		ingredients = {
 			{type="item", name="y-crusher", amount=1},
@@ -25,7 +25,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_crusher2",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/crusher33_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/crusher33_icon.png",
 		group = "yuoki",		
 		subgroup = "y_line1",		
 		order = "c1",
@@ -36,7 +36,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_crusher2",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/crusher33_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/crusher33_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {hardness = 0.5, mining_time = 1, result = "y_crusher2"},
 		max_health = 200,
@@ -50,7 +50,7 @@ data:extend(
 			layers =
 			{
 			  {
-				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/crusher33_sheet.png",
+				filename = "__Yuoki_F2__/graphics/entity/crusher33_sheet.png",
 				priority = "medium", width = 128, height = 128, frame_count = 12, shift = {0.5, 0}, animation_speed=0.5,
 			  },
 			}
@@ -97,7 +97,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_formpress2",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/fpress2_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/fpress2_icon.png",
 		enabled = true,
 		ingredients =
 		{
@@ -118,7 +118,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_formpress2",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/fpress2_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/fpress2_icon.png",
 		group = "yuoki",		
 		subgroup = "y_line1",		
 		order = "c1",
@@ -129,7 +129,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_formpress2",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/fpress2_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/fpress2_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {hardness = 0.5, mining_time = 1, result = "y_formpress2"},
 		max_health = 200,
@@ -143,7 +143,7 @@ data:extend(
 			layers =
 			{
 			  {
-				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/npress_sheet.png",
+				filename = "__Yuoki_F2__/graphics/entity/npress_sheet.png",
 				priority = "medium", width = 256, height = 256, frame_count = 36, line_length=6,  shift = {0.5, -0.125}, animation_speed=0.25, scale=0.5,
 			  },
 			}
@@ -191,7 +191,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_maintance_workshop_recipe",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/maintance_workshop_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/maintance_workshop_icon.png",
 		enabled = true,
 		ingredients = {
 			{type="item", name="y_formpress2", amount=1},
@@ -210,7 +210,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_maintance_workshop",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/maintance_workshop_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/maintance_workshop_icon.png",
 		group = "yuoki",		
 		subgroup = "y_line1",		
 		order = "c1",
@@ -221,7 +221,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_maintance_workshop",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/maintance_workshop_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/maintance_workshop_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {hardness = 0.5, mining_time = 1, result = "y_maintance_workshop"},
 		max_health = 200,
@@ -235,7 +235,7 @@ data:extend(
 			layers =
 			{
 			  {
-				filename = "__Yuoki (Factorio 2.0)__/graphics/entity/maintance_sheet.png",
+				filename = "__Yuoki_F2__/graphics/entity/maintance_sheet.png",
 				priority = "medium", width = 128, height = 128, frame_count = 16, line_length=4, shift = {0.5, 0}, animation_speed=0.5,
 			  },
 			}

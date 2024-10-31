@@ -20,7 +20,7 @@ data:extend({
 	{
 		type = "item",
 		name = "y_old_bodenlampe",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/gf_lamp1_icon.png",		
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/gf_lamp1_icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "y_old_bodenlampe",
@@ -30,7 +30,7 @@ data:extend({
 	{
 		type = "lamp",
 		name = "y_old_bodenlampe",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/gf_lamp1_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/gf_lamp1_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 1.5, result = "y_old_bodenlampe"},
 		max_health = 50,
@@ -44,7 +44,7 @@ data:extend({
 		--light = {intensity = 0.25, size = 10, color = {r=0.0, g=0.35, b=1.0} },
 		picture_off =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/gf_lamp1_off.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/gf_lamp1_off.png",
 			priority = "high",
 			width = 64,
 			height = 64,
@@ -53,7 +53,7 @@ data:extend({
 		},
 		picture_on =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/gf_lamp1_on.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/gf_lamp1_on.png",
 			priority = "high",
 			width = 64,
 			height = 64,			
@@ -84,7 +84,7 @@ data:extend({
 	{
 		type = "item",
 		name = "y_lampe_neotix",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/gf_lamp2(N)_icon.png",		
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/gf_lamp2(N)_icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "y_lampe_neotix",
@@ -94,7 +94,7 @@ data:extend({
 	{
 		type = "lamp",
 		name = "y_lampe_neotix",
-		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/gf_lamp2(N)_icon.png",
+		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/gf_lamp2(N)_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 1.5, result = "y_lampe_neotix"},
 		max_health = 50,
@@ -107,7 +107,7 @@ data:extend({
 		--light = {intensity = 0.25, size = 10, color = {r=0.0, g=0.75, b=1.0} },
 		picture_off =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/gf_lamp2(N)_off.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/gf_lamp2(N)_off.png",
 			priority = "high",
 			width = 64,
 			height = 64,
@@ -116,7 +116,7 @@ data:extend({
 		},
 		picture_on =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/gf_lamp2(N)_on.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/gf_lamp2(N)_on.png",
 			priority = "high",
 			width = 64,
 			height = 64,			
@@ -146,7 +146,7 @@ data:extend({
 	{
 		type = "item",
 		name = "y_lampe_yuoki",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/gf_lamp3_icon.png",		
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/gf_lamp3_icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "y_lampe_yuoki",
@@ -155,7 +155,7 @@ data:extend({
 	{
 		type = "lamp",
 		name = "y_lampe_yuoki",
-		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/gf_lamp3_icon.png",
+		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/gf_lamp3_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 1.5, result = "y_lampe_yuoki"},
 		max_health = 50,
@@ -169,7 +169,7 @@ data:extend({
 		--light = {intensity = 0.25, size = 10, color = {r=1.0, g=0.98, b=0.4} },
 		picture_off =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/gf_lamp3_off.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/gf_lamp3_off.png",
 			priority = "high",
 			width = 64,
 			height = 64,
@@ -178,7 +178,7 @@ data:extend({
 		},
 		picture_on =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/gf_lamp3_on.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/gf_lamp3_on.png",
 			priority = "high",
 			width = 64,
 			height = 64,			
@@ -207,7 +207,7 @@ data:extend({
 	{
 		type = "item",
 		name = "y_lampe_corner",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/gf_lamp_corner_icon.png",		
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/gf_lamp_corner_icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "y_lampe_corner",
@@ -217,7 +217,7 @@ data:extend({
 	{
 		type = "lamp",
 		name = "y_lampe_corner",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/gf_lamp_corner_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/gf_lamp_corner_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 1.5, result = "y_lampe_corner"},
 		max_health = 150,
@@ -231,7 +231,7 @@ data:extend({
 		--light = {intensity = 0.25, size = 10, color = {r=1.0, g=0.98, b=0.4} },
 		picture_off =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/gf_lamp_corner_off.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/gf_lamp_corner_off.png",
 			priority = "high",
 			width = 64,
 			height = 64,
@@ -240,7 +240,7 @@ data:extend({
 		},
 		picture_on =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/gf_lamp_corner_on.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/gf_lamp_corner_on.png",
 			priority = "high",
 			width = 64,
 			height = 64,
@@ -271,7 +271,7 @@ data:extend({
 	{
 		type = "item",
 		name = "y_lampe_44basement_a",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/base_4x4_lamp_icon.png",		
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/base_4x4_lamp_icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "y_lampe_44basement_a",
@@ -280,7 +280,7 @@ data:extend({
 	{
 		type = "lamp",
 		name = "y_lampe_44basement_a",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/base_4x4_lamp_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/base_4x4_lamp_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 1.5, result = "y_lampe_44basement_a"},
 		max_health = 150,
@@ -295,7 +295,7 @@ data:extend({
 		--light = {intensity = 0.25, size = 10, color = {r=1.0, g=0.98, b=0.4} },
 		picture_off =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/base_4x4_lamp_off.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/base_4x4_lamp_off.png",
 			priority = "high",
 			width = 256,
 			height = 256,
@@ -304,7 +304,7 @@ data:extend({
 		},
 		picture_on =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/base_4x4_lamp_on.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/base_4x4_lamp_on.png",
 			priority = "high",
 			width = 256,
 			height = 256,			
@@ -334,7 +334,7 @@ data:extend({
 	{
 		type = "item",
 		name = "y_lampe_44basement_b",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/base_4x4_corner_lamps_icon.png",		
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/base_4x4_corner_lamps_icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "y_lampe_44basement_b",
@@ -344,7 +344,7 @@ data:extend({
 	{
 		type = "lamp",
 		name = "y_lampe_44basement_b",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/base_4x4_corner_lamps_icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/base_4x4_corner_lamps_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 1.5, result = "y_lampe_44basement_b"},
 		max_health = 150,
@@ -358,7 +358,7 @@ data:extend({
 		--light = {intensity = 0.25, size = 10, color = {r=1.0, g=0.98, b=0.4} },
 		picture_off =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/base_4x4_corner_lamps_off.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/base_4x4_corner_lamps_off.png",
 			priority = "high",
 			width = 256,
 			height = 256,
@@ -367,7 +367,7 @@ data:extend({
 		},
 		picture_on =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/base_4x4_corner_lamps_on.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/base_4x4_corner_lamps_on.png",
 			priority = "high",
 			width = 256,
 			height = 256,			
@@ -397,7 +397,7 @@ data:extend({
 	{
 		type = "item",
 		name = "y_lampe_66basement",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/base_6x6_lamps_icon.png",		
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/base_6x6_lamps_icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "y_lampe_66basement",
@@ -407,7 +407,7 @@ data:extend({
 	{
 		type = "lamp",
 		name = "y_lampe_66basement",
-		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/base_6x6_lamps_icon.png",
+		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/lamps/base_6x6_lamps_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 1.5, result = "y_lampe_66basement"},
 		max_health = 150,
@@ -421,7 +421,7 @@ data:extend({
 		--light = {intensity = 0.25, size = 10, color = {r=1.0, g=0.98, b=0.4} },
 		picture_off =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/base_6x6_lamps_off.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/base_6x6_lamps_off.png",
 			priority = "high",
 			width = 384,
 			height = 384,
@@ -430,7 +430,7 @@ data:extend({
 		},
 		picture_on =
 		{
-			filename = "__Yuoki (Factorio 2.0)__/graphics/entity/lamps/base_6x6_lamps_on.png",
+			filename = "__Yuoki_F2__/graphics/entity/lamps/base_6x6_lamps_on.png",
 			priority = "high",
 			width = 384,
 			height = 384,			

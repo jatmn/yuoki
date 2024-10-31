@@ -113,7 +113,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-rare-chest-log",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/store/y-lc11-icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/store/y-lc11-icon.png",
 		energy_required = 3.0,
 		enabled = true,
 		ingredients = {
@@ -134,7 +134,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-rare-m1bunker-log", 
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/store/y-cl33-icon.png",		
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/store/y-cl33-icon.png",		
 		energy_required = 3.0, enabled = true, 
 		ingredients = {
 			{type="item", name="y_cg33", amount=1},
@@ -155,7 +155,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_sc11",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/store/y-c11-icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/store/y-c11-icon.png",
 		group = "yuoki",
 		subgroup = "y-storage",
 		place_result = "y_sc11",
@@ -165,7 +165,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_c22",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/store/y-c22-icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/store/y-c22-icon.png",
 		subgroup = "y-storage",
 		place_result = "y_c22",
 		stack_size = 30, default_request_amount = 5,
@@ -174,7 +174,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_cg33",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/store/y-c33-icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/store/y-c33-icon.png",
 		subgroup = "y-storage",
 		place_result = "y_cg33",
 		stack_size = 30, default_request_amount = 5,
@@ -183,7 +183,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_sc44",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/store/y-c44-icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/store/y-c44-icon.png",
 		group = "yuoki",
 		subgroup = "y-storage",
 		place_result = "y_sc44",
@@ -193,7 +193,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_rc22",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/store/y-rc22-icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/store/y-rc22-icon.png",
 		subgroup = "y-storage",
 		place_result = "y_rc22",
 		stack_size = 30, default_request_amount = 5,
@@ -202,7 +202,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_pc22",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/store/y-pc22-icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/store/y-pc22-icon.png",
 		subgroup = "y-storage",
 		place_result = "y_pc22",
 		stack_size = 30, default_request_amount = 5,
@@ -213,7 +213,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-rare-chest-log",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/store/y-lc11-icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/store/y-lc11-icon.png",
 		group = "yuoki",
 		subgroup = "y-storage",
 		place_result = "y-rare-chest-log",
@@ -223,7 +223,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-rare-m1bunker-log", place_result = "y-rare-m1bunker-log",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/store/y-cl33-icon.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/store/y-cl33-icon.png",
 		group = "yuoki", subgroup = "y-storage",
 		stack_size = 30, default_request_amount = 5,
 	},

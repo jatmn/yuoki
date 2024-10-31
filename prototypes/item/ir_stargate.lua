@@ -16,11 +16,11 @@ data:extend(
 		--result_count = 1,		
 		group = "yuoki-energy", subgroup = "y-fuel", 
 		category = "yuoki-stargate",
-		icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/fuel_cell_c.png",
+		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/fuel_cell_c.png",
 	},		
 	
 	-- fuel-cell-c	
-	{ type = "item", name = "y-fuel-cell-c",  icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/fuel_cell_c.png",  subgroup = "y-fuel", fuel_category = "chemical", fuel_value = "10GJ", stack_size = 500, default_request_amount = 10,},	
+	{ type = "item", name = "y-fuel-cell-c",  icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/fuel_cell_c.png",  subgroup = "y-fuel", fuel_category = "chemical", fuel_value = "10GJ", stack_size = 500, default_request_amount = 10,},	
 	-- fame recipe
 	{
 		type = "recipe",
@@ -48,7 +48,7 @@ data:extend(
 		--result = "y-fame", result_count = 1,
 		subgroup = "y-stargate-4", category = "yuoki-fame",},	
 	-- fame	
-	{ type = "item", name = "y-fame",  icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/fame-icon.png", subgroup = "y-stargate-f", stack_size = 10000, default_request_amount = 10,},
+	{ type = "item", name = "y-fame",  icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/fame-icon.png", subgroup = "y-stargate-f", stack_size = 10000, default_request_amount = 10,},
 
 	
 	-- stargate recipe
@@ -71,7 +71,7 @@ data:extend(
 		group = "yuoki-energy", subgroup = "y_ultimate_products", order = "2",	
 	},				
 	-- stargate itself
-	{ type = "item", name = "y-stargate", place_result = "y-stargate",  icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/icons/laika-gate-icon.png", group = "yuoki-energy", subgroup = "y_ultimate_products", stack_size = 3,},			
+	{ type = "item", name = "y-stargate", place_result = "y-stargate",  icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/laika-gate-icon.png", group = "yuoki-energy", subgroup = "y_ultimate_products", stack_size = 3,},			
 
 	
 	-- 40-Users recipe
@@ -86,7 +86,7 @@ data:extend(
 			{type="item", name="y-ups-flywheel-b", amount=1},
 			{type="item", name="y-unicomp-a2", amount=100}
 		},  
-		 icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/thanks-icon.png",
+		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/thanks-icon.png",
 		results=
 		{
 			{type="item", name="y-fame-gen", amount=1, },      	  						
@@ -96,7 +96,7 @@ data:extend(
 		group = "yuoki-energy", subgroup = "y_ultimate_products", order = "1",
 	},					
 	-- 40-Users
-	{ type = "item", name = "y-fame-gen", place_result = "y-fame-gen",  icon_size = 32, icon =  "__Yuoki (Factorio 2.0)__/graphics/entity/thanks-icon.png", group = "yuoki-energy", subgroup = "y_ultimate_products", stack_size = 6,},			
+	{ type = "item", name = "y-fame-gen", place_result = "y-fame-gen",  icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/thanks-icon.png", group = "yuoki-energy", subgroup = "y_ultimate_products", stack_size = 6,},			
 		
 		
 })

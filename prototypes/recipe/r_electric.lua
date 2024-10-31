@@ -82,7 +82,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-chip2",
-		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki (Factorio 2.0)__/graphics/gfx/chip2-icon.png",
+		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki_F2__/graphics/gfx/chip2-icon.png",
 		energy_required = 3,
 		enabled = true,
 		ingredients = {
@@ -99,7 +99,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "yi_magnetron",
-		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki (Factorio 2.0)__/graphics/icons/magnetron.png",
+		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki_F2__/graphics/icons/magnetron.png",
 		energy_required = 1.5,
 		enabled = true,
 		ingredients = {
@@ -150,7 +150,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-battery-single-use3",
-		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki (Factorio 2.0)__/graphics/gfx/battery_3.png",
+		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki_F2__/graphics/gfx/battery_3.png",
 		energy_required = 4.0,
 		enabled = true,
 		ingredients = {
@@ -183,7 +183,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_blocked_capa",
-		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki (Factorio 2.0)__/graphics/gfx/scd-icon.png",
+		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki_F2__/graphics/gfx/scd-icon.png",
 		energy_required = 3.0,
 		enabled = true,
 		ingredients = {
@@ -198,7 +198,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-substation-m",
-		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki (Factorio 2.0)__/graphics/icons/substation-icon.png",
+		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki_F2__/graphics/icons/substation-icon.png",
 		energy_required = 3.0,
 		enabled = true,
 		ingredients = {
@@ -251,7 +251,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-accumulator-b",
-		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki (Factorio 2.0)__/graphics/gfx/accu_b_icon.png",
+		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki_F2__/graphics/gfx/accu_b_icon.png",
 		energy_required = 8.0, enabled = true,
 		ingredients = {
 			{type="item", name="y_blocked_capa", amount=5},
@@ -342,7 +342,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-ups-flywheel-b",
-		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki (Factorio 2.0)__/graphics/gfx/accflywheel_b_icon.png",
+		 icon_size = 32,  icon_size = 32, icon =   "__Yuoki_F2__/graphics/gfx/accflywheel_b_icon.png",
 		energy_required = 12.0, enabled = true,
 		ingredients = {
 			{type="item", name="y_blocked_capa", amount=4},
