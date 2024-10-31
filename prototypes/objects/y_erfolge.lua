@@ -263,17 +263,26 @@ data:extend(
 		crafting_categories = {"yuoki-fame"},
 		crafting_speed = 1,
 		ingredient_count = 1,				
-		animation = {
-			filename = "__Yuoki__/graphics/gfx/hny2_sheet-0.png",								
-			scale = 0.5,
-			animation_speed = 0.2,	
-			priority = "low",
-			width = 160,
-			height = 256,
-			frame_count = 16,
-			line_length = 4,
-			shift = {0.775, -1.5},			
-		},										
+		graphics_set =
+		{
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				filename = "__Yuoki__/graphics/gfx/hny2_sheet-0.png",								
+				scale = 0.5,
+				animation_speed = 0.2,	
+				priority = "low",
+				width = 160,
+				height = 256,
+				frame_count = 16,
+				line_length = 4,
+				shift = {0.775, -1.5},
+			  },
+			}
+		  }
+		},
 	},
 	
 

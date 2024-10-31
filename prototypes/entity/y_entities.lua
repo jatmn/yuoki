@@ -545,8 +545,9 @@ data:extend(
 				production_type = "output",
 				base_area = 80,
 				base_level = 5,
+				pipe_picture = assembler2pipepictures(),
 				pipe_connections = {
-					{flow_direction="output", direction = defines.direction.north, position = {0, 1}},
+					{flow_direction="output", direction = defines.direction.south, position = {0, 1}},
 					{flow_direction="output", direction = defines.direction.north, position = {0, -1}},					
 				}
 			},
@@ -554,16 +555,24 @@ data:extend(
 		},
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
 		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
-		animation =
+		graphics_set =
 		{
-			filename = "__Yuoki__/graphics/entity/watergen_c_sheet.png",
-			priority = "high",
-			width = 256,
-			height = 256,
-			frame_count = 16,
-			line_length = 4,
-			shift = {0.375, -0.25},
-			scale = 0.5,
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				filename = "__Yuoki__/graphics/entity/watergen_c_sheet.png",
+				priority = "high",
+				width = 256,
+				height = 256,
+				frame_count = 16,
+				line_length = 4,
+				shift = {0.375, -0.25},
+				scale = 0.5,
+			  },
+			}
+		  }
 		},
 		crafting_categories = {"yuoki-watergen"},
 		crafting_speed = 1,
@@ -604,10 +613,10 @@ data:extend(
 				base_area = 100,
 				base_level = 5,
 				pipe_connections = {
-					{flow_direction="output", direction = defines.direction.north, position = {0, 1}},
-					{flow_direction="output", direction = defines.direction.north, position = { 0, -1}},					
-					{flow_direction="output", direction = defines.direction.north, position = {1, 0}},
-					{flow_direction="output", direction = defines.direction.north, position = {-1,  0}},					
+					{flow_direction="output", direction = defines.direction.north, position = {0, -1}},
+					{flow_direction="output", direction = defines.direction.east, position = { 1, 0}},					
+					{flow_direction="output", direction = defines.direction.south, position = {0, 1}},
+					{flow_direction="output", direction = defines.direction.west, position = {-1,  0}},					
 				}
 			},
 			--fluid_boxes_off_when_no_fluid_recipe = true
@@ -615,17 +624,25 @@ data:extend(
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
 		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 		--fast_replaceable_group = "assembling-machine",
-		animation =
+		graphics_set =
 		{
-			filename = "__Yuoki__/graphics/entity/watergen_e_sheet.png",
-			priority = "high",
-			width = 256,
-			height = 256,
-			frame_count = 16,
-			line_length = 4,
-			shift = {0.375, -0.25},
-			scale = 0.5,
-		},		
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				filename = "__Yuoki__/graphics/entity/watergen_e_sheet.png",
+				priority = "high",
+				width = 256,
+				height = 256,
+				frame_count = 16,
+				line_length = 4,
+				shift = {0.375, -0.25},
+				scale = 0.5,
+			  },
+			}
+		  }
+		},
 		crafting_categories = {"yuoki-watergen"},
 		crafting_speed = 1,
 		energy_source ={	
@@ -725,16 +742,25 @@ data:extend(
 		max_health = 100,
 		resistances = {{type = "fire",percent = 70}},
 		collision_box = {{-0.7,-0.7},{0.7,0.7}},
-		selection_box = {{-1.0,-1.0},{1.0,1.0}},
-		animation = {
-			filename = "__Yuoki__/graphics/entity/formpress_anim.png",
-			priority = "medium",
-			width = 64,
-			height = 72,
-			frame_count = 9,						
-			shift = {0.0, -0.25},
-			animation_speed=0.5,
-		},					
+		selection_box = {{-1.0,-1.0},{1.0,1.0}},	
+		graphics_set =
+		{
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				filename = "__Yuoki__/graphics/entity/formpress_anim.png",
+				priority = "medium",
+				width = 64,
+				height = 72,
+				frame_count = 9,						
+				shift = {0.0, -0.25},
+				animation_speed=0.5,
+			  },
+			}
+		  }
+		},
 		crafting_categories = {"yuoki-formpress"},
 		crafting_speed = 1.25,
 		energy_source = { type = "burner", fuel_categories = {"chemical"}, effectivity = 1, fuel_inventory_size = 2, emissions_per_minute = { pollution = 15 }, smoke = {{name = "smoke",deviation = {0.1, 0.1},frequency = 1}}},
@@ -747,30 +773,34 @@ data:extend(
 			{
 				volume = 200,
 				production_type = "input",
-				--pipe_covers = pipecoverspictures(),
+				pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = { -0.5, 0.5} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.south, position = { -0.5, 0.5} }}
 			},
 			{
 				volume = 200,
 				production_type = "input",
-				--pipe_covers = pipecoverspictures(),
+				pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = {  0.5, 0.5} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.south, position = {  0.5, 0.5} }}
 			},			
 			{
 				volume = 200,
 				production_type = "output",
-				--pipe_covers = pipecoverspictures(),				
+				pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),				
 				base_level = 1,
 				pipe_connections = {{ direction = defines.direction.north, position = { 0.5, -0.5} }}
 			},
 			{
 				volume = 200,
 				production_type = "output",
-				--pipe_covers = pipecoverspictures(),				
+				pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),				
 				base_level = 1,
 				pipe_connections = {{ direction = defines.direction.north, position = { -0.5, -0.5} }}
 			},			
@@ -799,8 +829,8 @@ data:extend(
 			{
 				volume = 200,
 				production_type = "input",
-				--pipe_picture = assembler3pipepictures(),
-				--pipe_covers = pipecoverspictures(),
+				pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
 				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = {-0.5, -0.5} }}
@@ -808,8 +838,8 @@ data:extend(
 			{
 				volume = 200,
 				production_type = "output",
-				--pipe_picture = assembler3pipepictures(),
-				--pipe_covers = pipecoverspictures(),
+				pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = 1,
 				pipe_connections = {{ flow_direction="output", direction = defines.direction.north, position = {0.5, 0.5} }}
@@ -820,15 +850,23 @@ data:extend(
 		collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
 		selection_box = {{-1.0, -1.0}, {1.0, 1.0}},
 		fast_replaceable_group = "assembling-machine",
-		animation =
+		graphics_set =
 		{
-			filename = "__Yuoki__/graphics/entity/crusher-anim.png",
-			priority = "medium",
-			width = 65,
-			height = 78,
-			frame_count = 11,
-			line_length = 11,
-			shift = {0.0, -0.0}
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				filename = "__Yuoki__/graphics/entity/crusher-anim.png",
+				priority = "medium",
+				width = 65,
+				height = 78,
+				frame_count = 11,
+				line_length = 11,
+				shift = {0.0, -0.0}
+			  },
+			}
+		  }
 		},
 		--crafting_categories = {"crafting", "advanced-crafting", "crafting-width-fluid","yuoki-import-bobores-wonder-recipe"},
 		crafting_categories = {"y-crushing"},

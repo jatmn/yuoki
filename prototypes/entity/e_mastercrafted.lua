@@ -44,11 +44,13 @@ data:extend(
 			{
 				volume = 200,
 				production_type = "input",
+				pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
 				base_area = 50,
 				height = 2,
 				base_level = -1,
 				pipe_connections = {
-					{flow_direction = "input", direction = defines.direction.north, position = {-0, 2}},
+					{flow_direction = "input", direction = defines.direction.south, position = {0, 2.2}},
 					--{flow_direction = "input", direction = defines.direction.north, position = { 0, 2}}
 				},
 				filter = "water"
@@ -56,10 +58,12 @@ data:extend(
 			{
 				volume = 200,
 				production_type = "output",
+				pipe_picture = assembler2pipepictures(),
+				pipe_covers = pipecoverspictures(),
 				base_area = 5,
 				height = 2,
 				pipe_connections = {
-					{flow_direction = "output", direction = defines.direction.north, position = {-0, -2}},
+					{flow_direction = "output", direction = defines.direction.north, position = {0, -2.2}},
 					--{flow_direction = "output", direction = defines.direction.north, position = { 0, -2}}
 				},			
 			},
@@ -67,10 +71,19 @@ data:extend(
 		collision_box = {{-2.25, -2.25}, {2.25, 2.25}},
 		selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
 
-		animation = {
-			filename = "__Yuoki__/graphics/entity/obninsk_mc.png", priority = "extra-high", width = 420, height = 360, shift = {0.6, 0.2}, scale = 0.5,
-			frame_count = 1,
-			line_length = 1
+		graphics_set =
+		{
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				filename = "__Yuoki__/graphics/entity/obninsk_mc.png", priority = "extra-high", width = 420, height = 360, shift = {0.6, 0.2}, scale = 0.5,
+				frame_count = 1,
+				line_length = 1
+			  },
+			}
+		  }
 		},
 		working_visualisations = {
 			animation = {
@@ -436,16 +449,25 @@ data:extend(
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
 		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 		working_sound = { sound = { filename = "__base__/sound/electric-mining-drill.ogg", volume = 0.75 }, apparent_volume = 1.5,},
-		animation = {
-			filename = "__Yuoki__/graphics/entity/mc_digger_sheet.png",
-			priority = "medium",
-			width = 256,
-			height = 256,
-			frame_count = 16,		
-			line_length =4,
-			scale = 0.5, 	
-			shift = {0.5, -0.4}
-		},					
+		graphics_set =
+		{
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				filename = "__Yuoki__/graphics/entity/mc_digger_sheet.png",
+				priority = "medium",
+				width = 256,
+				height = 256,
+				frame_count = 16,		
+				line_length =4,
+				scale = 0.5, 	
+				shift = {0.5, -0.4}
+			  },
+			}
+		  }
+		},
 		crafting_categories = {"yuoki-raw-material"},
 		crafting_speed = 2,
 		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 2}},
@@ -496,7 +518,10 @@ data:extend(
 		--resistances = {{type = "fire",percent = 70}},
 		collision_box = {{-1.3,-1.3},{1.3,1.3}},
 		selection_box = {{-1.5,-1.5},{1.5,1.5}},
-		animation = {
+		graphics_set =
+		{
+		  animation =
+		  {
 			north =
 			{
 				filename = "__Yuoki__/graphics/entity/washer_mc_ns_sheet.png",
@@ -516,8 +541,9 @@ data:extend(
 			{
 				filename = "__Yuoki__/graphics/entity/washer_mc_we_sheet.png",
 				priority = "medium", width = 256, height = 256, frame_count = 16, line_length=4, shift = {0.47, 0}, animation_speed=0.7, scale=0.5,
-			},			
-		},					
+			},		
+		  },
+		},
 		crafting_categories = {"yuoki-archaeology-wash"},
 		crafting_speed = 2,
 		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 2.5 }},
@@ -529,33 +555,21 @@ data:extend(
 				volume = 200,
 				production_type = "input",
 				pipe_covers = pipecoverspictures(),
-				base_area = 10,
-				base_level = -1,
-				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = {-0, -1} }}
-			},
-			--[[
-			{
-				volume = 200,
-				production_type = "input",
-				pipe_covers = pipecoverspictures(),
-				base_area = 10,
-				base_level = -1,
-				pipe_connections = {{ flow_direction="input", direction = defines.direction.north, position = {0, -1.0} }}
+				pipe_connections = {
+					{ flow_direction="input", direction = defines.direction.north, position = {1, -0.9}},
+					{ flow_direction="input", direction = defines.direction.north, position = {-1, -0.9}},			
+				},
+				secondary_draw_orders = { north = -1 }
 			},
 			{
 				volume = 200,
 				production_type = "output",
 				pipe_covers = pipecoverspictures(),
-				base_level = 1,
-				pipe_connections = {{ direction = defines.direction.north, position = {0, 1} }}
-			},
-			]]
-			{
-				volume = 200,
-				production_type = "output",
-				pipe_covers = pipecoverspictures(),
-				base_level = 1,
-				pipe_connections = {{ direction = defines.direction.north, position = {-0, 1} }}
+				pipe_connections = {
+					{ flow_direction="output", direction = defines.direction.south, position = {1, 0.9}},
+					{ flow_direction="output", direction = defines.direction.south, position = {-1, 0.9}},
+				},
+				secondary_draw_orders = { north = -1 }
 			},
 		},	
 		fluid_boxes_off_when_no_fluid_recipe = true,
@@ -626,18 +640,26 @@ data:extend(
 			}
 		},				
 		
-		animations =
+		graphics_set =
 		{
-			priority = "extra-high",
-			width = 448,
-			height = 448,
-			line_length = 4,
-			shift = {0, -0.5},
-			filename = "__Yuoki__/graphics/entity/miners/mc_miner_sheet.png",
-			frame_count = 16,
-			animation_speed = 0.5,
-			scale = 0.5,
-		},		
+		  animation =
+		  {
+			layers =
+			{
+			  {
+				priority = "extra-high",
+				width = 448,
+				height = 448,
+				line_length = 4,
+				shift = {0, -0.5},
+				filename = "__Yuoki__/graphics/entity/miners/mc_miner_sheet.png",
+				frame_count = 16,
+				animation_speed = 0.5,
+				scale = 0.5,
+			  },
+			}
+		  }
+		},
 		mining_speed = 3.0,
 		energy_source =
 		{
