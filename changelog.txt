@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+Date: 09. 11. 2024
+  Updates:
+    - Added Nag notice to stop using this mod, my work will move to Yuoki Industries main mod!
+  Fixes:
+    - Ground Tiles should be working now.
+---------------------------------------------------------------------------------------------------
 Version: 1.2.1
 Date: 31. 10. 2024
   Fixes:
