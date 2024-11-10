@@ -1,8 +1,10 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.2
-Date: 09. 11. 2024
+Date: 10. 11. 2024
   Updates:
+    - This will be the final release of Yuoki Industries (Factorio 2.0)
     - Added Nag notice to stop using this mod, my work will move to Yuoki Industries main mod!
+    - Added Migration support for saves with Yuoki versions prior to 2.0 update.
   Fixes:
     - Ground Tiles should be working now.
 ---------------------------------------------------------------------------------------------------

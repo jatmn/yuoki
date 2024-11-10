@@ -1,15 +1,15 @@
 {
 	"name": "Yuoki_F2",
 	"version": "1.2.2",
-	"date": "2024-11-09",
+	"date": "2024-11-10",
 	"author": "JATMN",
 	"contact": "https://discord.gg/fM6NjWabAA",
 	"homepage": "https://github.com/jatmn/Yuoki-Factorio-2.0",
 	"factorio_version": "2.0",
 	"dependencies": [
 		"base >= 2.0.0",
-		"? Yuoki >= 1.2.2",
-		"? yi_engines >= 1.2.1",
+		"! Yuoki",
+		"! yi_engines",
 		"? DeadlockStacking",
 		"! YuokiTweaks"
 	],  	
