@@ -8,9 +8,9 @@
 	"factorio_version": "2.0",
 	"dependencies": [
 		"base >= 2.0.0",
+		"? Yuoki >= 1.2.2",
+		"? yi_engines >= 1.2.1",
 		"? DeadlockStacking",
-		"! Yuoki",
-		"! yi_engines",
 		"! YuokiTweaks"
 	],  	
 	"title": "Yuoki Industries (Factorio 2.0)",  
