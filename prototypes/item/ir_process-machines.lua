@@ -77,7 +77,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-mining-drill-e2",
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/mine-drill-g-icon.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/icons/mine-drill-g-icon.png",
 		ingredients = {
 			{type="item", name="steel-plate", amount=8},
 			{type="item", name="y-bluegear", amount=3},
@@ -111,7 +111,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-atomic-constructor",
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/cimota-icon.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/icons/cimota-icon.png",
 		ingredients = {
 			{type="item", name="assembling-machine-2", amount=1},
 			{type="item", name="y-crusher", amount=1},
@@ -207,28 +207,28 @@ data:extend(
 	{
 		type = "item",
 		name = "y-dirtwasher", place_result = "y-dirtwasher", stack_size = 20, default_request_amount = 5, 
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/dw.png",				
+		icon_size = 32, icon =  "__Yuoki__/graphics/icons/dw.png",				
 		order = "f",		
 		subgroup = "y_line1",
 	},
 	{
 		type = "item",
 		name = "y-heat-form-press", place_result = "y-heat-form-press",	stack_size = 20, default_request_amount = 5,
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/pressure_icon.png",		
+		icon_size = 32, icon =  "__Yuoki__/graphics/icons/pressure_icon.png",		
 		order = "e",		
 		subgroup = "y_line1",
 	},		
 	{
 		type = "item",
 		name = "y-mining-drill", place_result = "y-mining-drill", stack_size = 20, default_request_amount = 5,
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/mine-drill-o-icon.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/icons/mine-drill-o-icon.png",
 		order = "a",
 		subgroup = "y_line1",
 	},
 	{
 		type = "item",
 		name = "y-mining-drill-e2", place_result = "y-mining-drill-e2", stack_size = 20, default_request_amount = 6,
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/mine-drill-g-icon.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/icons/mine-drill-g-icon.png",
 		order = "b",				
 		subgroup = "y_line1",
 	},	
@@ -236,7 +236,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-underground-drill", place_result = "y-underground-drill", stack_size = 20, default_request_amount = 5,
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/deep-drill-v1-icon.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/icons/deep-drill-v1-icon.png",
 		order = "c",				
 		subgroup = "y_line1",
 	},	
@@ -244,27 +244,27 @@ data:extend(
 	{
 		type = "item",
 		name = "y-crusher", place_result = "y-crusher", stack_size = 20, default_request_amount = 5,
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/crusher-icon.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/icons/crusher-icon.png",
 		order = "d",	
 		subgroup = "y_line1",		
 	},
 	{
 		type = "item",
 		name = "y-atomic-quantum-composer", place_result = "y-atomic-quantum-composer", stack_size = 10, 
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/space-assembly-icon.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/entity/space-assembly-icon.png",
 		subgroup = "y_line1b",
 	},
 	{
 		type = "item",
 		name = "y-atomic-constructor", place_result = "y-atomic-constructor", stack_size = 10,
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/cimota-icon.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/icons/cimota-icon.png",
 		order = "a1",				
 		subgroup = "y_line1b",
 	},
 	{
 		type = "item",
 		name = "y-alien-infuser", place_result = "y-alien-infuser", stack_size = 5,
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/alien_infuser_icon.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/icons/alien_infuser_icon.png",
 		order = "a3",				
 		subgroup = "y_line1b",
 	},
@@ -272,7 +272,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-water-gen", place_result = "y-water-gen", stack_size = 15, default_request_amount = 5,
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/alien_water_gen_icon.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/icons/alien_water_gen_icon.png",
 		order="water-gen1",
 		subgroup = "y_refine_machinery",
 	},
@@ -280,7 +280,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-water-gen-e", place_result = "y-water-gen-e", stack_size = 15, default_request_amount = 5,
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/alien_water_gen-e-icon.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/icons/alien_water_gen-e-icon.png",
 		order="water-gen2",
 		subgroup = "y_refine_machinery",		
 	},
@@ -288,7 +288,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_water_mixer", place_result = "y_water_mixer", stack_size = 15, default_request_amount = 5,
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/water_mixer_icon.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/entity/water_mixer_icon.png",
 		order="water-mix",
 		subgroup = "y_refine_machinery",		
 	},

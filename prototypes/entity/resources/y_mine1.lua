@@ -76,7 +76,7 @@ if resource_parameters.name == "y-res2" then gfx_size, frame_count = 40, 8 end
   {
     type = "resource",
     name = resource_parameters.name,
-	icon = "__Yuoki_F2__/graphics/icons/" .. resource_parameters.name .. ".png",
+	icon = "__Yuoki__/graphics/icons/" .. resource_parameters.name .. ".png",
     icon_size = 32,
     icon_mipmaps = 1,
     flags = {"placeable-neutral"},
@@ -111,7 +111,7 @@ if resource_parameters.name == "y-res2" then gfx_size, frame_count = 40, 8 end
 	
       sheet =
       {
-        filename = "__Yuoki_F2__/graphics/entity/resources/" .. resource_parameters.name .. ".png",
+        filename = "__Yuoki__/graphics/entity/resources/" .. resource_parameters.name .. ".png",
         priority = "extra-high",
         width = gfx_size,
         height = gfx_size,
@@ -205,7 +205,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-res1",
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/uni-com-pur.png",		
+		icon_size = 32, icon =  "__Yuoki__/graphics/icons/uni-com-pur.png",		
 		subgroup = "raw-resource",
 		order = "r",
 		stack_size = 250,
@@ -214,7 +214,7 @@ data:extend(
 	{
 		type = "resource",
 		name = "y-res1",
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/uni-com-pur.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/icons/uni-com-pur.png",
 		flags = {"placeable-neutral"},
 		order="a-b-d",
 		minable =
@@ -248,7 +248,7 @@ data:extend(
 		stage_counts = {4000, 2000, 1500, 900, 300, 75, 25, 10},
 		stages = { 
 			sheet = {
-				filename = "__Yuoki_F2__/graphics/entity/resources/yi-res-1e.png",
+				filename = "__Yuoki__/graphics/entity/resources/yi-res-1e.png",
 				priority = "extra-high",
 				width = 38,
 				height = 38,

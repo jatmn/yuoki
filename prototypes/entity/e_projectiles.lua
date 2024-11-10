@@ -99,7 +99,7 @@ data:extend(
     light = {intensity = 0.6, size = 12},
     animation =
     {
-      filename = "__Yuoki_F2__/graphics/entity/green_plasma.png",
+      filename = "__Yuoki__/graphics/entity/green_plasma.png",
       --tint = {r=0.1, g=1.00, b=0.5, a=1.0},
 	  frame_count = 1,
       width = 15,

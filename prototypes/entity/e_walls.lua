@@ -4,7 +4,7 @@ data:extend(
       type = "wall",
       name = "y_wood_wall",
       icon_size = 32,
-      icon = "__Yuoki_F2__/graphics/entity/walls/wood_wall_icon.png",
+      icon = "__Yuoki__/graphics/entity/walls/wood_wall_icon.png",
       flags = {"placeable-neutral", "player-creation"},
       collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
       selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
@@ -165,7 +165,7 @@ data:extend(
       pictures = {
         single = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/walls/wood_wall.png",
+            filename = "__Yuoki__/graphics/entity/walls/wood_wall.png",
             priority = "extra-high",
             width = 64,
             height = 64,
@@ -174,14 +174,14 @@ data:extend(
         },
         straight_vertical = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/walls/wood_wall_u.png",
+            filename = "__Yuoki__/graphics/entity/walls/wood_wall_u.png",
             priority = "extra-high",
             width = 64,
             height = 64,
             shift = {0.40625, 0}
           },
           {
-            filename = "__Yuoki_F2__/graphics/entity/walls/wood_wall_u1.png",
+            filename = "__Yuoki__/graphics/entity/walls/wood_wall_u1.png",
             priority = "extra-high",
             width = 64,
             height = 64,
@@ -190,21 +190,21 @@ data:extend(
         },
         straight_horizontal = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/walls/wood_wall_we.png",
+            filename = "__Yuoki__/graphics/entity/walls/wood_wall_we.png",
             priority = "extra-high",
             width = 64,
             height = 64,
             shift = {0.40625, 0}
           },
           {
-            filename = "__Yuoki_F2__/graphics/entity/walls/wood_wall_we1.png",
+            filename = "__Yuoki__/graphics/entity/walls/wood_wall_we1.png",
             priority = "extra-high",
             width = 64,
             height = 64,
             shift = {0.40625, 0}
           },
           {
-            filename = "__Yuoki_F2__/graphics/entity/walls/wood_wall_we2.png",
+            filename = "__Yuoki__/graphics/entity/walls/wood_wall_we2.png",
             priority = "extra-high",
             width = 64,
             height = 64,
@@ -213,7 +213,7 @@ data:extend(
         },
         corner_right_down = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/walls/wood_wall_cru.png",
+            filename = "__Yuoki__/graphics/entity/walls/wood_wall_cru.png",
             priority = "extra-high",
             width = 64,
             height = 64,
@@ -222,7 +222,7 @@ data:extend(
         },
         corner_left_down = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/walls/wood_wall_clu.png",
+            filename = "__Yuoki__/graphics/entity/walls/wood_wall_clu.png",
             priority = "extra-high",
             width = 64,
             height = 64,
@@ -231,7 +231,7 @@ data:extend(
         },
         t_up = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/walls/wood_wall_tu.png",
+            filename = "__Yuoki__/graphics/entity/walls/wood_wall_tu.png",
             priority = "extra-high",
             width = 64,
             height = 64,
@@ -240,7 +240,7 @@ data:extend(
         },
         ending_right = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/walls/wood_wall_el.png",
+            filename = "__Yuoki__/graphics/entity/walls/wood_wall_el.png",
             priority = "extra-high",
             width = 64,
             height = 64,
@@ -249,7 +249,7 @@ data:extend(
         },
         ending_left = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/walls/wood_wall_er.png",
+            filename = "__Yuoki__/graphics/entity/walls/wood_wall_er.png",
             priority = "extra-high",
             width = 64,
             height = 64,
@@ -262,7 +262,7 @@ data:extend(
       type = "wall",
       name = "y-mud-wall",
       icon_size = 32,
-      icon = "__Yuoki_F2__/graphics/icons/m_wall_icon.png",
+      icon = "__Yuoki__/graphics/icons/m_wall_icon.png",
       flags = {"placeable-neutral", "player-creation"},
       collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
       selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
@@ -420,7 +420,7 @@ data:extend(
       pictures = {
         single = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/mud_wall/m_wall_r19.png",
+            filename = "__Yuoki__/graphics/entity/mud_wall/m_wall_r19.png",
             priority = "extra-high",
             width = 64,
             height = 64,
@@ -429,7 +429,7 @@ data:extend(
         },
         straight_vertical = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/mud_wall/m_wall_r19_u.png",
+            filename = "__Yuoki__/graphics/entity/mud_wall/m_wall_r19_u.png",
             priority = "extra-high",
             width = 64,
             height = 64,
@@ -438,7 +438,7 @@ data:extend(
         },
         straight_horizontal = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/mud_wall/m_wall_r19_we.png",
+            filename = "__Yuoki__/graphics/entity/mud_wall/m_wall_r19_we.png",
             priority = "extra-high",
             width = 64,
             height = 64,
@@ -447,7 +447,7 @@ data:extend(
         },
         corner_right_down = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/mud_wall/m_wall_r19_cru.png",
+            filename = "__Yuoki__/graphics/entity/mud_wall/m_wall_r19_cru.png",
             priority = "extra-high",
             width = 64,
             height = 64,
@@ -456,7 +456,7 @@ data:extend(
         },
         corner_left_down = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/mud_wall/m_wall_r19_clu.png",
+            filename = "__Yuoki__/graphics/entity/mud_wall/m_wall_r19_clu.png",
             priority = "extra-high",
             width = 64,
             height = 64,
@@ -465,7 +465,7 @@ data:extend(
         },
         t_up = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/mud_wall/m_wall_r19_tu.png",
+            filename = "__Yuoki__/graphics/entity/mud_wall/m_wall_r19_tu.png",
             priority = "extra-high",
             width = 64,
             height = 64,
@@ -474,7 +474,7 @@ data:extend(
         },
         ending_right = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/mud_wall/mud_wall_el.png",
+            filename = "__Yuoki__/graphics/entity/mud_wall/mud_wall_el.png",
             priority = "extra-high",
             width = 64,
             height = 64,
@@ -483,7 +483,7 @@ data:extend(
         },
         ending_left = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/mud_wall/mud_wall_er.png",
+            filename = "__Yuoki__/graphics/entity/mud_wall/mud_wall_er.png",
             priority = "extra-high",
             width = 64,
             height = 64,
@@ -496,7 +496,7 @@ data:extend(
       type = "wall",
       name = "y-rare-wall-basic",
       icon_size = 32,
-      icon = "__Yuoki_F2__/graphics/icons/rareore-wall-icon.png",
+      icon = "__Yuoki__/graphics/icons/rareore-wall-icon.png",
       flags = {"placeable-neutral", "player-creation"},
       collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
       selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
@@ -654,7 +654,7 @@ data:extend(
       pictures = {
         single = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/rare1-wall.png",
+            filename = "__Yuoki__/graphics/entity/rare1-wall.png",
             priority = "extra-high",
             width = 36,
             height = 44,
@@ -663,7 +663,7 @@ data:extend(
         },
         straight_vertical = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/blue_wall/bw-ns.png",
+            filename = "__Yuoki__/graphics/entity/blue_wall/bw-ns.png",
             priority = "extra-high",
             width = 36,
             height = 44,
@@ -672,7 +672,7 @@ data:extend(
         },
         straight_horizontal = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/blue_wall/bw-we.png",
+            filename = "__Yuoki__/graphics/entity/blue_wall/bw-we.png",
             priority = "extra-high",
             width = 36,
             height = 44,
@@ -681,7 +681,7 @@ data:extend(
         },
         corner_right_down = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/blue_wall/bw_cr.png",
+            filename = "__Yuoki__/graphics/entity/blue_wall/bw_cr.png",
             priority = "extra-high",
             width = 36,
             height = 44,
@@ -690,7 +690,7 @@ data:extend(
         },
         corner_left_down = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/blue_wall/bw_cl.png",
+            filename = "__Yuoki__/graphics/entity/blue_wall/bw_cl.png",
             priority = "extra-high",
             width = 36,
             height = 44,
@@ -699,7 +699,7 @@ data:extend(
         },
         t_up = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/blue_wall/bw_tu.png",
+            filename = "__Yuoki__/graphics/entity/blue_wall/bw_tu.png",
             priority = "extra-high",
             width = 36,
             height = 44,
@@ -708,7 +708,7 @@ data:extend(
         },
         ending_right = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/blue_wall/bw-end-left.png",
+            filename = "__Yuoki__/graphics/entity/blue_wall/bw-end-left.png",
             priority = "extra-high",
             width = 36,
             height = 44,
@@ -717,7 +717,7 @@ data:extend(
         },
         ending_left = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/blue_wall/bw-end-right.png",
+            filename = "__Yuoki__/graphics/entity/blue_wall/bw-end-right.png",
             priority = "extra-high",
             width = 36,
             height = 44,
@@ -730,7 +730,7 @@ data:extend(
       type = "wall",
       name = "y-rare-wall-adv",
       icon_size = 32,
-      icon = "__Yuoki_F2__/graphics/icons/rare2-wall-icon2.png",
+      icon = "__Yuoki__/graphics/icons/rare2-wall-icon2.png",
       flags = {"placeable-neutral", "player-creation"},
       collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
       selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
@@ -888,7 +888,7 @@ data:extend(
       pictures = {
         single = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/red_wall/rw_single.png",
+            filename = "__Yuoki__/graphics/entity/red_wall/rw_single.png",
             priority = "extra-high",
             width = 36,
             height = 44,
@@ -897,7 +897,7 @@ data:extend(
         },
         straight_vertical = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/red_wall/rw_ns.png",
+            filename = "__Yuoki__/graphics/entity/red_wall/rw_ns.png",
             priority = "extra-high",
             width = 36,
             height = 44,
@@ -906,7 +906,7 @@ data:extend(
         },
         straight_horizontal = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/red_wall/rw_we.png",
+            filename = "__Yuoki__/graphics/entity/red_wall/rw_we.png",
             priority = "extra-high",
             width = 36,
             height = 44,
@@ -915,7 +915,7 @@ data:extend(
         },
         corner_right_down = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/red_wall/rw_cr.png",
+            filename = "__Yuoki__/graphics/entity/red_wall/rw_cr.png",
             priority = "extra-high",
             width = 36,
             height = 44,
@@ -924,7 +924,7 @@ data:extend(
         },
         corner_left_down = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/red_wall/rw_cl.png",
+            filename = "__Yuoki__/graphics/entity/red_wall/rw_cl.png",
             priority = "extra-high",
             width = 36,
             height = 44,
@@ -933,7 +933,7 @@ data:extend(
         },
         t_up = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/red_wall/rw_tu.png",
+            filename = "__Yuoki__/graphics/entity/red_wall/rw_tu.png",
             priority = "extra-high",
             width = 36,
             height = 44,
@@ -942,7 +942,7 @@ data:extend(
         },
         ending_right = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/red_wall/rw_el.png",
+            filename = "__Yuoki__/graphics/entity/red_wall/rw_el.png",
             priority = "extra-high",
             width = 36,
             height = 44,
@@ -951,7 +951,7 @@ data:extend(
         },
         ending_left = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/red_wall/rw_er.png",
+            filename = "__Yuoki__/graphics/entity/red_wall/rw_er.png",
             priority = "extra-high",
             width = 36,
             height = 44,
@@ -964,7 +964,7 @@ data:extend(
       type = "wall",
       name = "y-wall-forcefield",
       icon_size = 32,
-      icon = "__Yuoki_F2__/graphics/icons/wall-forcefield-icon.png",
+      icon = "__Yuoki__/graphics/icons/wall-forcefield-icon.png",
       flags = {"placeable-neutral", "player-creation"},
       collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
       selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
@@ -1142,7 +1142,7 @@ data:extend(
       pictures = {
         single = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/wall_force/wf_single.png",
+            filename = "__Yuoki__/graphics/entity/wall_force/wf_single.png",
             priority = "extra-high",
             width = 48,
             height = 48,
@@ -1151,7 +1151,7 @@ data:extend(
         },
         straight_vertical = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/wall_force/wf_ns.png",
+            filename = "__Yuoki__/graphics/entity/wall_force/wf_ns.png",
             priority = "extra-high",
             width = 48,
             height = 48,
@@ -1160,7 +1160,7 @@ data:extend(
         },
         straight_horizontal = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/wall_force/wf_we.png",
+            filename = "__Yuoki__/graphics/entity/wall_force/wf_we.png",
             priority = "extra-high",
             width = 48,
             height = 48,
@@ -1169,7 +1169,7 @@ data:extend(
         },
         corner_right_down = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/wall_force/wf_cr.png",
+            filename = "__Yuoki__/graphics/entity/wall_force/wf_cr.png",
             priority = "extra-high",
             width = 48,
             height = 48,
@@ -1178,7 +1178,7 @@ data:extend(
         },
         corner_left_down = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/wall_force/wf_cl.png",
+            filename = "__Yuoki__/graphics/entity/wall_force/wf_cl.png",
             priority = "extra-high",
             width = 48,
             height = 48,
@@ -1187,7 +1187,7 @@ data:extend(
         },
         t_up = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/wall_force/wf_single.png",
+            filename = "__Yuoki__/graphics/entity/wall_force/wf_single.png",
             priority = "extra-high",
             width = 48,
             height = 48,
@@ -1196,7 +1196,7 @@ data:extend(
         },
         ending_right = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/wall_force/wf_el.png",
+            filename = "__Yuoki__/graphics/entity/wall_force/wf_el.png",
             priority = "extra-high",
             width = 48,
             height = 48,
@@ -1205,7 +1205,7 @@ data:extend(
         },
         ending_left = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/wall_force/wf_er.png",
+            filename = "__Yuoki__/graphics/entity/wall_force/wf_er.png",
             priority = "extra-high",
             width = 48,
             height = 48,
@@ -1218,7 +1218,7 @@ data:extend(
 	{
 		type = "electric-turret",
 		name = "y-wall-forcefield-a",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/wall-forcefield-a-icon.png",		
+		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/wall-forcefield-a-icon.png",		
 		flags = { "placeable-player", "placeable-enemy", "player-creation"},
 		minable = { mining_time = 0.5, result = "y-wall-forcefield-a" },
 		max_health = 700,
@@ -1256,7 +1256,7 @@ data:extend(
 		preparing_animation = y_vds_a,
 		prepared_animation =
 		{
-			filename = "__Yuoki_F2__/graphics/entity/wall-forcefield-ae.png",
+			filename = "__Yuoki__/graphics/entity/wall-forcefield-ae.png",
 			priority = "medium", width = 48, height = 48, shift = {0.25, 0},
 			direction_count = 1,
 			frame_count = 1,
@@ -1312,7 +1312,7 @@ data:extend(
       type = "wall",
       name = "y_wall22_hardic",
       icon_size = 32,
-      icon = "__Yuoki_F2__/graphics/entity/walls/wall_hardic_icon.png",
+      icon = "__Yuoki__/graphics/entity/walls/wall_hardic_icon.png",
       flags = {"placeable-neutral", "player-creation"},
       collision_box = {{-0.9, -0.9}, {0.8, 0.8}},
       selection_box = {{-1.0, -1.0}, {1.0, 1.0}},
@@ -1469,7 +1469,7 @@ data:extend(
       pictures = {
         single = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/walls/wall_hardic_single.png",
+            filename = "__Yuoki__/graphics/entity/walls/wall_hardic_single.png",
             priority = "extra-high",
             width = 96,
             height = 96,
@@ -1478,7 +1478,7 @@ data:extend(
         },
         straight_vertical = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/walls/wall_hardic_single.png",
+            filename = "__Yuoki__/graphics/entity/walls/wall_hardic_single.png",
             priority = "extra-high",
             width = 96,
             height = 96,
@@ -1487,7 +1487,7 @@ data:extend(
         },
         straight_horizontal = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/walls/wall_hardic_single.png",
+            filename = "__Yuoki__/graphics/entity/walls/wall_hardic_single.png",
             priority = "extra-high",
             width = 96,
             height = 96,
@@ -1496,7 +1496,7 @@ data:extend(
         },
         corner_right_down = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/walls/wall_hardic_single.png",
+            filename = "__Yuoki__/graphics/entity/walls/wall_hardic_single.png",
             priority = "extra-high",
             width = 96,
             height = 96,
@@ -1505,7 +1505,7 @@ data:extend(
         },
         corner_left_down = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/walls/wall_hardic_single.png",
+            filename = "__Yuoki__/graphics/entity/walls/wall_hardic_single.png",
             priority = "extra-high",
             width = 96,
             height = 96,
@@ -1514,7 +1514,7 @@ data:extend(
         },
         t_up = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/walls/wall_hardic_single.png",
+            filename = "__Yuoki__/graphics/entity/walls/wall_hardic_single.png",
             priority = "extra-high",
             width = 96,
             height = 96,
@@ -1523,7 +1523,7 @@ data:extend(
         },
         ending_right = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/walls/wall_hardic_single.png",
+            filename = "__Yuoki__/graphics/entity/walls/wall_hardic_single.png",
             priority = "extra-high",
             width = 96,
             height = 96,
@@ -1532,7 +1532,7 @@ data:extend(
         },
         ending_left = {
           {
-            filename = "__Yuoki_F2__/graphics/entity/walls/wall_hardic_single.png",
+            filename = "__Yuoki__/graphics/entity/walls/wall_hardic_single.png",
             priority = "extra-high",
             width = 96,
             height = 96,

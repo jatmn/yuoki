@@ -4,7 +4,7 @@ data:extend(
 			type = "boiler",
 			name = "y-boiler-iv",
 			icon_size = 32,
-			icon = "__Yuoki_F2__/graphics/icons/boiler-3m-icon.png",
+			icon = "__Yuoki__/graphics/icons/boiler-3m-icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {hardness = 0.3, mining_time = 0.5, result = "y-boiler-iv"},
 			max_health = 350,
@@ -58,7 +58,7 @@ data:extend(
 					north = {
 						structure =
 						{
-							filename = "__Yuoki_F2__/graphics/entity/big_boiler_r18.png",
+							filename = "__Yuoki__/graphics/entity/big_boiler_r18.png",
 							priority = "extra-high",
 							width = 256,
 							height = 256,
@@ -70,7 +70,7 @@ data:extend(
 					east = {
 						structure =
 						{
-							filename = "__Yuoki_F2__/graphics/entity/big_boiler_r18.png",
+							filename = "__Yuoki__/graphics/entity/big_boiler_r18.png",
 							priority = "extra-high",
 							width = 256,
 							height = 256,
@@ -81,7 +81,7 @@ data:extend(
 				south = {
 					structure =
 					{
-						filename = "__Yuoki_F2__/graphics/entity/big_boiler_r18.png",
+						filename = "__Yuoki__/graphics/entity/big_boiler_r18.png",
 						priority = "extra-high",
 						width = 256,
 						height = 256,
@@ -92,7 +92,7 @@ data:extend(
 				west = {
 					structure =
 					{
-						filename = "__Yuoki_F2__/graphics/entity/big_boiler_r18.png",
+						filename = "__Yuoki__/graphics/entity/big_boiler_r18.png",
 						priority = "extra-high",
 						width = 256,
 						height = 256,
@@ -113,7 +113,7 @@ data:extend(
 			type = "generator",
 			name = "y-steam-turbine",
 			icon_size = 32,
-			icon = "__Yuoki_F2__/graphics/entity/steam_turbine_n3_icon.png",
+			icon = "__Yuoki__/graphics/entity/steam_turbine_n3_icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {mining_time = 1, result = "y-steam-turbine"},
 			max_health = 300,
@@ -155,7 +155,7 @@ data:extend(
 				usage_priority = "secondary-output"
 			},
 			horizontal_animation = {
-				filename = "__Yuoki_F2__/graphics/entity/steam_turb_v3_sheet.png",
+				filename = "__Yuoki__/graphics/entity/steam_turb_v3_sheet.png",
 				width = 320,
 				height = 320,
 				frame_count = 10,
@@ -164,7 +164,7 @@ data:extend(
 				scale = 0.5
 			},
 			vertical_animation = {
-				filename = "__Yuoki_F2__/graphics/entity/steam_turb_h3_sheet.png",
+				filename = "__Yuoki__/graphics/entity/steam_turb_h3_sheet.png",
 				width = 320,
 				height = 320,
 				frame_count = 10,
@@ -202,7 +202,7 @@ data:extend(
 			type = "generator",
 			name = "y-obninsk-turbine",
 			icon_size = 32,
-			icon = "__Yuoki_F2__/graphics/icons/rensuir-turbine_icon.png",
+			icon = "__Yuoki__/graphics/icons/rensuir-turbine_icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {mining_time = 1, result = "y-obninsk-turbine"},
 			max_health = 500,
@@ -232,7 +232,7 @@ data:extend(
 				usage_priority = "primary-output"
 			},
 			horizontal_animation = {
-				filename = "__Yuoki_F2__/graphics/entity/rens_ah.png",
+				filename = "__Yuoki__/graphics/entity/rens_ah.png",
 				width = 120,
 				height = 96,
 				frame_count = 18,
@@ -240,7 +240,7 @@ data:extend(
 				shift = {0.0, 0.0}
 			},
 			vertical_animation = {
-				filename = "__Yuoki_F2__/graphics/entity/rens_av.png",
+				filename = "__Yuoki__/graphics/entity/rens_av.png",
 				width = 96,
 				height = 128,
 				frame_count = 18,
@@ -248,14 +248,14 @@ data:extend(
 				shift = {0.0, 0.0}
 			},
 			pipes_horizontal = {
-				filename = "__Yuoki_F2__/graphics/entity/pipes_h96.png",
+				filename = "__Yuoki__/graphics/entity/pipes_h96.png",
 				priority = "high",
 				width = 96,
 				height = 44,
 				shift = {0, 0}
 			},
 			pipes_vertical = {
-				filename = "__Yuoki_F2__/graphics/entity/pipes_v96.png",
+				filename = "__Yuoki__/graphics/entity/pipes_v96.png",
 				priority = "high",
 				width = 44,
 				height = 96
@@ -265,7 +265,7 @@ data:extend(
 			type = "generator",
 			name = "y-notfall-generator-s2",
 			icon_size = 32,
-			icon = "__Yuoki_F2__/graphics/entity/energy-t2/lt-v2p-icon.png",
+			icon = "__Yuoki__/graphics/entity/energy-t2/lt-v2p-icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {mining_time = 1, result = "y-notfall-generator-s2"},
 			max_health = 300,
@@ -299,7 +299,7 @@ data:extend(
 				usage_priority = "secondary-output"
 			},
 			horizontal_animation = {
-				filename = "__Yuoki_F2__/graphics/entity/energy-t2/ss800h_sheet.png",
+				filename = "__Yuoki__/graphics/entity/energy-t2/ss800h_sheet.png",
 				width = 256,
 				height = 256,
 				frame_count = 16,
@@ -308,7 +308,7 @@ data:extend(
 				scale = 0.5
 			},
 			vertical_animation = {
-				filename = "__Yuoki_F2__/graphics/entity/energy-t2/ss800v_sheet.png",
+				filename = "__Yuoki__/graphics/entity/energy-t2/ss800v_sheet.png",
 				width = 256,
 				height = 256,
 				frame_count = 16,
@@ -323,7 +323,7 @@ data:extend(
 			type = "generator",
 			name = "y-seg",
 			icon_size = 32,
-			icon = "__Yuoki_F2__/graphics/entity/energy-t2/seg-s_icon.png",
+			icon = "__Yuoki__/graphics/entity/energy-t2/seg-s_icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {mining_time = 1, result = "y-seg"},
 			max_health = 300,
@@ -352,7 +352,7 @@ data:extend(
 				usage_priority = "secondary-output"
 			},
 			horizontal_animation = {
-				filename = "__Yuoki_F2__/graphics/entity/energy-t2/seg-ha-s2.png",
+				filename = "__Yuoki__/graphics/entity/energy-t2/seg-ha-s2.png",
 				width = 80,
 				height = 90,
 				frame_count = 18,
@@ -360,7 +360,7 @@ data:extend(
 				shift = {0.1, 0.1875}
 			},
 			vertical_animation = {
-				filename = "__Yuoki_F2__/graphics/entity/energy-t2/seg-va-s.png",
+				filename = "__Yuoki__/graphics/entity/energy-t2/seg-va-s.png",
 				width = 112,
 				height = 96,
 				frame_count = 18,
@@ -373,7 +373,7 @@ data:extend(
 			type = "generator",
 			name = "y-seg-p",
 			icon_size = 32,
-			icon = "__Yuoki_F2__/graphics/entity/energy-t2/seg-p_icon.png",
+			icon = "__Yuoki__/graphics/entity/energy-t2/seg-p_icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {mining_time = 1, result = "y-seg-p"},
 			max_health = 300,
@@ -402,7 +402,7 @@ data:extend(
 				usage_priority = "primary-output"
 			},
 			horizontal_animation = {
-				filename = "__Yuoki_F2__/graphics/entity/energy-t2/segn_we_sheet.png",
+				filename = "__Yuoki__/graphics/entity/energy-t2/segn_we_sheet.png",
 				width = 256,
 				height = 256,
 				frame_count = 4,
@@ -412,7 +412,7 @@ data:extend(
 				animation_speed = 0.5
 			},
 			vertical_animation = {
-				filename = "__Yuoki_F2__/graphics/entity/energy-t2/segn_ns_sheet.png",
+				filename = "__Yuoki__/graphics/entity/energy-t2/segn_ns_sheet.png",
 				width = 256,
 				height = 256,
 				frame_count = 4,
@@ -427,7 +427,7 @@ data:extend(
 			type = "generator",
 			name = "y-meg-s",
 			icon_size = 32,
-			icon = "__Yuoki_F2__/graphics/entity/energy-t2/meg-s-icon.png",
+			icon = "__Yuoki__/graphics/entity/energy-t2/meg-s-icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {mining_time = 1, result = "y-meg-s"},
 			max_health = 400,
@@ -455,7 +455,7 @@ data:extend(
 				usage_priority = "secondary-output"
 			},
 			horizontal_animation = {
-				filename = "__Yuoki_F2__/graphics/entity/energy-t2/meg_219_ew_sheet.png",
+				filename = "__Yuoki__/graphics/entity/energy-t2/meg_219_ew_sheet.png",
 				width = 192,
 				height = 192,
 				frame_count = 16,
@@ -463,7 +463,7 @@ data:extend(
 				shift = {0.46875, 0.34375}
 			},
 			vertical_animation = {
-				filename = "__Yuoki_F2__/graphics/entity/energy-t2/meg_219_ns_sheet.png",
+				filename = "__Yuoki__/graphics/entity/energy-t2/meg_219_ns_sheet.png",
 				width = 192,
 				height = 192,
 				frame_count = 16,
@@ -476,7 +476,7 @@ data:extend(
 			type = "generator",
 			name = "y-beg",
 			icon_size = 32,
-			icon = "__Yuoki_F2__/graphics/entity/energy-t2/beg_icon.png",
+			icon = "__Yuoki__/graphics/entity/energy-t2/beg_icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {mining_time = 1, result = "y-beg"},
 			max_health = 300,
@@ -502,7 +502,7 @@ data:extend(
 			fluid_input = {name = "y-mechanical-force", amount = 0.0, minimum_temperature = 70.0},
 			energy_source = {type = "electric", usage_priority = "secondary-output"},
 			horizontal_animation = {
-				filename = "__Yuoki_F2__/graphics/entity/energy-t2/beg-hac.png",
+				filename = "__Yuoki__/graphics/entity/energy-t2/beg-hac.png",
 				width = 96,
 				height = 160,
 				frame_count = 18,
@@ -510,7 +510,7 @@ data:extend(
 				shift = {0.0, 0.0}
 			},
 			vertical_animation = {
-				filename = "__Yuoki_F2__/graphics/entity/energy-t2/beg-vac.png",
+				filename = "__Yuoki__/graphics/entity/energy-t2/beg-vac.png",
 				width = 160,
 				height = 120,
 				frame_count = 18,
@@ -523,7 +523,7 @@ data:extend(
 			type = "generator",
 			name = "y-heg",
 			icon_size = 32,
-			icon = "__Yuoki_F2__/graphics/entity/energy-t2/heg-icon.png",
+			icon = "__Yuoki__/graphics/entity/energy-t2/heg-icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {mining_time = 1, result = "y-heg"},
 			max_health = 500,
@@ -549,7 +549,7 @@ data:extend(
 			fluid_input = {name = "y-mechanical-force", amount = 0.0, minimum_temperature = 70.0},
 			energy_source = {type = "electric", usage_priority = "secondary-output"},
 			horizontal_animation = {
-				filename = "__Yuoki_F2__/graphics/entity/energy-t2/heg-ha.png",
+				filename = "__Yuoki__/graphics/entity/energy-t2/heg-ha.png",
 				width = 100,
 				height = 224,
 				frame_count = 18,
@@ -557,7 +557,7 @@ data:extend(
 				shift = {0.0, 0.0}
 			},
 			vertical_animation = {
-				filename = "__Yuoki_F2__/graphics/entity/energy-t2/heg-va.png",
+				filename = "__Yuoki__/graphics/entity/energy-t2/heg-va.png",
 				width = 224,
 				height = 146,
 				frame_count = 18,
@@ -570,7 +570,7 @@ data:extend(
 			type = "solar-panel",
 			name = "y-stirling-solar-dish",
 			icon_size = 32,
-			icon = "__Yuoki_F2__/graphics/icons/stir-solar-dish-icon.png",
+			icon = "__Yuoki__/graphics/icons/stir-solar-dish-icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {hardness = 0.2, mining_time = 0.5, result = "y-stirling-solar-dish"},
 			max_health = 150,
@@ -582,7 +582,7 @@ data:extend(
 				usage_priority = "solar"
 			},
 			picture = {
-				filename = "__Yuoki_F2__/graphics/entity/stir-solar-dish.png",
+				filename = "__Yuoki__/graphics/entity/stir-solar-dish.png",
 				priority = "high",
 				width = 64,
 				height = 64,
@@ -595,7 +595,7 @@ data:extend(
 			type = "solar-panel",
 			name = "y_alien_solar",
 			icon_size = 32,
-			icon = "__Yuoki_F2__/graphics/entity/yi_alien_solar_icon.png",
+			icon = "__Yuoki__/graphics/entity/yi_alien_solar_icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {mining_time = 1.0, result = "y_alien_solar"},
 			max_health = 500,
@@ -607,7 +607,7 @@ data:extend(
 				usage_priority = "solar"
 			},
 			picture = {
-				filename = "__Yuoki_F2__/graphics/entity/solar_1_r21.png",
+				filename = "__Yuoki__/graphics/entity/solar_1_r21.png",
 				priority = "high",
 				width = 320,
 				height = 320,
@@ -620,7 +620,7 @@ data:extend(
 			type = "solar-panel",
 			name = "y_alien_solar2",
 			icon_size = 32,
-			icon = "__Yuoki_F2__/graphics/entity/yi_alien_solar2_icon.png",
+			icon = "__Yuoki__/graphics/entity/yi_alien_solar2_icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {mining_time = 1.0, result = "y_alien_solar2"},
 			max_health = 500,
@@ -632,7 +632,7 @@ data:extend(
 				usage_priority = "solar"
 			},
 			picture = {
-				filename = "__Yuoki_F2__/graphics/entity/solar_2_r20.png",
+				filename = "__Yuoki__/graphics/entity/solar_2_r20.png",
 				priority = "high",
 				width = 384,
 				height = 384,

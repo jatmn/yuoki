@@ -5,7 +5,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "archsite",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/archsite_icon.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/archsite_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {hardness = 0.2,mining_time = 0.5,result = "archsite"},
 		max_health = 200,
@@ -13,7 +13,7 @@ data:extend(
 		collision_box = {{-2.2, -2.2}, {2.2, 2.2}},
 		selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
 		animation = {
-			filename = "__Yuoki_F2__/graphics/entity/archsite_n.png",
+			filename = "__Yuoki__/graphics/entity/archsite_n.png",
 			priority = "medium",
 			width = 170,
 			height = 160,
@@ -33,7 +33,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-underground-drill", minable = {mining_time = 0.5,result = "y-underground-drill"},
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/deep-drill-v1-icon.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/deep-drill-v1-icon.png",
 		flags = {"placeable-neutral","player-creation"},		
 		max_health = 200,
 		resistances = {{type = "fire",percent = 70}},
@@ -47,7 +47,7 @@ data:extend(
 			layers =
 			{
 			  {
-				filename = "__Yuoki_F2__/graphics/entity/std_digger_sheet.png",
+				filename = "__Yuoki__/graphics/entity/std_digger_sheet.png",
 				priority = "medium",
 				width = 256,
 				height = 256,
@@ -75,7 +75,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-dirtwasher",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/dw.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/dw.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {mining_time = 0.5,result = "y-dirtwasher"},
 		max_health = 100,
@@ -89,22 +89,22 @@ data:extend(
 		  {
 			north =
 			{
-				filename = "__Yuoki_F2__/graphics/entity/washer-ns.png",
+				filename = "__Yuoki__/graphics/entity/washer-ns.png",
 				priority = "medium", width = 128, height = 128, frame_count = 16, shift = {0.5, -0.25}, animation_speed=0.7,
 			},
 			east =
 			{
-				filename = "__Yuoki_F2__/graphics/entity/washer-ew.png",
+				filename = "__Yuoki__/graphics/entity/washer-ew.png",
 				priority = "medium", width = 128, height = 128, frame_count = 16, shift = {0.47, 0}, animation_speed=0.7,
 			},
 			south =
 			{
-				filename = "__Yuoki_F2__/graphics/entity/washer-ns.png",
+				filename = "__Yuoki__/graphics/entity/washer-ns.png",
 				priority = "medium", width = 128, height = 128, frame_count = 16, shift = {0.5, -0.25}, animation_speed=0.7,
 			},
 			west =
 			{
-				filename = "__Yuoki_F2__/graphics/entity/washer-ew.png",
+				filename = "__Yuoki__/graphics/entity/washer-ew.png",
 				priority = "medium", width = 128, height = 128, frame_count = 16, shift = {0.47, 0}, animation_speed=0.7,
 			},		
 		  }
@@ -150,7 +150,7 @@ data:extend(
 	{
 		type = "mining-drill",
 		name = "y-mining-drill",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/mine-drill-o-icon.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/mine-drill-o-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-mining-drill"},
 		max_health = 300,
@@ -195,7 +195,7 @@ data:extend(
 				line_length = 6,
 				shift = {1.0, -0.75},
 				scale = 0.9,
-				filename = "__Yuoki_F2__/graphics/entity/miners/miner_b_sheet.png",
+				filename = "__Yuoki__/graphics/entity/miners/miner_b_sheet.png",
 				frame_count = 36,
 				animation_speed = 0.5,
 			  },
@@ -226,7 +226,7 @@ data:extend(
 	{
 		type = "mining-drill",
 		name = "y-mining-drill-e2",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/mine-drill-g-icon.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/mine-drill-g-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-mining-drill-e2"},
 		max_health = 300,
@@ -262,7 +262,7 @@ data:extend(
 				height = 224,
 				line_length = 4,
 				shift = {0, -0.25},
-				filename = "__Yuoki_F2__/graphics/entity/miners/e2miner_sheet.png",
+				filename = "__Yuoki__/graphics/entity/miners/e2miner_sheet.png",
 				frame_count = 16,
 				animation_speed = 0.5,
 			  },
@@ -296,7 +296,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-atomic-quantum-composer",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/space-assembly-icon.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/space-assembly-icon.png",
 		flags = {"placeable-neutral","placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-atomic-quantum-composer"},
 		max_health = 1500,
@@ -338,7 +338,7 @@ data:extend(
 			layers =
 			{
 			  {
-				filename = "__Yuoki_F2__/graphics/entity/composer_sheet.png",
+				filename = "__Yuoki__/graphics/entity/composer_sheet.png",
 				priority = "high",
 				width = 320,
 				height = 320,
@@ -373,7 +373,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-atomic-constructor",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/cimota-icon.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/cimota-icon.png",
 		flags = {"placeable-neutral","placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-atomic-constructor"},
 		max_health = 500,
@@ -415,7 +415,7 @@ data:extend(
 			layers =
 			{
 			  {
-			filename = "__Yuoki_F2__/graphics/entity/cimota_sheet.png",
+			filename = "__Yuoki__/graphics/entity/cimota_sheet.png",
 			priority = "high",
 			width = 256,
 			height = 256,
@@ -451,7 +451,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-alien-infuser",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/alien_infuser_icon.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/alien_infuser_icon.png",
 		flags = {"placeable-neutral","placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-alien-infuser"},
 		max_health = 800,
@@ -486,7 +486,7 @@ data:extend(
 		--[[
 		picture =
 		{
-			filename = "__Yuoki_F2__/graphics/entity/alien_infuser_v2_idle.png",			
+			filename = "__Yuoki__/graphics/entity/alien_infuser_v2_idle.png",			
 			width = 128,
 			height = 128,
 			shift = {0.5, -0.5}
@@ -500,7 +500,7 @@ data:extend(
 			layers =
 			{
 				{
-					filename = "__Yuoki_F2__/graphics/entity/infuser_sheet_v2.png",
+					filename = "__Yuoki__/graphics/entity/infuser_sheet_v2.png",
 					priority = "high",
 					width = 256,
 					height = 256,
@@ -532,7 +532,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-water-gen",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/alien_water_gen_icon.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/alien_water_gen_icon.png",
 		flags = {"placeable-neutral","placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-water-gen"},
 		max_health = 200,
@@ -562,7 +562,7 @@ data:extend(
 			layers =
 			{
 			  {
-				filename = "__Yuoki_F2__/graphics/entity/watergen_c_sheet.png",
+				filename = "__Yuoki__/graphics/entity/watergen_c_sheet.png",
 				priority = "high",
 				width = 256,
 				height = 256,
@@ -599,7 +599,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-water-gen-e",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/alien_water_gen-e-icon.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/alien_water_gen-e-icon.png",
 		flags = {"placeable-neutral","placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-water-gen-e"},
 		max_health = 200,
@@ -631,7 +631,7 @@ data:extend(
 			layers =
 			{
 			  {
-				filename = "__Yuoki_F2__/graphics/entity/watergen_e_sheet.png",
+				filename = "__Yuoki__/graphics/entity/watergen_e_sheet.png",
 				priority = "high",
 				width = 256,
 				height = 256,
@@ -663,7 +663,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_water_mixer",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/water_mixer_icon.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/water_mixer_icon.png",
 		flags = {"placeable-neutral","placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_water_mixer"},
 		max_health = 350,
@@ -700,7 +700,7 @@ data:extend(
 		--fast_replaceable_group = "assembling-machine",
 		animation =
 		{
-			filename = "__Yuoki_F2__/graphics/entity/water_mixer_sheet.png",
+			filename = "__Yuoki__/graphics/entity/water_mixer_sheet.png",
 			priority = "high",
 			width = 256,
 			height = 256,
@@ -736,7 +736,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-heat-form-press",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/pressure_icon.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/pressure_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {mining_time = 0.5,result = "y-heat-form-press"},
 		max_health = 100,
@@ -750,7 +750,7 @@ data:extend(
 			layers =
 			{
 			  {
-				filename = "__Yuoki_F2__/graphics/entity/formpress_anim.png",
+				filename = "__Yuoki__/graphics/entity/formpress_anim.png",
 				priority = "medium",
 				width = 64,
 				height = 72,
@@ -818,7 +818,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-crusher",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/crusher-icon.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/crusher-icon.png",
 		flags = {"placeable-neutral","placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-crusher"},
 		max_health = 300,
@@ -857,7 +857,7 @@ data:extend(
 			layers =
 			{
 			  {
-				filename = "__Yuoki_F2__/graphics/entity/crusher-anim.png",
+				filename = "__Yuoki__/graphics/entity/crusher-anim.png",
 				priority = "medium",
 				width = 65,
 				height = 78,

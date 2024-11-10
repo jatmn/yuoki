@@ -12,7 +12,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "ypfw_trader_sign", amount = 1.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/trader_sign.png",
+	  icon = "__Yuoki__/graphics/icons/trader_sign.png",
 	  order = "a", group = "yuoki", subgroup = "y-stargate-4",
 	},
 
@@ -30,7 +30,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "y_rwtechsign", amount = 1.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/tech-sign.png",
+	  icon = "__Yuoki__/graphics/icons/tech-sign.png",
 	  order = "a", group = "yuoki", subgroup = "y-stargate-4",
 	},
 
@@ -46,7 +46,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "y_greensign", amount = 1.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/green_sign.png",
+	  icon = "__Yuoki__/graphics/icons/green_sign.png",
 	  order = "d1", group = "yuoki-energy", subgroup = "y_ultimate_products",
 	},
 
@@ -63,7 +63,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "y-fame", amount = 1.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/green_sign_retrade.png",
+	  icon = "__Yuoki__/graphics/icons/green_sign_retrade.png",
 	  order = "b1", group = "yuoki-atomics", subgroup = "y-stargate-f",
 	},
 
@@ -80,7 +80,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "y-fame", amount = 1.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/tech02_retrade.png",
+	  icon = "__Yuoki__/graphics/icons/tech02_retrade.png",
 	  order = "b4", group = "yuoki-atomics", subgroup = "y-stargate-f",
 	},
 
@@ -97,7 +97,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "y-fame", amount = 1.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/tech-sign_retrade.png",
+	  icon = "__Yuoki__/graphics/icons/tech-sign_retrade.png",
 	  order = "b3", group = "yuoki-atomics", subgroup = "y-stargate-f",
 	},
 
@@ -114,7 +114,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "y-fame", amount = 1.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/trader_sign_retrade.png",
+	  icon = "__Yuoki__/graphics/icons/trader_sign_retrade.png",
 	  order = "b2", group = "yuoki-atomics", subgroup = "y-stargate-f",
 	},
 
@@ -131,7 +131,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "ye_science_blue", amount = 90.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/tech02_32.png",
+	  icon = "__Yuoki__/graphics/icons/tech02_32.png",
 	  order = "a4", group = "yuoki-atomics", subgroup = "y-stargate-r",
 	},
 
@@ -148,7 +148,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "y_rwtechsign", amount = 1800.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/tech-sign.png",
+	  icon = "__Yuoki__/graphics/icons/tech-sign.png",
 	  order = "a3", group = "yuoki-atomics", subgroup = "y-stargate-r",
 	},
 
@@ -165,7 +165,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "ypfw_trader_sign", amount = 900.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/trader_sign.png",
+	  icon = "__Yuoki__/graphics/icons/trader_sign.png",
 	  order = "a2", group = "yuoki-atomics", subgroup = "y-stargate-r",
 	},
 
@@ -182,7 +182,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "y_greensign", amount = 180.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/green_sign.png",
+	  icon = "__Yuoki__/graphics/icons/green_sign.png",
 	  order = "a1", group = "yuoki-atomics", subgroup = "y-stargate-r",
 	},
 
@@ -199,7 +199,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "y-fame", amount = 1.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/fame-icon.png",
+	  icon = "__Yuoki__/graphics/icons/fame-icon.png",
 	  order = "a", group = "yuoki-atomics", subgroup = "y-stargate-f",
 	},
 
@@ -219,7 +219,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "yi_construction-robot", amount = 1.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/rob_con_icon.png",
+	  icon = "__Yuoki__/graphics/icons/rob_con_icon.png",
 	  order = "K2", group = "yuoki", subgroup = "y-tools",
 	},
 
@@ -239,7 +239,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "yi_logistic-robot", amount = 1.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/rob_log_icon.png",
+	  icon = "__Yuoki__/graphics/icons/rob_log_icon.png",
 	  order = "K1", group = "yuoki", subgroup = "y-tools",
 	},
 
@@ -256,7 +256,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "y_gauge", amount = 1.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/gauge.png",
+	  icon = "__Yuoki__/graphics/icons/gauge.png",
 	  order = "0", group = "yuoki_liquids", subgroup = "y_refine_parts",
 	},
 
@@ -274,7 +274,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "y_flowcheck_10", amount = 1.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/flow_indicator_icon.png",
+	  icon = "__Yuoki__/graphics/icons/flow_indicator_icon.png",
 	  order = "0", group = "yuoki_liquids", subgroup = "y_refine_parts",
 	},
 
@@ -293,7 +293,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "y_quantrinum_infused", amount = 1.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/charged_quantrinum_icon.png",
+	  icon = "__Yuoki__/graphics/icons/charged_quantrinum_icon.png",
 	  order = "0", group = "vanilla", subgroup = "y-tech",
 	},
 
@@ -311,7 +311,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "y_crystal2_combined", amount = 1.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/blue_style.png",
+	  icon = "__Yuoki__/graphics/icons/blue_style.png",
 	  order = "0", group = "vanilla", subgroup = "y-tech",
 	},
 
@@ -331,7 +331,7 @@ data:extend({
 		{ type = "fluid", name = "petroleum-gas", amount = 2.0, },
 		{ type = "item", name = "y_usedcatalyst", amount = 1.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/ctl_ft_32.png",
+	  icon = "__Yuoki__/graphics/icons/ctl_ft_32.png",
 	  order = "c2", group = "yuoki_liquids", subgroup = "y-fluid",
 	},
 
@@ -348,7 +348,7 @@ data:extend({
 	  results = {
 		{ type = "fluid", name = "y_syngas_raw", amount = 1.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/obs/h2o_c_icon.png",
+	  icon = "__Yuoki__/graphics/icons/obs/h2o_c_icon.png",
 	  order = "c4", group = "yuoki_liquids", subgroup = "y-fluid",
 	},
 
@@ -367,7 +367,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "y_catalyst_ft", amount = 10.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/icon_regftcat32.png",
+	  icon = "__Yuoki__/graphics/icons/icon_regftcat32.png",
 	  order = "bb", group = "yuoki_liquids", subgroup = "y_refine_material",
 	},
 
@@ -385,7 +385,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "y_catalyst_bp", amount = 10.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/icon_regbpcat28.png",
+	  icon = "__Yuoki__/graphics/icons/icon_regbpcat28.png",
 	  order = "ba", group = "yuoki_liquids", subgroup = "y_refine_material",
 	},
 
@@ -405,7 +405,7 @@ data:extend({
 		{ type = "item", name = "y_usedcatalyst", amount = 1.0, },
 		{ type = "fluid", name = "crude-oil", amount = 10.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/ctl_b32.png",
+	  icon = "__Yuoki__/graphics/icons/ctl_b32.png",
 	  order = "c1", group = "yuoki_liquids", subgroup = "y-fluid",
 	},
 
@@ -423,7 +423,7 @@ data:extend({
 	  results = {
 		{ type = "fluid", name = "y_hydrogen", amount = 8.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/obs/hydrogen_i32.png",
+	  icon = "__Yuoki__/graphics/icons/obs/hydrogen_i32.png",
 	  order = "d", group = "yuoki_liquids", subgroup = "y-fluid",
 	},
 
@@ -440,7 +440,7 @@ data:extend({
 	  results = {
 		{ type = "fluid", name = "y_syngas_raw", amount = 1.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/obs/h2o_c_icon.png",
+	  icon = "__Yuoki__/graphics/icons/obs/h2o_c_icon.png",
 	  order = "c3", group = "yuoki_liquids", subgroup = "y-fluid",
 	},
 
@@ -457,7 +457,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "y_catalyst_base", amount = 48.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/atomics/buy_catbase.png",
+	  icon = "__Yuoki__/graphics/icons/atomics/buy_catbase.png",
 	  order = "x", group = "yuoki-atomics", subgroup = "y-atomics-r",
 	},
 
@@ -476,7 +476,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "y_catalyst_ft", amount = 1.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/icon_ftcat32.png",
+	  icon = "__Yuoki__/graphics/icons/icon_ftcat32.png",
 	  order = "ab", group = "yuoki_liquids", subgroup = "y_refine_material",
 	},
 
@@ -495,7 +495,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "y_catalyst_bp", amount = 1.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/icon_bpcat28.png",
+	  icon = "__Yuoki__/graphics/icons/icon_bpcat28.png",
 	  order = "aa", group = "yuoki_liquids", subgroup = "y_refine_material",
 	},
 
@@ -512,7 +512,7 @@ data:extend({
 	  results = {
 		{ type = "item", name = "y_organic_dust", amount = 7.0, },
 	  },
-	  icon = "__Yuoki_F2__/graphics/icons/sawdust_32.png",
+	  icon = "__Yuoki__/graphics/icons/sawdust_32.png",
 	  order = "0", group = "yuoki_liquids", subgroup = "y_refine_raws",
 	},
 

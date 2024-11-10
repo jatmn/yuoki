@@ -15,7 +15,7 @@ data:extend(
 			{ type = "item", name = "y-res1" , amount = 2.0, },
 		},		
 		main_product = "y-res1",
-		icon = "__Yuoki_F2__/graphics/icons/uni-com-pur.png",
+		icon = "__Yuoki__/graphics/icons/uni-com-pur.png",
 		icon_size = 32,  
 		order = "r", group = "yuoki", subgroup = "y_line2",
 	},
@@ -34,7 +34,7 @@ data:extend(
 			{ type = "item", name = "y-res2" , amount = 2.0, },			
 		},		
 		main_product = "y-res2",
-		icon = "__Yuoki_F2__/graphics/icons/yi-res-2-pur.png",
+		icon = "__Yuoki__/graphics/icons/yi-res-2-pur.png",
 		icon_size = 32,  
 		order = "s", group = "yuoki", subgroup = "y_line2",
 	},
@@ -42,7 +42,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_trockner",
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/base_factory_icon.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/entity/base_factory_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {mining_time = 0.5, result = "y_trockner"},
 		max_health = 400,
@@ -56,7 +56,7 @@ data:extend(
 			layers =
 			{
 			  {
-				filename = "__Yuoki_F2__/graphics/entity/base_factory_sheet.png",
+				filename = "__Yuoki__/graphics/entity/base_factory_sheet.png",
 				priority = "medium", width = 256, height = 256, frame_count = 6, shift = {0, 0}, scale=0.5, animation_speed=0.5,		
 			  },
 			}
@@ -92,7 +92,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_mixer_emu",
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/base_factory_icon.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/entity/base_factory_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {mining_time = 0.5, result = "y_mixer_emu"},
 		max_health = 400,
@@ -106,7 +106,7 @@ data:extend(
 			layers =
 			{
 				{
-					filename = "__Yuoki_F2__/graphics/entity/water_mixer_sheet.png",
+					filename = "__Yuoki__/graphics/entity/water_mixer_sheet.png",
 					priority = "medium", width = 256, height = 256, frame_count = 16, line_length = 4, shift = {0.5, -0.5}, scale=0.5, animation_speed=0.5,		
 				},
 			}
@@ -152,7 +152,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_crystalizer",
-		icon_size = 64, icon =  "__Yuoki_F2__/graphics/entity/crys_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/crys_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {mining_time = 0.5, result = "y_crystalizer"},
 		max_health = 400,
@@ -166,7 +166,7 @@ data:extend(
 			layers =
 			{
 				{
-					filename = "__Yuoki_F2__/graphics/entity/crys.png",
+					filename = "__Yuoki__/graphics/entity/crys.png",
 					priority = "medium", width = 256, height = 256, frame_count = 1, shift = {0.5, -0.25}, scale=0.5, animation_speed=0.5,		
 				},	
 			}
@@ -203,7 +203,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_hppump",
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/hppump_icon.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/entity/hppump_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {mining_time = 0.5, result = "y_hppump"},
 		max_health = 400,
@@ -219,7 +219,7 @@ data:extend(
 				layers =
 				{
 			  		{
-						filename = "__Yuoki_F2__/graphics/entity/hppump_n.png",
+						filename = "__Yuoki__/graphics/entity/hppump_n.png",
 						priority = "medium", width = 320, height = 320, frame_count = 1, shift = {0, 0}, scale=0.5, animation_speed=0.5,	
 			 		},
 				}
@@ -229,7 +229,7 @@ data:extend(
 				layers =
 				{
 			  		{
-						filename = "__Yuoki_F2__/graphics/entity/hppump_e.png",
+						filename = "__Yuoki__/graphics/entity/hppump_e.png",
 						priority = "medium", width = 320, height = 320, frame_count = 1, shift = {0, 0}, scale=0.5, animation_speed=0.5,	
 			 		},
 				}
@@ -239,7 +239,7 @@ data:extend(
 				layers =
 				{
 			  		{
-						filename = "__Yuoki_F2__/graphics/entity/hppump_s.png",
+						filename = "__Yuoki__/graphics/entity/hppump_s.png",
 						priority = "medium", width = 320, height = 320, frame_count = 1, shift = {0, 0}, scale=0.5, animation_speed=0.5,	
 			 		},
 				}
@@ -249,7 +249,7 @@ data:extend(
 				layers =
 				{
 			  		{
-						filename = "__Yuoki_F2__/graphics/entity/hppump_w.png",
+						filename = "__Yuoki__/graphics/entity/hppump_w.png",
 						priority = "medium", width = 320, height = 320, frame_count = 1, shift = {0, 0}, scale=0.5, animation_speed=0.5,	
 			 		},
 				}
@@ -322,13 +322,13 @@ data:extend(
 	{
 		type = "item",
 		name = "y_mftank", place_result = "y_mftank",
-		icon_size = 64, icon =  "__Yuoki_F2__/graphics/entity/store/mftank_ico.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/store/mftank_ico.png",
 		group = "yuoki", subgroup = "y-fluid-storage", stack_size = 15, default_request=5, order = "tank-c5",
 	},	
 	{
 		type = "storage-tank",
 		name = "y_mftank",
-		icon_size = 64, icon =  "__Yuoki_F2__/graphics/entity/store/mftank_ico.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/store/mftank_ico.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_mftank"},
 		max_health = 500,
@@ -358,7 +358,7 @@ data:extend(
 			picture =
 			{
 				sheet={
-					filename = "__Yuoki_F2__/graphics/entity/store/mftank.png",
+					filename = "__Yuoki__/graphics/entity/store/mftank.png",
 					priority = "high",
 					frames = 1,
 					width = 320,

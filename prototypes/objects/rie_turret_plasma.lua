@@ -2,11 +2,11 @@ function make_plasma_sounds(volume)
 return
 {
 	{
-		filename = "__Yuoki_F2__/sounds/plasma-1.ogg",
+		filename = "__Yuoki__/sounds/plasma-1.ogg",
 		volume = 0.7
 	},
 	{
-		filename = "__Yuoki_F2__/sounds/plasma-2.ogg",
+		filename = "__Yuoki__/sounds/plasma-2.ogg",
 		volume = 0.85
 	},
 	--[[
@@ -22,7 +22,7 @@ end
 
 turret_plasma =
 {
-	filename = "__Yuoki_F2__/graphics/entity/defense/turm_plasma_place.png",
+	filename = "__Yuoki__/graphics/entity/defense/turm_plasma_place.png",
 	priority = "medium",
 	width = 256,
 	height = 256,
@@ -61,7 +61,7 @@ data:extend({
 	{
 		type = "item",
 		name = "y_turret_plasma",
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/defense/turm_plasma_icon.png",		
+		icon_size = 32, icon =  "__Yuoki__/graphics/entity/defense/turm_plasma_icon.png",		
 		group = "yuoki",
 		--subgroup = "y-storage",	
 		subgroup = "y-defense",		
@@ -73,7 +73,7 @@ data:extend({
 	{
 		type = "ammo-turret",
 		name = "y_turret_plasma",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/defense/turm_plasma_icon.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/defense/turm_plasma_icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_turret_plasma"},
 		max_health = 4000,
@@ -104,7 +104,7 @@ data:extend({
 		
 		prepared_animation =
 		{
-			filename = "__Yuoki_F2__/graphics/entity/defense/turm_plasma_sheet.png",
+			filename = "__Yuoki__/graphics/entity/defense/turm_plasma_sheet.png",
 			priority = "medium",
 			width = 256,
 			height = 256,
@@ -131,7 +131,7 @@ data:extend({
 			  layers =
 			  {
 				{
-					filename = "__Yuoki_F2__/graphics/entity/defense/turm_plasma_sheet.png",
+					filename = "__Yuoki__/graphics/entity/defense/turm_plasma_sheet.png",
 					priority = "high",
 					width = 256,
 					height = 256,

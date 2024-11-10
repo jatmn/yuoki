@@ -4,7 +4,7 @@ data:extend(
 	{
 		type = "electric-pole",
 		name = "y_signal_pole",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/signal_pole_icon.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/signal_pole_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_signal_pole"},
 		max_health = 250,
@@ -16,7 +16,7 @@ data:extend(
 		supply_area_distance = 1.5,
 		pictures =
 		{
-			filename = "__Yuoki_F2__/graphics/entity/signal_pole.png",
+			filename = "__Yuoki__/graphics/entity/signal_pole.png",
 			priority = "high",
 			width = 160,
 			height = 160,
@@ -84,7 +84,7 @@ data:extend(
 	{
 		type = "electric-pole",
 		name = "y-substation-m",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/icons/substation-icon.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/substation-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-substation-m"},
 		max_health = 250,
@@ -96,7 +96,7 @@ data:extend(
 		supply_area_distance = 16,
 		pictures =
 		{
-			filename = "__Yuoki_F2__/graphics/entity/substation-mn.png",
+			filename = "__Yuoki__/graphics/entity/substation-mn.png",
 			priority = "high",
 			width = 192,
 			height = 192,
@@ -161,7 +161,7 @@ data:extend(
 	{
 		type = "electric-pole",
 		name = "y-substation-h",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/entity/substation-h-icon.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/substation-h-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-substation-h"},
 		max_health = 250,
@@ -173,7 +173,7 @@ data:extend(
 		supply_area_distance = 32,
 		pictures =
 		{
-			filename = "__Yuoki_F2__/graphics/entity/substation-h.png",
+			filename = "__Yuoki__/graphics/entity/substation-h.png",
 			priority = "high",
 			width = 192,
 			height = 192,
@@ -238,7 +238,7 @@ data:extend(
 	{
 		type = "accumulator",
 		name = "y-accumulator-m",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/gfx/medium_accu_icon.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/gfx/medium_accu_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-accumulator-m"},
 		max_health = 250,
@@ -257,7 +257,7 @@ data:extend(
     		{
 				picture =
 					{
-						filename = "__Yuoki_F2__/graphics/gfx/accu_m2n_idle.png",
+						filename = "__Yuoki__/graphics/gfx/accu_m2n_idle.png",
 						priority = "extra-high",
 						width = 256,
 						height = 256,
@@ -266,7 +266,7 @@ data:extend(
 					},
 				charge_animation =
 					{
-						filename = "__Yuoki_F2__/graphics/gfx/accu_2m_green_sheet.png",
+						filename = "__Yuoki__/graphics/gfx/accu_2m_green_sheet.png",
 						width = 256,
 						height = 256,
 						line_length = 8,
@@ -279,7 +279,7 @@ data:extend(
 				charge_light = {intensity = 0.3, size = 12},
 				discharge_animation =
 					{
-						filename = "__Yuoki_F2__/graphics/gfx/accu_2m_red_sheet.png",
+						filename = "__Yuoki__/graphics/gfx/accu_2m_red_sheet.png",
 						width = 256,
 						height = 256,
 						line_length = 8,
@@ -311,7 +311,7 @@ data:extend(
 	{
 		type = "accumulator",
 		name = "y-accumulator-b",
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/gfx/accu_b_icon.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/gfx/accu_b_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-accumulator-b"},
 		max_health = 300,
@@ -330,13 +330,13 @@ data:extend(
 		{
 			picture =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/accu_b_idle_r18.png",
+					filename = "__Yuoki__/graphics/gfx/accu_b_idle_r18.png",
 					priority = "extra-high",
 					width = 256, height = 256, shift = {0.375, -0.375}, scale = 0.5,
 				},
 			charge_animation =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/acc_big_load_sheet.png",
+					filename = "__Yuoki__/graphics/gfx/acc_big_load_sheet.png",
 					width = 256, height = 256, shift = {0.375, -0.375}, scale = 0.5, 
 					frame_count=16, line_length=4, animation_speed = 0.5,
 				},
@@ -344,7 +344,7 @@ data:extend(
 			charge_light = {intensity = 0.5, size = 35, color={0.7,1.0,1.0}},
 			discharge_animation =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/acc_big_unload_sheet.png",
+					filename = "__Yuoki__/graphics/gfx/acc_big_unload_sheet.png",
 					width = 256, height = 256, shift = {0.375, -0.375}, scale = 0.5, 
 					frame_count=16, line_length=4, animation_speed = 0.5,
 				},
@@ -374,7 +374,7 @@ data:extend(
 	{
 		type = "accumulator",
 		name = "y-ups-flywheel-b",
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/gfx/accflywheel_b_icon.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/gfx/accflywheel_b_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-ups-flywheel-b"},
 		max_health = 250,
@@ -394,7 +394,7 @@ data:extend(
 		{
 			picture =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/accflywheel_bn_idle.png",
+					filename = "__Yuoki__/graphics/gfx/accflywheel_bn_idle.png",
 					priority = "extra-high",
 					width = 128,
 					height = 128,
@@ -402,7 +402,7 @@ data:extend(
 				},
 			charge_animation =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/accflywheel_bn_load.png",
+					filename = "__Yuoki__/graphics/gfx/accflywheel_bn_load.png",
 					width = 128,
 					height = 128,
 					frame_count=1,
@@ -413,7 +413,7 @@ data:extend(
 			charge_light = {intensity = 0.3, size = 15},
 			discharge_animation =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/accflywheel_bn_unload.png",
+					filename = "__Yuoki__/graphics/gfx/accflywheel_bn_unload.png",
 					width = 128,
 					height = 128,
 					frame_count=1,
@@ -445,7 +445,7 @@ data:extend(
 	{
 		type = "accumulator",
 		name = "y-accumulator-m-t2",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/gfx/mcd-icon.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/gfx/mcd-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-accumulator-m-t2"},
 		max_health = 250,
@@ -465,7 +465,7 @@ data:extend(
 		{
 			picture =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/mcd-idle-e.png",
+					filename = "__Yuoki__/graphics/gfx/mcd-idle-e.png",
 					priority = "extra-high",
 					width = 100,
 					height = 100,
@@ -473,7 +473,7 @@ data:extend(
 				},
 			charge_animation =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/mcd-load-e.png",
+					filename = "__Yuoki__/graphics/gfx/mcd-load-e.png",
 					width = 100,
 					height = 100,
 					line_length = 1,
@@ -485,7 +485,7 @@ data:extend(
 			charge_light = {intensity = 0.3, size = 11},
 			discharge_animation =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/mcd-unload-e.png",
+					filename = "__Yuoki__/graphics/gfx/mcd-unload-e.png",
 					width = 100,
 					height = 100,
 					line_length = 1,
@@ -517,7 +517,7 @@ data:extend(
 	{
 		type = "accumulator",
 		name = "y-accumulator-b-t2",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/gfx/bcd-icon.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/gfx/bcd-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-accumulator-b-t2"},
 		max_health = 300,
@@ -537,7 +537,7 @@ data:extend(
 		{
 			picture =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/bcd-idle-e.png",
+					filename = "__Yuoki__/graphics/gfx/bcd-idle-e.png",
 					priority = "extra-high",
 					width = 140,
 					height = 122,
@@ -545,7 +545,7 @@ data:extend(
 				},
 			charge_animation =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/bcd-load-e.png",
+					filename = "__Yuoki__/graphics/gfx/bcd-load-e.png",
 					width = 140,
 					height = 122,
 					frame_count=1,
@@ -556,7 +556,7 @@ data:extend(
 			charge_light = {intensity = 0.3, size = 15},
 			discharge_animation =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/bcd-unload-e.png",
+					filename = "__Yuoki__/graphics/gfx/bcd-unload-e.png",
 					width = 140,
 					height = 122,
 					frame_count=1,
@@ -587,7 +587,7 @@ data:extend(
 	{
 		type = "accumulator",
 		name = "y-accumulator-b-tx",
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/gfx/aqe-icon.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/gfx/aqe-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-accumulator-b-tx"},
 		max_health = 300,
@@ -607,7 +607,7 @@ data:extend(
 		{
 			picture =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/aqe-idle-e.png",
+					filename = "__Yuoki__/graphics/gfx/aqe-idle-e.png",
 					priority = "extra-high",
 					width = 140,
 					height = 115,
@@ -615,7 +615,7 @@ data:extend(
 				},
 			charge_animation =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/aqe-load-e.png",
+					filename = "__Yuoki__/graphics/gfx/aqe-load-e.png",
 					width = 140,
 					height = 115,
 					shift = {0.625, 0},
@@ -625,7 +625,7 @@ data:extend(
 			charge_light = {intensity = 0.3, size = 15},
 			discharge_animation =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/aqe-unload-e.png",
+					filename = "__Yuoki__/graphics/gfx/aqe-unload-e.png",
 					width = 140,
 					height = 115,
 					shift = {0.625, 0},
@@ -656,7 +656,7 @@ data:extend(
 	{
 		type = "accumulator",
 		name = "y-accumulator-crystal-m",
-		icon_size = 32, icon =  "__Yuoki_F2__/graphics/gfx/accu_crystal-m-icon.png",
+		icon_size = 32, icon =  "__Yuoki__/graphics/gfx/accu_crystal-m-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-accumulator-crystal-m"},
 		max_health = 350,
@@ -676,7 +676,7 @@ data:extend(
 		{
 			picture =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/accu_crystal-nidle.png",
+					filename = "__Yuoki__/graphics/gfx/accu_crystal-nidle.png",
 					priority = "extra-high",
 					width = 128,
 					height = 128,
@@ -684,7 +684,7 @@ data:extend(
 				},
 			charge_animation =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/accu_crystal-nload.png",
+					filename = "__Yuoki__/graphics/gfx/accu_crystal-nload.png",
 					width = 128,
 					height = 128,
 					shift = {0.5, -0.5},
@@ -695,7 +695,7 @@ data:extend(
 			charge_light = {intensity = 0.3, size = 25},
 			discharge_animation =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/accu_crystal-nunload.png",
+					filename = "__Yuoki__/graphics/gfx/accu_crystal-nunload.png",
 					width = 128,
 					height = 128,
 					shift = {0.5, -0.5},
@@ -728,7 +728,7 @@ data:extend(
 	{
 		type = "accumulator",
 		name = "y_compensator_25",
-		 icon_size = 32, icon =  "__Yuoki_F2__/graphics/gfx/compensator25-icon.png",
+		 icon_size = 32, icon =  "__Yuoki__/graphics/gfx/compensator25-icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {mining_time = 1, result = "y_compensator_25"},
 		max_health = 400,
@@ -747,7 +747,7 @@ data:extend(
 		{
 			picture =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/compensator25_idle.png",
+					filename = "__Yuoki__/graphics/gfx/compensator25_idle.png",
 					priority = "extra-high",
 					width = 160,
 					height = 160,
@@ -757,7 +757,7 @@ data:extend(
 				},
 			charge_animation =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/comp25c.png",
+					filename = "__Yuoki__/graphics/gfx/comp25c.png",
 					width = 160,
 					height = 160,
 					shift = {0, -0.875},
@@ -768,7 +768,7 @@ data:extend(
 			charge_light = {intensity = 0.3, size = 25},
 			discharge_animation =
 				{
-					filename = "__Yuoki_F2__/graphics/gfx/comp25d.png",
+					filename = "__Yuoki__/graphics/gfx/comp25d.png",
 					width = 160,
 					height = 160,
 					shift = {0, -0.875},

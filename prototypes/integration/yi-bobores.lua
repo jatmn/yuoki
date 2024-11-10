@@ -14,7 +14,7 @@ data:extend(
 		--result_count = 20,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_green.png",
+		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},	
 	--[[
 	{
@@ -27,7 +27,7 @@ data:extend(
 		result_count = 20,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics-recipe",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_green.png",
+		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},		
 	{
 		type = "recipe",
@@ -39,7 +39,7 @@ data:extend(
 		result_count = 20,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics-recipe",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_green.png",
+		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},	
 	]]
 	{
@@ -53,7 +53,7 @@ data:extend(
 		--result_count = 20,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_green.png",
+		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},	
 	{
 		type = "recipe",
@@ -66,7 +66,7 @@ data:extend(
 		--result_count = 20,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_green.png",
+		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},	
 	{
 		type = "recipe",
@@ -79,7 +79,7 @@ data:extend(
 		--result_count = 20,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_green.png",
+		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},
 	--[[
 	{
@@ -92,7 +92,7 @@ data:extend(
 		result_count = 20,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics-recipe",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_green.png",
+		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},	
 	]]
 	{
@@ -106,7 +106,7 @@ data:extend(
 		--result_count = 20,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_green.png",
+		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},	
 	{
 		type = "recipe",
@@ -119,7 +119,7 @@ data:extend(
 		--result_count = 20,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_green.png",
+		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},
 	--[[
 	{
@@ -132,7 +132,7 @@ data:extend(
 		result_count = 20,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics-recipe",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_green.png",
+		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},	
 	]]
 	{
@@ -146,7 +146,7 @@ data:extend(
 		--result_count = 20,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_green.png",
+		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},	
 	{
 		type = "recipe",
@@ -159,7 +159,7 @@ data:extend(
 		--result_count = 20,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_green.png",
+		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},	
 	{
 		type = "recipe",
@@ -172,7 +172,7 @@ data:extend(
 		--result_count = 20,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_green.png",
+		icon = "__Yuoki__/graphics/icons/crystal_green.png",
 	},	
 
 	-- reverts
@@ -187,7 +187,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_1.png",
+		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	--[[
 	{
@@ -200,7 +200,7 @@ data:extend(
 		result_count = 1,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics-recipe",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_1.png",
+		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	
 	{
@@ -213,7 +213,7 @@ data:extend(
 		result_count = 1,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics-recipe",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_1.png",
+		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	]]
 	{
@@ -227,7 +227,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_1.png",
+		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	{
 		type = "recipe",
@@ -240,7 +240,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_1.png",
+		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	{
 		type = "recipe",
@@ -253,7 +253,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_1.png",
+		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	--[[
 	{
@@ -266,7 +266,7 @@ data:extend(
 		result_count = 1,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics-recipe",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_1.png",
+		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	]]
 	{
@@ -280,7 +280,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_1.png",
+		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	{
 		type = "recipe",
@@ -293,7 +293,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_1.png",
+		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	--[[
 	{
@@ -306,7 +306,7 @@ data:extend(
 		result_count = 1,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics-recipe",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_1.png",
+		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	]]
 	{
@@ -320,7 +320,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_1.png",
+		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	{
 		type = "recipe",
@@ -333,7 +333,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_1.png",
+		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	{
 		type = "recipe",
@@ -346,7 +346,7 @@ data:extend(
 		--result_count = 1,
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
-		icon = "__Yuoki_F2__/graphics/icons/crystal_1.png",
+		icon = "__Yuoki__/graphics/icons/crystal_1.png",
 	},	
 	
 	
