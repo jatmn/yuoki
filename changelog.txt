@@ -3,6 +3,7 @@ Version: 1.2.4
 Date: 00. 11. 2024
   Updates:
     - Recycling support? - TBD?
+    - zh-CN locale added (Thanks PlexPt)
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.3
 Date: 10. 11. 2024
