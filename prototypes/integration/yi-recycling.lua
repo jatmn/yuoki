@@ -1,0 +1,2 @@
+-- Build recipe list to allow/not-allow rcycling 
+-- recipe.auto_recycle == false
