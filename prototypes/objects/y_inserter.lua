@@ -583,7 +583,8 @@ data:extend(
 		ingredients =
 		{			
 			{type="item", name="y-inserter-smart", amount=1},      
-			{type="item", name="red-wire", amount=2},      
+			--{type="item", name="red-wire", amount=2},     
+			{type="item", name="y-conductive-wire-1", amount=2},      
 			{type="item", name="y_rwtechsign", amount=1},      
 		},
 		results = {{type="item", name="y_inserter_smart_rightR2", amount=1},},
@@ -727,7 +728,8 @@ data:extend(
 		ingredients =
 		{			
 			{type="item", name="y-inserter-smart", amount=1},      
-			{type="item", name="red-wire", amount=2},         
+			--{type="item", name="red-wire", amount=2},     
+			{type="item", name="y-conductive-wire-1", amount=2},      
 			{type="item", name="y_rwtechsign", amount=1},      			
 		},
 		results = {{type="item", name="y_inserter_smart_leftR2", amount=1},},
@@ -870,7 +872,8 @@ data:extend(
 		ingredients =
 		{
 			{type="item", name="y-inserter-smart", amount=1},
-			{type="item", name="green-wire", amount=2},      
+			--{type="item", name="green-wire", amount=2},     
+			{type="item", name="y-conductive-wire-1", amount=2},
 			{type="item", name="y_rwtechsign", amount=1},      
 		},
 		results = {{type="item", name="y_inserter_smart_RR", amount=1},},
@@ -1014,7 +1017,8 @@ data:extend(
 		ingredients =
 		{
 			{type="item", name="y-inserter-smart", amount=1},
-			{type="item", name="green-wire", amount=2},      
+			--{type="item", name="green-wire", amount=2},     
+			{type="item", name="y-conductive-wire-1", amount=2},   
 			{type="item", name="y_rwtechsign", amount=1},      
 		},
 		results = {{type="item", name="y_inserter_smart_LL", amount=1},},

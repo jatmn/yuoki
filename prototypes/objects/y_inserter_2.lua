@@ -10,8 +10,9 @@ data:extend(
 		ingredients =
 		{			
 			{type="item", name="y-inserter-smart", amount=1},      
-			{type="item", name="green-wire", amount=2},      
-			{type="item", name="red-wire", amount=2},      
+			--{type="item", name="green-wire", amount=2},      
+			--{type="item", name="red-wire", amount=2},     
+			{type="item", name="y-conductive-wire-1", amount=4},
 			{type="item", name="y_rwtechsign", amount=1},      			
 		},
 		results = {{type="item", name="y_inserter_diagonal", amount=1},},
