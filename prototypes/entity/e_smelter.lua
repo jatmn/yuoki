@@ -50,10 +50,7 @@ data:extend(
 		},
 		fluid_boxes_off_when_no_fluid_recipe = true,			
 
-		module_specification =
-		{
-			module_slots = 2
-		},
+		module_slots = 2,
 		allowed_effects = {"consumption", "speed", "pollution"},
 	},
 
@@ -102,10 +99,7 @@ data:extend(
 		},
 		fluid_boxes_off_when_no_fluid_recipe = true,			
 
-		module_specification =
-		{
-			module_slots = 2
-		},
+		module_slots = 2,
 		allowed_effects = {"consumption", "speed", "pollution"},
 	},
 

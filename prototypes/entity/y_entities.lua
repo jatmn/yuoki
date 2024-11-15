@@ -64,10 +64,7 @@ data:extend(
 		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 2 }},
 		energy_usage = "400kW",
 		ingredient_count = 1,
-		module_specification =
-		{
-			module_slots = 2
-		},
+		module_slots = 2,
 		allowed_effects = {"consumption", "speed", "productivity", "pollution"},
 		
 	},	
@@ -139,10 +136,7 @@ data:extend(
 		},
 		fluid_boxes_off_when_no_fluid_recipe = true,
 			  
-		module_specification =
-		{
-			module_slots = 2
-		},
+		module_slots = 2,
 		allowed_effects = {"consumption", "speed", "productivity", "pollution"},
 	},
 	
@@ -280,10 +274,7 @@ data:extend(
 		mining_power = 4,
 		resource_searching_radius = 3.49,
 		vector_to_place_result = {0, -2.75},
-		module_specification =
-		{
-			module_slots = 2
-		},
+		module_slots = 2,
 		allowed_effects = {"consumption", "speed", "productivity", "pollution"},
 		radius_visualisation_picture =
 		{
@@ -440,10 +431,7 @@ data:extend(
 		},
 		energy_usage = "1200kW",
 		ingredient_count = 5,
-		module_specification =
-		{
-			module_slots = 2
-		},
+		module_slots = 2,
 		allowed_effects = {"consumption", "speed", "productivity", "pollution"},
 		order="a[atomics]",
 	},	
@@ -520,10 +508,7 @@ data:extend(
 		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 25 } },
 		energy_usage = "100MW",
 		ingredient_count = 3,
-		module_specification =
-		{
-			module_slots = 2
-		},
+		module_slots = 2,
 		allowed_effects = {"consumption", "speed", "productivity", "pollution"},
 		order="a[atomics]",
 	},		
@@ -807,10 +792,7 @@ data:extend(
 		},
 		fluid_boxes_off_when_no_fluid_recipe = true,			
 
-		module_specification =
-		{
-			module_slots = 2
-		},
+		module_slots = 2,
 		allowed_effects = {"consumption", "speed", "productivity", "pollution"},
 	},
 

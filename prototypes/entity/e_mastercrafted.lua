@@ -473,10 +473,7 @@ data:extend(
 		energy_source = {type = "electric",input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 2}},
 		energy_usage = "400kW",
 		ingredient_count = 1,
-		module_specification =
-		{
-			module_slots = 2
-		},
+		module_slots = 2,
 		allowed_effects = {"consumption", "speed", "pollution"},
 		
 	},	
@@ -574,10 +571,7 @@ data:extend(
 		},	
 		fluid_boxes_off_when_no_fluid_recipe = true,
   
-		module_specification =
-		{
-			module_slots = 2
-		},
+		module_slots = 2,
 		allowed_effects = {"consumption", "speed", "pollution"},
 	},
 	

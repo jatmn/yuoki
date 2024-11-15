@@ -183,10 +183,7 @@ data:extend(
 		energy_source = {type = "electric", input_priority = "secondary", usage_priority = "secondary-input", emissions_per_minute = { pollution = 18.75, } },
 		energy_usage = "1250kW",
 		ingredient_count = 4,
-		module_specification =
-		{
-			module_slots = 2
-		},
+		module_slots = 2,
 		allowed_effects = {"consumption", "speed", "productivity", "pollution"},
 	},
 	
