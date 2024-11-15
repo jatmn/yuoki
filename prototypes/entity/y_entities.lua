@@ -205,10 +205,7 @@ data:extend(
 		mining_power = 3,
 		resource_searching_radius = 3.49,
 		vector_to_place_result = {0, -2.75},
-		module_specification =
-		{
-			module_slots = 1
-		},
+		module_slots = 1,
 		allowed_effects = {"consumption", "speed", "productivity", "pollution"},
 		radius_visualisation_picture =
 		{
@@ -353,10 +350,7 @@ data:extend(
 		},
 		energy_usage = "4000kW",
 		ingredient_count = 6,
-		module_specification =
-		{
-			module_slots = 4
-		},
+		module_slots = 4,
 		allowed_effects = {"consumption", "speed", "productivity", "pollution"},
 		order="w[wonders]",
 	},			
@@ -572,10 +566,7 @@ data:extend(
 		},
 		energy_usage = "125kW",						
 		ingredient_count = 2,
-		module_specification =
-		{
-			module_slots = 1
-		},
+		module_slots = 1,
 		allowed_effects = {"consumption", "speed", "productivity", "pollution"},
 		order="water-gen1",
 	},	
@@ -636,10 +627,7 @@ data:extend(
 			emissions_per_minute = { pollution = 0.75  } },
 		energy_usage = "150kW",						
 		ingredient_count = 2,
-		module_specification =
-		{
-			module_slots = 1
-		},
+		module_slots = 1,
 		allowed_effects = {"consumption", "speed", "productivity", "pollution"},
 		order="water-gen2",
 	},	
@@ -714,7 +702,7 @@ data:extend(
 		]]
 		
 		ingredient_count = 3,
-		module_specification = { module_slots = 1 }, allowed_effects = {"consumption", "speed", "productivity", "pollution"},
+		module_slots = 1, allowed_effects = {"consumption", "speed", "productivity", "pollution"},
 		order="water-mix",
 	},	
 

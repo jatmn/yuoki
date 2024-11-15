@@ -665,10 +665,7 @@ data:extend(
 		mining_power = 6,
 		resource_searching_radius = 4.49,
 		vector_to_place_result = {0, -2.75},
-		module_specification =
-		{
-			module_slots = 3,
-		},
+		module_slots = 3,
 		allowed_effects = {"consumption", "speed", "productivity", "pollution"},
 		radius_visualisation_picture =
 		{
