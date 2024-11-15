@@ -1,4 +1,4 @@
-function make_plasma_sounds(volume)
+local function make_plasma_sounds(volume)
 return
 {
 	{

@@ -3,7 +3,10 @@ Version: 1.2.4
 Date: 00. 11. 2024
   Updates:
     - Recycling support? - TBD?
+    - Some basic code clean up
+    - Merged locale's into single files for easier translations
     - zh-CN locale added (Thanks PlexPt)
+    - Fixed crash introduced in 2.0.18 related to tiles
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.3
 Date: 10. 11. 2024
