@@ -93,7 +93,7 @@ data:extend(
 				pipe_covers = pipecoverspictures(),
 				base_area = 10,
 				base_level = -1,
-				pipe_connections = {{ flow_direction="output", direction = defines.direction.south, position = { 0, 1} }}
+				pipe_connections = {{ flow_direction="input", direction = defines.direction.south, position = { 0, 1} }}
 			},
 
 		},
