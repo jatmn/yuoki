@@ -4,7 +4,7 @@ data:extend(
 	{
 		type = "electric-pole",
 		name = "y_signal_pole",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/signal_pole_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/signal_pole_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_signal_pole"},
 		max_health = 250,
@@ -84,7 +84,7 @@ data:extend(
 	{
 		type = "electric-pole",
 		name = "y-substation-m",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/substation-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/substation-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-substation-m"},
 		max_health = 250,
@@ -161,7 +161,7 @@ data:extend(
 	{
 		type = "electric-pole",
 		name = "y-substation-h",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/substation-h-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/substation-h-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-substation-h"},
 		max_health = 250,
@@ -238,7 +238,7 @@ data:extend(
 	{
 		type = "accumulator",
 		name = "y-accumulator-m",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/gfx/medium_accu_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/gfx/medium_accu_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-accumulator-m"},
 		max_health = 250,
@@ -311,7 +311,7 @@ data:extend(
 	{
 		type = "accumulator",
 		name = "y-accumulator-b",
-		icon_size = 32, icon =  "__Yuoki__/graphics/gfx/accu_b_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/gfx/accu_b_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-accumulator-b"},
 		max_health = 300,
@@ -374,7 +374,7 @@ data:extend(
 	{
 		type = "accumulator",
 		name = "y-ups-flywheel-b",
-		icon_size = 32, icon =  "__Yuoki__/graphics/gfx/accflywheel_b_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/gfx/accflywheel_b_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-ups-flywheel-b"},
 		max_health = 250,
@@ -445,7 +445,7 @@ data:extend(
 	{
 		type = "accumulator",
 		name = "y-accumulator-m-t2",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/gfx/mcd-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/gfx/mcd-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-accumulator-m-t2"},
 		max_health = 250,
@@ -517,7 +517,7 @@ data:extend(
 	{
 		type = "accumulator",
 		name = "y-accumulator-b-t2",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/gfx/bcd-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/gfx/bcd-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-accumulator-b-t2"},
 		max_health = 300,
@@ -587,7 +587,7 @@ data:extend(
 	{
 		type = "accumulator",
 		name = "y-accumulator-b-tx",
-		icon_size = 32, icon =  "__Yuoki__/graphics/gfx/aqe-icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/gfx/aqe-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-accumulator-b-tx"},
 		max_health = 300,
@@ -656,7 +656,7 @@ data:extend(
 	{
 		type = "accumulator",
 		name = "y-accumulator-crystal-m",
-		icon_size = 32, icon =  "__Yuoki__/graphics/gfx/accu_crystal-m-icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/gfx/accu_crystal-m-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-accumulator-crystal-m"},
 		max_health = 350,
@@ -728,7 +728,7 @@ data:extend(
 	{
 		type = "accumulator",
 		name = "y_compensator_25",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/gfx/compensator25-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/gfx/compensator25-icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {mining_time = 1, result = "y_compensator_25"},
 		max_health = 400,

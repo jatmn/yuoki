@@ -21,7 +21,7 @@ data:extend({
 		{
 			type = "recipe",
 			name = "y_turret_flame",
-			 icon_size = 32, icon =  "__Yuoki__/graphics/entity/defense/turm_flamer_icon.png",
+			 icon_size = 64, icon =  "__Yuoki__/graphics/entity/defense/turm_flamer_icon.png",
 			enabled = true,
 			ingredients =
 			{
@@ -44,7 +44,7 @@ data:extend({
 		{
 			type = "item",
 			name = "y_turret_flame",
-			icon_size = 32, icon =  "__Yuoki__/graphics/entity/defense/turm_flamer_icon.png",			
+			icon_size = 64, icon =  "__Yuoki__/graphics/entity/defense/turm_flamer_icon.png",			
 			group = "yuoki",			
 			subgroup = "y-defense",		
 			order = "f1",
@@ -55,7 +55,7 @@ data:extend({
 		{
 			type = "ammo-turret",
 			name = "y_turret_flame",
-			icon_size = 32, icon =  "__Yuoki__/graphics/entity/defense/turm_flamer_icon.png",
+			icon_size = 64, icon =  "__Yuoki__/graphics/entity/defense/turm_flamer_icon.png",
 			flags = {"placeable-player", "player-creation"},
 			minable = {mining_time = 0.5, result = "y_turret_flame"},
 			max_health = 5000,

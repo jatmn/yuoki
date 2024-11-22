@@ -15,7 +15,7 @@ data:extend(
 			{type = "fluid", name = "y-mechanical-force", amount = 50, temperature = 150}
 		},
 		main_product = "y-mechanical-force",
-		icon_size = 32,
+		icon_size = 64,
 		icon = "__Yuoki__/graphics/icons/mfmode.png",
 		order = "1",
 		group = "yuoki_liquids",
@@ -37,7 +37,7 @@ data:extend(
 			{type = "fluid", name = "y-mechanical-force", amount = 100, temperature = 150}
 		},
 		main_product = "y_mox1heated",
-		icon_size = 32,
+		icon_size = 64,
 		icon = "__Yuoki__/graphics/icons/mox1mode.png",
 		order = "2",
 		group = "yuoki_liquids",
@@ -59,7 +59,7 @@ data:extend(
 			{type = "fluid", name = "y-mechanical-force", amount = 200, temperature = 150}
 		},
 		main_product = "y_mox2heated",
-		icon_size = 32,
+		icon_size = 64,
 		icon = "__Yuoki__/graphics/icons/mox2mode.png",
 		order = "3",
 		group = "yuoki_liquids",
@@ -69,7 +69,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-obninsk-reactor",
-		icon_size = 32,
+		icon_size = 64,
 		icon = "__Yuoki__/graphics/icons/obninsk-reactor-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.3, mining_time = 0.5, result = "y-obninsk-reactor"},
@@ -157,7 +157,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_moxmixer",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/fuel_mixer_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/fuel_mixer_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {hardness = 0.5, mining_time = 1, result = "y_moxmixer"},
 		max_health = 500,

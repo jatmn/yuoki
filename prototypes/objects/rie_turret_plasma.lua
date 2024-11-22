@@ -61,7 +61,7 @@ data:extend({
 	{
 		type = "item",
 		name = "y_turret_plasma",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/defense/turm_plasma_icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/defense/turm_plasma_icon.png",		
 		group = "yuoki",
 		--subgroup = "y-storage",	
 		subgroup = "y-defense",		
@@ -73,7 +73,7 @@ data:extend({
 	{
 		type = "ammo-turret",
 		name = "y_turret_plasma",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/defense/turm_plasma_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/defense/turm_plasma_icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_turret_plasma"},
 		max_health = 4000,

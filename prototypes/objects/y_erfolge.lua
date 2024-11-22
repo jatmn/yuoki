@@ -5,7 +5,7 @@ data:extend(
 	{
 		type = "item",
 		name = "yi_obelisk_A3_5X",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/yi_obelisk_3.5icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/yi_obelisk_3.5icon.png",		
 		group = "yuoki-energy",
 		subgroup = "y_erfolge",
 		place_result = "yi_obelisk_A3_5X",
@@ -16,7 +16,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "yi_obelisk_A3_5X",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/yi_obelisk_3.5icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/yi_obelisk_3.5icon.png",
 		enabled = true,
 		ingredients = 
 		{    	  	
@@ -37,7 +37,7 @@ data:extend(
 	{
 		type = "lamp",
 		name = "yi_obelisk_A3_5X",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/yi_obelisk_3.5icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/yi_obelisk_3.5icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 0.5, result = "yi_obelisk_A3_5X"},
 		max_health = 1000,
@@ -76,7 +76,7 @@ data:extend(
 	{
 		type = "item",
 		name = "yi_bug1",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/statue_bug1_icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/statue_bug1_icon.png",		
 		group = "yuoki-energy",
 		subgroup = "y_erfolge",
 		place_result = "yi_bug1",
@@ -88,7 +88,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "yi_bug1",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/statue_bug1_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/statue_bug1_icon.png",
 		enabled = true,
 		ingredients = 
 		{    	  	
@@ -110,7 +110,7 @@ data:extend(
 	{
 		type = "lamp",
 		name = "yi_bug1",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/statue_bug1_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/statue_bug1_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 0.5, result = "yi_bug1"},
 		max_health = 1000,
@@ -149,7 +149,7 @@ data:extend(
 	{
 		type = "item",
 		name = "yi_hny1",
-		icon_size = 32, icon =  "__Yuoki__/graphics/gfx/hny1_icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/gfx/hny1_icon.png",		
 		group = "yuoki-energy",
 		subgroup = "y_erfolge",
 		place_result = "yi_hny1",
@@ -160,7 +160,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "yi_hny1",
-		icon_size = 32, icon =  "__Yuoki__/graphics/gfx/hny1_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/gfx/hny1_icon.png",
 		enabled = true,
 		ingredients = 
 		{    	  	
@@ -181,7 +181,7 @@ data:extend(
 	{
 		type = "radar",
 		name = "yi_hny1",
-		icon_size = 32, icon =  "__Yuoki__/graphics/gfx/hny1_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/gfx/hny1_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 0.5, result = "yi_hny1"},
 		max_health = 1000,
@@ -219,7 +219,7 @@ data:extend(
 	{
 		type = "item",
 		name = "yi_hny2",
-		icon_size = 32, icon =  "__Yuoki__/graphics/gfx/hny2_icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/gfx/hny2_icon.png",		
 		group = "yuoki-energy",
 		subgroup = "y_erfolge",
 		place_result = "yi_hny2",
@@ -230,7 +230,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "yi_hny2",
-		icon_size = 32, icon =  "__Yuoki__/graphics/gfx/hny2_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/gfx/hny2_icon.png",
 		enabled = true,
 		ingredients = 
 		{    	  	
@@ -251,7 +251,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "yi_hny2",
-		icon_size = 32, icon =  "__Yuoki__/graphics/gfx/hny2_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/gfx/hny2_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 0.5, result = "yi_hny2"},
 		max_health = 1000,

@@ -35,7 +35,7 @@ data:extend(
 		{
 			type = "electric-turret",
 			name = "y_turret_laser22f12",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/entity/defense/laser22b_icon.png",
 			flags = {"placeable-player", "placeable-enemy", "player-creation"},
 			minable = {mining_time = 0.5, result = "y_turret_laser22f12"},
@@ -170,7 +170,7 @@ data:extend(
 		{
 			type = "ammo-turret",
 			name = "y_turret_gun1f12",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/entity/defense/gun_1_icon.png",
 			flags = {"placeable-player", "player-creation"},
 			minable = {mining_time = 0.5, result = "y_turret_gun1f12"},
@@ -268,7 +268,7 @@ data:extend(
 		{
 			type = "ammo-turret",
 			name = "y_turret_gun2f12",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/entity/defense/gun2_icon.png",
 			flags = {"placeable-player", "player-creation"},
 			minable = {mining_time = 0.5, result = "y_turret_gun2f12"},

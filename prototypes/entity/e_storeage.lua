@@ -5,7 +5,7 @@ data:extend(
 	{
 		type = "container",
 		name = "y_sc11",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/store/y-c11-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/store/y-c11-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.65 },
 		close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },
@@ -34,7 +34,7 @@ data:extend(
 	{
 		type = "logistic-container",
 		name = "y-rare-chest-log",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/store/y-lc11-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/store/y-lc11-icon.png",
 		flags = {"placeable-player", "player-creation"},
 		open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.65 },
 		close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },		
@@ -66,7 +66,7 @@ data:extend(
 	{
 		type = "container",
 		name = "y_c22",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/store/y-c22-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/store/y-c22-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.65 },
 		close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },
@@ -92,7 +92,7 @@ data:extend(
 	{
 		type = "container",
 		name = "y_cg33",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/store/y-c33-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/store/y-c33-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.65 },
 		close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },
@@ -118,7 +118,7 @@ data:extend(
 	{
 		type = "logistic-container",
 		name = "y-rare-m1bunker-log",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/store/y-cl33-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/store/y-cl33-icon.png",
 		flags = {"placeable-player", "player-creation"},
 		open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.65 },
 		close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },		
@@ -159,7 +159,7 @@ data:extend(
 	{
 		type = "container",
 		name = "y_sc44",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/store/y-c44-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/store/y-c44-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.65 },
 		close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },
@@ -187,7 +187,7 @@ data:extend(
 	{
 		type = "logistic-container",
 		name = "y_pc22",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/store/y-pc22-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/store/y-pc22-icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 0.5, result = "y_pc22"},
 		max_health = 800,
@@ -215,7 +215,7 @@ data:extend(
 	{
 		type = "logistic-container",
 		name = "y_rc22",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/store/y-rc22-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/store/y-rc22-icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 0.5, result = "y_rc22"},
 		max_health = 800,

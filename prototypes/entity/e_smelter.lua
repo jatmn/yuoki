@@ -5,7 +5,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_charger",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/charger_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/charger_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {hardness = 0.5, mining_time = 1, result = "y_charger"},
 		max_health = 400,
@@ -59,7 +59,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_smelter",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/smelter_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/smelter_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {hardness = 0.5, mining_time = 1, result = "y_smelter"},
 		max_health = 400,

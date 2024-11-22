@@ -27,7 +27,7 @@ data:extend(
 		{
 			type = "electric-turret",
 			name = "y-weapon-ztt",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/entity/defense/zzt-icon.png",
 			flags = {"placeable-player", "placeable-enemy", "player-creation"},
 			minable = {mining_time = 0.5, result = "y-weapon-ztt"},
@@ -153,7 +153,7 @@ data:extend(
 		{
 			type = "electric-turret",
 			name = "y-laser-def-s4",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/entity/defense/laser2x2_r16n-icon.png",
 			flags = {"placeable-player", "placeable-enemy", "player-creation"},
 			minable = {mining_time = 0.5, result = "y-laser-def-s4"},

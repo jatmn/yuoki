@@ -3,7 +3,7 @@ data:extend(
 		{
 			type = "boiler",
 			name = "y-boiler-iv",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/icons/boiler-3m-icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {hardness = 0.3, mining_time = 0.5, result = "y-boiler-iv"},
@@ -112,7 +112,7 @@ data:extend(
 		{
 			type = "generator",
 			name = "y-steam-turbine",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/entity/steam_turbine_n3_icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {mining_time = 1, result = "y-steam-turbine"},
@@ -201,7 +201,7 @@ data:extend(
 		{
 			type = "generator",
 			name = "y-obninsk-turbine",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/icons/rensuir-turbine_icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {mining_time = 1, result = "y-obninsk-turbine"},
@@ -264,7 +264,7 @@ data:extend(
 		{
 			type = "generator",
 			name = "y-notfall-generator-s2",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/entity/energy-t2/lt-v2p-icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {mining_time = 1, result = "y-notfall-generator-s2"},
@@ -322,7 +322,7 @@ data:extend(
 		{
 			type = "generator",
 			name = "y-seg",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/entity/energy-t2/seg-s_icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {mining_time = 1, result = "y-seg"},
@@ -372,7 +372,7 @@ data:extend(
 		{
 			type = "generator",
 			name = "y-seg-p",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/entity/energy-t2/seg-p_icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {mining_time = 1, result = "y-seg-p"},
@@ -426,7 +426,7 @@ data:extend(
 		{
 			type = "generator",
 			name = "y-meg-s",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/entity/energy-t2/meg-s-icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {mining_time = 1, result = "y-meg-s"},
@@ -475,7 +475,7 @@ data:extend(
 		{
 			type = "generator",
 			name = "y-beg",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/entity/energy-t2/beg_icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {mining_time = 1, result = "y-beg"},
@@ -522,7 +522,7 @@ data:extend(
 		{
 			type = "generator",
 			name = "y-heg",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/entity/energy-t2/heg-icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {mining_time = 1, result = "y-heg"},
@@ -569,7 +569,7 @@ data:extend(
 		{
 			type = "solar-panel",
 			name = "y-stirling-solar-dish",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/icons/stir-solar-dish-icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {hardness = 0.2, mining_time = 0.5, result = "y-stirling-solar-dish"},
@@ -594,7 +594,7 @@ data:extend(
 		{
 			type = "solar-panel",
 			name = "y_alien_solar",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/entity/yi_alien_solar_icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {mining_time = 1.0, result = "y_alien_solar"},
@@ -619,7 +619,7 @@ data:extend(
 		{
 			type = "solar-panel",
 			name = "y_alien_solar2",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/entity/yi_alien_solar2_icon.png",
 			flags = {"placeable-neutral", "player-creation"},
 			minable = {mining_time = 1.0, result = "y_alien_solar2"},

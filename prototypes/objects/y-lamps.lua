@@ -5,7 +5,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-tinylamp",
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/lamp-1-icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/lamp-1-icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "y-tinylamp",
@@ -16,7 +16,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-powerlamp",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/hl2_icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/hl2_icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "y-powerlamp",
@@ -27,7 +27,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-lamp-alien",
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/alien_lampe_icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/alien_lampe_icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "y-lamp-alien",
@@ -39,7 +39,7 @@ data:extend(
 	{
 		type = "item",
 		name = "yi-monument1",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/monument-1-icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/monument-1-icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "yi-monument1",
@@ -47,10 +47,10 @@ data:extend(
 		order = "ld",
 	},
 	
-	{ type = "item", name = "y_lamp_red", place_result = "y_lamp_red",  icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/y_lamp_red_icon.png", subgroup = "y-lamps", stack_size = 50, order = "2a", default_request_amount = 10, },
-	{ type = "item", name = "y_lamp_green", place_result = "y_lamp_green",  icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/y_lamp_green_icon.png", subgroup = "y-lamps", stack_size = 50, order = "2b", default_request_amount = 10,  },
-	{ type = "item", name = "y_lamp_blue", place_result = "y_lamp_blue",  icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/y_lamp_blue_icon.png", subgroup = "y-lamps", stack_size = 50, order = "2c", default_request_amount = 10,  },
-	{ type = "item", name = "y_lamp_yellow", place_result = "y_lamp_yellow",  icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/y_lamp_yellow_icon.png", subgroup = "y-lamps", stack_size = 50, order = "2d", default_request_amount = 10,  },
+	{ type = "item", name = "y_lamp_red", place_result = "y_lamp_red",  icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/y_lamp_red_icon.png", subgroup = "y-lamps", stack_size = 50, order = "2a", default_request_amount = 10, },
+	{ type = "item", name = "y_lamp_green", place_result = "y_lamp_green",  icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/y_lamp_green_icon.png", subgroup = "y-lamps", stack_size = 50, order = "2b", default_request_amount = 10,  },
+	{ type = "item", name = "y_lamp_blue", place_result = "y_lamp_blue",  icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/y_lamp_blue_icon.png", subgroup = "y-lamps", stack_size = 50, order = "2c", default_request_amount = 10,  },
+	{ type = "item", name = "y_lamp_yellow", place_result = "y_lamp_yellow",  icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/y_lamp_yellow_icon.png", subgroup = "y-lamps", stack_size = 50, order = "2d", default_request_amount = 10,  },
 		
 	-- recipe
 	{
@@ -72,7 +72,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-powerlamp",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/hl2_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/hl2_icon.png",
 		enabled = true,
 		ingredients = 
 		{    	  	
@@ -112,7 +112,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "yi-monument1", enabled = true,
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/monument-1-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/monument-1-icon.png",
 		ingredients = {
 			{type="item", name="y-crystal-cnd", amount=6},
 			{type="item", name="y-unicomp-raw", amount=12},
@@ -189,7 +189,7 @@ data:extend(
 	{
 		type = "lamp",
 		name = "y-tinylamp",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/lamp-1-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/lamp-1-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 0.5, result = "y-tinylamp"},
 		max_health = 50,
@@ -226,7 +226,7 @@ data:extend(
 	{
 		type = "lamp",
 		name = "y-powerlamp",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/hl2_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/hl2_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 0.5, result = "y-powerlamp"},
 		max_health = 50,
@@ -261,7 +261,7 @@ data:extend(
 	{
 		type = "lamp",
 		name = "y-lamp-alien",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/alien_lampe_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/alien_lampe_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 0.5, result = "y-lamp-alien"},
 		max_health = 50,
@@ -297,7 +297,7 @@ data:extend(
 	{
 		type = "lamp",
 		name = "yi-monument1",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/monument-1-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/monument-1-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.5, mining_time = 1.0, result = "yi-monument1"},
 		max_health = 500,
@@ -333,7 +333,7 @@ data:extend(
 	{
 		type = "lamp",
 		name = "y_lamp_red", minable = {hardness = 0.2, mining_time = 0.5, result = "y_lamp_red"},
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/y_lamp_red_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/y_lamp_red_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		max_health = 75, corpse = "small-remnants",
 		collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
@@ -363,7 +363,7 @@ data:extend(
 	{
 		type = "lamp",
 		name = "y_lamp_green", minable = {hardness = 0.2, mining_time = 0.5, result = "y_lamp_green"},
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/y_lamp_green_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/y_lamp_green_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		max_health = 75, corpse = "small-remnants",
 		collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
@@ -393,7 +393,7 @@ data:extend(
 	{
 		type = "lamp",
 		name = "y_lamp_yellow", minable = {hardness = 0.2, mining_time = 0.5, result = "y_lamp_yellow"},
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/y_lamp_yellow_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/y_lamp_yellow_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		max_health = 75, corpse = "small-remnants",
 		collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
@@ -423,7 +423,7 @@ data:extend(
 	{
 		type = "lamp",
 		name = "y_lamp_blue", minable = {hardness = 0.2, mining_time = 0.5, result = "y_lamp_blue"},
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/y_lamp_blue_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/y_lamp_blue_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		max_health = 75, corpse = "small-remnants",
 		collision_box = {{-0.1, -0.1}, {0.1, 0.1}},

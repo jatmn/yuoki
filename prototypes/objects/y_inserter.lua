@@ -5,7 +5,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-inserter-fast",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/y_smart_ins_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/inserters/y_smart_ins_icon.png",
 		enabled = true,
 		ingredients =
 		{
@@ -25,7 +25,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-inserter-fast",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/y_smart_ins_icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/inserters/y_smart_ins_icon.png",		
 		group = "yuoki",
 		--subgroup = "y-storage",	
 		subgroup = "y_line9",		
@@ -38,7 +38,7 @@ data:extend(
 		type = "inserter",
 		name = "y-inserter-fast",
 		stack = true,
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/y_smart_ins_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/inserters/y_smart_ins_icon.png",
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = { mining_time = 0.5, result = "y-inserter-fast"},
 		max_health = 150,
@@ -151,7 +151,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-inserter-s4",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/ins_red_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/inserters/ins_red_icon.png",
 		enabled = true,
 		ingredients =
 		{
@@ -171,7 +171,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-inserter-s4",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/ins_red_icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/inserters/ins_red_icon.png",		
 		group = "yuoki",
 		--subgroup = "y-storage",	
 		subgroup = "y-tools",		
@@ -184,7 +184,7 @@ data:extend(
 		type = "inserter",
 		name = "y-inserter-s4",
 		stack = true,
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/ins_red_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/inserters/ins_red_icon.png",
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-inserter-s4"},
 		max_health = 150,
@@ -309,7 +309,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-inserter-smart",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/ins_cyan_icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/inserters/ins_cyan_icon.png",		
 		group = "yuoki",
 		--subgroup = "y-storage",	
 		subgroup = "y_line9",		
@@ -322,7 +322,7 @@ data:extend(
 		type = "inserter",
 		name = "y-inserter-smart",
 		stack = true,
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/ins_cyan_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/inserters/ins_cyan_icon.png",
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-inserter-smart"},
 		max_health = 150,
@@ -452,7 +452,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-inserter-smart-long",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/inserter_long_smart.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/inserters/inserter_long_smart.png",		
 		group = "yuoki",
 		--subgroup = "y-storage",	
 		subgroup = "y_line9",		
@@ -465,7 +465,7 @@ data:extend(
 		type = "inserter",
 		name = "y-inserter-smart-long",
 		stack = true,
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/inserter_long_smart.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/inserters/inserter_long_smart.png",
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-inserter-smart-long"},
 		max_health = 150,
@@ -596,7 +596,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_inserter_smart_rightR2",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/special_ins_rights_icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/inserters/special_ins_rights_icon.png",		
 		group = "yuoki",
 		--subgroup = "y-storage",	
 		subgroup = "y_line9",		
@@ -609,7 +609,7 @@ data:extend(
 		type = "inserter",
 		name = "y_inserter_smart_rightR2",
 		stack = true,
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/special_ins_rights_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/inserters/special_ins_rights_icon.png",
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_inserter_smart_rightR2"},
 		max_health = 150,
@@ -741,7 +741,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_inserter_smart_leftR2",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/special_ins_lefts_icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/inserters/special_ins_lefts_icon.png",		
 		group = "yuoki",
 		--subgroup = "y-storage",	
 		subgroup = "y_line9",		
@@ -754,7 +754,7 @@ data:extend(
 		type = "inserter",
 		name = "y_inserter_smart_leftR2",
 		stack = true,
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/special_ins_lefts_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/inserters/special_ins_lefts_icon.png",
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_inserter_smart_leftR2"},
 		max_health = 150,
@@ -885,7 +885,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_inserter_smart_RR",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/special_ins_right_icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/inserters/special_ins_right_icon.png",		
 		group = "yuoki",
 		--subgroup = "y-storage",	
 		subgroup = "y_line9",		
@@ -898,7 +898,7 @@ data:extend(
 		type = "inserter",
 		name = "y_inserter_smart_RR",
 		stack = true,
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/special_ins_right_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/inserters/special_ins_right_icon.png",
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_inserter_smart_RR"},
 		max_health = 150,
@@ -1030,7 +1030,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_inserter_smart_LL",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/special_ins_left_icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/inserters/special_ins_left_icon.png",		
 		group = "yuoki",		
 		subgroup = "y_line9",		
 		order = "c6b",
@@ -1042,7 +1042,7 @@ data:extend(
 		type = "inserter",
 		name = "y_inserter_smart_LL",
 		stack = true,
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/inserters/special_ins_left_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/inserters/special_ins_left_icon.png",
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_inserter_smart_LL"},
 		max_health = 150,

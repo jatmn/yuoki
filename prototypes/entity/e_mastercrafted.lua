@@ -22,7 +22,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_obninsk_mc",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/obninsk_mc_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/obninsk_mc_icon.png",
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		order = "b[steam-power]-a5",
@@ -33,7 +33,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_obninsk_mc",
-		icon_size = 32,
+		icon_size = 64,
 		icon = "__Yuoki__/graphics/entity/obninsk_mc_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_obninsk_mc"},
@@ -117,7 +117,7 @@ data:extend(
 	{
 		type = "boiler",
 		name = "y_obninsk_mc",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/obninsk_mc_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/obninsk_mc_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.3, mining_time = 0.5, result = "y_obninsk_mc"},
 		max_health = 1500,
@@ -203,7 +203,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_steam_turbine_mc",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/steam_turbine_n3mc_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/steam_turbine_n3mc_icon.png",
 		ingredients = {
 			{type="item", name="y-steam-turbine", amount=1},
 			{type="item", name="y_rwtechsign", amount=1000},
@@ -218,7 +218,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_steam_turbine_mc",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/steam_turbine_n3mc_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/steam_turbine_n3mc_icon.png",
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		place_result = "y_steam_turbine_mc",
@@ -228,7 +228,7 @@ data:extend(
 	{
 		type = "generator",
 		name = "y_steam_turbine_mc",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/steam_turbine_n3mc_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/steam_turbine_n3mc_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {mining_time = 0.5, result = "y_steam_turbine_mc"},
 		max_health = 400,
@@ -412,7 +412,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_mc_underground_drill",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_digger_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/mc_digger_icon.png",
 		ingredients = {
 			{type="item", name="y-underground-drill", amount=1},
 			{type="item", name="y_rwtechsign", amount=4000},
@@ -432,7 +432,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_mc_underground_drill",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_digger_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/mc_digger_icon.png",
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		place_result = "y_mc_underground_drill",
@@ -442,7 +442,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_mc_underground_drill", minable = {mining_time = 0.5,result = "y_mc_underground_drill"},
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_digger_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/mc_digger_icon.png",
 		flags = {"placeable-neutral","player-creation"},		
 		max_health = 600,
 		--resistances = {{type = "fire",percent = 70}},
@@ -482,7 +482,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_mc_dirtwasher",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_washer_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/mc_washer_icon.png",
 		ingredients = {
 			{type="item", name="y-dirtwasher", amount=1},
 			{type="item", name="y_rwtechsign", amount=2500},
@@ -498,7 +498,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_mc_dirtwasher",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_washer_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/mc_washer_icon.png",
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		place_result = "y_mc_dirtwasher",
@@ -508,7 +508,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_mc_dirtwasher",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_washer_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/mc_washer_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {mining_time = 0.5,result = "y_mc_dirtwasher"},
 		max_health = 300,
@@ -579,7 +579,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_mc_e2_mining_drill",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_miner_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/mc_miner_icon.png",
 		ingredients = {
 			{type="item", name="y-mining-drill-e2", amount=1},
 			{type="item", name="y_rwtechsign", amount=3500},
@@ -600,7 +600,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_mc_e2_mining_drill",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_miner_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/mc_miner_icon.png",
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		place_result = "y_mc_e2_mining_drill",
@@ -609,7 +609,7 @@ data:extend(
 	{
 		type = "mining-drill",
 		name = "y_mc_e2_mining_drill",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_miner_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/mc_miner_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_mc_e2_mining_drill"},
 		max_health = 900,
@@ -682,7 +682,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_boiler4_mc",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_big_boiler_ig_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/mc_big_boiler_ig_icon.png",
 		ingredients = {
 			{type="item", name="y-boiler-iv", amount=1},
 			{type="item", name="y_greensign", amount=700},
@@ -696,7 +696,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y_boiler4_mc",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_big_boiler_ig_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/mc_big_boiler_ig_icon.png",
 		group = "yuoki-energy",
 		subgroup = "y_mastercrafted",		
 		order = "b[steam-power]-a3",
@@ -708,7 +708,7 @@ data:extend(
 	{
 		type = "boiler",
 		name = "y_boiler4_mc",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/mc_big_boiler_ig_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/mc_big_boiler_ig_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_boiler4_mc"},
 		max_health = 400,

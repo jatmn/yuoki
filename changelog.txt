@@ -1,7 +1,10 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.5
-Date: 00. 11. 2024
+Date: 22. 11. 2024
   Updates:
+    - Minimum game version changed to 2.0.20 due to various changes
+    - Upscaled some icons from 32 to 64 to help with other mods breaking when failing to interact with Yuoki properly (not sure if ill change this again or not)
+  Fixes:
     - Fixed water input direction on Frank & Peppe Industrial Smelter
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.4
@@ -10,6 +13,7 @@ Date: 15. 11. 2024
     - Some basic code clean up
     - Merged locale's into single files for easier translations
     - zh-CN locale added (Thanks PlexPt)
+  Fixes:
     - Fixed crash introduced in 2.0.18 related to tiles
     - Fixed module slots
 ---------------------------------------------------------------------------------------------------

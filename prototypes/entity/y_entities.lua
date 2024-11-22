@@ -5,7 +5,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "archsite",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/archsite_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/archsite_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {hardness = 0.2,mining_time = 0.5,result = "archsite"},
 		max_health = 200,
@@ -33,7 +33,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-underground-drill", minable = {mining_time = 0.5,result = "y-underground-drill"},
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/deep-drill-v1-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/deep-drill-v1-icon.png",
 		flags = {"placeable-neutral","player-creation"},		
 		max_health = 200,
 		resistances = {{type = "fire",percent = 70}},
@@ -72,7 +72,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-dirtwasher",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/dw.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/dw.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {mining_time = 0.5,result = "y-dirtwasher"},
 		max_health = 100,
@@ -144,7 +144,7 @@ data:extend(
 	{
 		type = "mining-drill",
 		name = "y-mining-drill",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/mine-drill-o-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/mine-drill-o-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-mining-drill"},
 		max_health = 300,
@@ -217,7 +217,7 @@ data:extend(
 	{
 		type = "mining-drill",
 		name = "y-mining-drill-e2",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/mine-drill-g-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/mine-drill-g-icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-mining-drill-e2"},
 		max_health = 300,
@@ -284,7 +284,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-atomic-quantum-composer",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/space-assembly-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/space-assembly-icon.png",
 		flags = {"placeable-neutral","placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-atomic-quantum-composer"},
 		max_health = 1500,
@@ -358,7 +358,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-atomic-constructor",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/cimota-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/cimota-icon.png",
 		flags = {"placeable-neutral","placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-atomic-constructor"},
 		max_health = 500,
@@ -433,7 +433,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-alien-infuser",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/alien_infuser_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/alien_infuser_icon.png",
 		flags = {"placeable-neutral","placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-alien-infuser"},
 		max_health = 800,
@@ -511,7 +511,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-water-gen",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/alien_water_gen_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/alien_water_gen_icon.png",
 		flags = {"placeable-neutral","placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-water-gen"},
 		max_health = 200,
@@ -575,7 +575,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-water-gen-e",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/alien_water_gen-e-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/alien_water_gen-e-icon.png",
 		flags = {"placeable-neutral","placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-water-gen-e"},
 		max_health = 200,
@@ -636,7 +636,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_water_mixer",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/water_mixer_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/water_mixer_icon.png",
 		flags = {"placeable-neutral","placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_water_mixer"},
 		max_health = 350,
@@ -709,7 +709,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-heat-form-press",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/pressure_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/pressure_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {mining_time = 0.5,result = "y-heat-form-press"},
 		max_health = 100,
@@ -788,7 +788,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-crusher",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/crusher-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/crusher-icon.png",
 		flags = {"placeable-neutral","placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-crusher"},
 		max_health = 300,

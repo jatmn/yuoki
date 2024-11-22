@@ -3,7 +3,7 @@ data:extend(
     {
       type = "wall",
       name = "y_wood_wall",
-      icon_size = 32,
+      icon_size = 64,
       icon = "__Yuoki__/graphics/entity/walls/wood_wall_icon.png",
       flags = {"placeable-neutral", "player-creation"},
       collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
@@ -261,7 +261,7 @@ data:extend(
     {
       type = "wall",
       name = "y-mud-wall",
-      icon_size = 32,
+      icon_size = 64,
       icon = "__Yuoki__/graphics/icons/m_wall_icon.png",
       flags = {"placeable-neutral", "player-creation"},
       collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
@@ -495,7 +495,7 @@ data:extend(
     {
       type = "wall",
       name = "y-rare-wall-basic",
-      icon_size = 32,
+      icon_size = 64,
       icon = "__Yuoki__/graphics/icons/rareore-wall-icon.png",
       flags = {"placeable-neutral", "player-creation"},
       collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
@@ -729,7 +729,7 @@ data:extend(
     {
       type = "wall",
       name = "y-rare-wall-adv",
-      icon_size = 32,
+      icon_size = 64,
       icon = "__Yuoki__/graphics/icons/rare2-wall-icon2.png",
       flags = {"placeable-neutral", "player-creation"},
       collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
@@ -963,7 +963,7 @@ data:extend(
     {
       type = "wall",
       name = "y-wall-forcefield",
-      icon_size = 32,
+      icon_size = 64,
       icon = "__Yuoki__/graphics/icons/wall-forcefield-icon.png",
       flags = {"placeable-neutral", "player-creation"},
       collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
@@ -1218,7 +1218,7 @@ data:extend(
 	{
 		type = "electric-turret",
 		name = "y-wall-forcefield-a",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/wall-forcefield-a-icon.png",		
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/wall-forcefield-a-icon.png",		
 		flags = { "placeable-player", "placeable-enemy", "player-creation"},
 		minable = { mining_time = 0.5, result = "y-wall-forcefield-a" },
 		max_health = 700,
@@ -1311,7 +1311,7 @@ data:extend(
     {
       type = "wall",
       name = "y_wall22_hardic",
-      icon_size = 32,
+      icon_size = 64,
       icon = "__Yuoki__/graphics/entity/walls/wall_hardic_icon.png",
       flags = {"placeable-neutral", "player-creation"},
       collision_box = {{-0.9, -0.9}, {0.8, 0.8}},

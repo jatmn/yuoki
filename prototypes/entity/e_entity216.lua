@@ -3,7 +3,7 @@ data:extend({
 	{
 		type = "radar",
 		name = "yi_radar",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/radar_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/radar_icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 0.5, result = "yi_radar"},
 		max_health = 250,
@@ -46,7 +46,7 @@ data:extend({
 	{
 		type = "beacon",
 		name = "yi_beacon",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/beacon_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/beacon_icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 1, result = "yi_beacon"},
 		max_health = 300,
@@ -117,7 +117,7 @@ data:extend({
 	{
 		type = "roboport",
 		name = "yi_roboport",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/yi_roboport_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/yi_roboport_icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 0.5, result = "yi_roboport"},
 		max_health = 750,

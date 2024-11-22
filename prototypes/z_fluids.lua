@@ -8,7 +8,7 @@ data:extend({
     {
 		type = "fluid", 
 		name = "y-con_water", 
-		icon_size = 32, 
+		icon_size = 64, 
 		icon = "__Yuoki__/graphics/icons/h2o_c2_icon.png", 
 		default_temperature = 20, 
 		max_temperature = 100, 
@@ -24,7 +24,7 @@ data:extend({
     {
 		type = "fluid", 
 		name = "y-liquid-uc2", 
-		icon_size = 32, 
+		icon_size = 64, 
 		icon = "__Yuoki__/graphics/icons/liquid_a2.png", 
 		default_temperature = 20, 
 		max_temperature = 250, 
@@ -40,7 +40,7 @@ data:extend({
     {
 		type = "fluid", 
 		name = "y-mechanical-force", 
-		icon_size = 32, 
+		icon_size = 64, 
 		icon = "__Yuoki__/graphics/icons/mf-1.png", 
 		default_temperature = 10, 
 		max_temperature = 500, 
@@ -56,7 +56,7 @@ data:extend({
     {
 		type = "fluid", 
 		name = "y_emulsion", 
-		icon_size = 32, 
+		icon_size = 64, 
 		icon = "__Yuoki__/graphics/icons/liquid_air_i32.png", 
 		default_temperature = 20, 
 		max_temperature = 50, 
@@ -72,7 +72,7 @@ data:extend({
     {
 		type = "fluid", 
 		name = "y_hydrogen", 
-		icon_size = 32, 
+		icon_size = 64, 
 		icon = "__Yuoki__/graphics/icons/obs/hydrogen_i32.png", 
 		default_temperature = 20, 
 		max_temperature = 100, 
@@ -88,7 +88,7 @@ data:extend({
     {
 		type = "fluid", 
 		name = "y_richemulsion", 
-		icon_size = 32, 
+		icon_size = 64, 
 		icon = "__Yuoki__/graphics/icons/hydraulik-fluid.png", 
 		default_temperature = 20, 
 		max_temperature = 50, 
@@ -104,7 +104,7 @@ data:extend({
     {
 		type = "fluid", 
 		name = "y_syngas_raw", 
-		icon_size = 32, 
+		icon_size = 64, 
 		icon = "__Yuoki__/graphics/icons/obs/h2o_c_icon.png", 
 		default_temperature = 20, 
 		max_temperature = 100, 

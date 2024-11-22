@@ -145,7 +145,7 @@ data:extend(
 		{
 			type = "recipe",
 			name = "y_ammo_plasma_recipe",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/icons/capsule_plasma.png",
 			enabled = true,
 			energy_required = 4,
@@ -224,7 +224,7 @@ data:extend(
 		{
 			type = "item",
 			name = "y-bullet-case",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/icons/shell-case.png",
 			group = "yuoki",
 			subgroup = "y-ammo",
@@ -235,7 +235,7 @@ data:extend(
 		{
 			type = "item",
 			name = "y_ammo_case",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/icons/ammo_capsel.png",
 			group = "yuoki",
 			subgroup = "y-ammo",
@@ -246,7 +246,7 @@ data:extend(
 		{
 			type = "ammo",
 			name = "y-ammo-acid-2",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/icons/ammo_poison.png",
 			ammo_category = "bullet",
 			ammo_type = {
@@ -285,7 +285,7 @@ data:extend(
 		{
 			type = "ammo",
 			name = "y-ammo-hohlspitz",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/icons/ammo_fire.png",
 			ammo_category = "bullet",
 			ammo_type = {
@@ -318,7 +318,7 @@ data:extend(
 		{
 			type = "ammo",
 			name = "y-ammo-explosiv",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/icons/ammo_wot.png",
 			ammo_category = "bullet",
 			ammo_type = {
@@ -353,7 +353,7 @@ data:extend(
 		{
 			type = "ammo",
 			name = "y-ammo-poison",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/icons/ammo_silver.png",
 			ammo_category = "bullet",
 			ammo_type = {
@@ -386,7 +386,7 @@ data:extend(
 		{
 			type = "ammo",
 			name = "y-ammo-biggun",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/icons/ammo_std.png",
 			ammo_category = "bullet",
 			ammo_type = {
@@ -419,7 +419,7 @@ data:extend(
 		{
 			type = "ammo",
 			name = "y-ammo-krakon",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/icons/ammo_wolfram.png",
 			ammo_category = "bullet",
 			ammo_type = {
@@ -452,7 +452,7 @@ data:extend(
 		{
 			type = "ammo",
 			name = "y_ammo_plasma",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/icons/capsule_plasma.png",
 			ammo_category = "plasma",
 			ammo_type = {
@@ -498,7 +498,7 @@ data:extend(
 		{
 			type = "ammo",
 			name = "y_ammo_flame",
-			icon_size = 32,
+			icon_size = 64,
 			icon = "__Yuoki__/graphics/icons/capsule_fire.png",
 			ammo_category = "flamethrower",
 			ammo_type = {

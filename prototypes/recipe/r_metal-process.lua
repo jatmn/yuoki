@@ -4,7 +4,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-infused-uca2",		
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/infused_uca2.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/infused_uca2.png",
 		enabled = true, energy_required = 60, ingredients = {{type="item", name="y-unicomp-a2", amount=1},}, 
 		results = { {type="item", name="y-infused-uca2", amount=1,}, {type="item", name="y_rwtechsign", amount=1,}, },	
 		main_product = "y-infused-uca2",
@@ -13,7 +13,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-infused-mud",		
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/fuel_cell_d.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/fuel_cell_d.png",
 		enabled = true, energy_required = 16, ingredients = {{type="item", name="y-dry_mud", amount=10},}, 
 		results = { {type="item", name="y-infused-mud", amount=10,}, {type="item", name="y_rwtechsign", amount=1,}, },	
 		main_product = "y-infused-mud",
@@ -61,7 +61,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-crush-blue_whead",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/dust_blue_whead.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/dust_blue_whead.png",
 		category = "y-crushing",
 		energy_required = 7,
 		ingredients = {
@@ -81,7 +81,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-crush-green_whead",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/dust_green_whead.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/dust_green_whead.png",
 		category = "y-crushing",
 		energy_required = 7,
 		ingredients = {
@@ -118,7 +118,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-press-richdust", category = "yuoki-formpress",		
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/uni-komp-a2-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/uni-komp-a2-icon.png",
 		enabled = true, energy_required = 8.0, ingredients = {{type="item", name="y-richdust", amount=20}}, results = { {type="item", name="y-unicomp-a2", amount=1,}, {type="item", name="y-slag", amount=1,},}, subgroup = "y_line4",
 		order="m-refined-x1",
 	},	
@@ -126,7 +126,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-smelt-richdust-recipe", category = "smelting",		
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/orange-stuff.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/orange-stuff.png",
 		enabled = true, energy_required = 3.0, ingredients = {{"y-richdust", 3}}, results = {{type="item", name="y-orange-stuff", amount=2,},}, subgroup = "yuoki-formpress",
 		order="m-refined-x2",
 	},	
@@ -134,7 +134,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-smelt-crush-res1", category = "yuoki-formpress",		
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/n4pellets_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/n4pellets_icon.png",
 		enabled = true, energy_required = 4.0, ingredients = {{type="item", name="y-crush-yres1", amount=3}}, results = { {type="item", name="y-refined-yres1", amount=1,}, {type="item", name="y-slag", amount=1,},}, subgroup = "y_line4",				
 		order="m-refined-b1",
 	},
@@ -153,7 +153,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-smelt-crush-res2", category = "yuoki-formpress",		
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/f7pellets_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/f7pellets_icon.png",
 		enabled = true, energy_required = 6.0, ingredients = {{type="item", name="y-crush-yres2", amount=2}}, results = { {type="item", name="y-refined-yres2", amount=1,}, {type="item", name="y-slag", amount=1,}, }, subgroup = "y_line4",								
 		order="m-refined-g1",
 	},
@@ -174,7 +174,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-fuel-reactor",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/reactor-fuel.png", enabled = true, energy_required = 10,
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/reactor-fuel.png", enabled = true, energy_required = 10,
 		ingredients ={
 			{type="item", name="y-raw-fuelnium", amount=1},
 			{type="item", name="y-unicomp-raw", amount=1},
@@ -199,7 +199,7 @@ data:extend(
 		},
 		results = { {type="item", name="y-quantrinum", amount=1,}, {type="item", name="ye_science_blue", amount=1,}, },		
 		main_product = "y-quantrinum",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/quantrinum.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/quantrinum.png",
 		subgroup = "y-tech", order="m-quantrinum",
 	},	
 	-- Lachnan-Crystal
@@ -216,7 +216,7 @@ data:extend(
 		},
 		results = { {type="item", name="y-crystal-cnd", amount=1,}, {type="item", name="y_rwtechsign", amount=1,}, },		
 		main_product = "y-crystal-cnd",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/crystal_3.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/crystal_3.png",
 		subgroup = "y-tech", order="m-crystal",
 	},	
 	-- Alien Fuel Cell
@@ -224,7 +224,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-fuel-alien-recipe",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/fuel_cell_b.png", enabled = true, energy_required = 30,
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/fuel_cell_b.png", enabled = true, energy_required = 30,
 		category = "yuoki-wonder-recipe",
 		ingredients ={{"y-fuel-reactor", 1},}, result = "y-fuel-alien", result_count = 1,			
 		subgroup = "y-energy",				
@@ -245,7 +245,7 @@ data:extend(
 			{type="fluid", name="y-con_water", amount=500 }
 		},
 		enabled = true,				
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/pure-copper-n.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/pure-copper-n.png",
 		group = "yuoki", subgroup = "y_line2", order="z-b-copper",		
 	},
 	
@@ -264,7 +264,7 @@ data:extend(
 			{type="fluid", name="y-con_water", amount=500 }
 		},
 		enabled = true,				
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/pure-iron-n.png",		
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/pure-iron-n.png",		
 		group = "yuoki", subgroup = "y_line2", order="z-a-iron",		
 	},	
 
@@ -286,7 +286,7 @@ data:extend(
 			{type="fluid", name="y-con_water", amount=200 }
 		},
 		enabled = true,				
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/pure_copper_wt.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/pure_copper_wt.png",
 		group = "yuoki", subgroup = "y_line2", order="z-b-copper",		
 	},	
 	{
@@ -306,7 +306,7 @@ data:extend(
 			{type="fluid", name="y-con_water", amount=200 }
 		},
 		enabled = true,				
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/pure_iron_wt.png",		
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/pure_iron_wt.png",		
 		group = "yuoki", subgroup = "y_line2", order="z-a-iron",		
 	},	
 
@@ -320,7 +320,7 @@ data:extend(
 		results = {{type="item", name="copper-plate", amount=2},},
 		--result = "copper-plate",
 		--result_count = 2,
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/pure-copper-n.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/pure-copper-n.png",
 		order="m-refined-copper",
 	},
 	{
@@ -333,7 +333,7 @@ data:extend(
 		results = {{type="item", name="iron-plate", amount=2},},
 		--result = "iron-plate",
 		--result_count = 2,
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/pure-iron-n.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/pure-iron-n.png",
 		order="m-refined-iron",		
 	},
 		

@@ -77,7 +77,7 @@ if resource_parameters.name == "y-res2" then gfx_size, frame_count = 40, 8 end
     type = "resource",
     name = resource_parameters.name,
 	icon = "__Yuoki__/graphics/icons/" .. resource_parameters.name .. ".png",
-    icon_size = 32,
+    icon_size = 64,
     icon_mipmaps = 1,
     flags = {"placeable-neutral"},
     order="a-b-"..resource_parameters.order,
@@ -205,7 +205,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-res1",
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/uni-com-pur.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/uni-com-pur.png",		
 		subgroup = "raw-resource",
 		order = "r",
 		stack_size = 250,
@@ -214,7 +214,7 @@ data:extend(
 	{
 		type = "resource",
 		name = "y-res1",
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/uni-com-pur.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/uni-com-pur.png",
 		flags = {"placeable-neutral"},
 		order="a-b-d",
 		minable =

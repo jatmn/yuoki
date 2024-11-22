@@ -5,7 +5,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-stargate", minable = {hardness = 0.2,mining_time = 0.5,result = "y-stargate"},
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/laika-gate-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/laika-gate-icon.png",
 		flags = {"placeable-neutral","player-creation"},		
 		max_health = 200,
 		resistances = {{type = "fire",percent = 70}},
@@ -39,7 +39,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y-fame-gen", minable = {hardness = 0.2,mining_time = 0.5,result = "y-fame-gen"},
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/thanks-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/thanks-icon.png",
 		flags = {"placeable-neutral","player-creation"},		
 		max_health = 500,
 		resistances = {{type = "fire",percent = 70}},
@@ -90,7 +90,7 @@ data:extend(
 	},		
 	
 	{
-		type="item", name="ye_science_ultimate",  icon_size = 32, icon = "__Yuoki__/graphics/entity/ultimate_science_icon.png",
+		type="item", name="ye_science_ultimate",  icon_size = 64, icon = "__Yuoki__/graphics/entity/ultimate_science_icon.png",
 		group="yuoki-energy", subgroup="y_ultimate_products", order="a0", place_result = "ye_science_ultimate", 
 		stack_size = 1, default_request_amount = 1,
 	},	
@@ -98,7 +98,7 @@ data:extend(
 	{
 		type = "radar",
 		name = "ye_science_ultimate",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/ultimate_science_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/ultimate_science_icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 0.5, result = "ye_science_ultimate"},
 		max_health = 7000,
@@ -148,14 +148,14 @@ data:extend(
 		order="a2",
 	},			
 	{
-		type="item", name="y_trade_ultimate",  icon_size = 32, icon = "__Yuoki__/graphics/entity/trade_ultimate_icon.png", 
+		type="item", name="y_trade_ultimate",  icon_size = 64, icon = "__Yuoki__/graphics/entity/trade_ultimate_icon.png", 
 		group="yuoki-energy", subgroup="y_ultimate_products", order="a2", place_result = "y_trade_ultimate", 
 		stack_size = 1, default_request_amount = 1,
 	},	
 	{
 		type = "assembling-machine",
 		name = "y_trade_ultimate",
-		 icon_size = 32, icon = "__Yuoki__/graphics/entity/trade_ultimate_icon.png",
+		 icon_size = 64, icon = "__Yuoki__/graphics/entity/trade_ultimate_icon.png",
 		flags = {"placeable-neutral","placeable-player", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 0.5, result = "y_trade_ultimate"},
 		max_health = 5000,

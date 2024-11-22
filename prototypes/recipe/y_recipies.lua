@@ -17,7 +17,7 @@ data:extend(
 		group = "yuoki",
 		subgroup = "y-fuel",		
 		order = "coal-b",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/coal_brikett_32.png",    		
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/coal_brikett_32.png",    		
 	},
 
 	{
@@ -35,7 +35,7 @@ data:extend(
 		group = "yuoki",
 		subgroup = "y-fuel",		
 		order = "coal-s",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/coal_briketts.png",    
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/coal_briketts.png",    
 		
 	},
 
@@ -43,7 +43,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-coaldust",
-		enabled = true,	energy_required = 2, category = "y-crushing", group = "yuoki", subgroup = "y-fuel", order = "coal-s",  icon_size = 32, icon =  "__Yuoki__/graphics/icons/coal-dust.png",    		
+		enabled = true,	energy_required = 2, category = "y-crushing", group = "yuoki", subgroup = "y-fuel", order = "coal-s",  icon_size = 64, icon =  "__Yuoki__/graphics/icons/coal-dust.png",    		
 		ingredients ={
 			{type="item", name="coal", amount=4},
 		},
@@ -53,7 +53,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-coaldust-mixing",
-		enabled = true,	energy_required = 2, category = "yuoki-formpress", group = "yuoki", subgroup = "y-fuel", order = "coal-s",  icon_size = 32, icon =  "__Yuoki__/graphics/icons/mix-fuel.png",    		
+		enabled = true,	energy_required = 2, category = "yuoki-formpress", group = "yuoki", subgroup = "y-fuel", order = "coal-s",  icon_size = 64, icon =  "__Yuoki__/graphics/icons/mix-fuel.png",    		
 		ingredients ={
 			{type="item", name="y-coal-dust", amount=2},
 			{type="item", name="y-crush-yres2", amount=2},
@@ -64,7 +64,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-mixfuel-load",
-		enabled = true,	energy_required = 2, category = "yuoki-formpress", group = "yuoki", subgroup = "y-fuel", order = "coal-s",  icon_size = 32, icon =  "__Yuoki__/graphics/icons/mix-fuel-loaded.png",    		
+		enabled = true,	energy_required = 2, category = "yuoki-formpress", group = "yuoki", subgroup = "y-fuel", order = "coal-s",  icon_size = 64, icon =  "__Yuoki__/graphics/icons/mix-fuel-loaded.png",    		
 		ingredients ={
 			{type="item", name="y-mixed-fuel", amount=1},
 			{type="item", name="y-refined-yres2", amount=1},
@@ -82,7 +82,7 @@ data:extend(
 		group = "yuoki",
 		subgroup = "y-fuel",		
 		order = "wooden",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/wood_brikett_32.png",    		
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/wood_brikett_32.png",    		
 	},
 
 	{
@@ -99,7 +99,7 @@ data:extend(
 		group = "yuoki",
 		subgroup = "y-fuel",		
 		order = "wooden",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/wood-pellets.png",    		
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/wood-pellets.png",    		
 	},	
 		
 	{
@@ -116,7 +116,7 @@ data:extend(
 			{type="item", name="y-toxic-dust", amount=1, },			
 		},		
 		enabled = true,				
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/c_mud_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/c_mud_icon.png",
 		group = "yuoki",
 		subgroup = "y_line3", order="a1",	
 	},	
@@ -130,7 +130,7 @@ data:extend(
 		results = {{type="item", name="y-dry_mud", amount=1},},
 		--result = "y-dry_mud",
 		--result_count = 1,
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/dry_mud_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/dry_mud_icon.png",
 		category = "yuoki-formpress",		
 		group = "yuoki",
 		subgroup = "y_line4", order="a2",
@@ -145,7 +145,7 @@ data:extend(
 		results = {{type="item", name="y-mixed-fuel", amount=1},},
 		--result = "y-mixed-fuel",
 		--result_count = 1,
-		icon_size = 32, icon = "__Yuoki__/graphics/icons/mix-fuel.png",
+		icon_size = 64, icon = "__Yuoki__/graphics/icons/mix-fuel.png",
 		category = "yuoki-formpress",		
 		group = "yuoki-energy",
 		subgroup = "y-fuel", order="a8",
@@ -177,7 +177,7 @@ data:extend(
 			{type="item", name="y-crush-yres1", amount=1, },			
 			{type="item", name="y-crush-yres2", amount=1, },			
 		},		
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/bg-dusts.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/bg-dusts.png",
 		category = "yuoki-formpress",		
 		group = "yuoki",
 		subgroup = "y_line4", order="a0",

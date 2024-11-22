@@ -19,7 +19,7 @@ data:extend({
 	  },
 	  main_product = "y_crystal_dust",
 	  icon = "__Yuoki__/graphics/icons/bg-dusts.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "0", group = "yuoki", subgroup = "y_line3",
 	},
 
@@ -38,7 +38,7 @@ data:extend({
 	  },
 	  main_product = "y_richemulsion",
 	  icon = "__Yuoki__/graphics/icons/hydraulik-fluid.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "0", group = "yuoki_liquids", subgroup = "y-fluid",
 	},
 
@@ -58,7 +58,7 @@ data:extend({
 	  },
 	  main_product = "y_emulsion",
 	  icon = "__Yuoki__/graphics/icons/liquid_air_i32.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "0", group = "yuoki_liquids", subgroup = "y-fluid",
 	},
 
@@ -78,7 +78,7 @@ data:extend({
 	  },
 	  main_product = "y_trockner",
 	  icon = "__Yuoki__/graphics/entity/base_factory_icon.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "u", group = "yuoki", subgroup = "y_line1",
 	},
 
@@ -98,7 +98,7 @@ data:extend({
 	  },
 	  main_product = "y_hppump",
 	  icon = "__Yuoki__/graphics/entity/hppump_icon.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "v", group = "yuoki_liquids", subgroup = "y_refine_machinery",
 	},
 
@@ -139,7 +139,7 @@ data:extend({
 	  },
 	  main_product = "y_mixer_emu",
 	  icon = "__Yuoki__/graphics/entity/water_mixer_icon.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "u", group = "yuoki_liquids", subgroup = "y_refine_machinery",
 	},
 
@@ -158,7 +158,7 @@ data:extend({
 	  },
 	  main_product = "y_steinmehl",
 	  icon = "__Yuoki__/graphics/icons/stone-dust.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "f", group = "yuoki", subgroup = "y_line3",
 	},
 
@@ -182,7 +182,7 @@ data:extend({
 	  },
 	  main_product = "ye_science_blue",
 	  icon = "__Yuoki__/graphics/icons/tech02_32.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "9", group = "yuoki-atomics", subgroup = "y-stargate-4",
 	},
 
@@ -202,7 +202,7 @@ data:extend({
 	  },
 	  main_product = "y_mox2fuelsplited",
 	  icon = "__Yuoki__/graphics/icons/mox-c_splitted_icon.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "9", group = "yuoki-energy", subgroup = "y-fuel",
 	},
 
@@ -221,7 +221,7 @@ data:extend({
 	  },
 	  main_product = "y_wood_wall",
 	  icon = "__Yuoki__/graphics/entity/walls/wood_wall_icon.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "1", group = "yuoki", subgroup = "y_defense_walls",
 	},
 
@@ -241,7 +241,7 @@ data:extend({
 	  },
 	  main_product = "y_mox2fuel",
 	  icon = "__Yuoki__/graphics/icons/mox2l.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "8", group = "yuoki-energy", subgroup = "y-fuel",
 	},
 
@@ -262,7 +262,7 @@ data:extend({
 	  },
 	  main_product = "y_mox2mixed",
 	  icon = "__Yuoki__/graphics/icons/mox2p.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "8", group = "yuoki-energy", subgroup = "y-fuel",
 	},
 
@@ -282,7 +282,7 @@ data:extend({
 	  },
 	  main_product = "y_mox1fuel",
 	  icon = "__Yuoki__/graphics/icons/mox1f.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "8", group = "yuoki-energy", subgroup = "y-fuel",
 	},
 
@@ -303,7 +303,7 @@ data:extend({
 	  },
 	  main_product = "y_mox1mixed",
 	  icon = "__Yuoki__/graphics/icons/mox1e.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "8", group = "yuoki-energy", subgroup = "y-fuel",
 	},
 
@@ -324,7 +324,7 @@ data:extend({
 	  },
 	  main_product = "y_moxmixer",
 	  icon = "__Yuoki__/graphics/entity/boiler-sh_icon.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "9", group = "yuoki", subgroup = "y_line1b",
 	},
 
@@ -344,7 +344,7 @@ data:extend({
 	  },
 	  main_product = "yi_graphite",
 	  icon = "__Yuoki__/graphics/icons/graphite_rod.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "u", group = "yuoki", subgroup = "yuoki-formpress",
 	},
 
@@ -365,7 +365,7 @@ data:extend({
 	  },
 	  main_product = "y_signal_pole",
 	  icon = "__Yuoki__/graphics/entity/signal_pole_icon.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "h", group = "yuoki-energy", subgroup = "y-electric",
 	},
 
@@ -384,7 +384,7 @@ data:extend({
 	  },
 	  main_product = "y-orange-stuff",
 	  icon = "__Yuoki__/graphics/icons/orange-stuff.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "m-refined-x2", group = "yuoki", subgroup = "yuoki-formpress",
 	},
 
@@ -404,7 +404,7 @@ data:extend({
 	  },
 	  main_product = "y-conductive-wire-1",
 	  icon = "__Yuoki__/graphics/gfx/wire_1.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "pe6", group = "yuoki", subgroup = "y_parts_e",
 	},
 
@@ -425,7 +425,7 @@ data:extend({
 	  },
 	  main_product = "y_structure_electric",
 	  icon = "__Yuoki__/graphics/icons/caseing-n4wCable.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "p-g2a", group = "yuoki", subgroup = "y-parts",
 	},
 
@@ -445,7 +445,7 @@ data:extend({
 	  },
 	  main_product = "y_tile_slagbricks",
 	  icon = "__Yuoki__/graphics/entity/path_tiles/bricks_3.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "c", group = "yuoki-energy", subgroup = "y_tiles",
 	},
 
@@ -464,7 +464,7 @@ data:extend({
 	  },
 	  main_product = "y_tile_slagpattern",
 	  icon = "__Yuoki__/graphics/entity/path_tiles/muster_2.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "b", group = "yuoki-energy", subgroup = "y_tiles",
 	},
 
@@ -483,7 +483,7 @@ data:extend({
 	  },
 	  main_product = "y_tile_slagfilled",
 	  icon = "__Yuoki__/graphics/entity/path_tiles/pslag_icon.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "a", group = "yuoki-energy", subgroup = "y_tiles",
 	},
 
@@ -502,7 +502,7 @@ data:extend({
 	  },
 	  main_product = "stone-brick",
 	  icon = "__Yuoki__/graphics/icons/slag_brick2stone.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "m", group = "yuoki", subgroup = "yuoki-formpress",
 	},
 
@@ -521,7 +521,7 @@ data:extend({
 	  },
 	  main_product = "y_slag_brick",
 	  icon = "__Yuoki__/graphics/icons/slag_brick.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "l", group = "yuoki", subgroup = "y_line4",
 	},
 
@@ -540,7 +540,7 @@ data:extend({
 	  },
 	  main_product = "y_slag_granulate",
 	  icon = "__Yuoki__/graphics/icons/dust_slag.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "k", group = "yuoki", subgroup = "y_line3",
 	},
 
@@ -563,7 +563,7 @@ data:extend({
 	  },
 	  main_product = "steel-plate",
 	  icon = "__Yuoki__/graphics/icons/stahl_recipe.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "0", group = "yuoki", subgroup = "yuoki-formpress",
 	},
 
@@ -586,7 +586,7 @@ data:extend({
 	  },
 	  main_product = "y_block_cold",
 	  icon = "__Yuoki__/graphics/icons/copper_recipe.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "0", group = "yuoki", subgroup = "yuoki-formpress",
 	},
 
@@ -609,7 +609,7 @@ data:extend({
 	  },
 	  main_product = "y_block_cold",
 	  icon = "__Yuoki__/graphics/icons/plates_recipe.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "0", group = "yuoki", subgroup = "yuoki-formpress",
 	},
 
@@ -629,7 +629,7 @@ data:extend({
 	  },
 	  main_product = "y_block_heat",
 	  icon = "__Yuoki__/graphics/entity/block_heat_icon.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "t", group = "yuoki", subgroup = "y_parts_e",
 	},
 
@@ -650,7 +650,7 @@ data:extend({
 	  },
 	  main_product = "y_block_cold",
 	  icon = "__Yuoki__/graphics/entity/block_cold_icon.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "s", group = "yuoki", subgroup = "y_parts_e",
 	},
 
@@ -672,7 +672,7 @@ data:extend({
 	  },
 	  main_product = "y_smelter",
 	  icon = "__Yuoki__/graphics/entity/smelter_icon.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "t", group = "yuoki", subgroup = "y_line1b",
 	},
 
@@ -694,7 +694,7 @@ data:extend({
 	  },
 	  main_product = "y_charger",
 	  icon = "__Yuoki__/graphics/entity/charger_icon.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "s", group = "yuoki", subgroup = "y_line1b",
 	},
 
@@ -712,7 +712,7 @@ data:extend({
 	  },
 	  main_product = "ypfw_trader_sign",
 	  icon = "__Yuoki__/graphics/icons/trader_sign.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "a", group = "yuoki", subgroup = "y-stargate-4",
 	},
 
@@ -730,7 +730,7 @@ data:extend({
 	  },
 	  main_product = "y_greensign",
 	  icon = "__Yuoki__/graphics/icons/green_sign.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "d1", group = "yuoki-energy", subgroup = "y_ultimate_products",
 	},
 
@@ -749,7 +749,7 @@ data:extend({
 	  },
 	  main_product = "y-fame",
 	  icon = "__Yuoki__/graphics/icons/green_sign_retrade.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "b1", group = "yuoki-atomics", subgroup = "y-stargate-f",
 	},
 
@@ -768,7 +768,7 @@ data:extend({
 	  },
 	  main_product = "y-fame",
 	  icon = "__Yuoki__/graphics/icons/tech02_retrade.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "b4", group = "yuoki-atomics", subgroup = "y-stargate-f",
 	},
 
@@ -787,7 +787,7 @@ data:extend({
 	  },
 	  main_product = "y-fame",
 	  icon = "__Yuoki__/graphics/icons/tech-sign_retrade.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "b3", group = "yuoki-atomics", subgroup = "y-stargate-f",
 	},
 
@@ -806,7 +806,7 @@ data:extend({
 	  },
 	  main_product = "y-fame",
 	  icon = "__Yuoki__/graphics/icons/trader_sign_retrade.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "b2", group = "yuoki-atomics", subgroup = "y-stargate-f",
 	},
 
@@ -825,7 +825,7 @@ data:extend({
 	  },
 	  main_product = "y-fame",
 	  icon = "__Yuoki__/graphics/icons/fame-icon.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "a", group = "yuoki-atomics", subgroup = "y-stargate-f",
 	},
 
@@ -848,7 +848,7 @@ data:extend({
 	  },
 	  main_product = "yi_construction-robot",
 	  icon = "__Yuoki__/graphics/icons/rob_con_icon.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "K2", group = "yuoki", subgroup = "y-tools",
 	},
 
@@ -871,7 +871,7 @@ data:extend({
 	  },
 	  main_product = "yi_logistic-robot",
 	  icon = "__Yuoki__/graphics/icons/rob_log_icon.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "K1", group = "yuoki", subgroup = "y-tools",
 	},
 
@@ -890,7 +890,7 @@ data:extend({
 	  },
 	  main_product = "y_gauge",
 	  icon = "__Yuoki__/graphics/icons/gauge.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "0", group = "yuoki_liquids", subgroup = "y_refine_parts",
 	},
 
@@ -910,7 +910,7 @@ data:extend({
 	  },
 	  main_product = "y_flowcheck_10",
 	  icon = "__Yuoki__/graphics/icons/flow_indicator_icon.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "0", group = "yuoki_liquids", subgroup = "y_refine_parts",
 	},
 
@@ -932,7 +932,7 @@ data:extend({
 	  },
 	  main_product = "y_quantrinum_infused",
 	  icon = "__Yuoki__/graphics/icons/charged_quantrinum_icon.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "0", group = "vanilla", subgroup = "y-tech",
 	},
 
@@ -952,7 +952,7 @@ data:extend({
 	  },
 	  main_product = "y_crystal2_combined",
 	  icon = "__Yuoki__/graphics/icons/blue_style.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "0", group = "vanilla", subgroup = "y-tech",
 	},
 
@@ -974,7 +974,7 @@ data:extend({
 	  },
 	  main_product = "light-oil",
 	  icon = "__Yuoki__/graphics/icons/ctl_ft_32.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "c2", group = "yuoki_liquids", subgroup = "y-fluid",
 	},
 
@@ -993,7 +993,7 @@ data:extend({
 	  },
 	  main_product = "y_syngas_raw",
 	  icon = "__Yuoki__/graphics/icons/obs/h2o_c_icon.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "c4", group = "yuoki_liquids", subgroup = "y-fluid",
 	},
 
@@ -1013,7 +1013,7 @@ data:extend({
 	  },
 	  main_product = "y_catalyst_ft",
 	  icon = "__Yuoki__/graphics/icons/icon_regftcat32.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "bb", group = "yuoki_liquids", subgroup = "y_refine_material",
 	},
 
@@ -1033,7 +1033,7 @@ data:extend({
 	  },
 	  main_product = "y_catalyst_bp",
 	  icon = "__Yuoki__/graphics/icons/icon_regbpcat28.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "ba", group = "yuoki_liquids", subgroup = "y_refine_material",
 	},
 
@@ -1055,7 +1055,7 @@ data:extend({
 	  },
 	  main_product = "y_usedcatalyst",
 	  icon = "__Yuoki__/graphics/icons/ctl_b32.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "c1", group = "yuoki_liquids", subgroup = "y-fluid",
 	},
 
@@ -1076,7 +1076,7 @@ data:extend({
 	  },
 	  main_product = "y_hydrogen",
 	  icon = "__Yuoki__/graphics/icons/obs/hydrogen_i32.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "d", group = "yuoki_liquids", subgroup = "y-fluid",
 	},
 
@@ -1095,7 +1095,7 @@ data:extend({
 	  },
 	  main_product = "y_syngas_raw",
 	  icon = "__Yuoki__/graphics/icons/obs/h2o_c_icon.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "c3", group = "yuoki_liquids", subgroup = "y-fluid",
 	},
 
@@ -1115,7 +1115,7 @@ data:extend({
 	  },
 	  main_product = "y_catalyst_ft",
 	  icon = "__Yuoki__/graphics/icons/icon_ftcat32.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "ab", group = "yuoki_liquids", subgroup = "y_refine_material",
 	},
 
@@ -1136,7 +1136,7 @@ data:extend({
 	  },
 	  main_product = "y_catalyst_bp",
 	  icon = "__Yuoki__/graphics/icons/icon_bpcat28.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "aa", group = "yuoki_liquids", subgroup = "y_refine_material",
 	},
 
@@ -1155,7 +1155,7 @@ data:extend({
 	  },
 	  main_product = "y_organic_dust",
 	  icon = "__Yuoki__/graphics/icons/sawdust_32.png",
-	  icon_size = 32,
+	  icon_size = 64,
 	  order = "0", group = "yuoki_liquids", subgroup = "y_refine_raws",
 	},
 

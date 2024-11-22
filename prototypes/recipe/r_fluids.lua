@@ -19,7 +19,7 @@ data:extend(
 		group = "yuoki",
 		subgroup = "y-fluid",
 		order = "c-a",		
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/ctl_b32.png",       
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/ctl_b32.png",       
 	},
 
 	{
@@ -40,7 +40,7 @@ data:extend(
 		group = "yuoki",
 		subgroup = "y-fluid",
 		order = "c-b",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/ctl_ft_32.png",       
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/ctl_ft_32.png",       
 	},
 	
 	{
@@ -61,7 +61,7 @@ data:extend(
 		group = "yuoki",
 		subgroup = "y-fluid",
 		order = "c-c",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/wood-gas.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/wood-gas.png",
 	},  
 	]]		
 	{
@@ -75,7 +75,7 @@ data:extend(
 			{type="fluid", name="water", amount=20,},
 		},
 		results={{type="fluid", name="sulfuric-acid", amount=10, },},
-		-- icon_size = 32, icon =  "__Yuoki__/graphics/gfx/carbon_dioxide.png",		
+		-- icon_size = 64, icon =  "__Yuoki__/graphics/gfx/carbon_dioxide.png",		
 		group = "yuoki",
 		subgroup = "y-fluid",
 		enabled = true,

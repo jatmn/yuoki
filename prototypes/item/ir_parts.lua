@@ -4,7 +4,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-bluegear",
-		enabled = true,	energy_required = 0.5,  group = "yuoki", subgroup = "y-parts", order = "p-g1",  icon_size = 32, icon =  "__Yuoki__/graphics/icons/bluegear-icon.png",    		
+		enabled = true,	energy_required = 0.5,  group = "yuoki", subgroup = "y-parts", order = "p-g1",  icon_size = 64, icon =  "__Yuoki__/graphics/icons/bluegear-icon.png",    		
 		ingredients ={
 			{type="item", name="steel-plate", amount=1},
 			{type="item", name="y-refined-yres1", amount=1},
@@ -17,7 +17,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_structure_element",
-		enabled = true,	energy_required = 0.5,  group = "yuoki", subgroup = "y-parts", order = "p-g2",  icon_size = 32, icon =  "__Yuoki__/graphics/icons/structur_element.png",    		
+		enabled = true,	energy_required = 0.5,  group = "yuoki", subgroup = "y-parts", order = "p-g2",  icon_size = 64, icon =  "__Yuoki__/graphics/icons/structur_element.png",    		
 		ingredients ={
 			{type="item", name="iron-plate", amount=4},
 			{type="item", name="y-unicomp-raw", amount=2},
@@ -30,7 +30,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_structure_vessel",
-		enabled = true,	energy_required = 0.5,  group = "yuoki", subgroup = "y-parts", order = "p-g3",  icon_size = 32, icon =  "__Yuoki__/graphics/icons/vessel_structure_icon.png",    		
+		enabled = true,	energy_required = 0.5,  group = "yuoki", subgroup = "y-parts", order = "p-g3",  icon_size = 64, icon =  "__Yuoki__/graphics/icons/vessel_structure_icon.png",    		
 		ingredients ={
 			{type="item", name="steel-plate", amount=2},
 			{type="item", name="y-unicomp-raw", amount=1},
@@ -62,7 +62,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-basic-st2-mf",
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/maschine-frame-t2.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/maschine-frame-t2.png",
 		ingredients = {
 			{type="item", name="y-conductive-coil-1", amount=2},
 			{type="item", name="y_structure_electric", amount=3},
@@ -94,7 +94,7 @@ data:extend(
 	{
 		type = "item",
 		name = "y-heat-pipe",
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/heat-pipe.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/heat-pipe.png",
 		order="p-g6",
 		subgroup = "y_parts_e",	
 		stack_size = 100, default_request_amount = 20, 

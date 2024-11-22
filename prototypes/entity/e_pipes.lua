@@ -738,7 +738,7 @@ data:extend(
 	{
 		type = "pipe",
 		name = "y-pipe-h",
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-h.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/pipe-h.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.1, result = "pipe"},
 		max_health = 50,
@@ -787,7 +787,7 @@ data:extend(
 	{
 		type = "pipe",
 		name = "y-pipe-v",
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-v.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/pipe-v.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.1, result = "pipe"},
 		max_health = 50,
@@ -836,7 +836,7 @@ data:extend(
 	{
 		type = "storage-tank",
 		name = "y-valve-direction-buffer",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/pressure_pipe_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/pressure_pipe_icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.1, result = "y-valve-direction-buffer"},
 		max_health = 150,
@@ -975,7 +975,7 @@ data:extend(
 	{
 		type = "pipe",
 		name = "y-pipe-hc",
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-hc.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/pipe-hc.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.1, result = "pipe"},
 		max_health = 80,
@@ -1023,7 +1023,7 @@ data:extend(
 	{
 		type = "pipe-to-ground",
 		name = "y-pipe-to-ground-hc",
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-tg-hc.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/pipe-tg-hc.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.1, result = "pipe-to-ground"},
 		max_health = 80,
@@ -1182,7 +1182,7 @@ data:extend(
 {
 	type = "pipe",
 	name = "y-pipe-ec",
-	icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-ec.png",
+	icon_size = 64, icon =  "__Yuoki__/graphics/icons/pipe-ec.png",
 	flags = {"placeable-neutral", "player-creation"},
 	minable = {mining_time = 0.1, result = "pipe"},
 	max_health = 100,
@@ -1230,7 +1230,7 @@ data:extend(
 	{
 		type = "pipe-to-ground",
 		name = "y-pipe-to-ground-ec",
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/pipe-tg-ec.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/pipe-tg-ec.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {mining_time = 0.1, result = "pipe-to-ground"},
 		max_health = 100,
@@ -1391,7 +1391,7 @@ data:extend(
 	{
 		type = "storage-tank",
 		name = "y-tank-1000",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/tank-1000-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/tank-1000-icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-tank-1000"},
 		max_health = 150,
@@ -1539,7 +1539,7 @@ data:extend(
 	{
 		type = "storage-tank",
 		name = "y-tank-4500",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/tank-4500-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/tank-4500-icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-tank-4500"},
 		max_health = 250,
@@ -1709,7 +1709,7 @@ data:extend(
 	{
 		type = "storage-tank",
 		name = "y-tank-8000",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/tank-8000-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/tank-8000-icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-tank-8000"},
 		max_health = 300,
@@ -1863,7 +1863,7 @@ data:extend(
 	{
 		type = "storage-tank",
 		name = "y-tank-24k",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/tank-48k-icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/tank-48k-icon.png",
 		flags = {"placeable-player", "player-creation"}, minable = { mining_time = 0.5, result = "y-tank-24k"}, corpse = "medium-remnants",
 		max_health = 350,		
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
@@ -1998,7 +1998,7 @@ data:extend(
 	{
 		type = "storage-tank",
 		name = "y_flowcheck_10",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/flow_indicator_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/flow_indicator_icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_flowcheck_10"},
 		max_health = 50,
@@ -2149,7 +2149,7 @@ data:extend(
 	{
 		type = "storage-tank",
 		name = "y_buffer_station",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/special_tank3_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/special_tank3_icon.png",
 		flags = {"placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_buffer_station"},
 		max_health = 500,

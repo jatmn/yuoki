@@ -20,7 +20,7 @@ data:extend(
 	{
 		type = "module",
 		name = "y-speed-module-1", category = "speed",tier = 1,
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/modul_blue_1.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/modul_blue_1.png",		
 		subgroup = "y-module",
 		order = "m-1a",
 		stack_size = 100,		
@@ -32,7 +32,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-speed-module-2",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/modul_blue_2.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/modul_blue_2.png",
 		energy_required = 2.0, enabled = true,
 		ingredients = {
 			{type="item", name="y-chip-2", amount=2},
@@ -52,7 +52,7 @@ data:extend(
 	{
 		type = "module",
 		name = "y-speed-module-2", category = "speed",tier = 1,
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/modul_blue_2.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/modul_blue_2.png",		
 		subgroup = "y-module",
 		order = "m-2a",
 		stack_size = 100,
@@ -79,7 +79,7 @@ data:extend(
 	{
 		type = "module",
 		name = "y-green-module-1",category = "efficiency",tier = 1,
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/modul_green_1.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/modul_green_1.png",		
 		subgroup = "y-module",
 		order = "m-1b",
 		stack_size = 100,
@@ -92,7 +92,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-green-module-2",
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/modul_green_2.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/modul_green_2.png",
 		energy_required = 2.0, enabled = true,
 		ingredients = {
 			{type="item", name="y-chip-2", amount=2},
@@ -111,7 +111,7 @@ data:extend(
 	{
 		type = "module",
 		name = "y-green-module-2",category = "efficiency",tier = 1,
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/modul_green_2.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/modul_green_2.png",		
 		subgroup = "y-module",
 		order = "m-2b",
 		stack_size = 100,
@@ -124,7 +124,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_modul_green_op",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/op_green_module.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/op_green_module.png",
 		category = "yuoki_green_ultimate", -- Green-Ultimates
 		energy_required = 120.0, enabled = true,
 		ingredients = {
@@ -142,7 +142,7 @@ data:extend(
 	{
 		type = "module",
 		name = "y_modul_green_op",category = "efficiency",tier = 1,
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/op_green_module.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/op_green_module.png",		
 		subgroup = "y-module",
 		order = "m-2c",
 		stack_size = 100,
@@ -155,7 +155,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_modul_science",		
-		icon_size = 32, icon =   "__Yuoki__/graphics/icons/modul_science_32.png",
+		icon_size = 64, icon =   "__Yuoki__/graphics/icons/modul_science_32.png",
 		energy_required = 5.0, enabled = true,
 		ingredients = {
 			{type="item", name="y-green-module-2", amount=1},
@@ -175,7 +175,7 @@ data:extend(
 	{
 		type = "module",
 		name = "y_modul_science",category = "productivity",tier = 1,
-		icon_size = 32, icon =   "__Yuoki__/graphics/icons/modul_science_32.png",		
+		icon_size = 64, icon =   "__Yuoki__/graphics/icons/modul_science_32.png",		
 		subgroup = "y-module",
 		order = "m-5b",
 		stack_size = 100,
@@ -189,7 +189,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y_modul_red2",
-		 icon_size = 32, icon =   "__Yuoki__/graphics/icons/modul_techanic_32.png",
+		 icon_size = 64, icon =   "__Yuoki__/graphics/icons/modul_techanic_32.png",
 		energy_required = 5.0, enabled = true,
 		ingredients = {
 			{type="item", name="y-speed-module-2", amount=1},
@@ -208,7 +208,7 @@ data:extend(
 	{
 		type = "module",
 		name = "y_modul_red2",category = "speed",tier = 1,
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/modul_techanic_32.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/modul_techanic_32.png",		
 		subgroup = "y-module",
 		order = "m-5a",
 		stack_size = 100,
@@ -239,7 +239,7 @@ data:extend(
 	{
 		type = "module",
 		name = "y-pink-module-1", category = "productivity",tier = 1,
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/modul_pink_1.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/modul_pink_1.png",		
 		subgroup = "y-module",
 		order = "m-4a",
 		stack_size = 100,
@@ -252,7 +252,7 @@ data:extend(
 	{
 		type = "recipe",
 		name = "y-pink-module-2",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/icons/modul_pink_2.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/modul_pink_2.png",
 		energy_required = 3.0, enabled = true,
 		ingredients = {
 			{type="item", name="y-chip-2", amount=2},
@@ -273,7 +273,7 @@ data:extend(
 	{
 		type = "module",
 		name = "y-pink-module-2", category = "productivity",tier = 1,
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/modul_pink_2.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/modul_pink_2.png",		
 		subgroup = "y-module",
 		order = "m-4b",
 		stack_size = 100,
@@ -303,7 +303,7 @@ data:extend(
 	{
 		type = "module",
 		name = "y-pink-module-3", category = "productivity",tier = 1,
-		icon_size = 32, icon =  "__Yuoki__/graphics/icons/modul_pink_3.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/icons/modul_pink_3.png",		
 		subgroup = "y-module",
 		order = "m-4c",
 		stack_size = 100,

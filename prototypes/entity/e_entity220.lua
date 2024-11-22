@@ -16,7 +16,7 @@ data:extend(
 		},		
 		main_product = "y-res1",
 		icon = "__Yuoki__/graphics/icons/uni-com-pur.png",
-		icon_size = 32,  
+		icon_size = 64,  
 		order = "r", group = "yuoki", subgroup = "y_line2",
 	},
 
@@ -35,14 +35,14 @@ data:extend(
 		},		
 		main_product = "y-res2",
 		icon = "__Yuoki__/graphics/icons/yi-res-2-pur.png",
-		icon_size = 32,  
+		icon_size = 64,  
 		order = "s", group = "yuoki", subgroup = "y_line2",
 	},
 
 	{
 		type = "assembling-machine",
 		name = "y_trockner",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/base_factory_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/base_factory_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {mining_time = 0.5, result = "y_trockner"},
 		max_health = 400,
@@ -88,7 +88,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_mixer_emu",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/base_factory_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/base_factory_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {mining_time = 0.5, result = "y_mixer_emu"},
 		max_health = 400,
@@ -191,7 +191,7 @@ data:extend(
 	{
 		type = "assembling-machine",
 		name = "y_hppump",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/hppump_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/hppump_icon.png",
 		flags = {"placeable-neutral","player-creation"},
 		minable = {mining_time = 0.5, result = "y_hppump"},
 		max_health = 400,

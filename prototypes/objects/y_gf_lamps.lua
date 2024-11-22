@@ -20,7 +20,7 @@ data:extend({
 	{
 		type = "item",
 		name = "y_old_bodenlampe",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/gf_lamp1_icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/gf_lamp1_icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "y_old_bodenlampe",
@@ -30,7 +30,7 @@ data:extend({
 	{
 		type = "lamp",
 		name = "y_old_bodenlampe",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/gf_lamp1_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/gf_lamp1_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 1.5, result = "y_old_bodenlampe"},
 		max_health = 50,
@@ -84,7 +84,7 @@ data:extend({
 	{
 		type = "item",
 		name = "y_lampe_neotix",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/gf_lamp2(N)_icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/gf_lamp2(N)_icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "y_lampe_neotix",
@@ -94,7 +94,7 @@ data:extend({
 	{
 		type = "lamp",
 		name = "y_lampe_neotix",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/gf_lamp2(N)_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/gf_lamp2(N)_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 1.5, result = "y_lampe_neotix"},
 		max_health = 50,
@@ -146,7 +146,7 @@ data:extend({
 	{
 		type = "item",
 		name = "y_lampe_yuoki",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/gf_lamp3_icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/gf_lamp3_icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "y_lampe_yuoki",
@@ -155,7 +155,7 @@ data:extend({
 	{
 		type = "lamp",
 		name = "y_lampe_yuoki",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/gf_lamp3_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/gf_lamp3_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 1.5, result = "y_lampe_yuoki"},
 		max_health = 50,
@@ -207,7 +207,7 @@ data:extend({
 	{
 		type = "item",
 		name = "y_lampe_corner",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/gf_lamp_corner_icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/gf_lamp_corner_icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "y_lampe_corner",
@@ -217,7 +217,7 @@ data:extend({
 	{
 		type = "lamp",
 		name = "y_lampe_corner",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/gf_lamp_corner_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/gf_lamp_corner_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 1.5, result = "y_lampe_corner"},
 		max_health = 150,
@@ -271,7 +271,7 @@ data:extend({
 	{
 		type = "item",
 		name = "y_lampe_44basement_a",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/base_4x4_lamp_icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/base_4x4_lamp_icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "y_lampe_44basement_a",
@@ -280,7 +280,7 @@ data:extend({
 	{
 		type = "lamp",
 		name = "y_lampe_44basement_a",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/base_4x4_lamp_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/base_4x4_lamp_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 1.5, result = "y_lampe_44basement_a"},
 		max_health = 150,
@@ -334,7 +334,7 @@ data:extend({
 	{
 		type = "item",
 		name = "y_lampe_44basement_b",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/base_4x4_corner_lamps_icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/base_4x4_corner_lamps_icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "y_lampe_44basement_b",
@@ -344,7 +344,7 @@ data:extend({
 	{
 		type = "lamp",
 		name = "y_lampe_44basement_b",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/base_4x4_corner_lamps_icon.png",
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/base_4x4_corner_lamps_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 1.5, result = "y_lampe_44basement_b"},
 		max_health = 150,
@@ -397,7 +397,7 @@ data:extend({
 	{
 		type = "item",
 		name = "y_lampe_66basement",
-		icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/base_6x6_lamps_icon.png",		
+		icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/base_6x6_lamps_icon.png",		
 		group = "yuoki",
 		subgroup = "y-lamps",
 		place_result = "y_lampe_66basement",
@@ -407,7 +407,7 @@ data:extend({
 	{
 		type = "lamp",
 		name = "y_lampe_66basement",
-		 icon_size = 32, icon =  "__Yuoki__/graphics/entity/lamps/base_6x6_lamps_icon.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/entity/lamps/base_6x6_lamps_icon.png",
 		flags = {"placeable-neutral", "player-creation"},
 		minable = {hardness = 0.2, mining_time = 1.5, result = "y_lampe_66basement"},
 		max_health = 150,
