@@ -10,6 +10,7 @@ Date: 24. 11. 2024
   Changes:
     - Pure Iron, Pure Copper, and Dirt Washing recipes had fluid requirement and results reduced
     - Rearranged Atomic's recipes list to make more sense
+    - Removed native support for Deadlock Stacking mod, its broken in 2.0 and not had time to look into it so removed for now to fix load issues.
   Known Issues:
     - Lots of recipes still missing "Names" working on these over time, there's over a 100 to fix :(
     - Factoriopedia recipes are still kind of scattered around vs crafting menu order. I hope to address this in the next update or so.

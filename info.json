@@ -10,7 +10,6 @@
 		"base >= 2.0.20",
 		"! Yuoki_F2",
 		"! yi_engines_F2",
-		"? DeadlockStacking",
 		"! YuokiTweaks"
 	],  	
 	"title": "Yuoki Industries",  
