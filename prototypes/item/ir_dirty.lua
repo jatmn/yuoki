@@ -123,13 +123,13 @@ data:extend(
 		energy_required = 6,
 		ingredients = {
 			{type="item", name="y-dirt", amount=7},			
-			{type="fluid", name="water", amount=700},
+			{type="fluid", name="water", amount=175},
 		},
 		results=
 		{
 			{type="item", name="stone", amount=3, },      	  			
 			{type="item", name="y-crystal2", amount=1, },      	
-			{type="fluid", name="y-con_water", amount=600, }
+			{type="fluid", name="y-con_water", amount=150, }
 		},
 		enabled = true,		
 		icon_size = 64, icon =  "__Yuoki__/graphics/icons/alien-crystal.png",

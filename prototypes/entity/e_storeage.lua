@@ -62,6 +62,105 @@ data:extend(
 		circuit_wire_max_distance = 7.5		
 	},
 
+		-- Requester (JATMN)
+		{
+			type = "logistic-container",
+			name = "j-dl-request",
+			 icon_size = 32, icon =  "__Yuoki__/graphics/entity/store/Durotal-Logistics-Requester-Icon.png",
+			flags = {"placeable-player", "player-creation"},
+			open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.65 },
+			close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },		
+			minable = {hardness = 0.2, mining_time = 0.5, result = "j-dl-request"},
+			max_health = 300,
+			logistic_slots_count = 12,
+			corpse = "small-remnants",
+			collision_box = {{-0.25, -0.25}, {0.25, 0.25}},
+			selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+			fast_replaceable_group = "container",
+			inventory_size = 60,
+			logistic_mode = "requester",
+			picture =
+			{
+				filename = "__Yuoki__/graphics/entity/store/Durotal-Logistics-Requester.png",
+				priority = "extra-high",
+				width = 48,
+				height = 48,
+				shift = {0.1875, -0.094},
+			},
+			circuit_wire_connection_point = {
+				shadow = { red = {0.7, -0.3}, green = {0.7, -0.3} },
+				wire = { red = {0.3, -0.8}, green = {0.3, -0.8} }
+			},
+			circuit_wire_max_distance = 7.5		
+		},
+	
+	
+		-- Provider (JATMN)
+		{
+			type = "logistic-container",
+			name = "j-dl-provider",
+			 icon_size = 32, icon =  "__Yuoki__/graphics/entity/store/Durotal-Logistics-Provider-Icon.png",
+			flags = {"placeable-player", "player-creation"},
+			open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.65 },
+			close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },		
+			minable = {hardness = 0.2, mining_time = 0.5, result = "j-dl-provider"},
+			max_health = 300,
+			
+			corpse = "small-remnants",
+			collision_box = {{-0.25, -0.25}, {0.25, 0.25}},
+			selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+			fast_replaceable_group = "container",
+			inventory_size = 60,
+			logistic_mode = "passive-provider",
+			picture =
+			{
+				filename = "__Yuoki__/graphics/entity/store/Durotal-Logistics-Provider.png",
+				priority = "extra-high",
+				width = 48,
+				height = 48,
+				shift = {0.1875, -0.094},
+			},
+			circuit_wire_connection_point = {
+				shadow = { red = {0.7, -0.3}, green = {0.7, -0.3} },
+				wire = { red = {0.3, -0.8}, green = {0.3, -0.8} }
+			},
+			circuit_wire_max_distance = 7.5		
+		},
+		
+		
+		-- Buffer (JATMN)
+		{
+			type = "logistic-container",
+			name = "j-dl-buffer",
+			 icon_size = 32, icon =  "__Yuoki__/graphics/entity/store/Durotal-Logistics-Buffer-Icon.png",
+			flags = {"placeable-player", "player-creation"},
+			open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.65 },
+			close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },		
+			minable = {hardness = 0.2, mining_time = 0.5, result = "j-dl-buffer"},
+			max_health = 300,
+			logistic_slots_count = 12,
+			corpse = "small-remnants",
+			collision_box = {{-0.25, -0.25}, {0.25, 0.25}},
+			selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+			fast_replaceable_group = "container",
+			inventory_size = 60,
+			logistic_mode = "buffer",
+			picture =
+			{
+				filename = "__Yuoki__/graphics/entity/store/Durotal-Logistics-Buffer.png",
+				priority = "extra-high",
+				width = 48,
+				height = 48,
+				shift = {0.1875, -0.094},
+			},
+			circuit_wire_connection_point = {
+				shadow = { red = {0.7, -0.3}, green = {0.7, -0.3} },
+				wire = { red = {0.3, -0.8}, green = {0.3, -0.8} }
+			},
+			circuit_wire_max_distance = 7.5		
+		},
+
+
 	-- new 22
 	{
 		type = "container",

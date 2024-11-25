@@ -138,6 +138,8 @@ data:extend(
 			  
 		module_slots = 2,
 		allowed_effects = {"consumption", "speed", "productivity", "pollution"},
+		fast_replaceable_group = "j-washer",
+		next_upgrade = "y_mc_dirtwasher",
 	},
 	
 	-- Outpost Mining Drill

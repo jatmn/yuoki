@@ -150,6 +150,76 @@ data:extend(
 		main_product = "y-rare-m1bunker-log",				
 	},	
 	
+		-- Requester Recipe (JATMN)
+		{
+			type = "recipe",
+			name = "j-dl-request",
+			icon_size = 32, icon =  "__Yuoki__/graphics/entity/store/Durotal-Logistics-Requester-Icon.png",
+			energy_required = 3.0,
+			enabled = true,
+			ingredients = {
+				{type="item", name="y_sc11",  amount=1},
+				{type="item", name="y-conductive-wire-1",  amount=2},
+				{type="item", name="y-chip-1",  amount=1},
+			}, 		
+			group = "j_yuoki_logistics",
+			subgroup = "j-y-logi-6",	
+			order = "d",					
+			results=
+			{
+				{type="item", name="j-dl-request", amount=1, },      	  						
+				{type="item", name="y_rwtechsign", amount=1, },      	  						
+			},		
+			main_product = "j-dl-request",						
+		},	
+		
+		-- Provider Recipe (JATMN)
+			{
+			type = "recipe",
+			name = "j-dl-provider",
+			icon_size = 32, icon =  "__Yuoki__/graphics/entity/store/Durotal-Logistics-Provider-Icon.png",
+			energy_required = 3.0,
+			enabled = true,
+			ingredients = {
+				{type="item", name="y_sc11",  amount=1},
+				{type="item", name="y-conductive-wire-1",  amount=2},
+				{type="item", name="y-chip-1", amount=1},
+			}, 		
+			group = "j_yuoki_logistics",
+			subgroup = "j-y-logi-6",	
+			order = "a",					
+			results=
+			{
+				{type="item", name="j-dl-provider", amount=1, },      	  						
+				{type="item", name="y_rwtechsign", amount=1, },      	  						
+			},		
+			main_product = "j-dl-provider",						
+		},	
+		
+		-- Buffer Recipe (JATMN)
+		{
+			type = "recipe",
+			name = "j-dl-buffer",
+			icon_size = 32, icon =  "__Yuoki__/graphics/entity/store/Durotal-Logistics-Buffer-Icon.png",
+			energy_required = 3.0,
+			enabled = true,
+			ingredients = {
+				{type="item", name="y_sc11",  amount=1},
+				{type="item", name="y-conductive-wire-1", amount=2},
+				{type="item", name="y-chip-1",  amount=1},
+			}, 		
+			group = "j_yuoki_logistics",
+			subgroup = "j-y-logi-6",	
+			order = "c",					
+			results=
+			{
+				{type="item", name="j-dl-buffer", amount=1, },      	  						
+				{type="item", name="y_rwtechsign", amount=1, },      	  						
+			},		
+			main_product = "j-dl-buffer",						
+		},	
+
+
 	
 	-- new chest 1x1
 	{
@@ -228,4 +298,36 @@ data:extend(
 		stack_size = 30, default_request_amount = 5,
 	},
 	
+	-- Requester (JATMN)
+	{
+		type = "item",
+		name = "j-dl-request",
+		icon_size = 32, icon =  "__Yuoki__/graphics/entity/store/Durotal-Logistics-Requester-Icon.png",
+		group = "yuoki",
+		subgroup = "y-storage",
+		place_result = "j-dl-request",
+		stack_size = 30, default_request_amount = 5,
+	},
+
+	-- Provider	(JATMN)
+		{
+		type = "item",
+		name = "j-dl-provider",
+		icon_size = 32, icon =  "__Yuoki__/graphics/entity/store/Durotal-Logistics-Provider-Icon.png",
+		group = "yuoki",
+		subgroup = "y-storage",
+		place_result = "j-dl-provider",
+		stack_size = 30, default_request_amount = 5,
+	},	
+
+	-- Buffer Recipe (JATMN)
+	{
+		type = "item",
+		name = "j-dl-buffer",
+		icon_size = 32, icon =  "__Yuoki__/graphics/entity/store/Durotal-Logistics-Buffer-Icon.png",
+		group = "yuoki",
+		subgroup = "y-storage",
+		place_result = "j-dl-buffer",
+		stack_size = 30, default_request_amount = 5,
+	},
 })

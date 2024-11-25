@@ -13,6 +13,10 @@ data:extend({
 	--YI-Refinery & Fluids 
 	{ type="item-group", name="yuoki_liquids", icon_size=64, icon="__Yuoki__/graphics/icons/yuoki-liquids.png", inventory_order="y", order="yi-d" },
 
+	-- YI Logistics (JATMN)
+	{ type="item-group", name="j_yuoki_logistics", icon_size=64, icon="__Yuoki__/graphics/icons/j_icon_yuoki_logistics.png", inventory_order="y", order="yi-d" },
+
+
 	{ type="item-subgroup", group="yuoki", order="7-c", name="y-ammo", },
 	{ type="item-subgroup", group="yuoki", order="4-e", name="y-crush", },
 	{ type="item-subgroup", group="yuoki", order="7-a", name="y-defense", },
@@ -73,6 +77,18 @@ data:extend({
 	{ type="item-subgroup", group="yuoki_liquids", order="5-b", name="y_refine_material", }, --for materials
 	{ type="item-subgroup", group="yuoki_liquids", order="3-d", name="y_refine_parts", }, --Mechanical Parts
 	{ type="item-subgroup", group="yuoki_liquids", order="5-c", name="y_refine_raws", }, --base materials
+
+-- YI Logistics (JATMN)
+	{ type="item-subgroup", group="j_yuoki_logistics", order="1a", name="j-y-logi-1", },
+	{ type="item-subgroup", group="j_yuoki_logistics", order="1b", name="j-y-logi-2", },
+	{ type="item-subgroup", group="j_yuoki_logistics", order="1c", name="j-y-logi-3", },
+	{ type="item-subgroup", group="j_yuoki_logistics", order="1d", name="j-y-logi-4", },
+	{ type="item-subgroup", group="j_yuoki_logistics", order="1e", name="j-y-logi-5", },
+	{ type="item-subgroup", group="j_yuoki_logistics", order="1e", name="j-y-logi-6", },
+	{ type="item-subgroup", group="j_yuoki_logistics", order="1e", name="j-y-logi-7", },
+	{ type="item-subgroup", group="j_yuoki_logistics", order="1e", name="j-y-logi-8", },
+	{ type="item-subgroup", group="j_yuoki_logistics", order="1e", name="j-y-logi-9", },
+
 
 	{ type="recipe-category", name="y-crushing" }, --
 	{ type="recipe-category", name="yrcat_crystalize" }, --

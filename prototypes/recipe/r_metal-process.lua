@@ -237,12 +237,12 @@ data:extend(
 		energy_required = 3,
 		ingredients = {
 			{type="item", name="copper-ore", amount=5}, 
-			{type="fluid", name="water", amount=800},
+			{type="fluid", name="water", amount=200},
 		},
 		results=
 		{
 			{type="item", name="y-pure-copper", amount=3 },      	  
-			{type="fluid", name="y-con_water", amount=500 }
+			{type="fluid", name="y-con_water", amount=125 }
 		},
 		enabled = true,				
 		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/pure-copper-n.png",
@@ -256,12 +256,12 @@ data:extend(
 		energy_required = 3,
 		ingredients = {
 			{type="item", name="iron-ore", amount=5}, 
-			{type="fluid", name="water", amount=800},
+			{type="fluid", name="water", amount=200},
 		},
 		results=
 		{
 			{type="item", name="y-pure-iron", amount=3 },      	  
-			{type="fluid", name="y-con_water", amount=500 }
+			{type="fluid", name="y-con_water", amount=125 }
 		},
 		enabled = true,				
 		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/pure-iron-n.png",		
@@ -277,13 +277,13 @@ data:extend(
 		ingredients = {
 			{type="item", name="copper-ore", amount=15}, 
 			{type="item", name="y_toolhead", amount=1}, 
-			{type="fluid", name="water", amount=320},
+			{type="fluid", name="water", amount=80},
 		},
 		results=
 		{
 			{type="item", name="y-pure-copper", amount=12 },      	  
 			{type="item", name="y_toolhead_broken", amount=1 },
-			{type="fluid", name="y-con_water", amount=200 }
+			{type="fluid", name="y-con_water", amount=50 }
 		},
 		enabled = true,				
 		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/pure_copper_wt.png",
@@ -297,13 +297,13 @@ data:extend(
 		ingredients = {
 			{type="item", name="iron-ore", amount=15}, 
 			{type="item", name="y_toolhead", amount=1}, 
-			{type="fluid", name="water", amount=320},
+			{type="fluid", name="water", amount=80},
 		},
 		results=
 		{
 			{type="item", name="y-pure-iron", amount=12 },      	  
 			{type="item", name="y_toolhead_broken", amount=1 },
-			{type="fluid", name="y-con_water", amount=200 }
+			{type="fluid", name="y-con_water", amount=50 }
 		},
 		enabled = true,				
 		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/pure_iron_wt.png",		

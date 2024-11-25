@@ -86,3 +86,83 @@ end
 
 
 
+-- Build out YI Logistics (JATMN)
+-- From Fixes Mod
+-- Group 1
+data.raw.recipe["y-inserter-fast"].subgroup = "j-y-logi-1"
+data.raw.recipe["y_inserter_smart"].subgroup = "j-y-logi-1"
+data.raw.recipe["y-inserter-smart-long"].subgroup = "j-y-logi-1"
+data.raw.recipe["y-inserter-s4"].subgroup = "j-y-logi-1"
+data.raw.recipe["y-inserter-fast"].order = "a"
+data.raw.recipe["y_inserter_smart"].order = "b"
+data.raw.recipe["y-inserter-smart-long"].order = "c"
+data.raw.recipe["y-inserter-s4"].order = "c"
+
+-- Group 2
+data.raw.recipe["y_inserter_smart_leftR2"].subgroup = "j-y-logi-2"
+data.raw.recipe["y_inserter_smart_rightR2"].subgroup = "j-y-logi-2"
+data.raw.recipe["y_inserter_smart_RR"].subgroup = "j-y-logi-2"
+data.raw.recipe["y_inserter_smart_LL"].subgroup = "j-y-logi-2"
+data.raw.recipe["y_inserter_diagonal"].subgroup = "j-y-logi-2"
+data.raw.recipe["y_inserter_evade_shortR"].subgroup = "j-y-logi-2"
+data.raw.recipe["y_inserter_evade_shortL"].subgroup = "j-y-logi-2"
+data.raw.recipe["y_inserter_smart_leftR2"].order = "a"
+data.raw.recipe["y_inserter_smart_rightR2"].order = "b"
+data.raw.recipe["y_inserter_smart_RR"].order = "c"
+data.raw.recipe["y_inserter_smart_LL"].order = "d"
+data.raw.recipe["y_inserter_diagonal"].order = "e"
+data.raw.recipe["y_inserter_evade_shortR"].order = "f"
+data.raw.recipe["y_inserter_evade_shortL"].order = "g"
+
+-- Group 3 (Not yet, these are from Engines Mod)
+--data.raw.recipe["ye_tranport_tube_orange_recipe"].subgroup = "j-y-logi-3"
+--data.raw.recipe["ye_tranport_tube_orange_underground_recipe"].subgroup = "j-y-logi-3"
+--data.raw.recipe["ye_tranport_tube_orange_splitter_recipe"].subgroup = "j-y-logi-3"
+--data.raw.recipe["ye_tranport_tube_orange_recipe"].order = "a"
+--data.raw.recipe["ye_tranport_tube_orange_underground_recipe"].order = "b"
+--data.raw.recipe["ye_tranport_tube_orange_splitter_recipe"].order = "b"
+
+-- Group 4
+--data.raw.recipe["ye_tranport_tube_green_recipe"].subgroup = "j-y-logi-4"
+--data.raw.recipe["ye_tranport_tube_green_underground_recipe"].subgroup = "j-y-logi-4"
+--data.raw.recipe["ye_tranport_tube_green_splitter_recipe"].subgroup = "j-y-logi-4"
+--data.raw.recipe["ye_tranport_tube_green_recipe"].order = "a"
+--data.raw.recipe["ye_tranport_tube_green_underground_recipe"].order = "b"
+--data.raw.recipe["ye_tranport_tube_green_splitter_recipe"].order = "b"
+
+-- Group 5
+data.raw.recipe["y_c11"].subgroup = "j-y-logi-5"
+data.raw.recipe["y_c22"].subgroup = "j-y-logi-5"
+data.raw.recipe["y_cg33"].subgroup = "j-y-logi-5"
+data.raw.recipe["y_sc44"].subgroup = "j-y-logi-5"
+data.raw.recipe["y_c11"].order = "a"
+data.raw.recipe["y_c22"].order = "b"
+data.raw.recipe["y_cg33"].order = "c"
+data.raw.recipe["y_sc44"].order = "d"
+
+-- Group 6
+data.raw.recipe["y-rare-chest-log"].subgroup = "j-y-logi-6"
+data.raw.recipe["y-rare-chest-log"].order = "b"
+
+-- Group 7
+data.raw.recipe["y_pc22"].subgroup = "j-y-logi-7"
+data.raw.recipe["y_bc22"].subgroup = "j-y-logi-7"
+data.raw.recipe["y_rc22"].subgroup = "j-y-logi-7"
+data.raw.recipe["y_pc22"].order = "a"
+data.raw.recipe["y_bc22"].order = "b"
+data.raw.recipe["y_rc22"].order = "c"
+
+-- Group 8
+data.raw.recipe["y-rare-m1bunker-log"].subgroup = "j-y-logi-8"
+data.raw.recipe["y-rare-m1bunker-log"].order = "a"
+
+
+-- Group 10
+data.raw.recipe["yi_roboport"].subgroup = "j-y-logi-9"
+
+data.raw.recipe["yi_logistic-robot"].subgroup = "j-y-logi-9"
+data.raw.recipe["yi_construction-robot"].subgroup = "j-y-logi-9"
+data.raw.recipe["yi_roboport"].order = "1"
+
+data.raw.recipe["yi_logistic-robot"].order = "a"
+data.raw.recipe["yi_construction-robot"].order = "d"

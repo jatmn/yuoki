@@ -573,6 +573,7 @@ data:extend(
   
 		module_slots = 2,
 		allowed_effects = {"consumption", "speed", "pollution"},
+		fast_replaceable_group = "j-washer",
 	},
 	
 	-- Mastercrafted Mining Drill
