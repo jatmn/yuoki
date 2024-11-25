@@ -184,7 +184,7 @@ data:extend(
 	--
 	{
 		type = "recipe",
-		name = "y_maintance_workshop_recipe",
+		name = "y_maintance_workshop",
 		icon_size = 64, icon =  "__Yuoki__/graphics/icons/maintance_workshop_icon.png",
 		enabled = true,
 		ingredients = {
