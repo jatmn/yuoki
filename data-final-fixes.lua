@@ -166,3 +166,76 @@ data.raw.recipe["yi_roboport"].order = "1"
 
 data.raw.recipe["yi_logistic-robot"].order = "a"
 data.raw.recipe["yi_construction-robot"].order = "d"
+
+
+-- Build out Atomics (JATMN)
+-- From Fixes Mod
+-- Atomic's Group 1 members
+data.raw.recipe["y-uc2liquid"].subgroup = "j-y-atomics-1"
+data.raw.recipe["y-liquid2uc"].subgroup = "j-y-atomics-1"
+data.raw.recipe["y-uc2liquid"].order = "a"
+data.raw.recipe["y-liquid2uc"].order = "b"
+
+-- Atomic's Group 2 members
+data.raw.recipe["y-ac-wood2uc"].subgroup = "j-y-atomics-2"
+data.raw.recipe["y-ac-stone2uc"].subgroup = "j-y-atomics-2"
+data.raw.recipe["y-ac-coal2uc"].subgroup = "j-y-atomics-2"
+data.raw.recipe["y-ac-iron2uc"].subgroup = "j-y-atomics-2"
+data.raw.recipe["y-ac-copper2uc"].subgroup = "j-y-atomics-2"
+data.raw.recipe["y_ac_uran2uc"].subgroup = "j-y-atomics-2"
+data.raw.recipe["y-ac-uc42uc"].subgroup = "j-y-atomics-2"
+data.raw.recipe["y-ac-fuel2uc"].subgroup = "j-y-atomics-2"
+data.raw.recipe["y-ac-wood2uc"].order = "a"
+data.raw.recipe["y-ac-stone2uc"].order = "b"
+data.raw.recipe["y-ac-coal2uc"].order = "c"
+data.raw.recipe["y-ac-iron2uc"].order = "d"
+data.raw.recipe["y-ac-copper2uc"].order = "e"
+data.raw.recipe["y_ac_uran2uc"].order = "f"
+data.raw.recipe["y-ac-uc42uc"].order = "g"
+data.raw.recipe["y-ac-fuel2uc"].order = "h"
+
+-- Atomic's Group 3 members
+data.raw.recipe["y-lightoil2uc"].subgroup = "j-y-atomics-3"
+data.raw.recipe["y-heavyoil2uc"].subgroup = "j-y-atomics-3"
+data.raw.recipe["y-petroleum"].subgroup = "j-y-atomics-3"
+data.raw.recipe["y-lubricant2uc"].subgroup = "j-y-atomics-3"
+data.raw.recipe["y-lightoil2uc"].order = "b"
+data.raw.recipe["y-heavyoil2uc"].order = "c"
+data.raw.recipe["y-petroleum"].order = "d"
+data.raw.recipe["y-lubricant2uc"].order = "e"
+
+-- Atomic's Group 4 members
+data.raw.recipe["y-ac-slag2uc"].subgroup = "j-y-atomics-4"
+data.raw.recipe["y-ac-toxic2uc"].subgroup = "j-y-atomics-4"
+data.raw.recipe["y-ac-mud2uc"].subgroup = "j-y-atomics-4"
+data.raw.recipe["y-ac-crystal2uc"].subgroup = "j-y-atomics-4"
+data.raw.recipe["y-ac-slag2uc"].order = "a"
+data.raw.recipe["y-ac-toxic2uc"].order = "b"
+data.raw.recipe["y-ac-mud2uc"].order = "c"
+data.raw.recipe["y-ac-crystal2uc"].order = "d"
+
+-- Atomic's Group 11 members
+data.raw.recipe["y-ac-uc2wood"].subgroup = "j-y-atomics-11"
+data.raw.recipe["y-ac-uc2stone"].subgroup = "j-y-atomics-11"
+data.raw.recipe["y-ac-uc2coal"].subgroup = "j-y-atomics-11"
+data.raw.recipe["y-ac-uc2iron"].subgroup = "j-y-atomics-11"
+data.raw.recipe["y-ac-uc2copper"].subgroup = "j-y-atomics-11"
+data.raw.recipe["y_ac_uc2uranore"].subgroup = "j-y-atomics-11"
+data.raw.recipe["y-ac-uc2uc4"].subgroup = "j-y-atomics-11"
+data.raw.recipe["y-ac-uc2fuel"].subgroup = "j-y-atomics-11"
+data.raw.recipe["y-ac-uc2wood"].order = "a"
+data.raw.recipe["y-ac-uc2stone"].order = "b"
+data.raw.recipe["y-ac-uc2coal"].order = "c"
+data.raw.recipe["y-ac-uc2iron"].order = "d"
+data.raw.recipe["y-ac-uc2copper"].order = "e"
+data.raw.recipe["y_ac_uc2uranore"].order = "f"
+data.raw.recipe["y-ac-uc2uc4"].order = "h"
+data.raw.recipe["y-ac-uc2fuel"].order = "i"
+
+-- Atomic's Group 12 members
+data.raw.recipe["y-uc2crudeoil"].subgroup = "j-y-atomics-12"
+data.raw.recipe["y-uc2crudeoil"].order = "a"
+
+-- Atomic's Group 13 members
+data.raw.recipe["y-ac-uc2plastic"].subgroup = "j-y-atomics-13"
+data.raw.recipe["y-ac-uc2plastic"].order = "a"

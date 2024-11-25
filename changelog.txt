@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.6
-Date: 00. 11. 2024
+Date: 24. 11. 2024
   Updates:
     - Added Small logistics chests from Fixes mod by JATMN
     - Added New YI Logistics Group and moved some recipes around into it (More of this stuff to come!)
@@ -9,6 +9,10 @@ Date: 00. 11. 2024
     - Fixed Washer "Upgrade" to MC Washer
   Changes:
     - Pure Iron, Pure Copper, and Dirt Washing recipes had fluid requirement and results reduced
+    - Rearranged Atomic's recipes list to make more sense
+  Known Issues:
+    - Lots of recipes still missing "Names" working on these over time, there's over a 100 to fix :(
+    - Factoriopedia recipes are still kind of scattered around vs crafting menu order. I hope to address this in the next update or so.
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.5
 Date: 22. 11. 2024
