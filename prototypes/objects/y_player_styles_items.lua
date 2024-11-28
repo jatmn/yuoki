@@ -18,6 +18,7 @@ data:extend(
 	},		
 	{ type = "recipe", name = "yi_armor_red", energy_required = 5, 
 		ingredients = {
+			{type="item", name="yi_armor_gray", amount=1},
 			{type="item", name="y-fame", amount=1},
 			{type="item", name="y_quantrinum_infused", amount=2},
 			{type="item", name="y-basic-t2-mf", amount=6},
@@ -32,6 +33,7 @@ data:extend(
 	},			
 	{ type = "recipe", name = "yi_armor_gold", energy_required = 5, 
 		ingredients = {
+			{type="item", name="yi_armor_red", amount=1},
 			{type="item", name="y-fame", amount=6},
 			{type="item", name="y_quantrinum_infused", amount=2},
 			{type="item", name="y-basic-t2-mf", amount=6},
@@ -46,6 +48,7 @@ data:extend(
 	},				
 	{ type = "recipe", name = "yi_walker_a", energy_required = 10, 
 		ingredients = {
+			{type="item", name="yi_armor_gold", amount=1},
 			{type="item", name="y-fame", amount=8},
 			{type="item", name="y_quantrinum_infused", amount=2},
 			{type="item", name="y-basic-t2-mf", amount=12},
@@ -60,6 +63,7 @@ data:extend(
 	},		
 	{ type = "recipe", name = "yi_walker_c", energy_required = 10, 
 		ingredients = {
+			{type="item", name="yi_walker_a", amount=1},
 			{type="item", name="y-fame", amount=20},
 			{type="item", name="y_quantrinum_infused", amount=10},
 			{type="item", name="y-basic-t2-mf", amount=25},
@@ -89,9 +93,23 @@ data:extend(
 	},	
 	{
 		type = "equipment-grid",
-		name = "y_walker_grid",
+		name = "y_armor_grid_c",
 		width = 12,
 		height = 12,
+		equipment_categories = {"armor"},
+	},
+	{
+		type = "equipment-grid",
+		name = "y_walker_grid",
+		width = 14,
+		height = 14,
+		equipment_categories = {"armor"},
+	},
+	{
+		type = "equipment-grid",
+		name = "y_walker_grid_b",
+		width = 16,
+		height = 16,
 		equipment_categories = {"armor"},
 	},
 	
@@ -147,7 +165,7 @@ data:extend(
 		subgroup = "y_personal", group = "yuoki-energy", 
 		order = "a3",
 		stack_size = 1,
-		equipment_grid = "y_armor_grid_b",
+		equipment_grid = "y_armor_grid_c",
 		inventory_size_bonus = 20,						
 	},
 	
@@ -184,7 +202,7 @@ data:extend(
 		subgroup = "y_personal", group = "yuoki-energy", 
 		order = "a6",
 		stack_size = 1,
-		equipment_grid = "y_walker_grid",
+		equipment_grid = "y_walker_grid_b",
 		inventory_size_bonus = 40,						
 	},
 	

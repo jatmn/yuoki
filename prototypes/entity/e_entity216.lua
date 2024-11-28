@@ -99,7 +99,7 @@ data:extend({
 		},
 		vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
 		energy_usage = "720kW",
-		distribution_effectivity = 0.65,
+		distribution_effectivity = 0.7, --was 0.65
 		module_slots = 2,
 		icons_positioning =
 			{

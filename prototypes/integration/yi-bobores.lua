@@ -183,8 +183,7 @@ data:extend(
 		enabled = true,
 		ingredients = {{type="item", name="bauxite-ore", amount=20},}, 
 		results = {{type="item", name="y-unicomp-a2", amount=1},},
-		--result = "y-unicomp-a2",
-		--result_count = 1,
+
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_1.png",
@@ -223,8 +222,7 @@ data:extend(
 		enabled = true,
 		ingredients = {{type="item", name="gold-ore", amount=20},}, 
 		results = {{type="item", name="y-unicomp-a2", amount=1},},
-		--result = "y-unicomp-a2",
-		--result_count = 1,
+
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_1.png",
@@ -236,8 +234,7 @@ data:extend(
 		enabled = true,
 		ingredients = {{type="item", name="lead-ore", amount=20},}, 
 		results = {{type="item", name="y-unicomp-a2", amount=1},},
-		--result = "y-unicomp-a2",
-		--result_count = 1,
+
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_1.png",
@@ -249,8 +246,7 @@ data:extend(
 		enabled = true,
 		ingredients = {{"nickel-ore", 20},}, 
 		results = {{type="item", name="y-unicomp-a2", amount=1},},
-		--result = "y-unicomp-a2",
-		--result_count = 1,
+
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_1.png",
@@ -276,8 +272,7 @@ data:extend(
 		enabled = true,
 		ingredients = {{type="item", name="rutile-ore", amount=20},},
 		results = {{type="item", name="y-unicomp-a2", amount=1},}, 
-		--result = "y-unicomp-a2",
-		--result_count = 1,
+
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_1.png",
@@ -289,8 +284,7 @@ data:extend(
 		enabled = true,
 		ingredients = {{type="item", name="silver-ore", amount=20},}, 
 		results = {{type="item", name="y-unicomp-a2", amount=1},},
-		--result = "y-unicomp-a2",
-		--result_count = 1,
+
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_1.png",
@@ -316,8 +310,7 @@ data:extend(
 		enabled = true,
 		ingredients = {{type="item", name="tungsten-ore", amount=20},},
 		results = {{type="item", name="y-unicomp-a2", amount=1},}, 
-		--result = "y-unicomp-a2",
-		--result_count = 1,
+
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_1.png",
@@ -329,8 +322,7 @@ data:extend(
 		enabled = true,
 		ingredients = {{type="item", name="tungsten-ore", amount=20},},
 		results = {{type="item", name="y-unicomp-a2", amount=1},}, 
-		--result = "y-unicomp-a2",
-		--result_count = 1,
+
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_1.png",
@@ -342,8 +334,7 @@ data:extend(
 		enabled = true,
 		ingredients = {{type="item", name="zinc-ore", amount=20},},
 		results = {{type="item", name="y-unicomp-a2", amount=1},}, 
-		--result = "y-unicomp-a2",
-		--result_count = 1,
+
 		subgroup = "y-atomics", 
 		category = "yuoki-atomics",
 		icon = "__Yuoki__/graphics/icons/crystal_1.png",

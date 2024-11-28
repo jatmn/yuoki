@@ -654,7 +654,7 @@ data:extend(
       pictures = {
         single = {
           {
-            filename = "__Yuoki__/graphics/entity/rare1-wall.png",
+            filename = "__Yuoki__/graphics/entity/blue_wall/rare1-wall.png",
             priority = "extra-high",
             width = 36,
             height = 44,

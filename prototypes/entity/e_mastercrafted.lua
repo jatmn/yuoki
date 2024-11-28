@@ -584,6 +584,9 @@ data:extend(
 		ingredients = {
 			{type="item", name="y-mining-drill-e2", amount=1},
 			{type="item", name="y_rwtechsign", amount=3500},
+			{type="item", name="processing-unit", amount=20}, -- added..
+			{type="item", name="y_quantrinum_infused", amount=1}, -- added..
+
 		},		
 		results = { {type="item", name="y_mc_e2_mining_drill", amount=1,}, },		
 		results=
@@ -655,18 +658,19 @@ data:extend(
 			},
 		  },
 		},
-		mining_speed = 3.0,
+		mining_speed = 4, -- was 3.5
 		energy_source =
 		{
 			type = "electric",
 			usage_priority = "secondary-input",
-			emissions_per_minute = { pollution = 8 }, 		
+			emissions_per_minute = { pollution = 25 }, 	-- was 8	
 		},
-		energy_usage = "400kW",
+		energy_usage = "500kW", -- was 400kW
 		mining_power = 6,
+		resource_drain_rate_percent = 50, -- new, was 0
 		resource_searching_radius = 4.49,
 		vector_to_place_result = {0, -2.75},
-		module_slots = 3,
+		module_slots = 4, -- was 3
 		allowed_effects = {"consumption", "speed", "productivity", "pollution"},
 		radius_visualisation_picture =
 		{

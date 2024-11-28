@@ -1,8 +1,18 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.7
-Date: 00. 11. 2024
+Date: 28. 11. 2024
   Updates:
     - stuff
+  Fixes:
+    - Yuoki inserters did not have filter slots to align with vanilla, they now do.
+    - Fixed water input of Boiler 3M6/4
+    - Fixed broken sprite for Durotal Wall
+    - Fixed broken sprite for Alien Light Source
+  Changes:
+    - Yuoki class armor now requires the prior armor to be crafted. This is to help offset quality loop costs.
+    - Slightly boost of grid size for Yuoki class armor due to the considerable cost increases for each
+    - Mastercrafted Miner has been overhauled to align more like the Big mining drills, recipe has been changed as well (this recipe will change again later for SA)
+    - YI Beacon distribution efficiency changed from 0.65 to 0.7 to balance it against vanilla Beacon changes
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.6
 Date: 24. 11. 2024

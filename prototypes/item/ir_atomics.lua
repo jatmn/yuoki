@@ -8,8 +8,6 @@ data:extend(
 		enabled = true,
 		ingredients = {{type="item", name="iron-ore", amount=20},},
 		results = {{type="item", name="y-unicomp-a2", amount=1},}, 
-		--result = "y-unicomp-a2",
-		--result_count = 1,
 		subgroup = "y-atomics-f", 
 		category = "yuoki-atomics",
 		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/atomics/iron2uc.png",
@@ -21,8 +19,7 @@ data:extend(
 		enabled = true,
 		ingredients = {{type="item", name="copper-ore", amount=20},}, 
 		results = {{type="item", name="y-unicomp-a2", amount=1},}, 
-		--result = "y-unicomp-a2",
-		--result_count = 1,
+
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
 		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/atomics/copper2uc.png",
@@ -34,8 +31,7 @@ data:extend(
 		enabled = true,
 		ingredients = {{type="item", name="wood", amount=20},},
 		results = {{type="item", name="y-unicomp-a2", amount=1},},  
-		--result = "y-unicomp-a2",
-		--result_count = 1,
+
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
 		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/atomics/wood2uc.png",
@@ -47,8 +43,7 @@ data:extend(
 		enabled = true,
 		ingredients = {{type="item", name="stone", amount=20},},
 		results = {{type="item", name="y-unicomp-a2", amount=1},},  
-		--result = "y-unicomp-a2",
-		--result_count = 1,
+
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
 		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/atomics/stone2uc.png",
@@ -60,8 +55,7 @@ data:extend(
 		enabled = true,
 		ingredients = {{type="item", name="coal", amount=20},},
 		results = {{type="item", name="y-unicomp-a2", amount=1},},  
-		--result = "y-unicomp-a2",
-		--result_count = 1,
+
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
 		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/atomics/coal2uc.png",
@@ -73,8 +67,7 @@ data:extend(
 		enabled = true,
 		ingredients = {{type="item", name="y-res1", amount=10},}, 
 		results = {{type="item", name="y-unicomp-a2", amount=1},}, 
-		--result = "y-unicomp-a2",
-		--result_count = 1,
+
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
 		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/atomics/n42uc.png",
@@ -86,8 +79,7 @@ data:extend(
 		enabled = true,
 		ingredients = {{type="item", name="y-res2", amount=10},}, 
 		results = {{type="item", name="y-unicomp-a2", amount=1},}, 
-		--result = "y-unicomp-a2",
-		--result_count = 1,
+
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
 		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/atomics/fuel2uc.png",
@@ -99,8 +91,7 @@ data:extend(
 		enabled = true,
 		ingredients = {{type="item", name="y-slag", amount=100},}, 
 		results = {{type="item", name="y-unicomp-a2", amount=1},}, 
-		--result = "y-unicomp-a2",
-		--result_count = 1,
+
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
 		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/atomics/slag2uc.png",
@@ -112,8 +103,7 @@ data:extend(
 		enabled = true,
 		ingredients = {{type="item", name="y-crystal2", amount=100},}, 
 		results = {{type="item", name="y-unicomp-a2", amount=1},}, 
-		--result = "y-unicomp-a2",
-		--result_count = 1,
+
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
 		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/atomics/crystal2uc.png",
@@ -126,8 +116,7 @@ data:extend(
 		enabled = true,
 		ingredients = {{type="item", name="uranium-ore", amount=12},}, 
 		results = {{type="item", name="y-unicomp-a2", amount=1},}, 
-		--result = "y-unicomp-a2",
-		--result_count = 1,
+
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
 		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/atomics/uranium2uc.png",
@@ -212,8 +201,7 @@ data:extend(
 		enabled = true,
 		ingredients = {{type="item", name="y-toxic-dust", amount=70},}, 
 		results = {{type="item", name="y-unicomp-a2", amount=1},}, 
-		--result = "y-unicomp-a2",
-		--result_count = 1,
+
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
 		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/toxic-dust_recycle.png",
@@ -226,8 +214,7 @@ data:extend(
 		enabled = true,
 		ingredients = {{type="item", name="y-dry_mud", amount=30},}, 
 		results = {{type="item", name="y-unicomp-a2", amount=1},}, 
-		--result = "y-unicomp-a2",
-		--result_count = 1,
+
 		subgroup = "y-atomics-f",
 		category = "yuoki-atomics",
 		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/mud_recycle.png",

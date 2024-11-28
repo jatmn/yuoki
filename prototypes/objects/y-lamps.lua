@@ -279,16 +279,16 @@ data:extend(
 		{
 			filename = "__Yuoki__/graphics/entity/lamps/al2_off.png",
 			priority = "high",
-			width = 32,
-			height = 64,
+			width = 64,
+			height = 128,
 			shift = {0, -0.5}
 		},
 		picture_on =
 		{
 			filename = "__Yuoki__/graphics/entity/lamps/al2_on.png",
 			priority = "high",
-			width = 32,
-			height = 64,			
+			width = 64,
+			height = 128,			
 			shift = {0, -0.5}
 		},
 		circuit_wire_max_distance = 14.5,

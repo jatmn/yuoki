@@ -42,6 +42,7 @@ data:extend(
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = { mining_time = 0.5, result = "y-inserter-fast"},
 		max_health = 150,
+		filter_count = 5,
 		corpse = "small-remnants",
 		collision_box = {{-0.15, -0.15}, {0.15, 0.15}},
 		selection_box = {{-0.4, -0.35}, {0.4, 0.45}},
@@ -188,6 +189,7 @@ data:extend(
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-inserter-s4"},
 		max_health = 150,
+		filter_count = 5,
 		corpse = "small-remnants",
 		collision_box = {{-0.15, -0.15}, {0.15, 0.15}},
 		selection_box = {{-0.4, -0.35}, {0.4, 0.45}},
@@ -326,6 +328,7 @@ data:extend(
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-inserter-smart"},
 		max_health = 150,
+		filter_count = 5,
 		corpse = "small-remnants",
 		vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
 		working_sound =
@@ -370,7 +373,6 @@ data:extend(
 		},
 		extension_speed = 0.1,		
 		fast_replaceable_group = "inserter",
-		filter_count = 5,
 		hand_base_picture =
 		{
 			filename = "__Yuoki__/graphics/entity/inserters/yi_fast_inserter_hand_base.png",
@@ -469,6 +471,7 @@ data:extend(
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y-inserter-smart-long"},
 		max_health = 150,
+		filter_count = 5,
 		corpse = "small-remnants",
 		vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
 		working_sound =
@@ -613,6 +616,7 @@ data:extend(
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_inserter_smart_rightR2"},
 		max_health = 150,
+		filter_count = 5,
 		corpse = "small-remnants",
 		vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
 		working_sound =
@@ -758,6 +762,7 @@ data:extend(
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_inserter_smart_leftR2"},
 		max_health = 150,
+		filter_count = 5,
 		corpse = "small-remnants",
 		vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
 		working_sound =
@@ -902,6 +907,7 @@ data:extend(
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_inserter_smart_RR"},
 		max_health = 150,
+		filter_count = 5,
 		corpse = "small-remnants",
 		vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
 		working_sound =
@@ -1046,6 +1052,7 @@ data:extend(
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "y_inserter_smart_LL"},
 		max_health = 150,
+		filter_count = 5,
 		corpse = "small-remnants",
 		vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
 		working_sound =
