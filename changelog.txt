@@ -1,8 +1,9 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.8
-Date: 00. 11. 2024
-  Updates:
-    - stuff
+Date: 28. 11. 2024
+  Fixes:
+    - YI Mining Drills fluid inputs were facing wrong directions.
+    - Icon for Crystal Dust was fixed to match the correct resource colors
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.7
 Date: 28. 11. 2024

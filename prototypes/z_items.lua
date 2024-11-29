@@ -6,7 +6,7 @@ data:extend({
 
 --ID:418
 {
-   type="item", name="y_crystal_dust", icon_size=64, icon="__Yuoki__/graphics/icons/bg-dusts.png", 
+   type="item", name="y_crystal_dust", icon_size=64, icon="__Yuoki__/graphics/icons/yb-dusts.png", 
    group="yuoki", subgroup="y_line3", order="f",  
    stack_size = 200, default_request_amount = 20,
 },

@@ -177,7 +177,7 @@ data:extend(
 			{type="item", name="y-crush-yres1", amount=1, },			
 			{type="item", name="y-crush-yres2", amount=1, },			
 		},		
-		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/bg-dusts.png",
+		 icon_size = 64, icon =  "__Yuoki__/graphics/icons/yb-dusts.png",
 		category = "yuoki-formpress",		
 		group = "yuoki",
 		subgroup = "y_line4", order="a0",

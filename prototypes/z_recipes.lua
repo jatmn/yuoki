@@ -18,7 +18,7 @@ data:extend({
 		{ type = "item", name = "y_crystal_dust", amount = 2.0, },
 	  },
 	  main_product = "y_crystal_dust",
-	  icon = "__Yuoki__/graphics/icons/bg-dusts.png",
+	  icon = "__Yuoki__/graphics/icons/yb-dusts.png",
 	  icon_size = 64,
 	  order = "0", group = "yuoki", subgroup = "y_line3",
 	},
