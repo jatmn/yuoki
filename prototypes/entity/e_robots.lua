@@ -299,8 +299,10 @@ data:extend(
 		},
 		--repair_pack = "repair-pack",
 		--working_sound = flying_robot_sounds(),		
-		cargo_centered = {0.0, 0.2},
+		--cargo_centered = {0.0, 0.2},
 		construction_vector = {0.30, 0.22},
+		icon_draw_specification = {shift = {0, -0.2}, scale = 0.5, render_layer = "air-entity-info-icon"},
+
 	},
 
 })

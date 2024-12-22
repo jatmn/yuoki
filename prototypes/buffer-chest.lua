@@ -23,6 +23,7 @@ local entity = table.deepcopy(data.raw["logistic-container"].y_rc22)
 entity.name = "y_bc22"
 entity.logistic_mode = "buffer"
 entity.picture.filename = "__Yuoki__/graphics/y-bc22.png"
+entity.minable.result = "y_bc22"
 
 data:extend({recipe})
 data:extend({item})

@@ -9,6 +9,8 @@ local productivity_item_list=
                         "y_hps_purecopper",
                         "y_hps_pureiron",
                         "y-basic-st2-mf",
+                        "y_chip_plate",
+                        "y-chip1",
                         "y-chip2",
                         "yi_magnetron",
                         "y-battery-singleuse1",
@@ -66,7 +68,8 @@ local productivity_item_list=
                         "y_gauge_analog"
                       }
 
-for _, module in pairs(data.raw.module) do
+--[[
+or _, module in pairs(data.raw.module) do
   if module.effect and module.limitation then
     for effect_name in pairs(module.effect) do
       if effect_name == "productivity"then
@@ -76,5 +79,22 @@ for _, module in pairs(data.raw.module) do
         break
       end
     end
+  end
+end
+]]--
+
+
+--for productivity_item_list, recipe in pairs(data.raw.recipe) do
+--			recipe.allow_productivity = true
+--end
+
+
+
+for k, v in pairs(productivity_item_list) do
+  if data.raw.recipe[v] then
+    data.raw.recipe[v].allow_productivity = true
+    --data.raw.recipe["y-inserter-s4"].order = "c"
+  else
+    log("This isnt a recipe "..(v))
   end
 end

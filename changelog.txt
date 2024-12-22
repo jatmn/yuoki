@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.9
+Date: 22. 12. 2024
+  Fixes:
+    - Picking up YI-22/80 Buffer Chest now correctly gives you.. well the Buffer Chest.
+    - Picking up Yuoki pipes, now give you the pipe you picked up not vanilla pipes...
+    - Construction bots should now show correctly scaled alt icon when building, I think?
+    - Productivity is now allowed for intermediate items again
+    - Fixed up Atomics recipe icon issues
+  Updates:
+    - All Logistics Chests now support auto trashing.
+---------------------------------------------------------------------------------------------------
 Version: 1.2.8
 Date: 28. 11. 2024
   Fixes:

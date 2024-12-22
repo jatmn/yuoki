@@ -46,6 +46,7 @@ data:extend(
 		selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 		fast_replaceable_group = "container",
 		inventory_size = 60,
+		trash_inventory_size = 20,
 		logistic_mode = "storage",
 		picture =
 		{
@@ -78,6 +79,7 @@ data:extend(
 			selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 			fast_replaceable_group = "container",
 			inventory_size = 60,
+			trash_inventory_size = 20,
 			logistic_mode = "requester",
 			picture =
 			{
@@ -111,6 +113,7 @@ data:extend(
 			selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 			fast_replaceable_group = "container",
 			inventory_size = 60,
+			trash_inventory_size = 20,
 			logistic_mode = "passive-provider",
 			picture =
 			{
@@ -144,6 +147,7 @@ data:extend(
 			selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 			fast_replaceable_group = "container",
 			inventory_size = 60,
+			trash_inventory_size = 20,
 			logistic_mode = "buffer",
 			picture =
 			{
@@ -230,6 +234,7 @@ data:extend(
 		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 		fast_replaceable_group = "container",
 		inventory_size = 140,
+		trash_inventory_size = 40,
 		logistic_mode = "storage",
 		picture =
 		{
@@ -296,6 +301,7 @@ data:extend(
 		selection_box = {{-1.0, -1.0}, {1.0, 1.0}},		
 		fast_replaceable_group = "container",
 		inventory_size = 70,
+		trash_inventory_size = 20,
 		logistic_mode = "passive-provider",
 		open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.65 },
 		close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },
@@ -324,6 +330,7 @@ data:extend(
 		selection_box = {{-1.0, -1.0}, {1.0, 1.0}},		
 		fast_replaceable_group = "container",
 		inventory_size = 70,
+		trash_inventory_size = 20,
 		logistic_mode = "requester",
 		logistic_slots_count = 12,
 		open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.65 },
